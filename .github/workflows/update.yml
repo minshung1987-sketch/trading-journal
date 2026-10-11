@@ -1,0 +1,36 @@
+name: 更新行事曆資料
+
+on:
+  schedule:
+    - cron: "0 23 * * *"   # UTC 23:00 = 台灣時間每天早上 07:00
+  workflow_dispatch:        # 允許你在 Actions 頁面手動按一下就執行
+
+permissions:
+  contents: write           # 允許機器人把更新後的資料存回儲存庫
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 取得程式碼
+        uses: actions/checkout@v4
+
+      - name: 安裝 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 更新資料（Yahoo 法說會 + 玩股網股東會）
+        run: python scripts/update.py
+
+      - name: 存回變更
+        run: |
+          git config user.name "calendar-bot"
+          git config user.email "calendar-bot@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then
+            echo "沒有變更"
+          else
+            git commit -m "自動更新行事曆資料"
+            git push
+          fi
