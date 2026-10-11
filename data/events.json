@@ -1,5 +1,5 @@
 {
- "updated": "2026/10/11 15:12",
+ "updated": "2026/10/11 15:28",
  "events": [
   {
    "d": "2026-08-27",
@@ -964,160 +964,322 @@
    "mn": 1
   },
   {
-   "d": "2026-10-08",
-   "c": "agm",
-   "t": "熙特爾-創（7740）臨時股東會",
-   "pl": "台北市中山區松江路350號（台北市進出口商業同業公會）",
-   "n": "改選董監事",
-   "st": "o",
-   "u": "https://www.wantgoo.com/stock/calendar/shareholders-meeting",
-   "a": 1
-  },
-  {
-   "d": "2026-10-08",
-   "c": "agm",
-   "t": "承啟（2425）臨時股東會",
-   "pl": "新北市新店區北新路三段223號2樓（台北矽谷國際會議中心）",
-   "st": "o",
-   "u": "https://www.wantgoo.com/stock/calendar/shareholders-meeting",
-   "a": 1
-  },
-  {
    "d": "2026-10-13",
    "c": "agm",
-   "t": "台泥（1101）臨時股東會",
-   "pl": "台北市中山北路二段113號3樓（台泥大樓士敏廳）",
+   "t": "台泥（1101）股東會",
+   "tm": "09:00",
    "st": "o",
-   "u": "https://www.wantgoo.com/stock/calendar/shareholders-meeting",
-   "a": 1
+   "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
+   "a": 1,
+   "pl": "臺北市中山北路2段113號3樓(臺泥大樓3樓士敏廳)"
   },
   {
    "d": "2026-10-14",
    "c": "agm",
-   "t": "漢康-KY創（7827）臨時股東會",
-   "pl": "南港軟體園區國際會議中心 2樓（A棟）",
+   "t": "漢康-KY創（7827）股東會",
+   "tm": "10:00",
    "st": "o",
-   "u": "https://www.wantgoo.com/stock/calendar/shareholders-meeting",
-   "a": 1
+   "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
+   "a": 1,
+   "pl": "台北市南港區三重路19之10號2樓(南港軟體園區國際會議中心A棟)",
+   "mn": 1
   },
   {
    "d": "2026-10-15",
    "c": "agm",
-   "t": "華建（2530）臨時股東會",
-   "pl": "台北市內湖區成功路五段420巷28號地下一樓",
-   "n": "改選董監事",
+   "t": "華建（2530）股東會",
+   "tm": "09:00",
    "st": "o",
-   "u": "https://www.wantgoo.com/stock/calendar/shareholders-meeting",
-   "a": 1
+   "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
+   "a": 1,
+   "pl": "台北市內湖區成功路五段420巷28號B1",
+   "mn": 1
   },
   {
    "d": "2026-10-15",
    "c": "agm",
-   "t": "鼎炫-KY（8499）臨時股東會",
-   "pl": "新北市五股區五權七路20號2樓",
+   "t": "鼎炫-KY（8499）股東會",
+   "tm": "09:00",
    "st": "o",
-   "u": "https://www.wantgoo.com/stock/calendar/shareholders-meeting",
-   "a": 1
+   "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
+   "a": 1,
+   "pl": "新北市五股區五權七路20號2樓(本公司會議室)",
+   "mn": 1
+  },
+  {
+   "d": "2026-10-19",
+   "c": "agm",
+   "t": "騰雲（6870）股東會",
+   "tm": "09:30",
+   "st": "o",
+   "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
+   "a": 1,
+   "pl": "新北市汐止區新台五路一段99號35樓(iFG遠雄廣場A棟)",
+   "mn": 1
+  },
+  {
+   "d": "2026-10-19",
+   "c": "agm",
+   "t": "明遠精密（7704）股東會",
+   "tm": "10:00",
+   "st": "o",
+   "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
+   "a": 1,
+   "pl": "新竹縣竹北市中和街191巷31號3樓(本公司)",
+   "mn": 1
   },
   {
    "d": "2026-10-20",
    "c": "agm",
-   "t": "致茂（2360）臨時股東會",
-   "pl": "桃園市龜山區文茂路88號（公司會議室）",
+   "t": "雋揚（1439）股東會",
+   "tm": "09:00",
    "st": "o",
-   "u": "https://www.wantgoo.com/stock/calendar/shareholders-meeting",
-   "a": 1
+   "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
+   "a": 1,
+   "pl": "臺北市南港區三重路19-11號E棟4樓(南港軟體育成中心423會議室)",
+   "mn": 1
   },
   {
    "d": "2026-10-20",
    "c": "agm",
-   "t": "雋揚（1439）臨時股東會",
-   "pl": "台北市南港區三重路19-11號E棟4樓",
+   "t": "致茂（2360）股東會",
+   "tm": "09:30",
    "st": "o",
-   "u": "https://www.wantgoo.com/stock/calendar/shareholders-meeting",
-   "a": 1
+   "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
+   "a": 1,
+   "pl": "桃園市龜山區文茂路88號(本公司會議室)",
+   "mn": 1
   },
   {
    "d": "2026-10-21",
    "c": "agm",
-   "t": "永崴投控（3712）臨時股東會",
-   "pl": "新北市土城區中央路四段49號2樓",
+   "t": "永崴投控（3712）股東會",
+   "tm": "09:00",
    "st": "o",
-   "u": "https://www.wantgoo.com/stock/calendar/shareholders-meeting",
-   "a": 1
+   "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
+   "a": 1,
+   "pl": "新北市土城區中央路四段49號(2樓會議室)",
+   "mn": 1
+  },
+  {
+   "d": "2026-10-28",
+   "c": "agm",
+   "t": "雄順（2073）股東會",
+   "tm": "10:00",
+   "st": "o",
+   "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
+   "a": 1,
+   "pl": "高雄市燕巢區四林路125之18號",
+   "mn": 1
+  },
+  {
+   "d": "2026-10-29",
+   "c": "agm",
+   "t": "欣技（6160）股東會",
+   "tm": "09:00",
+   "st": "o",
+   "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
+   "a": 1,
+   "pl": "新北市汐止區大同路三段196號R2樓",
+   "mn": 1
+  },
+  {
+   "d": "2026-10-29",
+   "c": "agm",
+   "t": "東典光電（6588）股東會",
+   "tm": "09:00",
+   "st": "o",
+   "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
+   "a": 1,
+   "pl": "宜蘭縣五結鄉利工一路二段70號",
+   "mn": 1
+  },
+  {
+   "d": "2026-11-04",
+   "c": "agm",
+   "t": "弘塑（3131）股東會",
+   "tm": "09:00",
+   "st": "o",
+   "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
+   "a": 1,
+   "pl": "新竹市新竹科學園區展業一路2號(科學工業園區科學工業同業公會2樓會議室)",
+   "mn": 1
   },
   {
    "d": "2026-11-05",
    "c": "agm",
-   "t": "桂盟（5306）臨時股東會",
-   "pl": "太子文旅C廳（台南市東區大學路2號）",
+   "t": "弘塑（3131）股東會",
+   "tm": "09:00",
    "st": "o",
-   "u": "https://www.wantgoo.com/stock/calendar/shareholders-meeting",
-   "a": 1
+   "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
+   "a": 1,
+   "pl": "新竹縣竹北市縣政八街77號1樓(新竹縣工業會)",
+   "mn": 1
+  },
+  {
+   "d": "2026-11-05",
+   "c": "agm",
+   "t": "桂盟（5306）股東會",
+   "tm": "10:30",
+   "st": "o",
+   "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
+   "a": 1,
+   "pl": "台南市東區大學路2號太子文旅C廳",
+   "mn": 1
   },
   {
    "d": "2026-11-06",
    "c": "agm",
-   "t": "遠見（3040）臨時股東會",
-   "pl": "新北市板橋區文化路二段287號21樓",
+   "t": "遠見（3040）股東會",
+   "tm": "09:00",
    "st": "o",
-   "u": "https://www.wantgoo.com/stock/calendar/shareholders-meeting",
-   "a": 1
+   "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
+   "a": 1,
+   "pl": "新北市板橋區文化路二段287號21樓（窩克商務中心大會議室）",
+   "mn": 1
+  },
+  {
+   "d": "2026-11-06",
+   "c": "agm",
+   "t": "晶呈科技（4768）股東會",
+   "tm": "09:30",
+   "st": "o",
+   "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
+   "a": 1,
+   "pl": "苗栗縣竹南鎮公園路106號(馥藝金鬱金香酒店-亞爵會議室)",
+   "mn": 1
   },
   {
    "d": "2026-11-09",
    "c": "agm",
-   "t": "南寶（4766）臨時股東會",
-   "pl": "台南市西港區中山路519號（公司國際會議廳）",
-   "n": "改選董監事",
+   "t": "南寶（4766）股東會",
+   "tm": "10:00",
    "st": "o",
-   "u": "https://www.wantgoo.com/stock/calendar/shareholders-meeting",
-   "a": 1
+   "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
+   "a": 1,
+   "pl": "台南市西港區中山路519號(本公司國際會議廳)",
+   "mn": 1
   },
   {
    "d": "2026-11-09",
    "c": "agm",
-   "t": "鋐寶科技（6674）臨時股東會",
-   "pl": "新竹縣竹北市台元一街3號2樓",
+   "t": "鋐寶科技（6674）股東會",
+   "tm": "09:00",
    "st": "o",
-   "u": "https://www.wantgoo.com/stock/calendar/shareholders-meeting",
-   "a": 1
+   "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
+   "a": 1,
+   "pl": "新竹縣竹北市台元一街三號2樓(台元科技園區三期會館多功能會議室)",
+   "mn": 1
+  },
+  {
+   "d": "2026-11-12",
+   "c": "agm",
+   "t": "是方（6561）股東會",
+   "tm": "10:00",
+   "st": "o",
+   "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
+   "a": 1,
+   "pl": "台北市內湖區成功路五段420巷28號(康寧生活會館)",
+   "mn": 1
+  },
+  {
+   "d": "2026-11-13",
+   "c": "agm",
+   "t": "寶碩（5210）股東會",
+   "tm": "09:00",
+   "st": "o",
+   "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
+   "a": 1,
+   "pl": "台北市內湖區新湖二路329號B1(全球科技廣場會議室)",
+   "mn": 1
+  },
+  {
+   "d": "2026-11-16",
+   "c": "agm",
+   "t": "鉅陞（5529）股東會",
+   "tm": "09:00",
+   "st": "o",
+   "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
+   "a": 1,
+   "pl": "台中市西屯區文心路二段107號4樓(集思文心會議中心)",
+   "mn": 1
   },
   {
    "d": "2026-11-17",
    "c": "agm",
-   "t": "泰宗（4169）臨時股東會",
-   "pl": "新北市汐止區新台五路一段93號17樓之10",
+   "t": "地心引力（3629）股東會",
+   "tm": "09:00",
    "st": "o",
-   "u": "https://www.wantgoo.com/stock/calendar/shareholders-meeting",
-   "a": 1
+   "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
+   "a": 1,
+   "pl": "臺北市信義區信義路五段150巷2號B2(環球世貿大樓)",
+   "mn": 1
+  },
+  {
+   "d": "2026-11-17",
+   "c": "agm",
+   "t": "泰宗（4169）股東會",
+   "tm": "09:30",
+   "st": "o",
+   "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
+   "a": 1,
+   "pl": "新北市汐止區新台五路一段93號17樓之10(汐止遠雄廣場D棟)",
+   "mn": 1
   },
   {
    "d": "2026-11-18",
    "c": "agm",
-   "t": "三商家購（2945）臨時股東會",
-   "pl": "台北市中山區民權東路三段6號8樓",
+   "t": "三商家購（2945）股東會",
+   "tm": "09:00",
    "st": "o",
-   "u": "https://www.wantgoo.com/stock/calendar/shareholders-meeting",
-   "a": 1
+   "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
+   "a": 1,
+   "pl": "台北市中山區民權東路三段6號8樓(會議室)",
+   "mn": 1
+  },
+  {
+   "d": "2026-11-18",
+   "c": "agm",
+   "t": "華盈（3520）股東會",
+   "tm": "09:00",
+   "st": "o",
+   "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
+   "a": 1,
+   "pl": "新北市三重區光復一路67號（珍豪大飯店)",
+   "mn": 1
   },
   {
    "d": "2026-11-19",
    "c": "agm",
-   "t": "鑽全（1527）臨時股東會",
-   "pl": "台中市工業區36路24號5樓之一",
+   "t": "鑽全（1527）股東會",
+   "tm": "10:00",
    "st": "o",
-   "u": "https://www.wantgoo.com/stock/calendar/shareholders-meeting",
-   "a": 1
+   "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
+   "a": 1,
+   "pl": "台中市工業區36路24號(本公司5樓之1會議室)",
+   "mn": 1
+  },
+  {
+   "d": "2026-11-26",
+   "c": "agm",
+   "t": "印能科技（7734）股東會",
+   "tm": "10:00",
+   "st": "o",
+   "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
+   "a": 1,
+   "pl": "新竹市香山區大湖路173號",
+   "mn": 1
   },
   {
    "d": "2026-12-01",
    "c": "agm",
-   "t": "福懋油（1225）股東常會",
-   "pl": "台中市大肚區沙田路一段453號",
+   "t": "福懋油（1225）股東會",
+   "tm": "09:00",
    "st": "o",
-   "u": "https://www.wantgoo.com/stock/calendar/shareholders-meeting",
-   "a": 1
+   "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
+   "a": 1,
+   "pl": "台中市大肚區沙田路一段453號(本公司辦公大樓會議室)",
+   "mn": 1
   }
  ]
 }
