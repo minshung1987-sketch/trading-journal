@@ -426,9 +426,9 @@
   "c": "tech",
   "t": "NVIDIA GTC 2027（聖荷西）",
   "pl": "美國聖荷西 McEnery 會議中心",
-  "n": "黃仁勳主題演講；官方頁面註明註冊尚未開放",
+  "n": "黃仁勳主題演講；官網常見問答寫 3/14–18，活動橫幅寫 3/15–18，請以官網為準",
   "st": "o",
-  "u": "https://www.nvidia.com/gtc/",
+  "u": "https://www.nvidia.com/en-zz/gtc/faq/",
   "k": "gtc"
  },
  {
@@ -436,10 +436,10 @@
   "e": "2027-06-04",
   "c": "tech",
   "t": "COMPUTEX 2027",
-  "pl": "台北南港展覽館",
-  "n": "部分整理網站標示此日期為依往年慣例推估，以主辦單位公告為準",
-  "st": "e",
-  "u": "https://www.computextaipei.com.tw/en/index.html",
+  "pl": "台北南港展覽館 1、2 館、世貿一館、台北國際會議中心",
+  "n": "日期與場地來自中央社報導，建議以主辦單位公告為準",
+  "st": "o",
+  "u": "https://www.cna.com.tw/postwrite/chi/446080",
   "k": "computex"
  },
  {
@@ -885,5 +885,85 @@
   "u": "https://www.apple.com/investor/earnings-call/",
   "n": "新任執行長 John Ternus 首次主持；日期來自媒體轉述，蘋果 IR 頁尚未核實",
   "tm": "美西 14:00，台灣 11/3 06:00"
+ },
+ {
+  "d": "2026-10-12",
+  "c": "tech",
+  "t": "OCP Global Summit 2026",
+  "pl": "美國聖荷西",
+  "n": "AI 資料中心硬體與伺服器供應鏈；註冊已額滿，2027 起移到舊金山 Moscone",
+  "st": "o",
+  "u": "https://www.opencompute.org/events/ocp-summit/2026-ocp-global-summit/",
+  "e": "2026-10-15"
+ },
+ {
+  "d": "2026-10-13",
+  "c": "tech",
+  "t": "SEMICON West 2026",
+  "pl": "美國舊金山 Moscone Center",
+  "n": "半導體設備與材料展；2027 起改到春季在鳳凰城舉辦",
+  "st": "o",
+  "u": "https://www.semiconwest.org/",
+  "e": "2026-10-15"
+ },
+ {
+  "d": "2026-10-13",
+  "c": "tech",
+  "t": "應用材料（AMAT）投資人早餐會",
+  "pl": "SEMICON West 期間，網路直播",
+  "n": "公司高階主管對投資人的簡報（非正式的 Investor Day）",
+  "st": "o",
+  "u": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-host-investor-breakfast-presentation-during",
+  "tm": "美西 08:00–10:30，台灣 10/13 23:00–10/14 01:30"
+ },
+ {
+  "d": "2026-12-12",
+  "c": "tech",
+  "t": "IEEE IEDM 2026",
+  "pl": "美國舊金山 Hilton Union Square",
+  "n": "先進製程與記憶體技術論文",
+  "st": "o",
+  "u": "https://ieee-iedm.org/",
+  "e": "2026-12-16"
+ },
+ {
+  "d": "2027-03-30",
+  "c": "tech",
+  "t": "SEMICON West 2027",
+  "pl": "美國鳳凰城會議中心",
+  "n": "首次改到春季、在鳳凰城舉辦",
+  "st": "o",
+  "u": "https://www.eenewseurope.com/en/semicon-west-heads-to-phoenix-in-spring-2027/",
+  "e": "2027-04-01"
+ },
+ {
+  "d": "2027-04-13",
+  "c": "tech",
+  "t": "Google Cloud Next 2027",
+  "pl": "美國拉斯維加斯 Mandalay Bay",
+  "n": "",
+  "st": "o",
+  "u": "https://www.googlecloudevents.com/next-vegas",
+  "e": "2027-04-15"
+ },
+ {
+  "d": "2027-06-06",
+  "c": "tech",
+  "t": "Cisco Live 2027",
+  "pl": "美國拉斯維加斯",
+  "n": "",
+  "st": "o",
+  "u": "https://www.ciscolive.com/global/cisco-live-2027.html",
+  "e": "2027-06-10"
+ },
+ {
+  "d": "2027-08-18",
+  "c": "tech",
+  "t": "SEMICON Taiwan 2027",
+  "pl": "台北",
+  "n": "台灣半導體設備與材料供應鏈最重要的展會",
+  "st": "o",
+  "u": "https://www.semi.org/zh/node/175346",
+  "e": "2027-08-20"
  }
 ]
