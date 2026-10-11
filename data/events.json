@@ -1,10 +1,10 @@
 {
- "updated": "2026/10/11 16:20",
+ "updated": "2026/10/11 21:38",
  "events": [
   {
    "d": "2026-08-27",
    "e": "2026-08-29",
-   "c": "macro",
+   "c": "cb",
    "t": "Jackson Hole 全球央行年會",
    "pl": "美國懷俄明州",
    "n": "主題：金融創新對支付與政策的影響",
@@ -13,14 +13,14 @@
   },
   {
    "d": "2026-09-10",
-   "c": "macro",
+   "c": "cb",
    "t": "歐洲央行（ECB）利率決議",
    "st": "o",
    "u": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
   },
   {
    "d": "2026-09-16",
-   "c": "macro",
+   "c": "cb",
    "t": "FOMC 利率決議",
    "n": "含經濟預測與點陣圖",
    "st": "o",
@@ -28,14 +28,14 @@
   },
   {
    "d": "2026-09-18",
-   "c": "macro",
+   "c": "cb",
    "t": "日本央行（BOJ）利率決議",
    "st": "o",
    "u": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm"
   },
   {
    "d": "2026-10-28",
-   "c": "macro",
+   "c": "cb",
    "t": "FOMC 利率決議",
    "tm": "美東 14:00 公布，台灣時間 10/29 02:00",
    "n": "",
@@ -45,17 +45,17 @@
   },
   {
    "d": "2026-10-29",
-   "c": "macro",
+   "c": "cb",
    "t": "歐洲央行（ECB）利率決議",
    "tm": "歐洲時間 14:15 公布，台灣時間 21:15（記者會晚 30 分鐘）",
-   "n": "",
+   "n": "會議 10/28–29，29 日公布決議",
    "st": "o",
    "u": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html",
    "k": "ecb"
   },
   {
    "d": "2026-10-30",
-   "c": "macro",
+   "c": "cb",
    "t": "日本央行（BOJ）利率決議",
    "tm": "日本時間中午前後公布，總裁記者會約 15:30",
    "n": "同場發布經濟與物價展望報告",
@@ -65,7 +65,7 @@
   },
   {
    "d": "2026-12-09",
-   "c": "macro",
+   "c": "cb",
    "t": "FOMC 利率決議",
    "tm": "美東 14:00 公布，台灣時間 12/10 03:00",
    "n": "含經濟預測與點陣圖",
@@ -74,7 +74,7 @@
   },
   {
    "d": "2026-12-17",
-   "c": "macro",
+   "c": "cb",
    "t": "歐洲央行（ECB）利率決議",
    "tm": "歐洲時間 14:15 公布，台灣時間 21:15（記者會晚 30 分鐘）",
    "n": "含總體經濟預測",
@@ -83,7 +83,7 @@
   },
   {
    "d": "2026-12-18",
-   "c": "macro",
+   "c": "cb",
    "t": "日本央行（BOJ）利率決議",
    "tm": "日本時間中午前後公布，總裁記者會約 15:30",
    "n": "",
@@ -92,7 +92,7 @@
   },
   {
    "d": "2027-02-04",
-   "c": "macro",
+   "c": "cb",
    "t": "歐洲央行（ECB）利率決議",
    "tm": "歐洲時間 14:15 公布，台灣時間 21:15（記者會晚 30 分鐘）",
    "n": "",
@@ -101,7 +101,7 @@
   },
   {
    "d": "2027-01-27",
-   "c": "macro",
+   "c": "cb",
    "t": "FOMC 利率決議",
    "tm": "美東 14:00 公布，台灣時間 1/28 03:00",
    "n": "",
@@ -110,7 +110,7 @@
   },
   {
    "d": "2027-01-22",
-   "c": "macro",
+   "c": "cb",
    "t": "日本央行（BOJ）利率決議",
    "tm": "日本時間中午前後公布，總裁記者會約 15:30",
    "n": "同場發布經濟與物價展望報告",
@@ -119,7 +119,7 @@
   },
   {
    "d": "2027-03-17",
-   "c": "macro",
+   "c": "cb",
    "t": "FOMC 利率決議",
    "tm": "美東 14:00 公布，台灣時間 3/18 02:00",
    "n": "含經濟預測與點陣圖",
@@ -128,7 +128,7 @@
   },
   {
    "d": "2027-03-18",
-   "c": "macro",
+   "c": "cb",
    "t": "日本央行（BOJ）利率決議",
    "tm": "日本時間中午前後公布，總裁記者會約 15:30",
    "n": "",
@@ -137,7 +137,7 @@
   },
   {
    "d": "2027-03-18",
-   "c": "macro",
+   "c": "cb",
    "t": "歐洲央行（ECB）利率決議",
    "tm": "歐洲時間 14:15 公布，台灣時間 21:15（記者會晚 30 分鐘）",
    "n": "含總體經濟預測",
@@ -146,7 +146,7 @@
   },
   {
    "d": "2027-04-28",
-   "c": "macro",
+   "c": "cb",
    "t": "FOMC 利率決議",
    "tm": "美東 14:00 公布，台灣時間 4/29 02:00",
    "n": "",
@@ -155,7 +155,7 @@
   },
   {
    "d": "2027-04-28",
-   "c": "macro",
+   "c": "cb",
    "t": "日本央行（BOJ）利率決議",
    "tm": "日本時間中午前後公布，總裁記者會約 15:30",
    "n": "同場發布經濟與物價展望報告",
@@ -164,7 +164,7 @@
   },
   {
    "d": "2027-04-29",
-   "c": "macro",
+   "c": "cb",
    "t": "歐洲央行（ECB）利率決議",
    "tm": "歐洲時間 14:15 公布，台灣時間 20:15（記者會晚 30 分鐘）",
    "n": "",
@@ -173,7 +173,7 @@
   },
   {
    "d": "2027-06-09",
-   "c": "macro",
+   "c": "cb",
    "t": "FOMC 利率決議",
    "tm": "美東 14:00 公布，台灣時間 6/10 02:00",
    "n": "含經濟預測與點陣圖",
@@ -182,7 +182,7 @@
   },
   {
    "d": "2027-06-11",
-   "c": "macro",
+   "c": "cb",
    "t": "日本央行（BOJ）利率決議",
    "tm": "日本時間中午前後公布，總裁記者會約 15:30",
    "n": "",
@@ -191,7 +191,7 @@
   },
   {
    "d": "2027-06-10",
-   "c": "macro",
+   "c": "cb",
    "t": "歐洲央行（ECB）利率決議",
    "tm": "歐洲時間 14:15 公布，台灣時間 20:15（記者會晚 30 分鐘）",
    "n": "含總體經濟預測",
@@ -200,7 +200,7 @@
   },
   {
    "d": "2027-07-28",
-   "c": "macro",
+   "c": "cb",
    "t": "FOMC 利率決議",
    "tm": "美東 14:00 公布，台灣時間 7/29 02:00",
    "n": "",
@@ -209,7 +209,7 @@
   },
   {
    "d": "2027-07-22",
-   "c": "macro",
+   "c": "cb",
    "t": "日本央行（BOJ）利率決議",
    "tm": "日本時間中午前後公布，總裁記者會約 15:30",
    "n": "同場發布經濟與物價展望報告",
@@ -218,7 +218,7 @@
   },
   {
    "d": "2027-07-22",
-   "c": "macro",
+   "c": "cb",
    "t": "歐洲央行（ECB）利率決議",
    "tm": "歐洲時間 14:15 公布，台灣時間 20:15（記者會晚 30 分鐘）",
    "n": "",
@@ -227,7 +227,7 @@
   },
   {
    "d": "2027-09-09",
-   "c": "macro",
+   "c": "cb",
    "t": "歐洲央行（ECB）利率決議",
    "tm": "歐洲時間 14:15 公布，台灣時間 20:15（記者會晚 30 分鐘）",
    "n": "含總體經濟預測",
@@ -236,7 +236,7 @@
   },
   {
    "d": "2027-09-15",
-   "c": "macro",
+   "c": "cb",
    "t": "FOMC 利率決議",
    "tm": "美東 14:00 公布，台灣時間 9/16 02:00",
    "n": "含經濟預測與點陣圖",
@@ -245,7 +245,7 @@
   },
   {
    "d": "2027-09-22",
-   "c": "macro",
+   "c": "cb",
    "t": "日本央行（BOJ）利率決議",
    "tm": "日本時間中午前後公布，總裁記者會約 15:30",
    "n": "",
@@ -254,7 +254,7 @@
   },
   {
    "d": "2027-10-27",
-   "c": "macro",
+   "c": "cb",
    "t": "FOMC 利率決議",
    "tm": "美東 14:00 公布，台灣時間 10/28 02:00",
    "n": "",
@@ -263,7 +263,7 @@
   },
   {
    "d": "2027-10-28",
-   "c": "macro",
+   "c": "cb",
    "t": "歐洲央行（ECB）利率決議",
    "tm": "歐洲時間 14:15 公布，台灣時間 20:15（記者會晚 30 分鐘）",
    "n": "",
@@ -272,7 +272,7 @@
   },
   {
    "d": "2027-10-29",
-   "c": "macro",
+   "c": "cb",
    "t": "日本央行（BOJ）利率決議",
    "tm": "日本時間中午前後公布，總裁記者會約 15:30",
    "n": "同場發布經濟與物價展望報告",
@@ -281,7 +281,7 @@
   },
   {
    "d": "2027-12-08",
-   "c": "macro",
+   "c": "cb",
    "t": "FOMC 利率決議",
    "tm": "美東 14:00 公布，台灣時間 12/9 03:00",
    "n": "含經濟預測與點陣圖",
@@ -290,7 +290,7 @@
   },
   {
    "d": "2027-12-16",
-   "c": "macro",
+   "c": "cb",
    "t": "歐洲央行（ECB）利率決議",
    "tm": "歐洲時間 14:15 公布，台灣時間 21:15（記者會晚 30 分鐘）",
    "n": "含總體經濟預測",
@@ -299,7 +299,7 @@
   },
   {
    "d": "2027-12-17",
-   "c": "macro",
+   "c": "cb",
    "t": "日本央行（BOJ）利率決議",
    "tm": "日本時間中午前後公布，總裁記者會約 15:30",
    "n": "",
@@ -969,772 +969,1151 @@
    "e": "2027-08-20"
   },
   {
+   "d": "2026-10-14",
+   "c": "eco",
+   "t": "美國9月 CPI（消費者物價）",
+   "tm": "美東 08:30，台灣 20:30",
+   "n": "資料期間：9月（官方時程表）",
+   "st": "o",
+   "u": "https://www.bls.gov/schedule/2026/10_sched.htm"
+  },
+  {
+   "d": "2026-10-15",
+   "c": "eco",
+   "t": "美國9月 PPI（生產者物價）",
+   "tm": "美東 08:30，台灣 20:30",
+   "n": "資料期間：9月（官方時程表）",
+   "st": "o",
+   "u": "https://www.bls.gov/schedule/2026/10_sched.htm"
+  },
+  {
+   "d": "2026-10-15",
+   "c": "eco",
+   "t": "美國9月零售銷售",
+   "tm": "美東 08:30，台灣 20:30",
+   "n": "資料期間：9月（官方時程表）",
+   "st": "o",
+   "u": "https://www.census.gov/economic-indicators/calendar-listview-2026.html"
+  },
+  {
+   "d": "2026-10-16",
+   "c": "eco",
+   "t": "美國進出口物價（9月）",
+   "tm": "美東 08:30，台灣 20:30",
+   "n": "資料期間：9月（官方時程表）",
+   "st": "o",
+   "u": "https://www.bls.gov/schedule/news_release/ximpim.htm",
+   "mn": 1
+  },
+  {
+   "d": "2026-10-27",
+   "c": "eco",
+   "t": "美國耐久財訂單（9月）",
+   "tm": "美東 08:30，台灣 20:30",
+   "n": "資料期間：9月（官方時程表）",
+   "st": "o",
+   "u": "https://www.census.gov/economic-indicators/calendar-listview-2026.html",
+   "mn": 1
+  },
+  {
+   "d": "2026-10-29",
+   "c": "eco",
+   "t": "美國第3季 GDP 初估",
+   "tm": "美東 08:30，台灣 20:30",
+   "n": "資料期間：第3季（官方時程表）",
+   "st": "o",
+   "u": "https://www.bea.gov/news/schedule"
+  },
+  {
+   "d": "2026-10-29",
+   "c": "eco",
+   "t": "美國9月 PCE（個人所得與支出）",
+   "tm": "美東 08:30，台灣 20:30",
+   "n": "資料期間：9月（官方時程表）",
+   "st": "o",
+   "u": "https://www.bea.gov/news/schedule"
+  },
+  {
+   "d": "2026-11-02",
+   "c": "eco",
+   "t": "美國 ISM 製造業 PMI（10月）",
+   "tm": "美東 10:00，台灣 23:00",
+   "n": "資料期間：10月（官方時程表）",
+   "st": "o",
+   "u": "https://ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/"
+  },
+  {
+   "d": "2026-11-03",
+   "c": "eco",
+   "t": "美國 JOLTS 職缺（9月）",
+   "tm": "美東 10:00，台灣 23:00",
+   "n": "資料期間：9月（官方時程表）",
+   "st": "o",
+   "u": "https://www.bls.gov/schedule/2026/home.htm",
+   "mn": 1
+  },
+  {
+   "d": "2026-11-04",
+   "c": "eco",
+   "t": "美國 ISM 服務業 PMI（10月）",
+   "tm": "美東 10:00，台灣 23:00",
+   "n": "資料期間：10月（官方時程表）",
+   "st": "o",
+   "u": "https://ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/"
+  },
+  {
+   "d": "2026-11-06",
+   "c": "eco",
+   "t": "美國10月非農就業報告",
+   "tm": "美東 08:30，台灣 21:30",
+   "n": "資料期間：10月（官方時程表）",
+   "st": "o",
+   "u": "https://www.bls.gov/schedule/news_release/empsit.htm"
+  },
+  {
+   "d": "2026-11-10",
+   "c": "eco",
+   "t": "美國10月 CPI（消費者物價）",
+   "tm": "美東 08:30，台灣 21:30",
+   "n": "資料期間：10月（官方時程表）",
+   "st": "o",
+   "u": "https://www.bls.gov/schedule/news_release/cpi.htm"
+  },
+  {
+   "d": "2026-11-13",
+   "c": "eco",
+   "t": "美國10月 PPI（生產者物價）",
+   "tm": "美東 08:30，台灣 21:30",
+   "n": "資料期間：10月（官方時程表）",
+   "st": "o",
+   "u": "https://www.bls.gov/schedule/news_release/ppi.htm"
+  },
+  {
+   "d": "2026-11-17",
+   "c": "eco",
+   "t": "美國10月零售銷售",
+   "tm": "美東 08:30，台灣 21:30",
+   "n": "資料期間：10月（官方時程表）",
+   "st": "o",
+   "u": "https://www.census.gov/economic-indicators/calendar-listview-2026.html"
+  },
+  {
+   "d": "2026-11-17",
+   "c": "eco",
+   "t": "美國進出口物價（10月）",
+   "tm": "美東 08:30，台灣 21:30",
+   "n": "資料期間：10月（官方時程表）",
+   "st": "o",
+   "u": "https://www.bls.gov/schedule/news_release/ximpim.htm",
+   "mn": 1
+  },
+  {
+   "d": "2026-11-25",
+   "c": "eco",
+   "t": "美國第3季 GDP 二次估計",
+   "tm": "美東 08:30，台灣 21:30",
+   "n": "資料期間：第3季（官方時程表）",
+   "st": "o",
+   "u": "https://www.bea.gov/news/schedule"
+  },
+  {
+   "d": "2026-11-25",
+   "c": "eco",
+   "t": "美國10月 PCE（個人所得與支出）",
+   "tm": "美東 08:30，台灣 21:30",
+   "n": "資料期間：10月（官方時程表）",
+   "st": "o",
+   "u": "https://www.bea.gov/news/schedule"
+  },
+  {
+   "d": "2026-11-25",
+   "c": "eco",
+   "t": "美國耐久財訂單（10月）",
+   "tm": "美東 08:30，台灣 21:30",
+   "n": "資料期間：10月（官方時程表）",
+   "st": "o",
+   "u": "https://www.census.gov/economic-indicators/calendar-listview-2026.html",
+   "mn": 1
+  },
+  {
+   "d": "2026-12-01",
+   "c": "eco",
+   "t": "美國 ISM 製造業 PMI（11月）",
+   "tm": "美東 10:00，台灣 23:00",
+   "n": "資料期間：11月（官方時程表）",
+   "st": "o",
+   "u": "https://ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/"
+  },
+  {
+   "d": "2026-12-01",
+   "c": "eco",
+   "t": "美國 JOLTS 職缺（10月）",
+   "tm": "美東 10:00，台灣 23:00",
+   "n": "資料期間：10月（官方時程表）",
+   "st": "o",
+   "u": "https://www.bls.gov/schedule/news_release/jolts.htm",
+   "mn": 1
+  },
+  {
+   "d": "2026-12-03",
+   "c": "eco",
+   "t": "美國 ISM 服務業 PMI（11月）",
+   "tm": "美東 10:00，台灣 23:00",
+   "n": "資料期間：11月（官方時程表）",
+   "st": "o",
+   "u": "https://ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/"
+  },
+  {
+   "d": "2026-12-04",
+   "c": "eco",
+   "t": "美國11月非農就業報告",
+   "tm": "美東 08:30，台灣 21:30",
+   "n": "資料期間：11月（官方時程表）",
+   "st": "o",
+   "u": "https://www.bls.gov/schedule/news_release/empsit.htm"
+  },
+  {
+   "d": "2026-12-10",
+   "c": "eco",
+   "t": "美國11月 CPI（消費者物價）",
+   "tm": "美東 08:30，台灣 21:30",
+   "n": "資料期間：11月（官方時程表）",
+   "st": "o",
+   "u": "https://www.bls.gov/schedule/news_release/cpi.htm"
+  },
+  {
+   "d": "2026-12-15",
+   "c": "eco",
+   "t": "美國11月 PPI（生產者物價）",
+   "tm": "美東 08:30，台灣 21:30",
+   "n": "資料期間：11月（官方時程表）",
+   "st": "o",
+   "u": "https://www.bls.gov/schedule/news_release/ppi.htm"
+  },
+  {
+   "d": "2026-12-16",
+   "c": "eco",
+   "t": "美國11月零售銷售",
+   "tm": "美東 08:30，台灣 21:30",
+   "n": "資料期間：11月（官方時程表）",
+   "st": "o",
+   "u": "https://www.census.gov/economic-indicators/calendar-listview-2026.html"
+  },
+  {
+   "d": "2026-12-17",
+   "c": "eco",
+   "t": "美國進出口物價（11月）",
+   "tm": "美東 08:30，台灣 21:30",
+   "n": "資料期間：11月（官方時程表）",
+   "st": "o",
+   "u": "https://www.bls.gov/schedule/news_release/ximpim.htm",
+   "mn": 1
+  },
+  {
+   "d": "2026-12-23",
+   "c": "eco",
+   "t": "美國第3季 GDP 三次估計",
+   "tm": "美東 08:30，台灣 21:30",
+   "n": "資料期間：第3季（官方時程表）",
+   "st": "o",
+   "u": "https://www.bea.gov/news/schedule"
+  },
+  {
+   "d": "2026-12-23",
+   "c": "eco",
+   "t": "美國11月 PCE（個人所得與支出）",
+   "tm": "美東 08:30，台灣 21:30",
+   "n": "資料期間：11月（官方時程表）",
+   "st": "o",
+   "u": "https://www.bea.gov/news/schedule"
+  },
+  {
+   "d": "2026-12-23",
+   "c": "eco",
+   "t": "美國耐久財訂單（11月）",
+   "tm": "美東 08:30，台灣 21:30",
+   "n": "資料期間：11月（官方時程表）",
+   "st": "o",
+   "u": "https://www.census.gov/economic-indicators/calendar-listview-2026.html",
+   "mn": 1
+  },
+  {
+   "d": "2027-01-08",
+   "c": "eco",
+   "t": "美國12月非農就業報告",
+   "tm": "美東 08:30，台灣 21:30",
+   "n": "資料期間：12月（官方時程表）",
+   "st": "o",
+   "u": "https://www.bls.gov/schedule/2027/01_sched.htm"
+  },
+  {
+   "d": "2027-01-13",
+   "c": "eco",
+   "t": "美國12月 CPI（消費者物價）",
+   "tm": "美東 08:30，台灣 21:30",
+   "n": "資料期間：12月（官方時程表）",
+   "st": "o",
+   "u": "https://www.bls.gov/schedule/news_release/cpi.htm"
+  },
+  {
+   "d": "2027-01-14",
+   "c": "eco",
+   "t": "美國12月 PPI（生產者物價）",
+   "tm": "美東 08:30，台灣 21:30",
+   "n": "資料期間：12月（官方時程表）",
+   "st": "o",
+   "u": "https://www.bls.gov/schedule/news_release/ppi.htm"
+  },
+  {
+   "d": "2027-01-15",
+   "c": "eco",
+   "t": "美國進出口物價（12月）",
+   "tm": "美東 08:30，台灣 21:30",
+   "n": "資料期間：12月（官方時程表）",
+   "st": "o",
+   "u": "https://www.bls.gov/schedule/2027/01_sched.htm",
+   "mn": 1
+  },
+  {
+   "d": "2027-01-15",
+   "c": "eco",
+   "t": "美國12月零售銷售",
+   "tm": "美東 08:30，台灣 21:30",
+   "n": "資料期間：12月（官方時程表）",
+   "st": "o",
+   "u": "https://www.census.gov/economic-indicators/calendar-listview.html"
+  },
+  {
+   "d": "2027-01-27",
+   "c": "eco",
+   "t": "美國耐久財訂單（12月）",
+   "tm": "美東 08:30，台灣 21:30",
+   "n": "資料期間：12月（官方時程表）",
+   "st": "o",
+   "u": "https://www.census.gov/economic-indicators/calendar-listview.html",
+   "mn": 1
+  },
+  {
+   "d": "2027-02-05",
+   "c": "eco",
+   "t": "美國1月非農就業報告",
+   "tm": "美東 08:30，台灣 21:30",
+   "n": "資料期間：1月（官方時程表）",
+   "st": "o",
+   "u": "https://www.bls.gov/schedule/news_release/empsit.htm"
+  },
+  {
+   "d": "2027-02-11",
+   "c": "eco",
+   "t": "美國1月 CPI（消費者物價）",
+   "tm": "美東 08:30，台灣 21:30",
+   "n": "資料期間：1月（官方時程表）",
+   "st": "o",
+   "u": "https://www.bls.gov/schedule/news_release/cpi.htm"
+  },
+  {
+   "d": "2027-02-12",
+   "c": "eco",
+   "t": "美國1月 PPI（生產者物價）",
+   "tm": "美東 08:30，台灣 21:30",
+   "n": "資料期間：1月（官方時程表）",
+   "st": "o",
+   "u": "https://www.bls.gov/schedule/news_release/ppi.htm"
+  },
+  {
+   "d": "2027-02-17",
+   "c": "eco",
+   "t": "美國1月零售銷售",
+   "tm": "美東 08:30，台灣 21:30",
+   "n": "資料期間：1月（官方時程表）",
+   "st": "o",
+   "u": "https://www.census.gov/economic-indicators/calendar-listview.html"
+  },
+  {
+   "d": "2027-02-25",
+   "c": "eco",
+   "t": "美國耐久財訂單（1月）",
+   "tm": "美東 08:30，台灣 21:30",
+   "n": "資料期間：1月（官方時程表）",
+   "st": "o",
+   "u": "https://www.census.gov/economic-indicators/calendar-listview.html",
+   "mn": 1
+  },
+  {
+   "d": "2027-03-05",
+   "c": "eco",
+   "t": "美國2月非農就業報告",
+   "tm": "美東 08:30，台灣 21:30",
+   "n": "資料期間：2月（官方時程表）",
+   "st": "o",
+   "u": "https://www.bls.gov/schedule/news_release/empsit.htm"
+  },
+  {
+   "d": "2027-03-10",
+   "c": "eco",
+   "t": "美國2月 CPI（消費者物價）",
+   "tm": "美東 08:30，台灣 21:30",
+   "n": "資料期間：2月（官方時程表）",
+   "st": "o",
+   "u": "https://www.bls.gov/schedule/news_release/cpi.htm"
+  },
+  {
+   "d": "2027-03-12",
+   "c": "eco",
+   "t": "美國2月 PPI（生產者物價）",
+   "tm": "美東 08:30，台灣 21:30",
+   "n": "資料期間：2月（官方時程表）",
+   "st": "o",
+   "u": "https://www.bls.gov/schedule/news_release/ppi.htm"
+  },
+  {
+   "d": "2027-03-16",
+   "c": "eco",
+   "t": "美國2月零售銷售",
+   "tm": "美東 08:30，台灣 20:30",
+   "n": "資料期間：2月（官方時程表）",
+   "st": "o",
+   "u": "https://www.census.gov/economic-indicators/calendar-listview.html"
+  },
+  {
+   "d": "2027-03-25",
+   "c": "eco",
+   "t": "美國耐久財訂單（2月）",
+   "tm": "美東 08:30，台灣 20:30",
+   "n": "資料期間：2月（官方時程表）",
+   "st": "o",
+   "u": "https://www.census.gov/economic-indicators/calendar-listview.html",
+   "mn": 1
+  },
+  {
+   "d": "2026-10-13",
+   "c": "eco",
+   "t": "IMF《世界經濟展望》記者會",
+   "tm": "曼谷 09:00–09:45，台灣 10:00–10:45",
+   "pl": "曼谷",
+   "st": "o",
+   "u": "https://www.imf.org/en/meetings/2026/annual/schedule",
+   "n": "IMF 年會期間；報告本身的發布時間官方頁面未列"
+  },
+  {
+   "d": "2026-10-13",
+   "c": "eco",
+   "t": "IMF《全球金融穩定報告》記者會",
+   "tm": "曼谷 10:15–11:00，台灣 11:15–12:00",
+   "pl": "曼谷",
+   "st": "o",
+   "u": "https://www.imf.org/en/meetings/2026/annual/schedule",
+   "n": "IMF 年會期間；報告本身的發布時間官方頁面未列"
+  },
+  {
+   "d": "2026-10-14",
+   "c": "eco",
+   "t": "IMF《財政監測報告》記者會",
+   "tm": "曼谷 09:00–09:45，台灣 10:00–10:45",
+   "pl": "曼谷",
+   "st": "o",
+   "u": "https://www.imf.org/en/meetings/2026/annual/schedule",
+   "n": "IMF 年會期間；報告本身的發布時間官方頁面未列"
+  },
+  {
    "d": "2026-10-12",
+   "c": "cb",
+   "t": "IMF／世界銀行年會（曼谷）",
+   "st": "o",
+   "u": "https://www.imf.org/en/meetings/2026/annual",
+   "e": "2026-10-18",
+   "pl": "曼谷 Queen Sirikit 國家會議中心",
+   "n": "期間含 G20 財長與央行總裁會議（10/15）、IMFC（10/16–17）、聯準會主席沃什座談"
+  },
+  {
+   "d": "2026-10-13",
+   "c": "cb",
+   "t": "克利夫蘭聯儲主席哈瑪克：NABE 午餐演說",
+   "st": "e",
+   "u": "https://capital.com/en-gb/news/federal-reserve-events",
+   "tm": "美東 10/12 12:10，台灣 10/13 00:10",
+   "pl": "克利夫蘭 Hilton（可線上參加）",
+   "n": "來自路透社聯準會活動日程（報導來源，聯準會官網未列）；主題：AI、人口結構與地緣政治",
+   "mn": 1
+  },
+  {
+   "d": "2026-10-13",
+   "c": "cb",
+   "t": "聯準會理事沃勒：彭博新經濟論壇",
+   "st": "o",
+   "u": "https://www.federalreserve.gov/newsevents/2026-october.htm",
+   "tm": "美東 03:45，台灣 15:45",
+   "pl": "印度新德里",
+   "n": "主題：AI；時區由台灣報導換算，聯準會官網未標示時區"
+  },
+  {
+   "d": "2026-10-13",
+   "c": "cb",
+   "t": "波士頓聯儲主席柯林斯講話",
+   "st": "e",
+   "u": "https://news.futunn.com/t/post/1000837743/BeyzVRuqUf",
+   "tm": "台灣 10/14 04:00（美東 10/13 16:00）",
+   "n": "僅見於媒體報導（富途），聯準會與波士頓聯儲官網未列，場合不明",
+   "mn": 1
+  },
+  {
+   "d": "2026-10-14",
+   "c": "cb",
+   "t": "聯準會褐皮書（Beige Book）",
+   "st": "o",
+   "u": "https://www.federalreserve.gov/monetarypolicy/beige-book-default.htm",
+   "tm": "美東 14:00，台灣 10/15 02:00",
+   "n": "FOMC 10/27–28 會議前的經濟狀況報告"
+  },
+  {
+   "d": "2026-10-14",
+   "c": "cb",
+   "t": "聯準會理事鮑曼：IIF 年會（曼谷）監理與法規討論",
+   "st": "o",
+   "u": "https://www.federalreserve.gov/newsevents/2026-october.htm",
+   "tm": "美東 05:40，台灣 17:40",
+   "pl": "曼谷",
+   "n": "聯準會官網未標示時區，依台灣報導換算"
+  },
+  {
+   "d": "2026-10-14",
+   "c": "cb",
+   "t": "ECB 總裁拉加德：CNN 對談",
+   "st": "o",
+   "u": "https://www.ecb.europa.eu/press/calendars/weekly/html/index.en.html",
+   "tm": "曼谷 09:10，台灣 10:10",
+   "pl": "曼谷",
+   "n": "IMF 年會期間；主題：變動時代的領導",
+   "mn": 1
+  },
+  {
+   "d": "2026-10-14",
+   "c": "cb",
+   "t": "ECB 總裁拉加德：大西洋理事會爐邊談話",
+   "st": "o",
+   "u": "https://www.ecb.europa.eu/press/calendars/weekly/html/index.en.html",
+   "tm": "曼谷 15:30，台灣 16:30",
+   "pl": "曼谷"
+  },
+  {
+   "d": "2026-10-14",
+   "c": "cb",
+   "t": "ECB 執委施納貝爾：曼海姆大學公開演講",
+   "st": "o",
+   "u": "https://www.ecb.europa.eu/press/calendars/weekly/html/index.en.html",
+   "tm": "歐洲中部 18:15，台灣 10/15 00:15",
+   "pl": "德國曼海姆大學",
+   "mn": 1
+  },
+  {
+   "d": "2026-10-15",
+   "c": "cb",
+   "t": "G20 財長與央行總裁會議（曼谷）",
+   "st": "o",
+   "u": "https://home.treasury.gov/news/press-releases/sb0398",
+   "tm": "時間未公布",
+   "pl": "曼谷",
+   "n": "拉加德等央行官員出席；美國財政部與 ECB 行事曆皆列此日"
+  },
+  {
+   "d": "2026-10-15",
+   "c": "cb",
+   "t": "克利夫蘭聯儲主席哈瑪克講話",
+   "st": "e",
+   "u": "https://news.futunn.com/t/post/1000837743/BeyzVRuqUf",
+   "tm": "台灣 10/16 04:30（美東 10/15 16:30）",
+   "n": "僅見於媒體報導（富途），聯準會官網未列，與 10/12 NABE 演說可能不是同一場",
+   "mn": 1
+  },
+  {
+   "d": "2026-10-16",
+   "c": "cb",
+   "t": "聯準會主席沃什：與 IMF 總裁對談（IMF 年會）",
+   "st": "o",
+   "u": "https://www.imf.org/en/meetings/2026/annual/schedule",
+   "tm": "曼谷 10:30–11:00，台灣 11:30–12:00",
+   "pl": "曼谷",
+   "n": "位於美國 CPI、PPI、零售銷售之後，市場關注他對通膨與 12 月是否加息的看法；IMF 與聯準會行事曆皆列此場"
+  },
+  {
+   "d": "2026-10-16",
+   "c": "cb",
+   "t": "IMFC 國際貨幣與金融委員會會議",
+   "st": "e",
+   "u": "https://www.bancaditalia.it/media/agenda/2026-10-12_riunioni-della-banca-mondiale-fondo-monetario-internazionale-g7-e-g20-a-bangkok-in-thailandia/",
+   "e": "2026-10-17",
+   "tm": "時間未公布",
+   "pl": "曼谷",
+   "n": "IMFC 記者會 10/17 曼谷 12:30–13:00",
+   "mn": 1
+  },
+  {
+   "d": "2026-10-17",
+   "c": "cb",
+   "t": "FOMC 會前靜默期開始（至 10/29）",
+   "st": "e",
+   "u": "https://www.federalreserve.gov/monetarypolicy/files/fomc-blackout-period-calendar.pdf",
+   "e": "2026-10-29",
+   "n": "靜默期內官員不公開談貨幣政策；依聯準會規則（會議前第二個週六起至會後隔日）推算",
+   "mn": 1
+  },
+  {
+   "d": "2026-10-29",
+   "c": "cb",
+   "t": "ECB 利率決議補充：10/28–29 會議，29 日公布與記者會",
+   "st": "o",
+   "u": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html",
+   "n": "更正：會議為兩天，決議與記者會在 10/29；下一次為 12/16–17",
+   "mn": 1
+  },
+  {
+   "d": "2026-11-05",
+   "c": "cb",
+   "t": "日本央行 9 月會議紀要（9/17–18）",
+   "st": "o",
+   "u": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm",
+   "tm": "時間未公布",
+   "mn": 1
+  },
+  {
+   "d": "2026-11-06",
+   "c": "cb",
+   "t": "日本央行總裁植田和男：IMF 央行會議演說與對談",
+   "st": "e",
+   "u": "https://www.bloomberght.com/imf-boj-baskani-uedayi-6-kasimda-konusma-yapmaya-davet-etti-3790896",
+   "tm": "時間未公布",
+   "n": "彭博報導 10/9 邀請；日銀尚未確認出席，時間與地點未公布",
+   "mn": 1
+  },
+  {
+   "d": "2026-11-10",
+   "c": "cb",
+   "t": "日本央行主要意見摘要（10/29–30 會議）",
+   "st": "o",
+   "u": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm",
+   "tm": "時間未公布",
+   "mn": 1
+  },
+  {
+   "d": "2026-11-18",
+   "c": "cb",
+   "t": "FOMC 會議紀要（10/27–28 會議）",
+   "st": "o",
+   "u": "https://www.federalreserve.gov/newsevents/2026-november.htm",
+   "tm": "美東 14:00，台灣 11/19 03:00"
+  },
+  {
+   "d": "2026-11-25",
+   "c": "cb",
+   "t": "聯準會褐皮書（Beige Book）",
+   "st": "o",
+   "u": "https://www.federalreserve.gov/newsevents/2026-november.htm",
+   "tm": "美東 14:00，台灣 11/26 03:00",
+   "n": "FOMC 12/8–9 會議前"
+  },
+  {
+   "d": "2026-11-28",
+   "c": "cb",
+   "t": "FOMC 會前靜默期開始（至 12/10）",
+   "st": "e",
+   "u": "https://www.federalreserve.gov/monetarypolicy/files/fomc-blackout-period-calendar.pdf",
+   "e": "2026-12-10",
+   "n": "依規則推算",
+   "mn": 1
+  },
+  {
+   "d": "2026-12-23",
+   "c": "cb",
+   "t": "日本央行會議紀要（10/29–30 會議）",
+   "st": "o",
+   "u": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm",
+   "tm": "時間未公布",
+   "mn": 1
+  },
+  {
+   "d": "2026-12-28",
+   "c": "cb",
+   "t": "日本央行主要意見摘要（12/17–18 會議）",
+   "st": "o",
+   "u": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm",
+   "tm": "時間未公布",
+   "mn": 1
+  },
+  {
+   "d": "2026-12-30",
+   "c": "cb",
+   "t": "FOMC 會議紀要（12/8–9 會議）",
+   "st": "o",
+   "u": "https://www.federalreserve.gov/newsevents/2026-december.htm",
+   "tm": "美東 14:00，台灣 12/31 03:00"
+  },
+  {
+   "d": "2027-01-27",
+   "c": "cb",
+   "t": "日本央行會議紀要（12/17–18 會議）",
+   "st": "o",
+   "u": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm",
+   "tm": "時間未公布",
+   "mn": 1
+  },
+  {
+   "d": "2026-10-07",
    "c": "tw",
-   "t": "大甲（2221）法說會",
+   "t": "光頡（3624）法說會",
    "tm": "14:00",
+   "pl": "中信證券舉辦，台北市松山區",
    "st": "o",
    "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
-   "a": 1,
-   "pl": "線上",
-   "n": "參加合庫證券舉辦之線上法人說明會",
-   "mn": 1
+   "mn": 1,
+   "a": 1
+  },
+  {
+   "d": "2026-10-07",
+   "c": "tw",
+   "t": "漢磊（3707）法說會",
+   "tm": "14:30",
+   "pl": "凱基證券舉辦，台北",
+   "st": "o",
+   "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
+   "mn": 1,
+   "a": 1
+  },
+  {
+   "d": "2026-10-07",
+   "c": "tw",
+   "t": "系統電（5309）法說會",
+   "tm": "14:00",
+   "pl": "群益金鼎證券舉辦，台北",
+   "st": "o",
+   "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
+   "mn": 1,
+   "a": 1
+  },
+  {
+   "d": "2026-10-07",
+   "c": "tw",
+   "t": "達運（6120）法說會",
+   "tm": "14:30",
+   "pl": "台新證券舉辦，線上",
+   "st": "o",
+   "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
+   "mn": 1,
+   "a": 1
+  },
+  {
+   "d": "2026-10-07",
+   "c": "tw",
+   "t": "安碁（6174）法說會",
+   "tm": "14:30",
+   "pl": "兆豐證券舉辦，台北",
+   "st": "o",
+   "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
+   "mn": 1,
+   "a": 1
+  },
+  {
+   "d": "2026-10-07",
+   "c": "tw",
+   "t": "旭源（8421）法說會",
+   "tm": "14:30",
+   "pl": "台中銀證券舉辦，台北",
+   "st": "o",
+   "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
+   "mn": 1,
+   "a": 1
+  },
+  {
+   "d": "2026-10-08",
+   "c": "tw",
+   "t": "長榮（2603）法說會",
+   "tm": "15:00",
+   "pl": "永豐金證券舉辦，張榮發基金會國際會議中心",
+   "st": "o",
+   "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
+   "mn": 1,
+   "a": 1
+  },
+  {
+   "d": "2026-10-08",
+   "c": "tw",
+   "t": "榮運（2607）法說會",
+   "tm": "16:00",
+   "pl": "永豐金證券舉辦，張榮發基金會國際會議中心",
+   "st": "o",
+   "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
+   "mn": 1,
+   "a": 1
+  },
+  {
+   "d": "2026-10-08",
+   "c": "tw",
+   "t": "大立光（3008）法說會",
+   "tm": "14:30",
+   "pl": "線上，公司自辦",
+   "st": "o",
+   "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
+   "a": 1
+  },
+  {
+   "d": "2026-10-08",
+   "c": "tw",
+   "t": "信音（6126）法說會",
+   "tm": "14:00",
+   "pl": "凱基證券舉辦，線上",
+   "st": "o",
+   "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
+   "mn": 1,
+   "a": 1
   },
   {
    "d": "2026-10-12",
    "c": "tw",
    "t": "南亞科（2408）法說會",
    "tm": "15:00",
+   "pl": "線上，公司自辦",
    "st": "o",
    "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
-   "a": 1,
-   "pl": "線上法說會",
-   "n": "本公司召開法人說明會"
-  },
-  {
-   "d": "2026-10-12",
-   "c": "tw",
-   "t": "全國電（6281）法說會",
-   "tm": "14:00",
-   "st": "o",
-   "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
-   "a": 1,
-   "pl": "線上法說會",
-   "n": "參加凱基證券舉行之線上法說會",
-   "mn": 1
-  },
-  {
-   "d": "2026-10-13",
-   "c": "tw",
-   "t": "元禎（1725）法說會",
-   "tm": "14:30",
-   "st": "o",
-   "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
-   "a": 1,
-   "pl": "證交所101辦公大樓一樓資訊展示中心(台北市信義路五段七號)",
-   "n": "本公司召開法人說明會",
-   "mn": 1
-  },
-  {
-   "d": "2026-10-13",
-   "c": "tw",
-   "t": "大甲（2221）法說會",
-   "tm": "14:00",
-   "st": "o",
-   "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
-   "a": 1,
-   "pl": "線上",
-   "n": "參加富邦證券舉辦之線上法人說明會",
-   "mn": 1
+   "a": 1
   },
   {
    "d": "2026-10-13",
    "c": "tw",
    "t": "廣宇（2328）參加 QIC CEO Week",
    "tm": "09:00",
+   "pl": "香港文華東方酒店（寬量國際主辦）",
    "st": "o",
    "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
-   "a": 1,
-   "pl": "香港Mandarin Oriental Hotel (5 Connaught Road, Central, Hong Kong)",
-   "n": "參加寬量國際主辦之「20th QIC CEO Week」",
-   "mn": 1
-  },
-  {
-   "d": "2026-10-13",
-   "c": "tw",
-   "t": "英業達（2356）法說會",
-   "tm": "15:00",
-   "st": "o",
-   "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
-   "a": 1,
-   "pl": "線上說明會",
-   "n": "參加SIG線上投資人說明會",
-   "mn": 1
+   "mn": 1,
+   "a": 1
   },
   {
    "d": "2026-10-13",
    "c": "tw",
    "t": "臻鼎-KY（4958）參加 QIC CEO Week",
    "tm": "12:00",
+   "pl": "香港文華東方酒店（寬量國際主辦）",
    "st": "o",
    "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
-   "a": 1,
-   "pl": "香港文華東方酒店 (5 Connaught Road, Central, 香港)",
-   "n": "參加寬量國際主辦之「20th QIC CEO Week」",
-   "mn": 1
-  },
-  {
-   "d": "2026-10-13",
-   "c": "tw",
-   "t": "矽科宏晟（6725）參加 QIC CEO Week",
-   "tm": "12:00",
-   "st": "o",
-   "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
-   "a": 1,
-   "pl": "香港Mandarin Oriental Hotel",
-   "n": "參加寬量國際主辦之「20th QIC CEO Week」",
-   "mn": 1
-  },
-  {
-   "d": "2026-10-13",
-   "c": "tw",
-   "t": "巨漢（6903）參加 QIC CEO Week",
-   "tm": "14:00",
-   "st": "o",
-   "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
-   "a": 1,
-   "pl": "香港Mandarin Oriental Hotel",
-   "n": "參加寬量國際主辦之「20th QIC CEO Week」",
-   "mn": 1
-  },
-  {
-   "d": "2026-10-13",
-   "c": "tw",
-   "t": "鴻勁（7769）法說會",
-   "tm": "09:00",
-   "st": "o",
-   "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
-   "a": 1,
-   "pl": "美國",
-   "n": "參加元大證券舉辦之美國海外路演(NDR)",
-   "mn": 1
-  },
-  {
-   "d": "2026-10-13",
-   "c": "tw",
-   "t": "禾榮科（7799）參加 QIC CEO Week",
-   "tm": "09:00",
-   "st": "o",
-   "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
-   "a": 1,
-   "pl": "香港Mandarin Oriental Hotel",
-   "n": "參加寬量國際主辦之「20th QIC CEO Week」",
-   "mn": 1
+   "mn": 1,
+   "a": 1
   },
   {
    "d": "2026-10-14",
    "c": "tw",
    "t": "台亞（2340）財務業務概況座談會",
    "tm": "14:20",
+   "pl": "新竹老爺酒店",
    "st": "o",
    "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
-   "a": 1,
-   "pl": "新竹老爺酒店6樓會議室(新竹市東區仙水里光復路一段227號)",
-   "n": "本公司舉辦財務業務概況座談會",
-   "mn": 1
-  },
-  {
-   "d": "2026-10-14",
-   "c": "tw",
-   "t": "國精化（4722）參加 QIC CEO Week",
-   "tm": "11:00",
-   "st": "o",
-   "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
-   "a": 1,
-   "pl": "香港Mandarin Oriental Hotel (5 Connaught Road, Central, Hong Kong)",
-   "n": "參加寬量國際主辦之「20th QIC CEO Week」",
-   "mn": 1
+   "mn": 1,
+   "a": 1
   },
   {
    "d": "2026-10-14",
    "c": "tw",
    "t": "萬泰科（6190）參加 QIC CEO Week",
    "tm": "09:00",
+   "pl": "香港文華東方酒店（寬量國際主辦）",
    "st": "o",
    "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
-   "a": 1,
-   "pl": "香港Mandarin Oriental Hotel",
-   "n": "參加寬量國際主辦之「20th QIC CEO Week」",
-   "mn": 1
-  },
-  {
-   "d": "2026-10-14",
-   "c": "tw",
-   "t": "樺漢（6414）參加 QIC CEO Week",
-   "tm": "09:00",
-   "st": "o",
-   "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
-   "a": 1,
-   "pl": "香港Mandarin Oriental Hotel(5 Connaught Road, Central, Hong Kong)",
-   "n": "參加寬量國際主辦之「20th QIC CEO Week」",
-   "mn": 1
+   "mn": 1,
+   "a": 1
   },
   {
    "d": "2026-10-14",
    "c": "tw",
    "t": "星亞（7753）財務業務概況座談會",
    "tm": "14:20",
+   "pl": "新竹老爺酒店",
    "st": "o",
    "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
-   "a": 1,
-   "pl": "新竹老爺酒店6樓會議室(新竹市東區仙水里光復路一段227號)",
-   "n": "本公司舉辦財務業務概況座談會",
-   "mn": 1
-  },
-  {
-   "d": "2026-10-14",
-   "c": "tw",
-   "t": "冠好（8354）法說會",
-   "tm": "14:00",
-   "st": "o",
-   "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
-   "a": 1,
-   "pl": "實體(採實名報名制)法說會，實體法說會地點:南投市成功三路239號",
-   "n": "本公司召開法人說明會",
-   "mn": 1
-  },
-  {
-   "d": "2026-10-15",
-   "c": "tw",
-   "t": "喬福（1540）法說會",
-   "tm": "14:00",
-   "st": "o",
-   "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
-   "a": 1,
-   "pl": "台北市信義區信義路五段7號1樓(證交所(101大樓1樓資訊展示中心)",
-   "n": "本公司召開法人說明會",
-   "mn": 1
+   "mn": 1,
+   "a": 1
   },
   {
    "d": "2026-10-15",
    "c": "tw",
    "t": "毅嘉（2402）法說會",
    "tm": "14:30",
+   "pl": "兆豐證券舉辦，台北",
    "st": "o",
    "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
-   "a": 1,
-   "pl": "兆豐證券大樓（台北市忠孝東路二段95號13樓1301會議室）",
-   "n": "參加兆豐證券舉辦之法人說明會",
-   "mn": 1
-  },
-  {
-   "d": "2026-10-16",
-   "c": "tw",
-   "t": "先益（3531）法說會",
-   "tm": "14:00",
-   "st": "o",
-   "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
-   "a": 1,
-   "pl": "線上法說會",
-   "n": "參加永豐金證券舉辦之法人說明會",
-   "mn": 1
+   "mn": 1,
+   "a": 1
   },
   {
    "d": "2026-10-16",
    "c": "tw",
    "t": "樺漢（6414）法說會",
    "tm": "14:00",
+   "pl": "國泰證券舉辦，台北",
    "st": "o",
    "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
-   "a": 1,
-   "pl": "國泰證券 (台北市大安區敦化南路二段218號8樓會議室)",
-   "n": "參加國泰證券舉辦之法人說明會",
-   "mn": 1
+   "mn": 1,
+   "a": 1
   },
   {
    "d": "2026-10-19",
    "c": "tw",
-   "t": "國票金（2889）法說會",
+   "t": "國票金（2889）說明會",
    "tm": "14:00",
+   "pl": "線上，公司自辦",
    "st": "o",
    "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
-   "a": 1,
-   "pl": "線上說明會",
-   "n": "本公司自辦說明會",
-   "mn": 1
-  },
-  {
-   "d": "2026-10-19",
-   "c": "tw",
-   "t": "久正（6167）法說會",
-   "tm": "14:00",
-   "st": "o",
-   "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
-   "a": 1,
-   "pl": "線上法說會",
-   "n": "參加永豐金證券舉辦之線上法人說明會",
-   "mn": 1
+   "mn": 1,
+   "a": 1
   },
   {
    "d": "2026-10-21",
    "c": "tw",
    "t": "美吾華（1731）法說會",
    "tm": "14:30",
+   "pl": "台新證券舉辦，台北敦南摩天大樓",
    "st": "o",
    "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
-   "a": 1,
-   "pl": "敦南摩天大樓(台北市敦化南路二段97號11樓)",
-   "n": "參加台新證券實體法人說明會",
-   "mn": 1
+   "mn": 1,
+   "a": 1
   },
   {
    "d": "2026-10-21",
    "c": "tw",
    "t": "懷特（4108）法說會",
    "tm": "14:30",
+   "pl": "台新證券舉辦，台北敦南摩天大樓",
    "st": "o",
    "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
-   "a": 1,
-   "pl": "敦南摩天大樓(台北市敦化南路二段97號11樓)",
-   "n": "參加台新證券實體法說會",
-   "mn": 1
+   "mn": 1,
+   "a": 1
   },
   {
    "d": "2026-10-21",
    "c": "tw",
    "t": "安克（4188）法說會",
    "tm": "14:30",
+   "pl": "台新證券舉辦，台北敦南摩天大樓",
    "st": "o",
    "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
-   "a": 1,
-   "pl": "敦南摩天大樓(台北市敦化南路二段97號11樓)",
-   "n": "參加台新證券實體法說會",
-   "mn": 1
-  },
-  {
-   "d": "2026-10-21",
-   "c": "tw",
-   "t": "杰力（5299）法說會",
-   "tm": "15:00",
-   "st": "o",
-   "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
-   "a": 1,
-   "pl": "群益金鼎證券15樓會議室（台北市松山區民生東路三段156號）",
-   "n": "參加群益金鼎證券舉辦之法人說明會",
-   "mn": 1
-  },
-  {
-   "d": "2026-10-23",
-   "c": "tw",
-   "t": "穩懋（3105）法說會",
-   "tm": "14:00",
-   "st": "o",
-   "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
-   "a": 1,
-   "pl": "網路直播",
-   "n": "本公司舉辦2026年第三季線上法人說明會",
-   "mn": 1
-  },
-  {
-   "d": "2026-10-27",
-   "c": "tw",
-   "t": "旺宏（2337）法說會",
-   "tm": "16:00",
-   "st": "o",
-   "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
-   "a": 1,
-   "pl": "線上法人說明會",
-   "n": "本公司召開2026年第三季法人說明會",
-   "mn": 1
+   "mn": 1,
+   "a": 1
   },
   {
    "d": "2026-10-29",
    "c": "tw",
-   "t": "友達（2409）法說會",
+   "t": "友達（2409）第三季法說會",
    "tm": "14:00",
+   "pl": "線上，公司自辦",
    "st": "o",
    "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
-   "a": 1,
-   "pl": "線上法說會",
-   "n": "本公司召開115年第三季線上法人說明會"
-  },
-  {
-   "d": "2026-10-29",
-   "c": "tw",
-   "t": "瑞儀（6176）法說會",
-   "tm": "14:00",
-   "st": "o",
-   "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
-   "a": 1,
-   "pl": "線上直播 https://www.zucast.com/webcast/FHFR0R3a",
-   "n": "本公司召開法人說明會",
-   "mn": 1
+   "a": 1
   },
   {
    "d": "2026-11-03",
    "c": "tw",
-   "t": "台達電（2308）法說會",
+   "t": "台達電（2308）日本法人說明會",
    "tm": "08:00",
+   "pl": "東京，大和國泰證券舉辦",
    "st": "o",
    "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
-   "a": 1,
-   "pl": "東京",
-   "n": "參加大和國泰證券法人說明會"
-  },
-  {
-   "d": "2026-11-03",
-   "c": "tw",
-   "t": "達發（6526）法說會",
-   "tm": "15:00",
-   "st": "o",
-   "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
-   "a": 1,
-   "pl": "線上法說會",
-   "n": "參加凱基證券舉辦之「線上法人說明會」",
-   "mn": 1
+   "a": 1
   },
   {
    "d": "2026-11-04",
    "c": "tw",
-   "t": "研華（2395）法說會",
+   "t": "研華（2395）線上法說會",
    "tm": "15:30",
+   "pl": "大和國泰證券主辦",
    "st": "o",
    "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
-   "a": 1,
-   "pl": "線上會議",
-   "n": "參加大和國泰證券主辦之線上會議"
+   "mn": 1,
+   "a": 1
   },
   {
    "d": "2026-11-04",
    "c": "tw",
    "t": "中華電（2412）法說會",
    "tm": "15:00",
+   "pl": "電話會議，公司自辦",
    "st": "o",
    "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
-   "a": 1,
-   "pl": "電話會議",
-   "n": "本公司召開法人說明會"
+   "a": 1
   },
   {
    "d": "2026-11-13",
    "c": "tw",
-   "t": "力旺（3529）法說會",
+   "t": "力旺（3529）第三季法說會",
    "tm": "16:00",
+   "pl": "線上，公司自辦",
    "st": "o",
    "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
-   "a": 1,
-   "pl": "線上法說會",
-   "n": "本公司舉辦2026年第三季線上法人說明會"
+   "mn": 1,
+   "a": 1
   },
   {
    "d": "2026-11-17",
    "c": "tw",
    "t": "花仙子（1730）法說會",
    "tm": "14:00",
+   "pl": "線上，券商舉辦（中信）",
    "st": "o",
    "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
-   "a": 1,
-   "pl": "線上法說會",
-   "n": "參加中國信託綜合證券舉辦之法人說明會",
-   "mn": 1
+   "mn": 1,
+   "a": 1
+  },
+  {
+   "d": "2026-10-08",
+   "c": "agm",
+   "t": "熙特爾-創（7740）臨時股東會",
+   "pl": "台北市中山區松江路350號（台北市進出口商業同業公會）",
+   "n": "改選董監事",
+   "st": "o",
+   "u": "https://www.wantgoo.com/stock/calendar/shareholders-meeting",
+   "a": 1
+  },
+  {
+   "d": "2026-10-08",
+   "c": "agm",
+   "t": "承啟（2425）臨時股東會",
+   "pl": "新北市新店區北新路三段223號2樓（台北矽谷國際會議中心）",
+   "st": "o",
+   "u": "https://www.wantgoo.com/stock/calendar/shareholders-meeting",
+   "a": 1
   },
   {
    "d": "2026-10-13",
    "c": "agm",
-   "t": "台泥（1101）股東會",
-   "tm": "09:00",
+   "t": "台泥（1101）臨時股東會",
+   "pl": "台北市中山北路二段113號3樓（台泥大樓士敏廳）",
    "st": "o",
-   "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
-   "a": 1,
-   "pl": "臺北市中山北路2段113號3樓(臺泥大樓3樓士敏廳)"
+   "u": "https://www.wantgoo.com/stock/calendar/shareholders-meeting",
+   "a": 1
   },
   {
    "d": "2026-10-14",
    "c": "agm",
-   "t": "漢康-KY創（7827）股東會",
-   "tm": "10:00",
+   "t": "漢康-KY創（7827）臨時股東會",
+   "pl": "南港軟體園區國際會議中心 2樓（A棟）",
    "st": "o",
-   "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
-   "a": 1,
-   "pl": "台北市南港區三重路19之10號2樓(南港軟體園區國際會議中心A棟)",
-   "mn": 1
+   "u": "https://www.wantgoo.com/stock/calendar/shareholders-meeting",
+   "a": 1
   },
   {
    "d": "2026-10-15",
    "c": "agm",
-   "t": "華建（2530）股東會",
-   "tm": "09:00",
+   "t": "華建（2530）臨時股東會",
+   "pl": "台北市內湖區成功路五段420巷28號地下一樓",
+   "n": "改選董監事",
    "st": "o",
-   "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
-   "a": 1,
-   "pl": "台北市內湖區成功路五段420巷28號B1",
-   "mn": 1
+   "u": "https://www.wantgoo.com/stock/calendar/shareholders-meeting",
+   "a": 1
   },
   {
    "d": "2026-10-15",
    "c": "agm",
-   "t": "鼎炫-KY（8499）股東會",
-   "tm": "09:00",
+   "t": "鼎炫-KY（8499）臨時股東會",
+   "pl": "新北市五股區五權七路20號2樓",
    "st": "o",
-   "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
-   "a": 1,
-   "pl": "新北市五股區五權七路20號2樓(本公司會議室)",
-   "mn": 1
-  },
-  {
-   "d": "2026-10-19",
-   "c": "agm",
-   "t": "騰雲（6870）股東會",
-   "tm": "09:30",
-   "st": "o",
-   "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
-   "a": 1,
-   "pl": "新北市汐止區新台五路一段99號35樓(iFG遠雄廣場A棟)",
-   "mn": 1
-  },
-  {
-   "d": "2026-10-19",
-   "c": "agm",
-   "t": "明遠精密（7704）股東會",
-   "tm": "10:00",
-   "st": "o",
-   "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
-   "a": 1,
-   "pl": "新竹縣竹北市中和街191巷31號3樓(本公司)",
-   "mn": 1
+   "u": "https://www.wantgoo.com/stock/calendar/shareholders-meeting",
+   "a": 1
   },
   {
    "d": "2026-10-20",
    "c": "agm",
-   "t": "雋揚（1439）股東會",
-   "tm": "09:00",
+   "t": "致茂（2360）臨時股東會",
+   "pl": "桃園市龜山區文茂路88號（公司會議室）",
    "st": "o",
-   "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
-   "a": 1,
-   "pl": "臺北市南港區三重路19-11號E棟4樓(南港軟體育成中心423會議室)",
-   "mn": 1
+   "u": "https://www.wantgoo.com/stock/calendar/shareholders-meeting",
+   "a": 1
   },
   {
    "d": "2026-10-20",
    "c": "agm",
-   "t": "致茂（2360）股東會",
-   "tm": "09:30",
+   "t": "雋揚（1439）臨時股東會",
+   "pl": "台北市南港區三重路19-11號E棟4樓",
    "st": "o",
-   "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
-   "a": 1,
-   "pl": "桃園市龜山區文茂路88號(本公司會議室)",
-   "mn": 1
+   "u": "https://www.wantgoo.com/stock/calendar/shareholders-meeting",
+   "a": 1
   },
   {
    "d": "2026-10-21",
    "c": "agm",
-   "t": "永崴投控（3712）股東會",
-   "tm": "09:00",
+   "t": "永崴投控（3712）臨時股東會",
+   "pl": "新北市土城區中央路四段49號2樓",
    "st": "o",
-   "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
-   "a": 1,
-   "pl": "新北市土城區中央路四段49號(2樓會議室)",
-   "mn": 1
-  },
-  {
-   "d": "2026-10-28",
-   "c": "agm",
-   "t": "雄順（2073）股東會",
-   "tm": "10:00",
-   "st": "o",
-   "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
-   "a": 1,
-   "pl": "高雄市燕巢區四林路125之18號",
-   "mn": 1
-  },
-  {
-   "d": "2026-10-29",
-   "c": "agm",
-   "t": "欣技（6160）股東會",
-   "tm": "09:00",
-   "st": "o",
-   "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
-   "a": 1,
-   "pl": "新北市汐止區大同路三段196號R2樓",
-   "mn": 1
-  },
-  {
-   "d": "2026-10-29",
-   "c": "agm",
-   "t": "東典光電（6588）股東會",
-   "tm": "09:00",
-   "st": "o",
-   "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
-   "a": 1,
-   "pl": "宜蘭縣五結鄉利工一路二段70號",
-   "mn": 1
-  },
-  {
-   "d": "2026-11-04",
-   "c": "agm",
-   "t": "弘塑（3131）股東會",
-   "tm": "09:00",
-   "st": "o",
-   "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
-   "a": 1,
-   "pl": "新竹市新竹科學園區展業一路2號(科學工業園區科學工業同業公會2樓會議室)",
-   "mn": 1
+   "u": "https://www.wantgoo.com/stock/calendar/shareholders-meeting",
+   "a": 1
   },
   {
    "d": "2026-11-05",
    "c": "agm",
-   "t": "弘塑（3131）股東會",
-   "tm": "09:00",
+   "t": "桂盟（5306）臨時股東會",
+   "pl": "太子文旅C廳（台南市東區大學路2號）",
    "st": "o",
-   "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
-   "a": 1,
-   "pl": "新竹縣竹北市縣政八街77號1樓(新竹縣工業會)",
-   "mn": 1
-  },
-  {
-   "d": "2026-11-05",
-   "c": "agm",
-   "t": "桂盟（5306）股東會",
-   "tm": "10:30",
-   "st": "o",
-   "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
-   "a": 1,
-   "pl": "台南市東區大學路2號太子文旅C廳",
-   "mn": 1
+   "u": "https://www.wantgoo.com/stock/calendar/shareholders-meeting",
+   "a": 1
   },
   {
    "d": "2026-11-06",
    "c": "agm",
-   "t": "遠見（3040）股東會",
-   "tm": "09:00",
+   "t": "遠見（3040）臨時股東會",
+   "pl": "新北市板橋區文化路二段287號21樓",
    "st": "o",
-   "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
-   "a": 1,
-   "pl": "新北市板橋區文化路二段287號21樓（窩克商務中心大會議室）",
-   "mn": 1
-  },
-  {
-   "d": "2026-11-06",
-   "c": "agm",
-   "t": "晶呈科技（4768）股東會",
-   "tm": "09:30",
-   "st": "o",
-   "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
-   "a": 1,
-   "pl": "苗栗縣竹南鎮公園路106號(馥藝金鬱金香酒店-亞爵會議室)",
-   "mn": 1
+   "u": "https://www.wantgoo.com/stock/calendar/shareholders-meeting",
+   "a": 1
   },
   {
    "d": "2026-11-09",
    "c": "agm",
-   "t": "南寶（4766）股東會",
-   "tm": "10:00",
+   "t": "南寶（4766）臨時股東會",
+   "pl": "台南市西港區中山路519號（公司國際會議廳）",
+   "n": "改選董監事",
    "st": "o",
-   "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
-   "a": 1,
-   "pl": "台南市西港區中山路519號(本公司國際會議廳)",
-   "mn": 1
+   "u": "https://www.wantgoo.com/stock/calendar/shareholders-meeting",
+   "a": 1
   },
   {
    "d": "2026-11-09",
    "c": "agm",
-   "t": "鋐寶科技（6674）股東會",
-   "tm": "09:00",
+   "t": "鋐寶科技（6674）臨時股東會",
+   "pl": "新竹縣竹北市台元一街3號2樓",
    "st": "o",
-   "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
-   "a": 1,
-   "pl": "新竹縣竹北市台元一街三號2樓(台元科技園區三期會館多功能會議室)",
-   "mn": 1
-  },
-  {
-   "d": "2026-11-12",
-   "c": "agm",
-   "t": "是方（6561）股東會",
-   "tm": "10:00",
-   "st": "o",
-   "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
-   "a": 1,
-   "pl": "台北市內湖區成功路五段420巷28號(康寧生活會館)",
-   "mn": 1
-  },
-  {
-   "d": "2026-11-13",
-   "c": "agm",
-   "t": "寶碩（5210）股東會",
-   "tm": "09:00",
-   "st": "o",
-   "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
-   "a": 1,
-   "pl": "台北市內湖區新湖二路329號B1(全球科技廣場會議室)",
-   "mn": 1
-  },
-  {
-   "d": "2026-11-16",
-   "c": "agm",
-   "t": "鉅陞（5529）股東會",
-   "tm": "09:00",
-   "st": "o",
-   "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
-   "a": 1,
-   "pl": "台中市西屯區文心路二段107號4樓(集思文心會議中心)",
-   "mn": 1
+   "u": "https://www.wantgoo.com/stock/calendar/shareholders-meeting",
+   "a": 1
   },
   {
    "d": "2026-11-17",
    "c": "agm",
-   "t": "地心引力（3629）股東會",
-   "tm": "09:00",
+   "t": "泰宗（4169）臨時股東會",
+   "pl": "新北市汐止區新台五路一段93號17樓之10",
    "st": "o",
-   "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
-   "a": 1,
-   "pl": "臺北市信義區信義路五段150巷2號B2(環球世貿大樓)",
-   "mn": 1
-  },
-  {
-   "d": "2026-11-17",
-   "c": "agm",
-   "t": "泰宗（4169）股東會",
-   "tm": "09:30",
-   "st": "o",
-   "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
-   "a": 1,
-   "pl": "新北市汐止區新台五路一段93號17樓之10(汐止遠雄廣場D棟)",
-   "mn": 1
+   "u": "https://www.wantgoo.com/stock/calendar/shareholders-meeting",
+   "a": 1
   },
   {
    "d": "2026-11-18",
    "c": "agm",
-   "t": "三商家購（2945）股東會",
-   "tm": "09:00",
+   "t": "三商家購（2945）臨時股東會",
+   "pl": "台北市中山區民權東路三段6號8樓",
    "st": "o",
-   "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
-   "a": 1,
-   "pl": "台北市中山區民權東路三段6號8樓(會議室)",
-   "mn": 1
-  },
-  {
-   "d": "2026-11-18",
-   "c": "agm",
-   "t": "華盈（3520）股東會",
-   "tm": "09:00",
-   "st": "o",
-   "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
-   "a": 1,
-   "pl": "新北市三重區光復一路67號（珍豪大飯店)",
-   "mn": 1
+   "u": "https://www.wantgoo.com/stock/calendar/shareholders-meeting",
+   "a": 1
   },
   {
    "d": "2026-11-19",
    "c": "agm",
-   "t": "鑽全（1527）股東會",
-   "tm": "10:00",
+   "t": "鑽全（1527）臨時股東會",
+   "pl": "台中市工業區36路24號5樓之一",
    "st": "o",
-   "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
-   "a": 1,
-   "pl": "台中市工業區36路24號(本公司5樓之1會議室)",
-   "mn": 1
-  },
-  {
-   "d": "2026-11-26",
-   "c": "agm",
-   "t": "印能科技（7734）股東會",
-   "tm": "10:00",
-   "st": "o",
-   "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
-   "a": 1,
-   "pl": "新竹市香山區大湖路173號",
-   "mn": 1
+   "u": "https://www.wantgoo.com/stock/calendar/shareholders-meeting",
+   "a": 1
   },
   {
    "d": "2026-12-01",
    "c": "agm",
-   "t": "福懋油（1225）股東會",
-   "tm": "09:00",
+   "t": "福懋油（1225）股東常會",
+   "pl": "台中市大肚區沙田路一段453號",
    "st": "o",
-   "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
-   "a": 1,
-   "pl": "台中市大肚區沙田路一段453號(本公司辦公大樓會議室)",
-   "mn": 1
+   "u": "https://www.wantgoo.com/stock/calendar/shareholders-meeting",
+   "a": 1
   }
  ]
 }

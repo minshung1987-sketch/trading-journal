@@ -10,7 +10,7 @@
 <style>
 :root{
   --bg:#F3F5F8; --surface:#FFFFFF; --ink:#16203A; --muted:#5A647C; --line:#DCE1EA; --soft:#E9EDF4;
-  --macro:#3B5BDB; --us:#0B7285; --tw:#9C36B5; --agm:#A85F00; --tech:#C2255C;
+  --cb:#3B5BDB; --eco:#5C7C0F; --us:#0B7285; --tw:#9C36B5; --agm:#A85F00; --tech:#C2255C;
   --focus:#3B5BDB;
   box-sizing:border-box;
   padding-top:env(safe-area-inset-top,0px);
@@ -19,13 +19,13 @@
 @media (prefers-color-scheme: dark){
   :root:not([data-theme="light"]){
     --bg:#0E1322; --surface:#161D32; --ink:#E7EBF6; --muted:#9AA4BD; --line:#283250; --soft:#1E2742;
-    --macro:#8CA7FF; --us:#3BC9DB; --tw:#DA77F2; --agm:#FFC24D; --tech:#FF7AA6;
+    --cb:#8CA7FF; --eco:#A9E34B; --us:#3BC9DB; --tw:#DA77F2; --agm:#FFC24D; --tech:#FF7AA6;
     --focus:#8CA7FF;
   }
 }
 :root[data-theme="dark"]{
   --bg:#0E1322; --surface:#161D32; --ink:#E7EBF6; --muted:#9AA4BD; --line:#283250; --soft:#1E2742;
-  --macro:#8CA7FF; --us:#3BC9DB; --tw:#DA77F2; --agm:#FFC24D; --tech:#FF7AA6;
+  --cb:#8CA7FF; --eco:#A9E34B; --us:#3BC9DB; --tw:#DA77F2; --agm:#FFC24D; --tech:#FF7AA6;
   --focus:#8CA7FF;
 }
 html{scroll-padding-top:env(safe-area-inset-top,0px);background:var(--bg)}
@@ -67,7 +67,7 @@ h1{margin:0;font-size:clamp(28px,4.4vw,40px);line-height:1.15;font-weight:700;le
 .seg button{border:0;background:transparent;padding:7px 14px;cursor:pointer}
 .seg button[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
 .toggle{display:inline-flex;align-items:center;gap:7px;font-size:14px;color:var(--muted);cursor:pointer;user-select:none}
-.toggle input{width:16px;height:16px;accent-color:var(--macro)}
+.toggle input{width:16px;height:16px;accent-color:var(--cb)}
 .count{margin-left:auto;font-size:13px;color:var(--muted)}
 
 /* list */
@@ -190,12 +190,17 @@ const TBA=[
  {t:"特斯拉 2026 年度股東會",s:"董事會尚未排定日期；2025 年為 11/6"},
  {t:"美股 2027 年度股東會（蘋果、好市多、亞馬遜、沃爾瑪、Netflix）",s:"2026 年分別為 2/24、1/15、5/20、6/4、6/4，2027 年皆尚未公布"},
  {t:"台股 2027 年股東常會",s:"多集中在 5 到 6 月，各公司通常在春季前後公告日期"},
+ {t:"2027 年 FOMC 會議紀要、Beige Book 日期",s:"聯準會通常於年底前後公布下一年度日程；目前只收錄到 2026 年底"},
+ {t:"其他聯準會官員講話（10/12–10/23 以後）",s:"多半在演講前一週才公布，每週更新時補入"},
+ {t:"歐洲央行下一次會議紀要（Account）",s:"約 11 月下旬，日期尚未公布"},
+ {t:"2027 年美國 GDP、PCE、ISM、JOLTS 發布日",s:"BEA、ISM 等單位尚未公布 2027 年行程，目前資料到 2027 年 3 月底"},
  {t:"各公司投資人日（Investor Day）",s:"目前只查到應材 10/13 的投資人早餐會；邁威爾 10/6 剛辦完，其餘多半臨時公告"}
 ];
 
 /* ---------- 邏輯 ---------- */
 const CATS={
-  macro:{n:"央行與總經"},
+  cb:{n:"央行"},
+  eco:{n:"總經數據"},
   tw:{n:"台股法說會"},
   agm:{n:"股東會"},
   us:{n:"美股財報"},
@@ -210,6 +215,7 @@ const diffDays=(a,b)=>Math.round((a-b)/DAY);
 const sameDay=(a,b)=>a.getTime()===b.getTime();
 
 function prep(){
+EVENTS.forEach(ev=>{if(ev.c==="macro")ev.c="cb";});
 EVENTS.forEach((ev,i)=>{ev.id=i;ev.s=pd(ev.d);ev.en=ev.e?pd(ev.e):ev.s;});
 EVENTS.sort((a,b)=>a.s-b.s||a.en-b.en||a.c.localeCompare(b.c)||a.t.localeCompare(b.t,"zh-Hant"));
 }
@@ -270,7 +276,7 @@ function renderTiles(){
   const defs=[
     {lab:"下一次 FOMC 決議",ev:nextBy(e=>e.t==="FOMC 利率決議")},
     {lab:"下一次日本央行決議",ev:nextBy(e=>e.t.startsWith("日本央行"))},
-    {lab:"下一次歐洲央行決議",ev:nextBy(e=>e.t.startsWith("歐洲央行")&&e.c==="macro")},
+    {lab:"下一次歐洲央行決議",ev:nextBy(e=>e.t.startsWith("歐洲央行")&&e.c==="cb")},
     {lab:"台積電法說會",ev:nextBy(e=>e.k==="tsmc")},
     {lab:"NVIDIA GTC 聖荷西",ev:nextBy(e=>e.k==="gtc")},
     {lab:"COMPUTEX",ev:nextBy(e=>e.k==="computex")}
