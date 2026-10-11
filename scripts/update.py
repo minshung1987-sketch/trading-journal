@@ -1,0 +1,186 @@
+#!/usr/bin/env python3
+"""更新 data/events.json
+
+資料來源：
+  1. Yahoo 股市「法說會」專頁   https://tw.stock.yahoo.com/calendar/earnings-call
+  2. 玩股網「股東會時間明細表」  https://www.wantgoo.com/stock/calendar/shareholders-meeting
+  3. data/events_manual.json   （人工整理：央行、美股財報、年度大會…）
+
+任何一個來源抓失敗，就沿用上一次 events.json 裡該類別的資料，不會把網站弄空。
+只用 Python 標準函式庫，不需要 pip install。
+"""
+import json
+import re
+import sys
+import urllib.request
+from datetime import datetime, timedelta, timezone
+from html import unescape
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+DATA = ROOT / "data"
+TZ = timezone(timedelta(hours=8))
+
+YAHOO_URL = "https://tw.stock.yahoo.com/calendar/earnings-call"
+WG_PAGE = "https://www.wantgoo.com/stock/calendar/shareholders-meeting"
+WG_API = "https://www.wantgoo.com/stock/calendar/shareholders-meeting-data?market=0"
+
+# 這些公司的法說會會顯示成「主要事件」（有倒數、不會被縮成次要）。想加誰就加代號。
+BIG = {"2330", "2317", "2454", "2308", "3008", "2408", "2409", "2412", "3711",
+       "2382", "3034", "3037", "2303", "2891", "2882", "2603", "3529", "2395"}
+# 股東會裡想標成主要事件的公司
+BIG_AGM = {"2330", "2317", "2454", "1101", "2603", "2308"}
+
+UA = {"User-Agent": "Mozilla/5.0 (compatible; investor-calendar-bot/1.0)",
+      "Accept-Language": "zh-TW,zh;q=0.9"}
+
+
+def get(url, referer=None):
+    headers = dict(UA)
+    if referer:
+        headers["Referer"] = referer
+    req = urllib.request.Request(url, headers=headers)
+    with urllib.request.urlopen(req, timeout=40) as r:
+        return r.read().decode("utf-8", "replace")
+
+
+def clean(s):
+    return re.sub(r"\s+", " ", unescape(re.sub(r"<[^>]+>", "", s))).strip()
+
+
+# ---------- Yahoo 法說會 ----------
+def parse_yahoo(html):
+    """回傳 events list。頁面是伺服器端產生的 HTML，每一列是一個 <li>。"""
+    out = []
+    for li in re.split(r'<li class="List\(n\)">', html)[1:]:
+        li = li.split("</li>")[0]
+        m = re.search(r'quote/(\d{4,6}[A-Z]?)\.TWO?"', li)
+        if not m:
+            continue
+        code = m.group(1)
+        # 把標籤換成換行，取得依序的文字欄位：名稱, 代號, 日期時間, 類型, 地點, 訊息
+        cells = [clean(x) for x in re.sub(r"<[^>]+>", "\n", li).split("\n")]
+        cells = [c for c in cells if c]
+        dt = next((c for c in cells if re.fullmatch(r"\d{4}/\d\d/\d\d \d\d:\d\d", c)), None)
+        if not dt:
+            continue
+        i = cells.index(dt)
+        name = cells[0]
+        kind = cells[i + 1] if len(cells) > i + 1 else ""
+        place = cells[i + 2] if len(cells) > i + 2 else ""
+        info = cells[i + 3] if len(cells) > i + 3 else ""
+        d, tm = dt.split(" ")
+        d = d.replace("/", "-")
+        if "CEO Week" in info or "CEO Week" in place:
+            label = "參加 QIC CEO Week"
+        elif "座談會" in info:
+            label = "財務業務概況座談會"
+        else:
+            label = "法說會"
+        ev = {"d": d, "c": "tw", "t": f"{name}（{code}）{label}", "tm": tm,
+              "st": "o", "u": YAHOO_URL, "a": 1}
+        pl = place
+        if kind == "國外" and place:
+            pl = place
+        if pl:
+            ev["pl"] = pl
+        if info:
+            ev["n"] = info
+        if code not in BIG:
+            ev["mn"] = 1
+        out.append(ev)
+    return out
+
+
+# ---------- 玩股網 股東會 ----------
+def roc_to_iso(s):
+    y, m, d = (int(x) for x in s.strip().split("/"))
+    return f"{y + 1911:04d}-{m:02d}-{d:02d}"
+
+
+def parse_wantgoo(rows, today):
+    out = []
+    for r in rows:
+        try:
+            iso = roc_to_iso(r["chineseTime"])
+        except Exception:
+            continue
+        if iso < today:
+            continue
+        code = r["stockNo"].strip()
+        name = r["name"].strip()
+        typ = (r.get("type") or "").strip()
+        label = "臨時股東會" if "臨時" in typ else "股東常會"
+        ev = {"d": iso, "c": "agm", "t": f"{name}（{code}）{label}",
+              "st": "o", "u": WG_PAGE, "a": 1}
+        loc = re.sub(r"^開會地點[:：]\s*", "", (r.get("location") or "").strip())
+        if loc:
+            ev["pl"] = loc
+        if (r.get("isReElection") or "").strip() == "是":
+            ev["n"] = "改選董監事"
+        if code not in BIG_AGM:
+            ev["mn"] = 1
+        out.append(ev)
+    return out
+
+
+def load_json(path, default):
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except Exception:
+        return default
+
+
+def main():
+    now = datetime.now(TZ)
+    today = now.strftime("%Y-%m-%d")
+    manual = load_json(DATA / "events_manual.json", [])
+    old = load_json(DATA / "events.json", {"events": []}).get("events", [])
+    old_auto = [e for e in old if e.get("a")]
+    problems = []
+
+    # Yahoo
+    tw = None
+    try:
+        tw = parse_yahoo(get(YAHOO_URL))
+        if len(tw) < 3:
+            raise ValueError(f"只解析到 {len(tw)} 筆，疑似頁面改版")
+        print(f"Yahoo 法說會：{len(tw)} 筆")
+    except Exception as e:
+        problems.append(f"Yahoo 法說會失敗：{e}")
+        tw = [e for e in old_auto if e["c"] == "tw"]
+
+    # 玩股網
+    agm = None
+    try:
+        rows = json.loads(get(WG_API, referer=WG_PAGE))
+        if not isinstance(rows, list) or not rows:
+            raise ValueError("回傳不是資料列")
+        agm = parse_wantgoo(rows, today)
+        print(f"玩股網股東會：{len(agm)} 筆（今天起）")
+    except Exception as e:
+        problems.append(f"玩股網股東會失敗：{e}")
+        agm = [e for e in old_auto if e["c"] == "agm"]
+
+    # 手動資料裡已有的同公司同日期事件（例如台積電）不重複加入
+    def key(e):
+        m = re.search(r"（(\d{4,6}[A-Z]?)）", e["t"])
+        return (m.group(1) if m else e["t"], e["d"], e["c"])
+    have = {key(e) for e in manual}
+    auto = [e for e in tw + agm if key(e) not in have]
+
+    events = manual + auto
+    out = {"updated": now.strftime("%Y/%m/%d %H:%M"), "events": events}
+    DATA.mkdir(exist_ok=True)
+    (DATA / "events.json").write_text(
+        json.dumps(out, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    print(f"合計 {len(events)} 筆（手動 {len(manual)}＋自動 {len(auto)}）")
+    for p in problems:
+        print("::warning::" + p)
+    # 兩個自動來源都失敗才讓流程顯示失敗，方便你在 GitHub 看到
+    if len(problems) == 2:
+        sys.exit(1)
+
+
+if __name__ == "__main__":
+    main()

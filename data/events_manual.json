@@ -1,0 +1,514 @@
+[
+ {
+  "d": "2026-08-27",
+  "e": "2026-08-29",
+  "c": "macro",
+  "t": "Jackson Hole 全球央行年會",
+  "pl": "美國懷俄明州",
+  "n": "主題：金融創新對支付與政策的影響",
+  "st": "o",
+  "u": "https://www.kansascityfed.org/research/jackson-hole-economic-symposium/2026/"
+ },
+ {
+  "d": "2026-09-10",
+  "c": "macro",
+  "t": "歐洲央行（ECB）利率決議",
+  "st": "o",
+  "u": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
+ },
+ {
+  "d": "2026-09-16",
+  "c": "macro",
+  "t": "FOMC 利率決議",
+  "n": "含經濟預測與點陣圖",
+  "st": "o",
+  "u": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+ },
+ {
+  "d": "2026-09-18",
+  "c": "macro",
+  "t": "日本央行（BOJ）利率決議",
+  "st": "o",
+  "u": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm"
+ },
+ {
+  "d": "2026-10-28",
+  "c": "macro",
+  "t": "FOMC 利率決議",
+  "tm": "美東 14:00 公布，台灣時間 10/29 02:00",
+  "n": "",
+  "st": "o",
+  "u": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+  "k": "fomc"
+ },
+ {
+  "d": "2026-10-29",
+  "c": "macro",
+  "t": "歐洲央行（ECB）利率決議",
+  "tm": "歐洲時間 14:15 公布，台灣時間 21:15（記者會晚 30 分鐘）",
+  "n": "",
+  "st": "o",
+  "u": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html",
+  "k": "ecb"
+ },
+ {
+  "d": "2026-10-30",
+  "c": "macro",
+  "t": "日本央行（BOJ）利率決議",
+  "tm": "日本時間中午前後公布，總裁記者會約 15:30",
+  "n": "同場發布經濟與物價展望報告",
+  "st": "o",
+  "u": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm",
+  "k": "boj"
+ },
+ {
+  "d": "2026-12-09",
+  "c": "macro",
+  "t": "FOMC 利率決議",
+  "tm": "美東 14:00 公布，台灣時間 12/10 03:00",
+  "n": "含經濟預測與點陣圖",
+  "st": "o",
+  "u": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+ },
+ {
+  "d": "2026-12-17",
+  "c": "macro",
+  "t": "歐洲央行（ECB）利率決議",
+  "tm": "歐洲時間 14:15 公布，台灣時間 21:15（記者會晚 30 分鐘）",
+  "n": "含總體經濟預測",
+  "st": "o",
+  "u": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
+ },
+ {
+  "d": "2026-12-18",
+  "c": "macro",
+  "t": "日本央行（BOJ）利率決議",
+  "tm": "日本時間中午前後公布，總裁記者會約 15:30",
+  "n": "",
+  "st": "o",
+  "u": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm"
+ },
+ {
+  "d": "2027-02-04",
+  "c": "macro",
+  "t": "歐洲央行（ECB）利率決議",
+  "tm": "歐洲時間 14:15 公布，台灣時間 21:15（記者會晚 30 分鐘）",
+  "n": "",
+  "st": "o",
+  "u": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
+ },
+ {
+  "d": "2027-01-27",
+  "c": "macro",
+  "t": "FOMC 利率決議",
+  "tm": "美東 14:00 公布，台灣時間 1/28 03:00",
+  "n": "",
+  "st": "o",
+  "u": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+ },
+ {
+  "d": "2027-01-22",
+  "c": "macro",
+  "t": "日本央行（BOJ）利率決議",
+  "tm": "日本時間中午前後公布，總裁記者會約 15:30",
+  "n": "同場發布經濟與物價展望報告",
+  "st": "o",
+  "u": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm"
+ },
+ {
+  "d": "2027-03-17",
+  "c": "macro",
+  "t": "FOMC 利率決議",
+  "tm": "美東 14:00 公布，台灣時間 3/18 02:00",
+  "n": "含經濟預測與點陣圖",
+  "st": "o",
+  "u": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+ },
+ {
+  "d": "2027-03-18",
+  "c": "macro",
+  "t": "日本央行（BOJ）利率決議",
+  "tm": "日本時間中午前後公布，總裁記者會約 15:30",
+  "n": "",
+  "st": "o",
+  "u": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm"
+ },
+ {
+  "d": "2027-03-18",
+  "c": "macro",
+  "t": "歐洲央行（ECB）利率決議",
+  "tm": "歐洲時間 14:15 公布，台灣時間 21:15（記者會晚 30 分鐘）",
+  "n": "含總體經濟預測",
+  "st": "o",
+  "u": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
+ },
+ {
+  "d": "2027-04-28",
+  "c": "macro",
+  "t": "FOMC 利率決議",
+  "tm": "美東 14:00 公布，台灣時間 4/29 02:00",
+  "n": "",
+  "st": "o",
+  "u": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+ },
+ {
+  "d": "2027-04-28",
+  "c": "macro",
+  "t": "日本央行（BOJ）利率決議",
+  "tm": "日本時間中午前後公布，總裁記者會約 15:30",
+  "n": "同場發布經濟與物價展望報告",
+  "st": "o",
+  "u": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm"
+ },
+ {
+  "d": "2027-04-29",
+  "c": "macro",
+  "t": "歐洲央行（ECB）利率決議",
+  "tm": "歐洲時間 14:15 公布，台灣時間 20:15（記者會晚 30 分鐘）",
+  "n": "",
+  "st": "o",
+  "u": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
+ },
+ {
+  "d": "2027-06-09",
+  "c": "macro",
+  "t": "FOMC 利率決議",
+  "tm": "美東 14:00 公布，台灣時間 6/10 02:00",
+  "n": "含經濟預測與點陣圖",
+  "st": "o",
+  "u": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+ },
+ {
+  "d": "2027-06-11",
+  "c": "macro",
+  "t": "日本央行（BOJ）利率決議",
+  "tm": "日本時間中午前後公布，總裁記者會約 15:30",
+  "n": "",
+  "st": "o",
+  "u": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm"
+ },
+ {
+  "d": "2027-06-10",
+  "c": "macro",
+  "t": "歐洲央行（ECB）利率決議",
+  "tm": "歐洲時間 14:15 公布，台灣時間 20:15（記者會晚 30 分鐘）",
+  "n": "含總體經濟預測",
+  "st": "o",
+  "u": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
+ },
+ {
+  "d": "2027-07-28",
+  "c": "macro",
+  "t": "FOMC 利率決議",
+  "tm": "美東 14:00 公布，台灣時間 7/29 02:00",
+  "n": "",
+  "st": "o",
+  "u": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+ },
+ {
+  "d": "2027-07-22",
+  "c": "macro",
+  "t": "日本央行（BOJ）利率決議",
+  "tm": "日本時間中午前後公布，總裁記者會約 15:30",
+  "n": "同場發布經濟與物價展望報告",
+  "st": "o",
+  "u": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm"
+ },
+ {
+  "d": "2027-07-22",
+  "c": "macro",
+  "t": "歐洲央行（ECB）利率決議",
+  "tm": "歐洲時間 14:15 公布，台灣時間 20:15（記者會晚 30 分鐘）",
+  "n": "",
+  "st": "o",
+  "u": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
+ },
+ {
+  "d": "2027-09-09",
+  "c": "macro",
+  "t": "歐洲央行（ECB）利率決議",
+  "tm": "歐洲時間 14:15 公布，台灣時間 20:15（記者會晚 30 分鐘）",
+  "n": "含總體經濟預測",
+  "st": "o",
+  "u": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
+ },
+ {
+  "d": "2027-09-15",
+  "c": "macro",
+  "t": "FOMC 利率決議",
+  "tm": "美東 14:00 公布，台灣時間 9/16 02:00",
+  "n": "含經濟預測與點陣圖",
+  "st": "o",
+  "u": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+ },
+ {
+  "d": "2027-09-22",
+  "c": "macro",
+  "t": "日本央行（BOJ）利率決議",
+  "tm": "日本時間中午前後公布，總裁記者會約 15:30",
+  "n": "",
+  "st": "o",
+  "u": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm"
+ },
+ {
+  "d": "2027-10-27",
+  "c": "macro",
+  "t": "FOMC 利率決議",
+  "tm": "美東 14:00 公布，台灣時間 10/28 02:00",
+  "n": "",
+  "st": "o",
+  "u": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+ },
+ {
+  "d": "2027-10-28",
+  "c": "macro",
+  "t": "歐洲央行（ECB）利率決議",
+  "tm": "歐洲時間 14:15 公布，台灣時間 20:15（記者會晚 30 分鐘）",
+  "n": "",
+  "st": "o",
+  "u": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
+ },
+ {
+  "d": "2027-10-29",
+  "c": "macro",
+  "t": "日本央行（BOJ）利率決議",
+  "tm": "日本時間中午前後公布，總裁記者會約 15:30",
+  "n": "同場發布經濟與物價展望報告",
+  "st": "o",
+  "u": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm"
+ },
+ {
+  "d": "2027-12-08",
+  "c": "macro",
+  "t": "FOMC 利率決議",
+  "tm": "美東 14:00 公布，台灣時間 12/9 03:00",
+  "n": "含經濟預測與點陣圖",
+  "st": "o",
+  "u": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+ },
+ {
+  "d": "2027-12-16",
+  "c": "macro",
+  "t": "歐洲央行（ECB）利率決議",
+  "tm": "歐洲時間 14:15 公布，台灣時間 21:15（記者會晚 30 分鐘）",
+  "n": "含總體經濟預測",
+  "st": "o",
+  "u": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
+ },
+ {
+  "d": "2027-12-17",
+  "c": "macro",
+  "t": "日本央行（BOJ）利率決議",
+  "tm": "日本時間中午前後公布，總裁記者會約 15:30",
+  "n": "",
+  "st": "o",
+  "u": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm"
+ },
+ {
+  "d": "2026-10-15",
+  "c": "tw",
+  "t": "台積電（2330）2026 年第三季法說會",
+  "tm": "14:00–15:30（台灣時間）",
+  "n": "靜默期 10/5–10/14；ADR 同步，美東 10/15 凌晨 02:00",
+  "st": "o",
+  "u": "https://investor.tsmc.com/english/quarterly-results/2026/q3",
+  "k": "tsmc"
+ },
+ {
+  "d": "2026-10-14",
+  "c": "us",
+  "t": "ASML 2026 年第三季財報",
+  "tm": "歐洲時間 07:00 發布，台灣約 13:00",
+  "st": "o",
+  "u": "https://www.asml.com/en/investors/financial-results"
+ },
+ {
+  "d": "2026-10-21",
+  "c": "us",
+  "t": "Tesla（TSLA）第三季財報",
+  "tm": "美東 17:30 電話會議，台灣 10/22 05:30",
+  "st": "o",
+  "u": "https://ir.tesla.com"
+ },
+ {
+  "d": "2026-10-21",
+  "c": "us",
+  "t": "Lam Research（LRCX）FY2027 第一季財報",
+  "tm": "美西 14:00 電話會議，台灣 10/22 05:00",
+  "st": "o",
+  "u": "https://pluang.com/en/news-feed/lam-research-corporation-umumkan-panggilan-konferensi-keuangan-kuartal-september"
+ },
+ {
+  "d": "2026-10-28",
+  "c": "us",
+  "t": "微軟（MSFT）FY2027 第一季財報",
+  "tm": "盤後",
+  "n": "截至 10/7 公司尚未公告日期，預估 10/27 或 10/28",
+  "st": "e",
+  "u": "https://www.fool.com/investing/stock-market/upcoming-earnings-reports/"
+ },
+ {
+  "d": "2026-10-28",
+  "c": "us",
+  "t": "Meta（META）第三季財報",
+  "tm": "盤後",
+  "n": "截至 10/7 公司尚未公告日期",
+  "st": "e",
+  "u": "https://www.fool.com/investing/stock-market/upcoming-earnings-reports/"
+ },
+ {
+  "d": "2026-10-28",
+  "c": "us",
+  "t": "Alphabet（GOOGL）第三季財報",
+  "tm": "美西 13:30 電話會議，台灣 10/29 04:30",
+  "st": "o",
+  "u": "https://www.marketscreener.com/news/alphabet-announces-date-of-third-quarter-2026-financial-results-conference-call-ce785dd9dc89f62d"
+ },
+ {
+  "d": "2026-11-02",
+  "c": "us",
+  "t": "蘋果（AAPL）FY2026 第四季財報",
+  "tm": "美西 14:00 電話會議，台灣 11/3 06:00",
+  "n": "新任執行長 John Ternus 首次主持財報電話會議",
+  "st": "o",
+  "u": "https://www.apple.com/investor/earnings-call/"
+ },
+ {
+  "d": "2026-10-29",
+  "c": "us",
+  "t": "亞馬遜（AMZN）第三季財報",
+  "tm": "盤後",
+  "n": "截至 10/7 公司尚未公告日期",
+  "st": "e",
+  "u": "https://www.fool.com/investing/stock-market/upcoming-earnings-reports/"
+ },
+ {
+  "d": "2026-11-17",
+  "c": "us",
+  "t": "輝達（NVDA）FY2027 第三季財報",
+  "tm": "盤後",
+  "n": "截至 9/28 公司尚未公告，各來源預估 11/17 到 11/25 不等",
+  "st": "e",
+  "u": "https://www.tipranks.com/stocks/nvda/earnings"
+ },
+ {
+  "d": "2026-09-23",
+  "c": "tech",
+  "t": "TSMC OIP 生態系論壇（北美）",
+  "pl": "美國聖塔克拉拉",
+  "st": "o",
+  "u": "https://www.synopsys.com/events/tsmc-oip-ecosystem-forum.html"
+ },
+ {
+  "d": "2026-09-23",
+  "e": "2026-09-24",
+  "c": "tech",
+  "t": "Meta Connect 2026",
+  "pl": "美國門洛帕克（線上直播）",
+  "st": "o",
+  "u": "https://developers.meta.com/connect/"
+ },
+ {
+  "d": "2026-10-20",
+  "e": "2026-10-22",
+  "c": "tech",
+  "t": "NVIDIA GTC 柏林",
+  "pl": "德國柏林",
+  "st": "o",
+  "u": "https://www.nvidia.com/gtc/"
+ },
+ {
+  "d": "2026-11-06",
+  "c": "tech",
+  "t": "TSMC OIP 生態系論壇（日本）",
+  "st": "o",
+  "u": "https://www.synopsys.com/events/tsmc-oip-ecosystem-forum.html"
+ },
+ {
+  "d": "2026-11-12",
+  "c": "tech",
+  "t": "TSMC OIP 生態系論壇（台灣）",
+  "pl": "台灣",
+  "st": "o",
+  "u": "https://www.synopsys.com/events/tsmc-oip-ecosystem-forum.html"
+ },
+ {
+  "d": "2026-11-17",
+  "c": "tech",
+  "t": "TSMC OIP 生態系論壇（中國）",
+  "st": "o",
+  "u": "https://www.synopsys.com/events/tsmc-oip-ecosystem-forum.html"
+ },
+ {
+  "d": "2026-11-17",
+  "e": "2026-11-20",
+  "c": "tech",
+  "t": "Microsoft Ignite 2026",
+  "pl": "美國舊金山 Moscone Center",
+  "st": "o",
+  "u": "https://www.microsoft.com/en-us/events"
+ },
+ {
+  "d": "2026-11-24",
+  "c": "tech",
+  "t": "TSMC OIP 生態系論壇（歐洲）",
+  "st": "o",
+  "u": "https://www.synopsys.com/events/tsmc-oip-ecosystem-forum.html"
+ },
+ {
+  "d": "2026-11-30",
+  "e": "2026-12-03",
+  "c": "tech",
+  "t": "NVIDIA GTC 華盛頓特區",
+  "pl": "美國華盛頓特區",
+  "st": "o",
+  "u": "https://www.nvidia.com/gtc/"
+ },
+ {
+  "d": "2026-11-30",
+  "e": "2026-12-04",
+  "c": "tech",
+  "t": "AWS re:Invent 2026",
+  "pl": "美國拉斯維加斯",
+  "st": "o",
+  "u": "https://reinvent.awsevents.com/"
+ },
+ {
+  "d": "2026-12-01",
+  "c": "tech",
+  "t": "TSMC OIP 生態系論壇（以色列）",
+  "st": "o",
+  "u": "https://www.synopsys.com/events/tsmc-oip-ecosystem-forum.html"
+ },
+ {
+  "d": "2027-01-06",
+  "e": "2027-01-09",
+  "c": "tech",
+  "t": "CES 2027",
+  "pl": "美國拉斯維加斯",
+  "st": "o",
+  "u": "https://www.ces.tech/"
+ },
+ {
+  "d": "2027-03-15",
+  "e": "2027-03-18",
+  "c": "tech",
+  "t": "NVIDIA GTC 2027（聖荷西）",
+  "pl": "美國聖荷西 McEnery 會議中心",
+  "n": "黃仁勳主題演講；官方頁面註明註冊尚未開放",
+  "st": "o",
+  "u": "https://www.nvidia.com/gtc/",
+  "k": "gtc"
+ },
+ {
+  "d": "2027-06-01",
+  "e": "2027-06-04",
+  "c": "tech",
+  "t": "COMPUTEX 2027",
+  "pl": "台北南港展覽館",
+  "n": "部分整理網站標示此日期為依往年慣例推估，以主辦單位公告為準",
+  "st": "e",
+  "u": "https://www.computextaipei.com.tw/en/index.html",
+  "k": "computex"
+ }
+]
