@@ -3,7 +3,7 @@
 
 資料來源：
   1. Yahoo 股市「法說會」專頁   https://tw.stock.yahoo.com/calendar/earnings-call
-  2. 玩股網「股東會時間明細表」  https://www.wantgoo.com/stock/calendar/shareholders-meeting
+  2. Yahoo 股市「股東會」專頁（主要），玩股網「股東會時間明細表」（補充）  https://www.wantgoo.com/stock/calendar/shareholders-meeting
   3. data/events_manual.json   （人工整理：央行、美股財報、年度大會…）
 
 任何一個來源抓失敗，就沿用上一次 events.json 裡該類別的資料，不會把網站弄空。
@@ -22,6 +22,7 @@ DATA = ROOT / "data"
 TZ = timezone(timedelta(hours=8))
 
 YAHOO_URL = "https://tw.stock.yahoo.com/calendar/earnings-call"
+YAHOO_AGM_URL = "https://tw.stock.yahoo.com/calendar/holders-meeting"
 WG_PAGE = "https://www.wantgoo.com/stock/calendar/shareholders-meeting"
 WG_API = "https://www.wantgoo.com/stock/calendar/shareholders-meeting-data?market=0"
 
@@ -92,6 +93,54 @@ def parse_yahoo(html):
     return out
 
 
+# ---------- Yahoo 股東會 ----------
+def parse_yahoo_agm(html, today):
+    """Yahoo 股東會專頁：每一筆是一個 <button>，有 名稱/代號、日期時間、地點。"""
+    out = []
+    for blk in html.split("<button")[1:]:
+        blk = blk.split("</button>")[0].split(">", 1)[-1]
+        m = re.search(r'quote/(\d{4,6}[A-Z]?)\.TWO?"', blk)
+        if not m:
+            continue
+        code = m.group(1)
+        cells = [clean(x) for x in re.sub(r"<[^>]+>", "\n", blk).split("\n")]
+        cells = [c for c in cells if c]
+        dt = next((c for c in cells if re.fullmatch(r"\d{4}/\d\d/\d\d \d\d:\d\d", c)), None)
+        if not dt:
+            continue
+        i = cells.index(dt)
+        d, tm = dt.split(" ")
+        d = d.replace("/", "-")
+        if d < today:
+            continue
+        place = cells[i + 1] if len(cells) > i + 1 else ""
+        ev = {"d": d, "c": "agm", "t": f"{cells[0]}（{code}）股東會", "tm": tm,
+              "st": "o", "u": YAHOO_AGM_URL, "a": 1}
+        if place:
+            ev["pl"] = place
+        if code not in BIG_AGM:
+            ev["mn"] = 1
+        out.append(ev)
+    return out
+
+
+def enrich_with_wantgoo(events, wg_events):
+    """玩股網能連上時，用它補上「臨時／常會」與「改選董監事」。"""
+    info = {}
+    for e in wg_events:
+        m = re.search(r"（(\d{4,6}[A-Z]?)）(.+)$", e["t"])
+        if m:
+            info[(m.group(1), e["d"])] = (m.group(2), e.get("n"))
+    for e in events:
+        m = re.search(r"（(\d{4,6}[A-Z]?)）", e["t"])
+        hit = info.get((m.group(1), e["d"])) if m else None
+        if hit:
+            e["t"] = re.sub(r"股東會$", hit[0], e["t"])
+            if hit[1]:
+                e["n"] = hit[1]
+    return events
+
+
 # ---------- 玩股網 股東會 ----------
 def roc_to_iso(s):
     y, m, d = (int(x) for x in s.strip().split("/"))
@@ -150,17 +199,31 @@ def main():
         problems.append(f"Yahoo 法說會失敗：{e}")
         tw = [e for e in old_auto if e["c"] == "tw"]
 
-    # 玩股網
+    # 股東會：Yahoo 為主（較完整），玩股網能連上時用來補「臨時／常會」「改選董監事」
     agm = None
+    wg = None
     try:
         rows = json.loads(get(WG_API, referer=WG_PAGE))
         if not isinstance(rows, list) or not rows:
             raise ValueError("回傳不是資料列")
-        agm = parse_wantgoo(rows, today)
-        print(f"玩股網股東會：{len(agm)} 筆（今天起）")
+        wg = parse_wantgoo(rows, today)
+        print(f"玩股網股東會：{len(wg)} 筆（今天起）")
     except Exception as e:
-        problems.append(f"玩股網股東會失敗：{e}")
-        agm = [e for e in old_auto if e["c"] == "agm"]
+        print(f"玩股網連不上（{e}），只用 Yahoo 的股東會資料")
+    try:
+        agm = parse_yahoo_agm(get(YAHOO_AGM_URL), today)
+        if not agm:
+            raise ValueError("沒有解析到任何一筆，疑似頁面改版")
+        if wg:
+            agm = enrich_with_wantgoo(agm, wg)
+        print(f"Yahoo 股東會：{len(agm)} 筆")
+    except Exception as e:
+        problems.append(f"Yahoo 股東會失敗：{e}")
+        if wg:
+            agm = wg
+        else:
+            problems.append("玩股網也失敗，股東會沿用上次資料")
+            agm = [x for x in old_auto if x["c"] == "agm"]
 
     # 手動資料裡已有的同公司同日期事件（例如台積電）不重複加入
     def key(e):
@@ -177,8 +240,8 @@ def main():
     print(f"合計 {len(events)} 筆（手動 {len(manual)}＋自動 {len(auto)}）")
     for p in problems:
         print("::warning::" + p)
-    # 兩個自動來源都失敗才讓流程顯示失敗，方便你在 GitHub 看到
-    if len(problems) == 2:
+    # 法說會與股東會兩邊都抓不到，才讓流程顯示失敗，方便你在 GitHub 看到
+    if len(problems) >= 2:
         sys.exit(1)
 
 
