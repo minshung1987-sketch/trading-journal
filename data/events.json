@@ -1,5 +1,5 @@
 {
- "updated": "2026/10/11 15:28",
+ "updated": "2026/10/11 15:46",
  "events": [
   {
    "d": "2026-08-27",
@@ -325,75 +325,6 @@
    "u": "https://www.asml.com/en/investors/financial-results"
   },
   {
-   "d": "2026-10-21",
-   "c": "us",
-   "t": "Tesla（TSLA）第三季財報",
-   "tm": "美東 17:30 電話會議，台灣 10/22 05:30",
-   "st": "o",
-   "u": "https://ir.tesla.com"
-  },
-  {
-   "d": "2026-10-21",
-   "c": "us",
-   "t": "Lam Research（LRCX）FY2027 第一季財報",
-   "tm": "美西 14:00 電話會議，台灣 10/22 05:00",
-   "st": "o",
-   "u": "https://pluang.com/en/news-feed/lam-research-corporation-umumkan-panggilan-konferensi-keuangan-kuartal-september"
-  },
-  {
-   "d": "2026-10-28",
-   "c": "us",
-   "t": "微軟（MSFT）FY2027 第一季財報",
-   "tm": "盤後",
-   "n": "截至 10/7 公司尚未公告日期，預估 10/27 或 10/28",
-   "st": "e",
-   "u": "https://www.fool.com/investing/stock-market/upcoming-earnings-reports/"
-  },
-  {
-   "d": "2026-10-28",
-   "c": "us",
-   "t": "Meta（META）第三季財報",
-   "tm": "盤後",
-   "n": "截至 10/7 公司尚未公告日期",
-   "st": "e",
-   "u": "https://www.fool.com/investing/stock-market/upcoming-earnings-reports/"
-  },
-  {
-   "d": "2026-10-28",
-   "c": "us",
-   "t": "Alphabet（GOOGL）第三季財報",
-   "tm": "美西 13:30 電話會議，台灣 10/29 04:30",
-   "st": "o",
-   "u": "https://www.marketscreener.com/news/alphabet-announces-date-of-third-quarter-2026-financial-results-conference-call-ce785dd9dc89f62d"
-  },
-  {
-   "d": "2026-11-02",
-   "c": "us",
-   "t": "蘋果（AAPL）FY2026 第四季財報",
-   "tm": "美西 14:00 電話會議，台灣 11/3 06:00",
-   "n": "新任執行長 John Ternus 首次主持財報電話會議",
-   "st": "o",
-   "u": "https://www.apple.com/investor/earnings-call/"
-  },
-  {
-   "d": "2026-10-29",
-   "c": "us",
-   "t": "亞馬遜（AMZN）第三季財報",
-   "tm": "盤後",
-   "n": "截至 10/7 公司尚未公告日期",
-   "st": "e",
-   "u": "https://www.fool.com/investing/stock-market/upcoming-earnings-reports/"
-  },
-  {
-   "d": "2026-11-17",
-   "c": "us",
-   "t": "輝達（NVDA）FY2027 第三季財報",
-   "tm": "盤後",
-   "n": "截至 9/28 公司尚未公告，各來源預估 11/17 到 11/25 不等",
-   "st": "e",
-   "u": "https://www.tipranks.com/stocks/nvda/earnings"
-  },
-  {
    "d": "2026-09-23",
    "c": "tech",
    "t": "TSMC OIP 生態系論壇（北美）",
@@ -512,6 +443,450 @@
    "st": "e",
    "u": "https://www.computextaipei.com.tw/en/index.html",
    "k": "computex"
+  },
+  {
+   "d": "2026-11-17",
+   "c": "us",
+   "t": "輝達（NVDA）FY2027 第三季財報",
+   "st": "e",
+   "u": "https://www.tipranks.com/stocks/nvda/earnings",
+   "n": "截至 10/11 公司尚未公告；依往年模式（11/19、11/20、11/21）多落在 11 月下旬，通常美西 14:00",
+   "tm": "時間未公布"
+  },
+  {
+   "d": "2026-12-10",
+   "c": "us",
+   "t": "博通（AVGO）FY2026 第四季財報",
+   "st": "e",
+   "u": "https://days.to/broadcom-earnings",
+   "n": "公司尚未公告，依往年模式推估",
+   "tm": "美東 17:00，台灣 12/11 06:00"
+  },
+  {
+   "d": "2026-11-03",
+   "c": "us",
+   "t": "超微（AMD）第三季財報",
+   "st": "o",
+   "u": "https://ir.amd.com/news-events/press-releases/detail/1300/amd-to-report-fiscal-third-quarter-2026-financial-results",
+   "n": "盤後發布，電話會議 14:00 PT",
+   "tm": "美西 14:00，台灣 11/4 06:00"
+  },
+  {
+   "d": "2026-12-16",
+   "c": "us",
+   "t": "美光（MU）FY2027 第一季財報",
+   "st": "e",
+   "u": "https://days.to/micron-earnings",
+   "n": "公司尚未公告，依往年模式推估（去年 12/17）",
+   "tm": "美東 16:30，台灣 12/17 05:30"
+  },
+  {
+   "d": "2026-11-04",
+   "c": "us",
+   "t": "高通（QCOM）FY2026 第四季財報",
+   "st": "e",
+   "u": "https://www.quantisnow.com/earnings/QCOM",
+   "n": "公司尚未公告；往年為 11/5、11/6，此日期為依模式推估",
+   "tm": "時間未公布"
+  },
+  {
+   "d": "2026-10-29",
+   "c": "us",
+   "t": "英特爾（INTC）第三季財報",
+   "st": "o",
+   "u": "https://www.intc.com/news-events/press-releases/detail/1782/intel-to-report-third-quarter-2026-financial-results",
+   "n": "盤後發布，電話會議 14:00 PT",
+   "tm": "美西 14:00，台灣 10/30 05:00"
+  },
+  {
+   "d": "2026-12-02",
+   "c": "us",
+   "t": "邁威爾（MRVL）FY2027 第三季財報",
+   "st": "e",
+   "u": "https://investor.marvell.com/news-events/ir-calendar",
+   "n": "公司尚未公告；去年同季為 12/2，依往年推估",
+   "tm": "時間未公布",
+   "mn": 1
+  },
+  {
+   "d": "2026-11-04",
+   "c": "us",
+   "t": "安謀（ARM）FY2027 第二季財報",
+   "st": "o",
+   "u": "https://newsroom.arm.com/?p=22756",
+   "n": "盤後發布",
+   "tm": "美西 14:00，台灣 11/5 06:00",
+   "mn": 1
+  },
+  {
+   "d": "2026-11-04",
+   "c": "us",
+   "t": "格羅方德（GFS）第三季財報",
+   "st": "o",
+   "u": "https://finviz.com/news/396893/globalfoundries-announces-conference-call-to-review-third-quarter-2026-financial-results",
+   "n": "電話會議 08:30 ET，財報於會議前發布（轉載自公司新聞稿）",
+   "tm": "美東 08:30，台灣 21:30",
+   "mn": 1
+  },
+  {
+   "d": "2026-11-04",
+   "c": "us",
+   "t": "Coherent（COHR）FY2027 第一季財報",
+   "st": "e",
+   "u": "https://chartrow.com/quote/cohr/earnings",
+   "n": "公司尚未公告，來自 Nasdaq 行事曆預估",
+   "tm": "時間未公布",
+   "mn": 1
+  },
+  {
+   "d": "2026-12-02",
+   "c": "us",
+   "t": "Credo（CRDO）FY2027 第二季財報",
+   "st": "e",
+   "u": "https://www.marketbeat.com/stocks/NASDAQ/CRDO/earnings",
+   "n": "公司尚未公告，依往年推估",
+   "tm": "時間未公布",
+   "mn": 1
+  },
+  {
+   "d": "2026-11-03",
+   "c": "us",
+   "t": "Astera Labs（ALAB）第三季財報",
+   "st": "o",
+   "u": "https://finviz.com/news/399499/astera-labs-announces-conference-call-to-review-third-quarter-2026-financial-results",
+   "n": "盤後發布（轉載自公司新聞稿）",
+   "tm": "美西 13:30，台灣 11/4 05:30",
+   "mn": 1
+  },
+  {
+   "d": "2026-11-05",
+   "c": "us",
+   "t": "MACOM（MTSI）FY2026 第四季財報",
+   "st": "e",
+   "u": "https://chartrow.com/quote/mtsi/earnings",
+   "n": "公司尚未公告，依往年（11/6）推估",
+   "tm": "時間未公布",
+   "mn": 1
+  },
+  {
+   "d": "2026-11-05",
+   "c": "us",
+   "t": "Nova（NVMI）第三季財報",
+   "st": "e",
+   "u": "https://www.marketbeat.com/stocks/NASDAQ/NVMI/earnings",
+   "n": "公司尚未公告，依往年（11/6）推估",
+   "tm": "時間未公布",
+   "mn": 1
+  },
+  {
+   "d": "2026-10-26",
+   "c": "us",
+   "t": "Rambus（RMBS）第三季財報",
+   "st": "o",
+   "u": "https://finviz.com/news/398884/rambus-to-announce-third-quarter-fiscal-year-2026-results",
+   "n": "盤後發布（轉載自公司新聞稿）",
+   "tm": "美西 14:00，台灣 10/27 05:00",
+   "mn": 1
+  },
+  {
+   "d": "2026-11-12",
+   "c": "us",
+   "t": "應用材料（AMAT）FY2026 第四季財報",
+   "st": "e",
+   "u": "https://ir.appliedmaterials.com/events?tab=upcoming",
+   "n": "公司 IR 頁標示「預計 11/12」，尚未正式公告",
+   "tm": "時間未公布"
+  },
+  {
+   "d": "2026-10-28",
+   "c": "us",
+   "t": "KLA（KLAC）FY2027 第一季財報",
+   "st": "o",
+   "u": "https://ir.kla.com/news-events/press-releases/detail/522/kla-announces-first-quarter-fiscal-year-2027-earnings-date",
+   "n": "盤後發布，電話會議 14:00 PT",
+   "tm": "美西 14:00，台灣 10/29 05:00"
+  },
+  {
+   "d": "2026-10-21",
+   "c": "us",
+   "t": "德州儀器（TXN）第三季財報",
+   "st": "o",
+   "u": "https://finviz.com/news/397904/texas-instruments-to-webcast-q3-2026-earnings-conference-call",
+   "n": "電話會議 16:30 ET（轉載自公司新聞稿）",
+   "tm": "美東 16:30，台灣 10/22 04:30"
+  },
+  {
+   "d": "2026-11-24",
+   "c": "us",
+   "t": "亞德諾（ADI）FY2026 第四季財報",
+   "st": "e",
+   "u": "https://www.marketbeat.com/stocks/NASDAQ/ADI/earnings/",
+   "n": "公司尚未公告，依往年（11/25）推估",
+   "tm": "時間未公布",
+   "mn": 1
+  },
+  {
+   "d": "2026-11-04",
+   "c": "us",
+   "t": "微芯（MCHP）FY2027 第二季財報",
+   "st": "e",
+   "u": "https://bullstory.io/en/stocks/mchp/earnings/2027-q2",
+   "n": "找不到公司公告，為第三方推估",
+   "tm": "時間未公布",
+   "mn": 1
+  },
+  {
+   "d": "2026-10-27",
+   "c": "us",
+   "t": "恩智浦（NXPI）第三季財報",
+   "st": "o",
+   "u": "https://finviz.com/news/399191/nxp-semiconductors-announces-conference-call-to-review-third-quarter-2026-financial-results",
+   "n": "盤後發布（轉載自公司新聞稿）",
+   "tm": "美東 16:30，台灣 10/28 04:30",
+   "mn": 1
+  },
+  {
+   "d": "2026-11-02",
+   "c": "us",
+   "t": "安森美（ON）第三季財報",
+   "st": "e",
+   "u": "https://www.marketbeat.com/stocks/NASDAQ/ON/earnings/",
+   "n": "公司尚未公告，依往年（11/3）推估",
+   "tm": "時間未公布",
+   "mn": 1
+  },
+  {
+   "d": "2026-10-29",
+   "c": "us",
+   "t": "芯源（MPWR）第三季財報",
+   "st": "o",
+   "u": "https://finviz.com/news/400581/monolithic-power-systems-to-report-third-quarter-2026-results-on-october-29-2026",
+   "n": "盤後發布（轉載自公司新聞稿）",
+   "tm": "美西 14:00，台灣 10/30 05:00",
+   "mn": 1
+  },
+  {
+   "d": "2026-10-27",
+   "c": "us",
+   "t": "泰瑞達（TER）第三季財報",
+   "st": "e",
+   "u": "https://www.marketbeat.com/stocks/NASDAQ/TER/earnings/",
+   "n": "公司尚未公告，依往年推估，通常盤後發布、隔日早上開電話會議",
+   "tm": "時間未公布",
+   "mn": 1
+  },
+  {
+   "d": "2026-10-27",
+   "c": "us",
+   "t": "思佳訊（SWKS）FY2026 第四季財報",
+   "st": "e",
+   "u": "https://www.marketbeat.com/stocks/NASDAQ/SWKS/earnings/",
+   "n": "未能核實公司公告，為第三方推估",
+   "tm": "時間未公布",
+   "mn": 1
+  },
+  {
+   "d": "2026-10-27",
+   "c": "us",
+   "t": "Qorvo（QRVO）FY2027 第二季財報",
+   "st": "e",
+   "u": "https://www.marketbeat.com/stocks/NASDAQ/QRVO/earnings/",
+   "n": "公司尚未公告；去年為 11/3，可能順延到 11 月初",
+   "tm": "時間未公布",
+   "mn": 1
+  },
+  {
+   "d": "2026-10-29",
+   "c": "us",
+   "t": "Entegris（ENTG）第三季財報",
+   "st": "e",
+   "u": "https://www.marketbeat.com/stocks/NASDAQ/ENTG/earnings/",
+   "n": "公司尚未公告，依往年（10/30）推估",
+   "tm": "時間未公布",
+   "mn": 1
+  },
+  {
+   "d": "2026-10-28",
+   "c": "us",
+   "t": "微軟（MSFT）FY2027 第一季財報",
+   "st": "o",
+   "u": "https://news.microsoft.com/source/2026/10/07/microsoft-announces-quarterly-earnings-release-date-69/",
+   "n": "10/7 公司已公告；盤後發布",
+   "tm": "美西 14:30，台灣 10/29 05:30"
+  },
+  {
+   "d": "2026-10-28",
+   "c": "us",
+   "t": "Meta（META）第三季財報",
+   "st": "e",
+   "u": "https://www.marketbeat.com/stocks/NASDAQ/META/earnings/",
+   "n": "截至 10/11 公司尚未公告，第三方依往年推估；通常美西 14:00",
+   "tm": "時間未公布"
+  },
+  {
+   "d": "2026-10-29",
+   "c": "us",
+   "t": "亞馬遜（AMZN）第三季財報",
+   "st": "e",
+   "u": "https://www.marketbeat.com/stocks/NASDAQ/AMZN/earnings/",
+   "n": "截至 10/11 公司尚未公告；去年於開會前約兩週公告；通常美西 14:00",
+   "tm": "時間未公布"
+  },
+  {
+   "d": "2026-11-02",
+   "c": "us",
+   "t": "Palantir（PLTR）第三季財報",
+   "st": "e",
+   "u": "https://www.marketbeat.com/stocks/NASDAQ/PLTR/earnings/",
+   "n": "公司尚未公告，第三方推估",
+   "tm": "時間未公布",
+   "mn": 1
+  },
+  {
+   "d": "2026-11-11",
+   "c": "us",
+   "t": "思科（CSCO）FY2027 第一季財報",
+   "st": "e",
+   "u": "https://www.marketbeat.com/stocks/NASDAQ/CSCO/earnings/",
+   "n": "公司尚未公告，第三方推估",
+   "tm": "時間未公布",
+   "mn": 1
+  },
+  {
+   "d": "2026-12-10",
+   "c": "us",
+   "t": "好市多（COST）FY2027 第一季財報",
+   "st": "e",
+   "u": "https://www.marketbeat.com/stocks/NASDAQ/COST/earnings/",
+   "n": "第四季已於 9/24 公布；下一次為 12 月，公司尚未公告",
+   "tm": "時間未公布",
+   "mn": 1
+  },
+  {
+   "d": "2026-11-19",
+   "c": "us",
+   "t": "沃爾瑪（WMT）FY2027 第三季財報",
+   "st": "e",
+   "u": "https://www.marketbeat.com/stocks/NYSE/WMT/earnings/",
+   "n": "公司尚未公告，第三方推估；通常盤前發布",
+   "tm": "時間未公布",
+   "mn": 1
+  },
+  {
+   "d": "2026-10-20",
+   "c": "us",
+   "t": "網飛（NFLX）第三季財報",
+   "st": "o",
+   "u": "https://s22.q4cdn.com/959853165/files/doc_news/Netflix-to-Announce-Third-Quarter-2026-Financial-Results-2026.pdf",
+   "n": "盤後發布，另有 13:45 PT 視訊訪談",
+   "tm": "美西 13:01，台灣 10/21 04:01",
+   "mn": 1
+  },
+  {
+   "d": "2026-11-18",
+   "c": "us",
+   "t": "派拓網路（PANW）FY2027 第一季財報",
+   "st": "e",
+   "u": "https://www.marketbeat.com/stocks/NASDAQ/PANW/earnings",
+   "n": "公司尚未公告，依往年（11/19）推估",
+   "tm": "時間未公布",
+   "mn": 1
+  },
+  {
+   "d": "2026-12-01",
+   "c": "us",
+   "t": "CrowdStrike（CRWD）FY2027 第三季財報",
+   "st": "e",
+   "u": "https://www.marketbeat.com/stocks/NASDAQ/CRWD/earnings",
+   "n": "公司尚未公告，依往年（12/2）推估，可能是 12/1 或 12/2",
+   "tm": "時間未公布",
+   "mn": 1
+  },
+  {
+   "d": "2026-10-29",
+   "c": "us",
+   "t": "Sandisk（SNDK）FY2027 第一季財報",
+   "st": "o",
+   "u": "https://www.sandisk.com/company/newsroom/press-releases/2026/2026-09-29-sandisk-to-report-first-quarter-fiscal-year-2027-results-on-october-29-2026",
+   "n": "盤後發布，電話會議 13:30 PT",
+   "tm": "美西 13:30，台灣 10/30 04:30",
+   "mn": 1
+  },
+  {
+   "d": "2026-10-29",
+   "c": "us",
+   "t": "林德（LIN）第三季財報",
+   "st": "o",
+   "u": "https://www.placera.se/pressmeddelanden/linde-linde-announces-third-quarter-2026-earnings-and-conference-call-schedule-20261005",
+   "n": "盤前 06:00 ET 發布，電話會議 09:00 ET（轉載自公司新聞稿）",
+   "tm": "美東 09:00，台灣 21:00",
+   "mn": 1
+  },
+  {
+   "d": "2026-11-03",
+   "c": "us",
+   "t": "安進（AMGN）第三季財報",
+   "st": "e",
+   "u": "https://nextearningsdate.com/amgn.html",
+   "n": "公司尚未公告；去年為 10/30，日期可能提前",
+   "tm": "時間未公布",
+   "mn": 1
+  },
+  {
+   "d": "2026-11-03",
+   "c": "us",
+   "t": "Shopify（SHOP）第三季財報",
+   "st": "o",
+   "u": "https://investingnews.com/shopify-to-announce-third-quarter-2026-financial-results/",
+   "n": "盤前發布，電話會議 08:30 ET（轉載自公司新聞稿）",
+   "tm": "美東 08:30，台灣 21:30",
+   "mn": 1
+  },
+  {
+   "d": "2026-10-29",
+   "c": "us",
+   "t": "吉利德（GILD）第三季財報",
+   "st": "e",
+   "u": "https://unusualwhales.com/stock/GILD/earnings",
+   "n": "公司尚未公告；去年為 10/30，通常盤後發布",
+   "tm": "時間未公布",
+   "mn": 1
+  },
+  {
+   "d": "2026-10-21",
+   "c": "us",
+   "t": "Lam Research（LRCX）FY2027 第一季財報",
+   "st": "o",
+   "u": "https://investor.lamresearch.com/events",
+   "n": "公司 IR 網站列出電話會議；盤後發布",
+   "tm": "美西 14:00，台灣 10/22 05:00"
+  },
+  {
+   "d": "2026-10-21",
+   "c": "us",
+   "t": "Tesla（TSLA）第三季財報",
+   "st": "o",
+   "u": "https://ir.tesla.com",
+   "n": "盤後發布，網路直播 17:30 ET",
+   "tm": "美東 17:30，台灣 10/22 05:30"
+  },
+  {
+   "d": "2026-10-28",
+   "c": "us",
+   "t": "Alphabet（GOOGL）第三季財報",
+   "st": "o",
+   "u": "https://www.marketscreener.com/news/alphabet-announces-date-of-third-quarter-2026-financial-results-conference-call-ce785dd9dc89f62d",
+   "n": "10/6 公司已公告；開會前發布",
+   "tm": "美西 13:30，台灣 10/29 04:30"
+  },
+  {
+   "d": "2026-11-02",
+   "c": "us",
+   "t": "蘋果（AAPL）FY2026 第四季財報",
+   "st": "o",
+   "u": "https://www.apple.com/investor/earnings-call/",
+   "n": "新任執行長 John Ternus 首次主持；日期來自媒體轉述，蘋果 IR 頁尚未核實",
+   "tm": "美西 14:00，台灣 11/3 06:00"
   },
   {
    "d": "2026-10-12",
