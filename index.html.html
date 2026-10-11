@@ -1,0 +1,433 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>投資人行事曆</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#F3F5F8; --surface:#FFFFFF; --ink:#16203A; --muted:#5A647C; --line:#DCE1EA; --soft:#E9EDF4;
+  --macro:#3B5BDB; --us:#0B7285; --tw:#9C36B5; --agm:#A85F00; --tech:#C2255C;
+  --focus:#3B5BDB;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0E1322; --surface:#161D32; --ink:#E7EBF6; --muted:#9AA4BD; --line:#283250; --soft:#1E2742;
+    --macro:#8CA7FF; --us:#3BC9DB; --tw:#DA77F2; --agm:#FFC24D; --tech:#FF7AA6;
+    --focus:#8CA7FF;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0E1322; --surface:#161D32; --ink:#E7EBF6; --muted:#9AA4BD; --line:#283250; --soft:#1E2742;
+  --macro:#8CA7FF; --us:#3BC9DB; --tw:#DA77F2; --agm:#FFC24D; --tech:#FF7AA6;
+  --focus:#8CA7FF;
+}
+html{scroll-padding-top:env(safe-area-inset-top,0px);background:var(--bg)}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Noto Sans TC","PingFang TC","Microsoft JhengHei","Heiti TC",system-ui,sans-serif;font-size:15px;line-height:1.6;-webkit-text-size-adjust:100%}
+a{color:inherit}
+button,input{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--focus);outline-offset:2px;border-radius:6px}
+.wrap{max-width:1040px;margin:0 auto;padding:32px 20px 64px}
+
+header.top{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:12px 24px;margin-bottom:24px}
+h1{margin:0;font-size:clamp(28px,4.4vw,40px);line-height:1.15;font-weight:700;letter-spacing:-.01em}
+.sub{margin:8px 0 0;color:var(--muted);max-width:56ch}
+.stamp{font-size:13px;color:var(--muted);text-align:right}
+.stamp strong{display:block;font-size:15px;color:var(--ink);font-weight:500}
+
+/* countdown tiles */
+.tiles{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:28px}
+.tile{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px 14px;position:relative;overflow:hidden;min-width:0}
+.tile::before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--cc,var(--line))}
+.tile .lab{font-size:13px;color:var(--muted)}
+.tile .when{margin-top:2px;font-weight:500}
+.tile .cd{margin-top:10px;display:flex;align-items:baseline;gap:6px}
+.tile .cd b{font-size:30px;line-height:1;font-weight:700;font-variant-numeric:tabular-nums;color:var(--cc,var(--ink))}
+.tile .cd span{font-size:13px;color:var(--muted)}
+.tile .tm{font-size:12.5px;color:var(--muted);margin-top:2px}
+
+/* controls */
+.controls{display:flex;flex-direction:column;gap:12px;margin-bottom:18px}
+.row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.chip{display:inline-flex;align-items:center;gap:8px;padding:7px 13px;border-radius:999px;border:1px solid var(--line);background:var(--surface);cursor:pointer;font-size:14px;line-height:1.2}
+.chip i{width:9px;height:9px;border-radius:50%;background:var(--cc,var(--muted));display:inline-block}
+.chip[aria-pressed="false"]{color:var(--muted);background:transparent}
+.chip[aria-pressed="false"] i{background:transparent;box-shadow:inset 0 0 0 1.5px var(--cc,var(--muted))}
+.chip[aria-pressed="true"]{border-color:var(--cc,var(--ink));box-shadow:inset 0 0 0 1px var(--cc,var(--ink))}
+.search{flex:1 1 200px;min-width:160px;padding:8px 12px;border-radius:10px;border:1px solid var(--line);background:var(--surface)}
+.search::placeholder{color:var(--muted)}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--surface)}
+.seg button{border:0;background:transparent;padding:7px 14px;cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
+.toggle{display:inline-flex;align-items:center;gap:7px;font-size:14px;color:var(--muted);cursor:pointer;user-select:none}
+.toggle input{width:16px;height:16px;accent-color:var(--macro)}
+.count{margin-left:auto;font-size:13px;color:var(--muted)}
+
+/* list */
+.month{margin:26px 0 8px;font-size:18px;font-weight:700;display:flex;align-items:baseline;gap:10px}
+.month small{font-size:13px;font-weight:400;color:var(--muted)}
+.ev{display:grid;grid-template-columns:76px 1fr auto;gap:4px 16px;align-items:start;padding:14px 16px;background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--cc,var(--line));border-radius:10px;margin-bottom:8px}
+.ev.past{opacity:.62}
+.date{display:flex;flex-direction:column;line-height:1.1}
+.dnum{font-size:22px;font-weight:700;font-variant-numeric:tabular-nums;white-space:nowrap}
+.dwd{font-size:12.5px;color:var(--muted);margin-top:3px}
+.main{min-width:0}
+.ttl{font-weight:700;font-size:16px;line-height:1.4;overflow-wrap:anywhere}
+.meta{display:flex;flex-wrap:wrap;gap:2px 14px;margin-top:3px;color:var(--muted);font-size:13.5px}
+.meta .cat{color:var(--cc);font-weight:500}
+.note{margin-top:3px;font-size:13.5px;color:var(--muted)}
+.side{display:flex;flex-direction:column;align-items:flex-end;gap:6px;font-size:13px;white-space:nowrap}
+.cdp{font-weight:500;font-variant-numeric:tabular-nums}
+.est{border:1px dashed var(--muted);color:var(--muted);border-radius:999px;padding:0 8px;font-size:12px;line-height:1.7}
+.src{color:var(--muted);text-decoration:underline;text-underline-offset:3px}
+.src:hover{color:var(--ink)}
+.empty{padding:36px 16px;text-align:center;color:var(--muted);border:1px dashed var(--line);border-radius:12px}
+
+/* month grid */
+.mhead{display:flex;align-items:center;gap:10px;margin:6px 0 10px}
+.mhead h2{margin:0;font-size:20px;flex:1}
+.nav{border:1px solid var(--line);background:var(--surface);border-radius:8px;padding:5px 12px;cursor:pointer}
+.grid{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--surface)}
+.gw{padding:8px 6px;text-align:center;font-size:13px;color:var(--muted);background:var(--soft)}
+.cell{min-height:104px;border-top:1px solid var(--line);border-left:1px solid var(--line);padding:6px;text-align:left;background:transparent;border-right:0;border-bottom:0;cursor:pointer;display:flex;flex-direction:column;gap:3px;min-width:0}
+.cell:nth-child(7n+1){border-left:0}
+.cell.out{opacity:.45}
+.cell.today .dn{background:var(--ink);color:var(--bg)}
+.cell.sel{box-shadow:inset 0 0 0 2px var(--focus)}
+.dn{align-self:flex-start;font-size:13px;min-width:24px;height:24px;line-height:24px;text-align:center;border-radius:12px;font-variant-numeric:tabular-nums}
+.pill{font-size:12px;line-height:1.35;padding:1px 6px;border-radius:5px;background:color-mix(in srgb,var(--cc) 16%,transparent);border-left:3px solid var(--cc);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.more{font-size:12px;color:var(--muted);padding-left:4px}
+.daypanel{margin-top:16px}
+.daypanel h3{margin:0 0 8px;font-size:16px}
+
+/* undated */
+.tba{margin-top:40px}
+.tba h2{font-size:18px;margin:0 0 4px}
+.tba p.lead{margin:0 0 12px;color:var(--muted);font-size:14px}
+.tba ul{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,1fr);gap:8px}
+.tba li{background:var(--surface);border:1px dashed var(--line);border-radius:10px;padding:10px 14px}
+.tba li b{display:block}
+.tba li span{font-size:13.5px;color:var(--muted)}
+
+footer{margin-top:44px;padding-top:20px;border-top:1px solid var(--line);color:var(--muted);font-size:13.5px}
+footer p{margin:0 0 8px;max-width:78ch}
+footer a{text-underline-offset:3px}
+
+@media (max-width:760px){
+  .wrap{padding:24px 14px 56px}
+  .tiles{grid-template-columns:repeat(2,1fr)}
+  .ev{grid-template-columns:62px 1fr;padding:12px}
+  .side{grid-column:2;flex-direction:row;flex-wrap:wrap;align-items:center;gap:6px 12px;justify-content:flex-start}
+  .stamp{text-align:left}
+  .tba ul{grid-template-columns:1fr}
+  .cell{min-height:64px;padding:4px}
+  .pill{font-size:0;padding:0;height:6px;border-left:0;border-radius:3px;background:var(--cc)}
+  .more{font-size:11px;padding:0}
+}
+@media (prefers-reduced-motion: no-preference){
+  .tile,.ev{transition:border-color .15s}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div>
+      <h1>投資人行事曆</h1>
+      <p class="sub">台股法說會與股東會、聯準會與日歐央行、美股財報、輝達 GTC 與台積電論壇等大廠活動，整理在同一個頁面。</p>
+    </div>
+    <div class="stamp"><strong>資料載入中…</strong>日期可能變動，請以各公司與機構公告為準</div>
+  </header>
+
+  <section class="tiles" id="tiles" aria-label="重要事件倒數"></section>
+
+  <section class="controls" aria-label="篩選">
+    <div class="row" id="chips"></div>
+    <div class="row">
+      <input class="search" id="q" type="search" placeholder="搜尋公司、代號或活動名稱" aria-label="搜尋">
+      <div class="seg" role="group" aria-label="檢視方式">
+        <button type="button" id="vList" aria-pressed="true">列表</button>
+        <button type="button" id="vMonth" aria-pressed="false">月曆</button>
+      </div>
+      <label class="toggle"><input type="checkbox" id="tEst" checked>包含預估日期</label>
+      <label class="toggle"><input type="checkbox" id="tPast">顯示已結束</label>
+      <span class="count" id="count"></span>
+    </div>
+  </section>
+
+  <main id="view"></main>
+
+  <section class="tba" id="tba"></section>
+
+  <footer>
+    <p>虛線標示「預估」的日期是公司尚未正式公告、由第三方整理的推估值，正式日期出來後會變動。</p>
+    <p>台股法說會資料來自 <a href="https://tw.stock.yahoo.com/calendar/earnings-call" target="_blank" rel="noopener">Yahoo 股市行事曆</a>，股東會資料來自 <a href="https://www.wantgoo.com/stock/calendar/shareholders-meeting" target="_blank" rel="noopener">玩股網</a>（2026/10/01 更新版）。這兩站每天都會新增場次，本頁只收錄整理當下已列出的內容。</p>
+    <p>本頁每天早上 7 點（台灣時間）由 GitHub Actions 自動更新台股法說會與股東會；美股財報、央行與大會日期為人工整理。內容僅供資訊整理，不構成投資建議。</p>
+  </footer>
+</div>
+
+<script>
+/* ---------- 資料 ----------
+ d: 日期(起)  e: 日期(迄,選填)  c: 類別  t: 標題  tm: 時間  pl: 地點  n: 備註
+ st: 'o' 官方/公司公告  'e' 預估   u: 來源連結   k: 倒數磚用的代號   mn: 1 表示次要事件 */
+let EVENTS=[];
+
+/* 尚未公布日期的項目（依往年慣例推估月份，不是官方日期） */
+const TBA=[
+ {t:"Jackson Hole 2027 年會",s:"往年落在 8 月下旬，堪薩斯市聯邦準備銀行尚未公布 2027 日期"},
+ {t:"蘋果 WWDC 2027",s:"往年在 6 月上旬，官方通常提前幾個月才宣布"},
+ {t:"台積電技術論壇（Technology Symposium）2027",s:"往年從春季起在北美及各地巡迴，尚未查到 2027 日期"},
+ {t:"Google I/O、Microsoft Build 2027",s:"往年多在 5 月，尚未查到 2027 日期"},
+ {t:"台股 2027 年股東常會",s:"多集中在 5 到 6 月，各公司通常在春季前後公告日期"},
+ {t:"費半與那斯達克其他成分股財報日",s:"AMD、英特爾、高通、博通、美光、應用材料等，本版尚未逐家查證"},
+ {t:"各公司投資人日（Investor Day）",s:"多半臨時公告，查到時會補進行事曆"}
+];
+
+/* ---------- 邏輯 ---------- */
+const CATS={
+  macro:{n:"央行與總經"},
+  tw:{n:"台股法說會"},
+  agm:{n:"股東會"},
+  us:{n:"美股財報"},
+  tech:{n:"科技大會與展會"}
+};
+const WD="日一二三四五六";
+const pd=s=>{const [y,m,d]=s.split("-").map(Number);return new Date(y,m-1,d)};
+const now=new Date();
+const TODAY=new Date(now.getFullYear(),now.getMonth(),now.getDate());
+const DAY=864e5;
+const diffDays=(a,b)=>Math.round((a-b)/DAY);
+const sameDay=(a,b)=>a.getTime()===b.getTime();
+
+function prep(){
+EVENTS.forEach((ev,i)=>{ev.id=i;ev.s=pd(ev.d);ev.en=ev.e?pd(ev.e):ev.s;});
+EVENTS.sort((a,b)=>a.s-b.s||a.en-b.en||a.c.localeCompare(b.c)||a.t.localeCompare(b.t,"zh-Hant"));
+}
+
+const state={cats:new Set(Object.keys(CATS)),q:"",est:true,past:false,view:"list",cur:{y:TODAY.getFullYear(),m:TODAY.getMonth()},sel:null};
+
+function h(tag,attrs,...kids){
+  const el=document.createElement(tag);
+  for(const k in (attrs||{})){
+    const v=attrs[k];
+    if(v==null||v===false)continue;
+    if(k==="class")el.className=v;
+    else if(k==="text")el.textContent=v;
+    else if(k==="style")el.setAttribute("style",v);
+    else if(k.startsWith("on"))el.addEventListener(k.slice(2),v);
+    else el.setAttribute(k,v===true?"":v);
+  }
+  for(const kid of kids.flat()){
+    if(kid==null||kid===false)continue;
+    el.append(kid.nodeType?kid:document.createTextNode(kid));
+  }
+  return el;
+}
+const ccol=c=>"--cc:var(--"+c+")";
+const md=d=>(d.getMonth()+1)+"/"+d.getDate();
+const isPast=ev=>ev.en<TODAY;
+
+function countdownText(ev){
+  if(isPast(ev))return "已結束";
+  if(ev.s<=TODAY&&TODAY<=ev.en)return ev.s.getTime()===ev.en.getTime()?"今天":"進行中";
+  const n=diffDays(ev.s,TODAY);
+  return n+" 天後";
+}
+function dateLabel(ev){
+  if(ev.en.getTime()===ev.s.getTime())return ev.s.getDate();
+  if(ev.en.getMonth()!==ev.s.getMonth())return ev.s.getDate()+"–"+(ev.en.getMonth()+1)+"/"+ev.en.getDate();
+  return ev.s.getDate()+"–"+ev.en.getDate();
+}
+
+function matches(ev){
+  if(!state.cats.has(ev.c))return false;
+  if(!state.est&&ev.st==="e")return false;
+  const q=state.q.trim().toLowerCase();
+  if(q){
+    const hay=(ev.t+" "+(ev.pl||"")+" "+(ev.n||"")+" "+(ev.tm||"")).toLowerCase();
+    if(!hay.includes(q))return false;
+  }
+  return true;
+}
+
+/* ---- 倒數磚 ---- */
+function nextBy(pred){
+  return EVENTS.find(ev=>!isPast(ev)&&pred(ev));
+}
+function renderTiles(){
+  const box=document.getElementById("tiles");
+  box.replaceChildren();
+  const defs=[
+    {lab:"下一次 FOMC 決議",ev:nextBy(e=>e.t==="FOMC 利率決議")},
+    {lab:"下一次日本央行決議",ev:nextBy(e=>e.t.startsWith("日本央行"))},
+    {lab:"下一次歐洲央行決議",ev:nextBy(e=>e.t.startsWith("歐洲央行")&&e.c==="macro")},
+    {lab:"台積電法說會",ev:nextBy(e=>e.k==="tsmc")},
+    {lab:"NVIDIA GTC 聖荷西",ev:nextBy(e=>e.k==="gtc")},
+    {lab:"COMPUTEX",ev:nextBy(e=>e.k==="computex")}
+  ];
+  for(const d of defs){
+    if(!d.ev)continue;
+    const ev=d.ev;
+    const n=diffDays(ev.s,TODAY);
+    const active=ev.s<=TODAY&&TODAY<=ev.en;
+    box.append(
+      h("div",{class:"tile",style:ccol(ev.c)},
+        h("div",{class:"lab",text:d.lab}),
+        h("div",{class:"when",text:ev.s.getFullYear()+"/"+md(ev.s)+"（週"+WD[ev.s.getDay()]+"）"+(ev.en>ev.s?"起":"")}),
+        h("div",{class:"cd"},
+          active?h("b",{text:"進行中"}):[h("b",{text:String(n)}),h("span",{text:"天後"})]
+        ),
+        ev.st==="e"?h("div",{class:"tm",text:"預估日期，尚待公告"}):null
+      )
+    );
+  }
+}
+
+/* ---- 列表 ---- */
+function evRow(ev){
+  const cat=CATS[ev.c].n;
+  return h("article",{class:"ev"+(isPast(ev)?" past":""),style:ccol(ev.c)},
+    h("div",{class:"date"},
+      h("span",{class:"dnum",text:String(dateLabel(ev))}),
+      h("span",{class:"dwd",text:"週"+WD[ev.s.getDay()]})
+    ),
+    h("div",{class:"main"},
+      h("div",{class:"ttl",text:ev.t}),
+      h("div",{class:"meta"},
+        h("span",{class:"cat",text:cat}),
+        ev.tm?h("span",{text:ev.tm}):null,
+        ev.pl?h("span",{text:ev.pl}):null
+      ),
+      ev.n?h("div",{class:"note",text:ev.n}):null
+    ),
+    h("div",{class:"side"},
+      h("span",{class:"cdp",text:countdownText(ev)}),
+      ev.st==="e"?h("span",{class:"est",title:"尚未正式公告的預估日期",text:"預估"}):null,
+      ev.u?h("a",{class:"src",href:ev.u,target:"_blank",rel:"noopener",text:"來源"}):null
+    )
+  );
+}
+
+function renderList(box){
+  let list=EVENTS.filter(matches);
+  if(!state.past)list=list.filter(ev=>!isPast(ev));
+  document.getElementById("count").textContent="共 "+list.length+" 筆";
+  if(!list.length){
+    box.append(h("div",{class:"empty",text:"沒有符合條件的事件，試試放寬篩選或清除搜尋。"}));
+    return;
+  }
+  let last="";
+  for(const ev of list){
+    const key=ev.s.getFullYear()+" 年 "+(ev.s.getMonth()+1)+" 月";
+    if(key!==last){
+      last=key;
+      const inM=list.filter(x=>x.s.getFullYear()===ev.s.getFullYear()&&x.s.getMonth()===ev.s.getMonth()).length;
+      box.append(h("h2",{class:"month"},key,h("small",{text:inM+" 筆"})));
+    }
+    box.append(evRow(ev));
+  }
+}
+
+/* ---- 月曆 ---- */
+function renderMonth(box){
+  const {y,m}=state.cur;
+  const list=EVENTS.filter(matches);
+  document.getElementById("count").textContent="共 "+list.length+" 筆";
+  const byDay=new Map();
+  for(const ev of list){
+    for(let t=ev.s.getTime();t<=ev.en.getTime();t+=DAY){
+      const k=new Date(t);
+      const key=k.getFullYear()+"-"+k.getMonth()+"-"+k.getDate();
+      if(!byDay.has(key))byDay.set(key,[]);
+      byDay.get(key).push(ev);
+    }
+  }
+  const first=new Date(y,m,1);
+  const start=new Date(y,m,1-first.getDay());
+  const head=h("div",{class:"mhead"},
+    h("button",{class:"nav",type:"button","aria-label":"上個月",text:"上個月",onclick:()=>{state.cur=m===0?{y:y-1,m:11}:{y,m:m-1};state.sel=null;render();}}),
+    h("h2",{text:y+" 年 "+(m+1)+" 月"}),
+    h("button",{class:"nav",type:"button",text:"今天",onclick:()=>{state.cur={y:TODAY.getFullYear(),m:TODAY.getMonth()};state.sel=TODAY;render();}}),
+    h("button",{class:"nav",type:"button","aria-label":"下個月",text:"下個月",onclick:()=>{state.cur=m===11?{y:y+1,m:0}:{y,m:m+1};state.sel=null;render();}})
+  );
+  const grid=h("div",{class:"grid"});
+  for(const w of WD)grid.append(h("div",{class:"gw",text:w}));
+  for(let i=0;i<42;i++){
+    const d=new Date(start.getFullYear(),start.getMonth(),start.getDate()+i);
+    if(i>=35&&d.getMonth()!==m)break;
+    const evs=byDay.get(d.getFullYear()+"-"+d.getMonth()+"-"+d.getDate())||[];
+    const cls="cell"+(d.getMonth()!==m?" out":"")+(sameDay(d,TODAY)?" today":"")+(state.sel&&sameDay(d,state.sel)?" sel":"");
+    const cell=h("button",{class:cls,type:"button","aria-label":md(d)+"，"+evs.length+" 筆事件",onclick:()=>{state.sel=d;render();}},
+      h("span",{class:"dn",text:String(d.getDate())})
+    );
+    evs.slice(0,3).forEach(ev=>cell.append(h("span",{class:"pill",style:ccol(ev.c),text:ev.t})));
+    if(evs.length>3)cell.append(h("span",{class:"more",text:"還有 "+(evs.length-3)+" 筆"}));
+    grid.append(cell);
+  }
+  box.append(head,grid);
+  if(state.sel){
+    const k=state.sel.getFullYear()+"-"+state.sel.getMonth()+"-"+state.sel.getDate();
+    const evs=byDay.get(k)||[];
+    const panel=h("div",{class:"daypanel"},h("h3",{text:state.sel.getFullYear()+"/"+md(state.sel)+"（週"+WD[state.sel.getDay()]+"）"}));
+    if(evs.length)evs.forEach(ev=>panel.append(evRow(ev)));
+    else panel.append(h("div",{class:"empty",text:"這天沒有符合條件的事件。"}));
+    box.append(panel);
+  }
+}
+
+function render(){
+  const box=document.getElementById("view");
+  box.replaceChildren();
+  document.getElementById("vList").setAttribute("aria-pressed",String(state.view==="list"));
+  document.getElementById("vMonth").setAttribute("aria-pressed",String(state.view==="month"));
+  if(state.view==="list")renderList(box);else renderMonth(box);
+}
+
+function renderChips(){
+  const box=document.getElementById("chips");
+  for(const key of Object.keys(CATS)){
+    const b=h("button",{class:"chip",type:"button","aria-pressed":"true",style:ccol(key)},h("i"),CATS[key].n);
+    b.addEventListener("click",()=>{
+      if(state.cats.has(key))state.cats.delete(key);else state.cats.add(key);
+      b.setAttribute("aria-pressed",String(state.cats.has(key)));
+      render();
+    });
+    box.append(b);
+  }
+}
+
+function renderTba(){
+  const box=document.getElementById("tba");
+  box.append(
+    h("h2",{text:"還沒公布日期的項目"}),
+    h("p",{class:"lead",text:"以下是你列出的關注項目中，目前查不到官方日期的部分。說明文字裡的月份是往年慣例，只供參考，不是官方日期。"}),
+    h("ul",null,TBA.map(x=>h("li",null,h("b",{text:x.t}),h("span",{text:x.s}))))
+  );
+}
+
+document.getElementById("q").addEventListener("input",e=>{state.q=e.target.value;render();});
+document.getElementById("tEst").addEventListener("change",e=>{state.est=e.target.checked;render();});
+document.getElementById("tPast").addEventListener("change",e=>{state.past=e.target.checked;render();});
+document.getElementById("vList").addEventListener("click",()=>{state.view="list";render();});
+document.getElementById("vMonth").addEventListener("click",()=>{state.view="month";render();});
+
+renderChips();
+renderTba();
+fetch("data/events.json",{cache:"no-cache"}).then(r=>{if(!r.ok)throw new Error(r.status);return r.json();}).then(j=>{
+  EVENTS=j.events;
+  const st=document.querySelector(".stamp strong");
+  if(st&&j.updated)st.textContent="資料更新於 "+j.updated;
+  prep();renderTiles();render();
+}).catch(err=>{
+  document.getElementById("view").textContent="讀不到 data/events.json，請確認檔案存在（或到 Actions 手動執行一次更新）。";
+});
+</script>
+</body>
+</html>
