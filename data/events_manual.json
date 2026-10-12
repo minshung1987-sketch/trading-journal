@@ -1700,9 +1700,9 @@
   "c": "ind",
   "t": "RE+ 2026 北美再生能源展",
   "pl": "美國拉斯維加斯",
-  "st": "e",
+  "st": "o",
   "u": "https://www.re-plus.com",
-  "n": "太陽能與儲能；展場 11/17–19。日期取自展會官網的歷屆資訊，尚待再核對"
+  "n": "太陽能與儲能；官網載展場 11/17–19，會議教育場 11/16–18，故起訖含會議日"
  },
  {
   "d": "2026-12-02",
@@ -2024,5 +2024,1242 @@
   "st": "e",
   "u": "https://www.ifema.es/congreso-esmo",
   "n": "日期來自場館 IFEMA 頁面，ESMO 官網未能讀取"
+ },
+ {
+  "d": "2026-10-15",
+  "c": "cb",
+  "t": "聯準會理事鮑曼：曼谷經濟節（Bangkok Economic Festival 2026）演說",
+  "st": "o",
+  "u": "https://www.federalreserve.gov/newsevents/2026-october.htm",
+  "tm": "美東 10/14 22:55，台灣 10/15 10:55",
+  "pl": "曼谷",
+  "n": "主題待公布；聯準會官網未標示時區，依 ET 換算",
+  "mn": 1
+ },
+ {
+  "d": "2026-10-13",
+  "e": "2026-10-15",
+  "c": "ind",
+  "t": "Network X 2026（寬頻與電信網路大會，含 Broadband Development Congress）",
+  "pl": "奧地利維也納 VIECON",
+  "st": "o",
+  "u": "https://www.networkxevent.com/",
+  "n": "電信與寬頻網路展會（原 Broadband World Forum 的後繼活動）；官網頁面未直接出現 Broadband World Forum 字樣，兩者關係為推論"
+ },
+ {
+  "d": "2027-04-02",
+  "c": "eco",
+  "t": "美國3月非農就業報告",
+  "tm": "美東 08:30，台灣 20:30",
+  "n": "資料期間：3月（官方時程表）",
+  "st": "o",
+  "u": "https://www.bls.gov/schedule/2027/home.htm"
+ },
+ {
+  "d": "2027-05-07",
+  "c": "eco",
+  "t": "美國4月非農就業報告",
+  "tm": "美東 08:30，台灣 20:30",
+  "n": "資料期間：4月（官方時程表）",
+  "st": "o",
+  "u": "https://www.bls.gov/schedule/2027/home.htm"
+ },
+ {
+  "d": "2027-06-04",
+  "c": "eco",
+  "t": "美國5月非農就業報告",
+  "tm": "美東 08:30，台灣 20:30",
+  "n": "資料期間：5月（官方時程表）",
+  "st": "o",
+  "u": "https://www.bls.gov/schedule/2027/home.htm"
+ },
+ {
+  "d": "2027-07-02",
+  "c": "eco",
+  "t": "美國6月非農就業報告",
+  "tm": "美東 08:30，台灣 20:30",
+  "n": "資料期間：6月（官方時程表）",
+  "st": "o",
+  "u": "https://www.bls.gov/schedule/2027/home.htm"
+ },
+ {
+  "d": "2027-08-06",
+  "c": "eco",
+  "t": "美國7月非農就業報告",
+  "tm": "美東 08:30，台灣 20:30",
+  "n": "資料期間：7月（官方時程表）",
+  "st": "o",
+  "u": "https://www.bls.gov/schedule/2027/home.htm"
+ },
+ {
+  "d": "2027-09-03",
+  "c": "eco",
+  "t": "美國8月非農就業報告",
+  "tm": "美東 08:30，台灣 20:30",
+  "n": "資料期間：8月（官方時程表）",
+  "st": "o",
+  "u": "https://www.bls.gov/schedule/2027/home.htm"
+ },
+ {
+  "d": "2027-10-08",
+  "c": "eco",
+  "t": "美國9月非農就業報告",
+  "tm": "美東 08:30，台灣 20:30",
+  "n": "資料期間：9月（官方時程表）",
+  "st": "o",
+  "u": "https://www.bls.gov/schedule/2027/home.htm"
+ },
+ {
+  "d": "2027-11-05",
+  "c": "eco",
+  "t": "美國10月非農就業報告",
+  "tm": "美東 08:30，台灣 20:30",
+  "n": "資料期間：10月（官方時程表）",
+  "st": "o",
+  "u": "https://www.bls.gov/schedule/2027/home.htm"
+ },
+ {
+  "d": "2027-12-03",
+  "c": "eco",
+  "t": "美國11月非農就業報告",
+  "tm": "美東 08:30，台灣 21:30",
+  "n": "資料期間：11月（官方時程表）",
+  "st": "o",
+  "u": "https://www.bls.gov/schedule/2027/home.htm"
+ },
+ {
+  "d": "2027-04-13",
+  "c": "eco",
+  "t": "美國3月 CPI（消費者物價）",
+  "tm": "美東 08:30，台灣 20:30",
+  "n": "資料期間：3月（官方時程表）",
+  "st": "o",
+  "u": "https://www.bls.gov/schedule/2027/home.htm"
+ },
+ {
+  "d": "2027-05-12",
+  "c": "eco",
+  "t": "美國4月 CPI（消費者物價）",
+  "tm": "美東 08:30，台灣 20:30",
+  "n": "資料期間：4月（官方時程表）",
+  "st": "o",
+  "u": "https://www.bls.gov/schedule/2027/home.htm"
+ },
+ {
+  "d": "2027-06-10",
+  "c": "eco",
+  "t": "美國5月 CPI（消費者物價）",
+  "tm": "美東 08:30，台灣 20:30",
+  "n": "資料期間：5月（官方時程表）",
+  "st": "o",
+  "u": "https://www.bls.gov/schedule/2027/home.htm"
+ },
+ {
+  "d": "2027-07-14",
+  "c": "eco",
+  "t": "美國6月 CPI（消費者物價）",
+  "tm": "美東 08:30，台灣 20:30",
+  "n": "資料期間：6月（官方時程表）",
+  "st": "o",
+  "u": "https://www.bls.gov/schedule/2027/home.htm"
+ },
+ {
+  "d": "2027-08-11",
+  "c": "eco",
+  "t": "美國7月 CPI（消費者物價）",
+  "tm": "美東 08:30，台灣 20:30",
+  "n": "資料期間：7月（官方時程表）",
+  "st": "o",
+  "u": "https://www.bls.gov/schedule/2027/home.htm"
+ },
+ {
+  "d": "2027-09-14",
+  "c": "eco",
+  "t": "美國8月 CPI（消費者物價）",
+  "tm": "美東 08:30，台灣 20:30",
+  "n": "資料期間：8月（官方時程表）",
+  "st": "o",
+  "u": "https://www.bls.gov/schedule/2027/home.htm"
+ },
+ {
+  "d": "2027-10-14",
+  "c": "eco",
+  "t": "美國9月 CPI（消費者物價）",
+  "tm": "美東 08:30，台灣 20:30",
+  "n": "資料期間：9月（官方時程表）",
+  "st": "o",
+  "u": "https://www.bls.gov/schedule/2027/home.htm"
+ },
+ {
+  "d": "2027-11-10",
+  "c": "eco",
+  "t": "美國10月 CPI（消費者物價）",
+  "tm": "美東 08:30，台灣 21:30",
+  "n": "資料期間：10月（官方時程表）",
+  "st": "o",
+  "u": "https://www.bls.gov/schedule/2027/home.htm"
+ },
+ {
+  "d": "2027-12-10",
+  "c": "eco",
+  "t": "美國11月 CPI（消費者物價）",
+  "tm": "美東 08:30，台灣 21:30",
+  "n": "資料期間：11月（官方時程表）",
+  "st": "o",
+  "u": "https://www.bls.gov/schedule/2027/home.htm"
+ },
+ {
+  "d": "2027-04-14",
+  "c": "eco",
+  "t": "美國3月 PPI（生產者物價）",
+  "tm": "美東 08:30，台灣 20:30",
+  "n": "資料期間：3月（官方時程表）",
+  "st": "o",
+  "u": "https://www.bls.gov/schedule/2027/home.htm"
+ },
+ {
+  "d": "2027-05-13",
+  "c": "eco",
+  "t": "美國4月 PPI（生產者物價）",
+  "tm": "美東 08:30，台灣 20:30",
+  "n": "資料期間：4月（官方時程表）",
+  "st": "o",
+  "u": "https://www.bls.gov/schedule/2027/home.htm"
+ },
+ {
+  "d": "2027-06-11",
+  "c": "eco",
+  "t": "美國5月 PPI（生產者物價）",
+  "tm": "美東 08:30，台灣 20:30",
+  "n": "資料期間：5月（官方時程表）",
+  "st": "o",
+  "u": "https://www.bls.gov/schedule/2027/home.htm"
+ },
+ {
+  "d": "2027-07-15",
+  "c": "eco",
+  "t": "美國6月 PPI（生產者物價）",
+  "tm": "美東 08:30，台灣 20:30",
+  "n": "資料期間：6月（官方時程表）",
+  "st": "o",
+  "u": "https://www.bls.gov/schedule/2027/home.htm"
+ },
+ {
+  "d": "2027-08-10",
+  "c": "eco",
+  "t": "美國7月 PPI（生產者物價）",
+  "tm": "美東 08:30，台灣 20:30",
+  "n": "資料期間：7月（官方時程表）",
+  "st": "o",
+  "u": "https://www.bls.gov/schedule/2027/home.htm"
+ },
+ {
+  "d": "2027-09-10",
+  "c": "eco",
+  "t": "美國8月 PPI（生產者物價）",
+  "tm": "美東 08:30，台灣 20:30",
+  "n": "資料期間：8月（官方時程表）",
+  "st": "o",
+  "u": "https://www.bls.gov/schedule/2027/home.htm"
+ },
+ {
+  "d": "2027-10-15",
+  "c": "eco",
+  "t": "美國9月 PPI（生產者物價）",
+  "tm": "美東 08:30，台灣 20:30",
+  "n": "資料期間：9月（官方時程表）",
+  "st": "o",
+  "u": "https://www.bls.gov/schedule/2027/home.htm"
+ },
+ {
+  "d": "2027-11-12",
+  "c": "eco",
+  "t": "美國10月 PPI（生產者物價）",
+  "tm": "美東 08:30，台灣 21:30",
+  "n": "資料期間：10月（官方時程表）",
+  "st": "o",
+  "u": "https://www.bls.gov/schedule/2027/home.htm"
+ },
+ {
+  "d": "2027-12-15",
+  "c": "eco",
+  "t": "美國11月 PPI（生產者物價）",
+  "tm": "美東 08:30，台灣 21:30",
+  "n": "資料期間：11月（官方時程表）",
+  "st": "o",
+  "u": "https://www.bls.gov/schedule/2027/home.htm"
+ },
+ {
+  "d": "2027-03-17",
+  "c": "eco",
+  "t": "美國進出口物價（2月）",
+  "tm": "美東 08:30，台灣 20:30",
+  "n": "資料期間：2月（官方時程表）",
+  "st": "o",
+  "u": "https://www.bls.gov/schedule/2027/home.htm",
+  "mn": 1
+ },
+ {
+  "d": "2027-04-16",
+  "c": "eco",
+  "t": "美國進出口物價（3月）",
+  "tm": "美東 08:30，台灣 20:30",
+  "n": "資料期間：3月（官方時程表）",
+  "st": "o",
+  "u": "https://www.bls.gov/schedule/2027/home.htm",
+  "mn": 1
+ },
+ {
+  "d": "2027-05-14",
+  "c": "eco",
+  "t": "美國進出口物價（4月）",
+  "tm": "美東 08:30，台灣 20:30",
+  "n": "資料期間：4月（官方時程表）",
+  "st": "o",
+  "u": "https://www.bls.gov/schedule/2027/home.htm",
+  "mn": 1
+ },
+ {
+  "d": "2027-06-16",
+  "c": "eco",
+  "t": "美國進出口物價（5月）",
+  "tm": "美東 08:30，台灣 20:30",
+  "n": "資料期間：5月（官方時程表）",
+  "st": "o",
+  "u": "https://www.bls.gov/schedule/2027/home.htm",
+  "mn": 1
+ },
+ {
+  "d": "2027-07-16",
+  "c": "eco",
+  "t": "美國進出口物價（6月）",
+  "tm": "美東 08:30，台灣 20:30",
+  "n": "資料期間：6月（官方時程表）",
+  "st": "o",
+  "u": "https://www.bls.gov/schedule/2027/home.htm",
+  "mn": 1
+ },
+ {
+  "d": "2027-08-13",
+  "c": "eco",
+  "t": "美國進出口物價（7月）",
+  "tm": "美東 08:30，台灣 20:30",
+  "n": "資料期間：7月（官方時程表）",
+  "st": "o",
+  "u": "https://www.bls.gov/schedule/2027/home.htm",
+  "mn": 1
+ },
+ {
+  "d": "2027-09-17",
+  "c": "eco",
+  "t": "美國進出口物價（8月）",
+  "tm": "美東 08:30，台灣 20:30",
+  "n": "資料期間：8月（官方時程表）",
+  "st": "o",
+  "u": "https://www.bls.gov/schedule/2027/home.htm",
+  "mn": 1
+ },
+ {
+  "d": "2027-10-19",
+  "c": "eco",
+  "t": "美國進出口物價（9月）",
+  "tm": "美東 08:30，台灣 20:30",
+  "n": "資料期間：9月（官方時程表）",
+  "st": "o",
+  "u": "https://www.bls.gov/schedule/2027/home.htm",
+  "mn": 1
+ },
+ {
+  "d": "2027-11-16",
+  "c": "eco",
+  "t": "美國進出口物價（10月）",
+  "tm": "美東 08:30，台灣 21:30",
+  "n": "資料期間：10月（官方時程表）",
+  "st": "o",
+  "u": "https://www.bls.gov/schedule/2027/home.htm",
+  "mn": 1
+ },
+ {
+  "d": "2027-12-16",
+  "c": "eco",
+  "t": "美國進出口物價（11月）",
+  "tm": "美東 08:30，台灣 21:30",
+  "n": "資料期間：11月（官方時程表）",
+  "st": "o",
+  "u": "https://www.bls.gov/schedule/2027/home.htm",
+  "mn": 1
+ },
+ {
+  "d": "2027-04-16",
+  "c": "eco",
+  "t": "美國3月零售銷售",
+  "tm": "美東 08:30，台灣 20:30",
+  "n": "資料期間：3月（官方時程表）",
+  "st": "o",
+  "u": "https://www.census.gov/economic-indicators/calendar-listview.html"
+ },
+ {
+  "d": "2027-05-14",
+  "c": "eco",
+  "t": "美國4月零售銷售",
+  "tm": "美東 08:30，台灣 20:30",
+  "n": "資料期間：4月（官方時程表）",
+  "st": "o",
+  "u": "https://www.census.gov/economic-indicators/calendar-listview.html"
+ },
+ {
+  "d": "2027-06-16",
+  "c": "eco",
+  "t": "美國5月零售銷售",
+  "tm": "美東 08:30，台灣 20:30",
+  "n": "資料期間：5月（官方時程表）",
+  "st": "o",
+  "u": "https://www.census.gov/economic-indicators/calendar-listview.html"
+ },
+ {
+  "d": "2027-07-16",
+  "c": "eco",
+  "t": "美國6月零售銷售",
+  "tm": "美東 08:30，台灣 20:30",
+  "n": "資料期間：6月（官方時程表）",
+  "st": "o",
+  "u": "https://www.census.gov/economic-indicators/calendar-listview.html"
+ },
+ {
+  "d": "2027-08-16",
+  "c": "eco",
+  "t": "美國7月零售銷售",
+  "tm": "美東 08:30，台灣 20:30",
+  "n": "資料期間：7月（官方時程表）",
+  "st": "o",
+  "u": "https://www.census.gov/economic-indicators/calendar-listview.html"
+ },
+ {
+  "d": "2027-09-16",
+  "c": "eco",
+  "t": "美國8月零售銷售",
+  "tm": "美東 08:30，台灣 20:30",
+  "n": "資料期間：8月（官方時程表）",
+  "st": "o",
+  "u": "https://www.census.gov/economic-indicators/calendar-listview.html"
+ },
+ {
+  "d": "2027-10-15",
+  "c": "eco",
+  "t": "美國9月零售銷售",
+  "tm": "美東 08:30，台灣 20:30",
+  "n": "資料期間：9月（官方時程表）",
+  "st": "o",
+  "u": "https://www.census.gov/economic-indicators/calendar-listview.html"
+ },
+ {
+  "d": "2027-11-16",
+  "c": "eco",
+  "t": "美國10月零售銷售",
+  "tm": "美東 08:30，台灣 21:30",
+  "n": "資料期間：10月（官方時程表）",
+  "st": "o",
+  "u": "https://www.census.gov/economic-indicators/calendar-listview.html"
+ },
+ {
+  "d": "2027-12-15",
+  "c": "eco",
+  "t": "美國11月零售銷售",
+  "tm": "美東 08:30，台灣 21:30",
+  "n": "資料期間：11月（官方時程表）",
+  "st": "o",
+  "u": "https://www.census.gov/economic-indicators/calendar-listview.html"
+ },
+ {
+  "d": "2027-04-27",
+  "c": "eco",
+  "t": "美國耐久財訂單（3月）",
+  "tm": "美東 08:30，台灣 20:30",
+  "n": "資料期間：3月（官方時程表）",
+  "st": "o",
+  "u": "https://www.census.gov/economic-indicators/calendar-listview.html",
+  "mn": 1
+ },
+ {
+  "d": "2027-05-27",
+  "c": "eco",
+  "t": "美國耐久財訂單（4月）",
+  "tm": "美東 08:30，台灣 20:30",
+  "n": "資料期間：4月（官方時程表）",
+  "st": "o",
+  "u": "https://www.census.gov/economic-indicators/calendar-listview.html",
+  "mn": 1
+ },
+ {
+  "d": "2027-06-25",
+  "c": "eco",
+  "t": "美國耐久財訂單（5月）",
+  "tm": "美東 08:30，台灣 20:30",
+  "n": "資料期間：5月（官方時程表）",
+  "st": "o",
+  "u": "https://www.census.gov/economic-indicators/calendar-listview.html",
+  "mn": 1
+ },
+ {
+  "d": "2027-07-28",
+  "c": "eco",
+  "t": "美國耐久財訂單（6月）",
+  "tm": "美東 08:30，台灣 20:30",
+  "n": "資料期間：6月（官方時程表）",
+  "st": "o",
+  "u": "https://www.census.gov/economic-indicators/calendar-listview.html",
+  "mn": 1
+ },
+ {
+  "d": "2027-08-25",
+  "c": "eco",
+  "t": "美國耐久財訂單（7月）",
+  "tm": "美東 08:30，台灣 20:30",
+  "n": "資料期間：7月（官方時程表）",
+  "st": "o",
+  "u": "https://www.census.gov/economic-indicators/calendar-listview.html",
+  "mn": 1
+ },
+ {
+  "d": "2027-09-27",
+  "c": "eco",
+  "t": "美國耐久財訂單（8月）",
+  "tm": "美東 08:30，台灣 20:30",
+  "n": "資料期間：8月（官方時程表）",
+  "st": "o",
+  "u": "https://www.census.gov/economic-indicators/calendar-listview.html",
+  "mn": 1
+ },
+ {
+  "d": "2027-10-27",
+  "c": "eco",
+  "t": "美國耐久財訂單（9月）",
+  "tm": "美東 08:30，台灣 20:30",
+  "n": "資料期間：9月（官方時程表）",
+  "st": "o",
+  "u": "https://www.census.gov/economic-indicators/calendar-listview.html",
+  "mn": 1
+ },
+ {
+  "d": "2027-11-24",
+  "c": "eco",
+  "t": "美國耐久財訂單（10月）",
+  "tm": "美東 08:30，台灣 21:30",
+  "n": "資料期間：10月（官方時程表）",
+  "st": "o",
+  "u": "https://www.census.gov/economic-indicators/calendar-listview.html",
+  "mn": 1
+ },
+ {
+  "d": "2027-12-22",
+  "c": "eco",
+  "t": "美國耐久財訂單（11月）",
+  "tm": "美東 08:30，台灣 21:30",
+  "n": "資料期間：11月（官方時程表）",
+  "st": "o",
+  "u": "https://www.census.gov/economic-indicators/calendar-listview.html",
+  "mn": 1
+ },
+ {
+  "d": "2027-01-28",
+  "c": "eco",
+  "t": "美國第4季 GDP 初估",
+  "tm": "美東 08:30，台灣 21:30",
+  "n": "資料期間：第4季（官方時程表）",
+  "st": "o",
+  "u": "https://www.bea.gov/news/schedule/next-year"
+ },
+ {
+  "d": "2027-01-28",
+  "c": "eco",
+  "t": "美國12月 PCE（個人所得與支出）",
+  "tm": "美東 08:30，台灣 21:30",
+  "n": "資料期間：12月（官方時程表）",
+  "st": "o",
+  "u": "https://www.bea.gov/news/schedule/next-year"
+ },
+ {
+  "d": "2027-02-25",
+  "c": "eco",
+  "t": "美國第4季 GDP 二次估計",
+  "tm": "美東 08:30，台灣 21:30",
+  "n": "資料期間：第4季（官方時程表）",
+  "st": "o",
+  "u": "https://www.bea.gov/news/schedule/next-year"
+ },
+ {
+  "d": "2027-02-25",
+  "c": "eco",
+  "t": "美國1月 PCE（個人所得與支出）",
+  "tm": "美東 08:30，台灣 21:30",
+  "n": "資料期間：1月（官方時程表）",
+  "st": "o",
+  "u": "https://www.bea.gov/news/schedule/next-year"
+ },
+ {
+  "d": "2027-03-31",
+  "c": "eco",
+  "t": "美國第4季 GDP 三次估計",
+  "tm": "美東 08:30，台灣 20:30",
+  "n": "資料期間：第4季（官方時程表）",
+  "st": "o",
+  "u": "https://www.bea.gov/news/schedule/next-year"
+ },
+ {
+  "d": "2027-03-31",
+  "c": "eco",
+  "t": "美國2月 PCE（個人所得與支出）",
+  "tm": "美東 08:30，台灣 20:30",
+  "n": "資料期間：2月（官方時程表）",
+  "st": "o",
+  "u": "https://www.bea.gov/news/schedule/next-year"
+ },
+ {
+  "d": "2027-04-29",
+  "c": "eco",
+  "t": "美國第1季 GDP 初估",
+  "tm": "美東 08:30，台灣 20:30",
+  "n": "資料期間：第1季（官方時程表）",
+  "st": "o",
+  "u": "https://www.bea.gov/news/schedule/next-year"
+ },
+ {
+  "d": "2027-04-29",
+  "c": "eco",
+  "t": "美國3月 PCE（個人所得與支出）",
+  "tm": "美東 08:30，台灣 20:30",
+  "n": "資料期間：3月（官方時程表）",
+  "st": "o",
+  "u": "https://www.bea.gov/news/schedule/next-year"
+ },
+ {
+  "d": "2027-05-27",
+  "c": "eco",
+  "t": "美國第1季 GDP 二次估計",
+  "tm": "美東 08:30，台灣 20:30",
+  "n": "資料期間：第1季（官方時程表）",
+  "st": "o",
+  "u": "https://www.bea.gov/news/schedule/next-year"
+ },
+ {
+  "d": "2027-05-27",
+  "c": "eco",
+  "t": "美國4月 PCE（個人所得與支出）",
+  "tm": "美東 08:30，台灣 20:30",
+  "n": "資料期間：4月（官方時程表）",
+  "st": "o",
+  "u": "https://www.bea.gov/news/schedule/next-year"
+ },
+ {
+  "d": "2027-06-25",
+  "c": "eco",
+  "t": "美國第1季 GDP 三次估計",
+  "tm": "美東 08:30，台灣 20:30",
+  "n": "資料期間：第1季（官方時程表）",
+  "st": "o",
+  "u": "https://www.bea.gov/news/schedule/next-year"
+ },
+ {
+  "d": "2027-06-25",
+  "c": "eco",
+  "t": "美國5月 PCE（個人所得與支出）",
+  "tm": "美東 08:30，台灣 20:30",
+  "n": "資料期間：5月（官方時程表）",
+  "st": "o",
+  "u": "https://www.bea.gov/news/schedule/next-year"
+ },
+ {
+  "d": "2027-07-29",
+  "c": "eco",
+  "t": "美國第2季 GDP 初估",
+  "tm": "美東 08:30，台灣 20:30",
+  "n": "資料期間：第2季（官方時程表）",
+  "st": "o",
+  "u": "https://www.bea.gov/news/schedule/next-year"
+ },
+ {
+  "d": "2027-07-29",
+  "c": "eco",
+  "t": "美國6月 PCE（個人所得與支出）",
+  "tm": "美東 08:30，台灣 20:30",
+  "n": "資料期間：6月（官方時程表）",
+  "st": "o",
+  "u": "https://www.bea.gov/news/schedule/next-year"
+ },
+ {
+  "d": "2027-08-25",
+  "c": "eco",
+  "t": "美國第2季 GDP 二次估計",
+  "tm": "美東 08:30，台灣 20:30",
+  "n": "資料期間：第2季（官方時程表）",
+  "st": "o",
+  "u": "https://www.bea.gov/news/schedule/next-year"
+ },
+ {
+  "d": "2027-08-25",
+  "c": "eco",
+  "t": "美國7月 PCE（個人所得與支出）",
+  "tm": "美東 08:30，台灣 20:30",
+  "n": "資料期間：7月（官方時程表）",
+  "st": "o",
+  "u": "https://www.bea.gov/news/schedule/next-year"
+ },
+ {
+  "d": "2027-09-30",
+  "c": "eco",
+  "t": "美國第2季 GDP 三次估計",
+  "tm": "美東 08:30，台灣 20:30",
+  "n": "資料期間：第2季（官方時程表）",
+  "st": "o",
+  "u": "https://www.bea.gov/news/schedule/next-year"
+ },
+ {
+  "d": "2027-09-30",
+  "c": "eco",
+  "t": "美國8月 PCE（個人所得與支出）",
+  "tm": "美東 08:30，台灣 20:30",
+  "n": "資料期間：8月（官方時程表）",
+  "st": "o",
+  "u": "https://www.bea.gov/news/schedule/next-year"
+ },
+ {
+  "d": "2027-10-28",
+  "c": "eco",
+  "t": "美國第3季 GDP 初估",
+  "tm": "美東 08:30，台灣 20:30",
+  "n": "資料期間：第3季（官方時程表）",
+  "st": "o",
+  "u": "https://www.bea.gov/news/schedule/next-year"
+ },
+ {
+  "d": "2027-10-28",
+  "c": "eco",
+  "t": "美國9月 PCE（個人所得與支出）",
+  "tm": "美東 08:30，台灣 20:30",
+  "n": "資料期間：9月（官方時程表）",
+  "st": "o",
+  "u": "https://www.bea.gov/news/schedule/next-year"
+ },
+ {
+  "d": "2027-11-24",
+  "c": "eco",
+  "t": "美國第3季 GDP 二次估計",
+  "tm": "美東 08:30，台灣 21:30",
+  "n": "資料期間：第3季（官方時程表）",
+  "st": "o",
+  "u": "https://www.bea.gov/news/schedule/next-year"
+ },
+ {
+  "d": "2027-11-24",
+  "c": "eco",
+  "t": "美國10月 PCE（個人所得與支出）",
+  "tm": "美東 08:30，台灣 21:30",
+  "n": "資料期間：10月（官方時程表）",
+  "st": "o",
+  "u": "https://www.bea.gov/news/schedule/next-year"
+ },
+ {
+  "d": "2027-12-22",
+  "c": "eco",
+  "t": "美國第3季 GDP 三次估計",
+  "tm": "美東 08:30，台灣 21:30",
+  "n": "資料期間：第3季（官方時程表）",
+  "st": "o",
+  "u": "https://www.bea.gov/news/schedule/next-year"
+ },
+ {
+  "d": "2027-12-22",
+  "c": "eco",
+  "t": "美國11月 PCE（個人所得與支出）",
+  "tm": "美東 08:30，台灣 21:30",
+  "n": "資料期間：11月（官方時程表）",
+  "st": "o",
+  "u": "https://www.bea.gov/news/schedule/next-year"
+ },
+ {
+  "d": "2026-10-08",
+  "c": "disp",
+  "t": "和益（1709）處置開始",
+  "st": "o",
+  "u": "https://openapi.twse.com.tw/v1/announcement/punish",
+  "n": "證交所處置公告（資料整理於 10/12）；處置期間 10/8–10/15；連續/頻繁異常成交，第一次處置",
+  "mn": 1
+ },
+ {
+  "d": "2026-10-15",
+  "c": "disp",
+  "t": "和益（1709）處置結束",
+  "st": "o",
+  "u": "https://openapi.twse.com.tw/v1/announcement/punish",
+  "n": "證交所處置公告（資料整理於 10/12）；處置期間 10/8–10/15；連續/頻繁異常成交，第一次處置；此日為最後處置日",
+  "mn": 1
+ },
+ {
+  "d": "2026-10-06",
+  "c": "disp",
+  "t": "佳大（2033）處置開始",
+  "st": "o",
+  "u": "https://openapi.twse.com.tw/v1/announcement/punish",
+  "n": "證交所處置公告（資料整理於 10/12）；處置期間 10/6–10/13；第一次處置",
+  "mn": 1
+ },
+ {
+  "d": "2026-10-13",
+  "c": "disp",
+  "t": "佳大（2033）處置結束",
+  "st": "o",
+  "u": "https://openapi.twse.com.tw/v1/announcement/punish",
+  "n": "證交所處置公告（資料整理於 10/12）；處置期間 10/6–10/13；第一次處置；此日為最後處置日",
+  "mn": 1
+ },
+ {
+  "d": "2026-10-08",
+  "c": "disp",
+  "t": "冠西電（2466）處置開始",
+  "st": "o",
+  "u": "https://openapi.twse.com.tw/v1/announcement/punish",
+  "n": "證交所處置公告（資料整理於 10/12）；處置期間 10/8–10/15；第一次處置",
+  "mn": 1
+ },
+ {
+  "d": "2026-10-15",
+  "c": "disp",
+  "t": "冠西電（2466）處置結束",
+  "st": "o",
+  "u": "https://openapi.twse.com.tw/v1/announcement/punish",
+  "n": "證交所處置公告（資料整理於 10/12）；處置期間 10/8–10/15；第一次處置；此日為最後處置日",
+  "mn": 1
+ },
+ {
+  "d": "2026-10-01",
+  "c": "disp",
+  "t": "嘉晶（3016）處置開始",
+  "st": "o",
+  "u": "https://openapi.twse.com.tw/v1/announcement/punish",
+  "n": "證交所處置公告（資料整理於 10/12）；處置期間 10/1–10/12；第一次處置",
+  "mn": 1
+ },
+ {
+  "d": "2026-10-12",
+  "c": "disp",
+  "t": "嘉晶（3016）處置結束",
+  "st": "o",
+  "u": "https://openapi.twse.com.tw/v1/announcement/punish",
+  "n": "證交所處置公告（資料整理於 10/12）；處置期間 10/1–10/12；第一次處置；此日為最後處置日",
+  "mn": 1
+ },
+ {
+  "d": "2026-10-01",
+  "c": "disp",
+  "t": "蔚華科（3055）處置開始",
+  "st": "o",
+  "u": "https://openapi.twse.com.tw/v1/announcement/punish",
+  "n": "證交所處置公告（資料整理於 10/12）；處置期間 10/1–10/12；第二次處置",
+  "mn": 1
+ },
+ {
+  "d": "2026-10-12",
+  "c": "disp",
+  "t": "蔚華科（3055）處置結束",
+  "st": "o",
+  "u": "https://openapi.twse.com.tw/v1/announcement/punish",
+  "n": "證交所處置公告（資料整理於 10/12）；處置期間 10/1–10/12；第二次處置；此日為最後處置日",
+  "mn": 1
+ },
+ {
+  "d": "2026-10-07",
+  "c": "disp",
+  "t": "聯傑（3094）處置開始",
+  "st": "o",
+  "u": "https://openapi.twse.com.tw/v1/announcement/punish",
+  "n": "證交所處置公告（資料整理於 10/12）；處置期間 10/7–10/14；第一次處置",
+  "mn": 1
+ },
+ {
+  "d": "2026-10-14",
+  "c": "disp",
+  "t": "聯傑（3094）處置結束",
+  "st": "o",
+  "u": "https://openapi.twse.com.tw/v1/announcement/punish",
+  "n": "證交所處置公告（資料整理於 10/12）；處置期間 10/7–10/14；第一次處置；此日為最後處置日",
+  "mn": 1
+ },
+ {
+  "d": "2026-10-05",
+  "c": "disp",
+  "t": "大量（3167）處置開始",
+  "st": "o",
+  "u": "https://openapi.twse.com.tw/v1/announcement/punish",
+  "n": "證交所處置公告（資料整理於 10/12）；處置期間 10/5–10/12；第一次處置",
+  "mn": 1
+ },
+ {
+  "d": "2026-10-12",
+  "c": "disp",
+  "t": "大量（3167）處置結束",
+  "st": "o",
+  "u": "https://openapi.twse.com.tw/v1/announcement/punish",
+  "n": "證交所處置公告（資料整理於 10/12）；處置期間 10/5–10/12；第一次處置；此日為最後處置日",
+  "mn": 1
+ },
+ {
+  "d": "2026-10-07",
+  "c": "disp",
+  "t": "柏騰（3518）處置開始",
+  "st": "o",
+  "u": "https://openapi.twse.com.tw/v1/announcement/punish",
+  "n": "證交所處置公告（資料整理於 10/12）；處置期間 10/7–10/14；第一次處置",
+  "mn": 1
+ },
+ {
+  "d": "2026-10-14",
+  "c": "disp",
+  "t": "柏騰（3518）處置結束",
+  "st": "o",
+  "u": "https://openapi.twse.com.tw/v1/announcement/punish",
+  "n": "證交所處置公告（資料整理於 10/12）；處置期間 10/7–10/14；第一次處置；此日為最後處置日",
+  "mn": 1
+ },
+ {
+  "d": "2026-10-08",
+  "c": "disp",
+  "t": "大眾控（3701）處置開始",
+  "st": "o",
+  "u": "https://openapi.twse.com.tw/v1/announcement/punish",
+  "n": "證交所處置公告（資料整理於 10/12）；處置期間 10/8–10/15；第一次處置",
+  "mn": 1
+ },
+ {
+  "d": "2026-10-15",
+  "c": "disp",
+  "t": "大眾控（3701）處置結束",
+  "st": "o",
+  "u": "https://openapi.twse.com.tw/v1/announcement/punish",
+  "n": "證交所處置公告（資料整理於 10/12）；處置期間 10/8–10/15；第一次處置；此日為最後處置日",
+  "mn": 1
+ },
+ {
+  "d": "2026-10-08",
+  "c": "disp",
+  "t": "聯茂（6213）處置開始",
+  "st": "o",
+  "u": "https://openapi.twse.com.tw/v1/announcement/punish",
+  "n": "證交所處置公告（資料整理於 10/12）；處置期間 10/8–10/19；第一次處置",
+  "mn": 1
+ },
+ {
+  "d": "2026-10-19",
+  "c": "disp",
+  "t": "聯茂（6213）處置結束",
+  "st": "o",
+  "u": "https://openapi.twse.com.tw/v1/announcement/punish",
+  "n": "證交所處置公告（資料整理於 10/12）；處置期間 10/8–10/19；第一次處置；此日為最後處置日",
+  "mn": 1
+ },
+ {
+  "d": "2026-10-06",
+  "c": "disp",
+  "t": "晶心科（6533）處置開始",
+  "st": "o",
+  "u": "https://openapi.twse.com.tw/v1/announcement/punish",
+  "n": "證交所處置公告（資料整理於 10/12）；處置期間 10/6–10/13；第一次處置",
+  "mn": 1
+ },
+ {
+  "d": "2026-10-13",
+  "c": "disp",
+  "t": "晶心科（6533）處置結束",
+  "st": "o",
+  "u": "https://openapi.twse.com.tw/v1/announcement/punish",
+  "n": "證交所處置公告（資料整理於 10/12）；處置期間 10/6–10/13；第一次處置；此日為最後處置日",
+  "mn": 1
+ },
+ {
+  "d": "2026-10-06",
+  "c": "disp",
+  "t": "騰輝電子-KY（6672）處置開始",
+  "st": "o",
+  "u": "https://openapi.twse.com.tw/v1/announcement/punish",
+  "n": "證交所處置公告（資料整理於 10/12）；處置期間 10/6–10/16；公告兩筆：第一次 10/6–10/13、第二次 10/12–10/16，合併為連續處置期間",
+  "mn": 1
+ },
+ {
+  "d": "2026-10-16",
+  "c": "disp",
+  "t": "騰輝電子-KY（6672）處置結束",
+  "st": "o",
+  "u": "https://openapi.twse.com.tw/v1/announcement/punish",
+  "n": "證交所處置公告（資料整理於 10/12）；處置期間 10/6–10/16；公告兩筆：第一次 10/6–10/13、第二次 10/12–10/16，合併為連續處置期間；此日為最後處置日",
+  "mn": 1
+ },
+ {
+  "d": "2026-10-08",
+  "c": "disp",
+  "t": "裕慶-KY（6957）處置開始",
+  "st": "o",
+  "u": "https://openapi.twse.com.tw/v1/announcement/punish",
+  "n": "證交所處置公告（資料整理於 10/12）；處置期間 10/8–10/15；第一次處置",
+  "mn": 1
+ },
+ {
+  "d": "2026-10-15",
+  "c": "disp",
+  "t": "裕慶-KY（6957）處置結束",
+  "st": "o",
+  "u": "https://openapi.twse.com.tw/v1/announcement/punish",
+  "n": "證交所處置公告（資料整理於 10/12）；處置期間 10/8–10/15；第一次處置；此日為最後處置日",
+  "mn": 1
+ },
+ {
+  "d": "2026-10-12",
+  "c": "disp",
+  "t": "尖點（8021）處置開始",
+  "st": "o",
+  "u": "https://openapi.twse.com.tw/v1/announcement/punish",
+  "n": "證交所處置公告（資料整理於 10/12）；處置期間 10/12–10/16；第二次處置",
+  "mn": 1
+ },
+ {
+  "d": "2026-10-16",
+  "c": "disp",
+  "t": "尖點（8021）處置結束",
+  "st": "o",
+  "u": "https://openapi.twse.com.tw/v1/announcement/punish",
+  "n": "證交所處置公告（資料整理於 10/12）；處置期間 10/12–10/16；第二次處置；此日為最後處置日",
+  "mn": 1
+ },
+ {
+  "d": "2026-10-06",
+  "c": "disp",
+  "t": "無敵（8201）處置開始",
+  "st": "o",
+  "u": "https://openapi.twse.com.tw/v1/announcement/punish",
+  "n": "證交所處置公告（資料整理於 10/12）；處置期間 10/6–10/13；第一次處置",
+  "mn": 1
+ },
+ {
+  "d": "2026-10-13",
+  "c": "disp",
+  "t": "無敵（8201）處置結束",
+  "st": "o",
+  "u": "https://openapi.twse.com.tw/v1/announcement/punish",
+  "n": "證交所處置公告（資料整理於 10/12）；處置期間 10/6–10/13；第一次處置；此日為最後處置日",
+  "mn": 1
+ },
+ {
+  "d": "2026-10-05",
+  "c": "disp",
+  "t": "高力（8996）處置開始",
+  "st": "o",
+  "u": "https://openapi.twse.com.tw/v1/announcement/punish",
+  "n": "證交所處置公告（資料整理於 10/12）；處置期間 10/5–10/12；第二次處置",
+  "mn": 1
+ },
+ {
+  "d": "2026-10-12",
+  "c": "disp",
+  "t": "高力（8996）處置結束",
+  "st": "o",
+  "u": "https://openapi.twse.com.tw/v1/announcement/punish",
+  "n": "證交所處置公告（資料整理於 10/12）；處置期間 10/5–10/12；第二次處置；此日為最後處置日",
+  "mn": 1
+ },
+ {
+  "d": "2026-10-08",
+  "c": "disp",
+  "t": "聯一光（3441）處置開始",
+  "st": "o",
+  "u": "https://www.tpex.org.tw/openapi/v1/tpex_disposal_information",
+  "n": "櫃買中心處置公告（資料整理於 10/12）；處置期間 10/8–10/19",
+  "mn": 1
+ },
+ {
+  "d": "2026-10-19",
+  "c": "disp",
+  "t": "聯一光（3441）處置結束",
+  "st": "o",
+  "u": "https://www.tpex.org.tw/openapi/v1/tpex_disposal_information",
+  "n": "櫃買中心處置公告（資料整理於 10/12）；處置期間 10/8–10/19；此日為最後處置日",
+  "mn": 1
+ },
+ {
+  "d": "2026-10-05",
+  "c": "disp",
+  "t": "浩鼎（4174）處置開始",
+  "st": "o",
+  "u": "https://www.tpex.org.tw/openapi/v1/tpex_disposal_information",
+  "n": "櫃買中心處置公告（資料整理於 10/12）；處置期間 10/5–10/15；公告兩筆：10/5–10/12、10/8–10/15（期間重疊），合併顯示",
+  "mn": 1
+ },
+ {
+  "d": "2026-10-15",
+  "c": "disp",
+  "t": "浩鼎（4174）處置結束",
+  "st": "o",
+  "u": "https://www.tpex.org.tw/openapi/v1/tpex_disposal_information",
+  "n": "櫃買中心處置公告（資料整理於 10/12）；處置期間 10/5–10/15；公告兩筆：10/5–10/12、10/8–10/15（期間重疊），合併顯示；此日為最後處置日",
+  "mn": 1
+ },
+ {
+  "d": "2026-10-08",
+  "c": "disp",
+  "t": "勤凱（4760）處置開始",
+  "st": "o",
+  "u": "https://www.tpex.org.tw/openapi/v1/tpex_disposal_information",
+  "n": "櫃買中心處置公告（資料整理於 10/12）；處置期間 10/8–10/15",
+  "mn": 1
+ },
+ {
+  "d": "2026-10-15",
+  "c": "disp",
+  "t": "勤凱（4760）處置結束",
+  "st": "o",
+  "u": "https://www.tpex.org.tw/openapi/v1/tpex_disposal_information",
+  "n": "櫃買中心處置公告（資料整理於 10/12）；處置期間 10/8–10/15；此日為最後處置日",
+  "mn": 1
+ },
+ {
+  "d": "2026-10-08",
+  "c": "disp",
+  "t": "中茂（5205）處置開始",
+  "st": "o",
+  "u": "https://www.tpex.org.tw/openapi/v1/tpex_disposal_information",
+  "n": "櫃買中心處置公告（資料整理於 10/12）；處置期間 10/8–10/15",
+  "mn": 1
+ },
+ {
+  "d": "2026-10-15",
+  "c": "disp",
+  "t": "中茂（5205）處置結束",
+  "st": "o",
+  "u": "https://www.tpex.org.tw/openapi/v1/tpex_disposal_information",
+  "n": "櫃買中心處置公告（資料整理於 10/12）；處置期間 10/8–10/15；此日為最後處置日",
+  "mn": 1
+ },
+ {
+  "d": "2026-10-08",
+  "c": "disp",
+  "t": "金居（8358）處置開始",
+  "st": "o",
+  "u": "https://www.tpex.org.tw/openapi/v1/tpex_disposal_information",
+  "n": "櫃買中心處置公告（資料整理於 10/12）；處置期間 10/8–10/15",
+  "mn": 1
+ },
+ {
+  "d": "2026-10-15",
+  "c": "disp",
+  "t": "金居（8358）處置結束",
+  "st": "o",
+  "u": "https://www.tpex.org.tw/openapi/v1/tpex_disposal_information",
+  "n": "櫃買中心處置公告（資料整理於 10/12）；處置期間 10/8–10/15；此日為最後處置日",
+  "mn": 1
+ },
+ {
+  "d": "2026-10-07",
+  "c": "disp",
+  "t": "旭然（4556）處置開始",
+  "st": "o",
+  "u": "https://www.tpex.org.tw/openapi/v1/tpex_disposal_information",
+  "n": "櫃買中心處置公告（資料整理於 10/12）；處置期間 10/7–10/14",
+  "mn": 1
+ },
+ {
+  "d": "2026-10-14",
+  "c": "disp",
+  "t": "旭然（4556）處置結束",
+  "st": "o",
+  "u": "https://www.tpex.org.tw/openapi/v1/tpex_disposal_information",
+  "n": "櫃買中心處置公告（資料整理於 10/12）；處置期間 10/7–10/14；此日為最後處置日",
+  "mn": 1
+ },
+ {
+  "d": "2026-10-07",
+  "c": "disp",
+  "t": "強新（5013）處置開始",
+  "st": "o",
+  "u": "https://www.tpex.org.tw/openapi/v1/tpex_disposal_information",
+  "n": "櫃買中心處置公告（資料整理於 10/12）；處置期間 10/7–10/14",
+  "mn": 1
+ },
+ {
+  "d": "2026-10-14",
+  "c": "disp",
+  "t": "強新（5013）處置結束",
+  "st": "o",
+  "u": "https://www.tpex.org.tw/openapi/v1/tpex_disposal_information",
+  "n": "櫃買中心處置公告（資料整理於 10/12）；處置期間 10/7–10/14；此日為最後處置日",
+  "mn": 1
+ },
+ {
+  "d": "2026-10-02",
+  "c": "disp",
+  "t": "巨虹（8084）處置開始",
+  "st": "o",
+  "u": "https://www.tpex.org.tw/openapi/v1/tpex_disposal_information",
+  "n": "櫃買中心處置公告（資料整理於 10/12）；處置期間 10/2–10/14；公告兩筆：10/2–10/8、10/7–10/14（期間重疊），合併顯示；撮合間隔較長",
+  "mn": 1
+ },
+ {
+  "d": "2026-10-14",
+  "c": "disp",
+  "t": "巨虹（8084）處置結束",
+  "st": "o",
+  "u": "https://www.tpex.org.tw/openapi/v1/tpex_disposal_information",
+  "n": "櫃買中心處置公告（資料整理於 10/12）；處置期間 10/2–10/14；公告兩筆：10/2–10/8、10/7–10/14（期間重疊），合併顯示；撮合間隔較長；此日為最後處置日",
+  "mn": 1
+ },
+ {
+  "d": "2026-10-06",
+  "c": "disp",
+  "t": "由田（3455）處置開始",
+  "st": "o",
+  "u": "https://www.tpex.org.tw/openapi/v1/tpex_disposal_information",
+  "n": "櫃買中心處置公告（資料整理於 10/12）；處置期間 10/6–10/13",
+  "mn": 1
+ },
+ {
+  "d": "2026-10-13",
+  "c": "disp",
+  "t": "由田（3455）處置結束",
+  "st": "o",
+  "u": "https://www.tpex.org.tw/openapi/v1/tpex_disposal_information",
+  "n": "櫃買中心處置公告（資料整理於 10/12）；處置期間 10/6–10/13；此日為最後處置日",
+  "mn": 1
+ },
+ {
+  "d": "2026-10-06",
+  "c": "disp",
+  "t": "天擎（6708）處置開始",
+  "st": "o",
+  "u": "https://www.tpex.org.tw/openapi/v1/tpex_disposal_information",
+  "n": "櫃買中心處置公告（資料整理於 10/12）；處置期間 10/6–10/13",
+  "mn": 1
+ },
+ {
+  "d": "2026-10-13",
+  "c": "disp",
+  "t": "天擎（6708）處置結束",
+  "st": "o",
+  "u": "https://www.tpex.org.tw/openapi/v1/tpex_disposal_information",
+  "n": "櫃買中心處置公告（資料整理於 10/12）；處置期間 10/6–10/13；此日為最後處置日",
+  "mn": 1
+ },
+ {
+  "d": "2026-10-02",
+  "c": "disp",
+  "t": "巨有科技（8227）處置開始",
+  "st": "o",
+  "u": "https://www.tpex.org.tw/openapi/v1/tpex_disposal_information",
+  "n": "櫃買中心處置公告（資料整理於 10/12）；處置期間 10/2–10/8",
+  "mn": 1
+ },
+ {
+  "d": "2026-10-08",
+  "c": "disp",
+  "t": "巨有科技（8227）處置結束",
+  "st": "o",
+  "u": "https://www.tpex.org.tw/openapi/v1/tpex_disposal_information",
+  "n": "櫃買中心處置公告（資料整理於 10/12）；處置期間 10/2–10/8；此日為最後處置日",
+  "mn": 1
  }
 ]
