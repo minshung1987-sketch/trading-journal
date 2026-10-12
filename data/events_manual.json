@@ -1516,11 +1516,11 @@
  {
   "d": "2026-10-15",
   "c": "cb",
-  "t": "克利夫蘭聯儲主席哈瑪克講話",
-  "st": "e",
-  "u": "https://news.futunn.com/t/post/1000837743/BeyzVRuqUf",
-  "tm": "台灣 10/16 04:30（美東 10/15 16:30）",
-  "n": "僅見於媒體報導（富途），聯準會官網未列，與 10/12 NABE 演說可能不是同一場",
+  "t": "克利夫蘭聯儲主席哈瑪克：Women's Trading Network 爐邊對談",
+  "st": "o",
+  "u": "https://www.clevelandfed.org/president-and-ceo",
+  "tm": "美東 16:30，台灣 10/16 04:30",
+  "n": "高盛與 Girls Who Code 主辦；克利夫蘭聯儲演講行程頁已列（地點未公布）；本環境無法直接開啟官網，內容經官網頁面搜尋摘要確認（10/13）",
   "mn": 1
  },
  {
@@ -1670,9 +1670,10 @@
   "c": "ind",
   "t": "台北國際電子產業科技展（秋季電子展 TAITRONICS）",
   "pl": "台北南港展覽館 1 館",
-  "st": "e",
-  "u": "https://www.cantonfair.net/event/697-taipei-international-electronics-show-taitronics",
-  "n": "電子零組件與 AIoT；日期來自第三方展會網站，官網未能讀取，請以主辦單位為準"
+  "st": "o",
+  "u": "https://www.taitronics.tw/en/menu/34E2DEE62B3B8AB8D0636733C6861689/info.html",
+  "n": "電子零組件與 AIoT，與 AIoT Taiwan 同展；外貿協會與電電公會主辦；本環境無法直接開啟官網，內容經官網頁面搜尋摘要確認（10/13）",
+  "tm": "10/20–21 10:00–17:00，10/22 09:30–15:00"
  },
  {
   "d": "2026-11-10",
@@ -1708,11 +1709,11 @@
   "d": "2026-12-02",
   "e": "2026-12-04",
   "c": "ind",
-  "t": "HKPCA & IPC Show 2026（深圳）",
-  "pl": "深圳世界會展中心",
-  "st": "e",
-  "u": "https://www.showsbee.com/fairs/73582-HKPCA-IPC-Show-2026.html",
-  "n": "中國 PCB 展；官網只寫「12 月、深圳」，日期來自第三方展會網站"
+  "t": "HKPCA Show 2026（國際電子電路〔深圳〕展覽會）",
+  "pl": "深圳國際會展中心（寶安）4–8 館",
+  "st": "o",
+  "u": "https://www.hkpcashow.org/en/show/information/",
+  "n": "中國 PCB 展；主辦單位官網與招展單張皆列 12/2–4；本環境無法直接開啟官網，內容經官網頁面搜尋摘要確認（10/13）"
  },
  {
   "d": "2026-12-07",
@@ -2020,10 +2021,10 @@
   "e": "2026-10-27",
   "c": "ind",
   "t": "ESMO 2026（歐洲腫瘤內科學會年會）",
-  "pl": "西班牙馬德里 IFEMA",
-  "st": "e",
-  "u": "https://www.ifema.es/congreso-esmo",
-  "n": "日期來自場館 IFEMA 頁面，ESMO 官網未能讀取"
+  "pl": "西班牙馬德里（亦可線上參加）",
+  "st": "o",
+  "u": "https://www.esmo.org/meeting-calendar/esmo-congress-2026",
+  "n": "ESMO 官網列 10/23–27；本環境無法直接開啟官網，內容經官網頁面搜尋摘要確認（10/13）"
  },
  {
   "d": "2026-10-15",
@@ -3261,5 +3262,15 @@
   "u": "https://www.tpex.org.tw/openapi/v1/tpex_disposal_information",
   "n": "櫃買中心處置公告（資料整理於 10/12）；處置期間 10/2–10/8；此日為最後處置日",
   "mn": 1
+ },
+ {
+  "d": "2027-08-04",
+  "e": "2027-08-07",
+  "c": "ind",
+  "t": "台灣機器人與智慧自動化展（TAIROS）2027",
+  "pl": "台北南港展覽館",
+  "st": "o",
+  "u": "https://www.tairos.tw/en/",
+  "n": "機器人與自動化；官網列 2027/8/4–7，1 館已額滿；本環境無法直接開啟官網，內容經官網頁面搜尋摘要確認（10/13）"
  }
 ]
