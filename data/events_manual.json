@@ -1653,5 +1653,376 @@
   "u": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm",
   "tm": "時間未公布",
   "mn": 1
+ },
+ {
+  "d": "2026-10-20",
+  "e": "2026-10-22",
+  "c": "ind",
+  "t": "TPCA Show 2026（台灣電路板產業國際展覽會）",
+  "pl": "台北南港展覽館 1 館",
+  "st": "o",
+  "u": "https://www.tpcashow.com",
+  "n": "PCB／載板；官網寫週二至週四，最後一天 15:30 閉館"
+ },
+ {
+  "d": "2026-10-20",
+  "e": "2026-10-22",
+  "c": "ind",
+  "t": "台北國際電子產業科技展（秋季電子展 TAITRONICS）",
+  "pl": "台北南港展覽館 1 館",
+  "st": "e",
+  "u": "https://www.cantonfair.net/event/697-taipei-international-electronics-show-taitronics",
+  "n": "電子零組件與 AIoT；日期來自第三方展會網站，官網未能讀取，請以主辦單位為準"
+ },
+ {
+  "d": "2026-11-10",
+  "e": "2026-11-13",
+  "c": "ind",
+  "t": "electronica 2026（慕尼黑國際電子元件展）",
+  "pl": "德國慕尼黑",
+  "st": "o",
+  "u": "https://electronica.de/",
+  "n": "11/9 有車用電子研討會；同期 SEMICON Europa"
+ },
+ {
+  "d": "2026-11-15",
+  "e": "2026-11-20",
+  "c": "ind",
+  "t": "SC26 超級電腦大會",
+  "pl": "美國芝加哥 McCormick Place",
+  "st": "o",
+  "u": "https://sc26.supercomputing.org/",
+  "n": "展場開放 11/17–19；HPC 與 AI 伺服器、液冷題材"
+ },
+ {
+  "d": "2026-11-16",
+  "e": "2026-11-19",
+  "c": "ind",
+  "t": "RE+ 2026 北美再生能源展",
+  "pl": "美國拉斯維加斯",
+  "st": "e",
+  "u": "https://www.re-plus.com",
+  "n": "太陽能與儲能；展場 11/17–19。日期取自展會官網的歷屆資訊，尚待再核對"
+ },
+ {
+  "d": "2026-12-02",
+  "e": "2026-12-04",
+  "c": "ind",
+  "t": "HKPCA & IPC Show 2026（深圳）",
+  "pl": "深圳世界會展中心",
+  "st": "e",
+  "u": "https://www.showsbee.com/fairs/73582-HKPCA-IPC-Show-2026.html",
+  "n": "中國 PCB 展；官網只寫「12 月、深圳」，日期來自第三方展會網站"
+ },
+ {
+  "d": "2026-12-07",
+  "e": "2026-12-11",
+  "c": "ind",
+  "t": "IEEE GLOBECOM 2026",
+  "pl": "中國澳門",
+  "st": "o",
+  "u": "https://comsoc.org/conferences-events/ieee-global-communications-conference-2026",
+  "n": "通訊學術與標準會議（6G、NTN），對個股直接影響小",
+  "mn": 1
+ },
+ {
+  "d": "2026-12-09",
+  "e": "2026-12-11",
+  "c": "ind",
+  "t": "SEMICON Japan 2026",
+  "pl": "日本東京 Big Sight",
+  "st": "o",
+  "u": "https://www.semiconjapan.org/en",
+  "n": "半導體設備與材料；每天 10:00–17:00"
+ },
+ {
+  "d": "2027-01-11",
+  "e": "2027-01-14",
+  "c": "ind",
+  "t": "摩根大通健康醫療年會（JPM Healthcare 2027）",
+  "pl": "美國舊金山",
+  "st": "o",
+  "u": "https://www.jpmorgan.com/about-us/events-conferences/health-care-conference",
+  "n": "第 45 屆；生技公司常在此公布財測與合作"
+ },
+ {
+  "d": "2027-02-14",
+  "e": "2027-02-18",
+  "c": "ind",
+  "t": "ISSCC 2027（IEEE 國際固態電路會議）",
+  "pl": "美國舊金山 Marriott Marquis",
+  "st": "o",
+  "u": "https://www.isscc.org/",
+  "n": "晶片設計與先進製程論文"
+ },
+ {
+  "d": "2027-03-01",
+  "e": "2027-03-04",
+  "c": "ind",
+  "t": "MWC 巴塞隆納 2027",
+  "pl": "西班牙巴塞隆納 Fira Gran Via",
+  "st": "o",
+  "u": "https://www.mwcbarcelona.com/",
+  "n": "5G/6G、手機、衛星直連與網通設備"
+ },
+ {
+  "d": "2027-03-07",
+  "e": "2027-03-11",
+  "c": "ind",
+  "t": "OFC 2027（美國光纖通訊展）",
+  "pl": "美國洛杉磯會議中心",
+  "st": "o",
+  "u": "https://www.ofcconference.org/",
+  "n": "光通訊與 CPO 最重要的展；研討會 3/7–11，展覽 3/9–11"
+ },
+ {
+  "d": "2027-03-08",
+  "e": "2027-03-11",
+  "c": "ind",
+  "t": "SATELLITE 2027（華府衛星通訊展）",
+  "pl": "美國華盛頓特區",
+  "st": "o",
+  "u": "https://www.satshow.com/event/satshow-2027/",
+  "n": "美國最大衛星產業展，低軌衛星與地面終端題材"
+ },
+ {
+  "d": "2027-03-24",
+  "e": "2027-03-26",
+  "c": "ind",
+  "t": "SEMICON China 2027",
+  "pl": "上海新國際博覽中心",
+  "st": "o",
+  "u": "https://www.semiconchina.org/en",
+  "n": "半導體設備與材料"
+ },
+ {
+  "d": "2027-04-06",
+  "e": "2027-04-08",
+  "c": "ind",
+  "t": "IPC APEX EXPO 2027",
+  "pl": "美國安那翰（官網未寫場館）",
+  "st": "o",
+  "u": "https://apexexpo.org/",
+  "n": "電子製造與 PCB；展覽 4/6–8，研討會 4/5–8"
+ },
+ {
+  "d": "2027-04-12",
+  "e": "2027-04-15",
+  "c": "ind",
+  "t": "第 42 屆 Space Symposium",
+  "pl": "美國科羅拉多泉 The Broadmoor",
+  "st": "o",
+  "u": "https://www.spacefoundation.org/?p=46009",
+  "n": "太空與國防產業大會"
+ },
+ {
+  "d": "2027-04-21",
+  "e": "2027-04-23",
+  "c": "ind",
+  "t": "Touch Taiwan 2027",
+  "pl": "台北南港展覽館 1 館 4 樓",
+  "st": "o",
+  "u": "https://www.touchtaiwan.com",
+  "n": "面板與觸控、光學膜"
+ },
+ {
+  "d": "2027-05-10",
+  "e": "2027-05-13",
+  "c": "ind",
+  "t": "Automate 2027",
+  "pl": "美國拉斯維加斯",
+  "st": "o",
+  "u": "https://www.automateshow.com",
+  "n": "自動化與機器人"
+ },
+ {
+  "d": "2027-05-30",
+  "e": "2027-06-03",
+  "c": "ind",
+  "t": "IEEE ICC 2027",
+  "pl": "美國華盛頓特區",
+  "st": "o",
+  "u": "https://www.comsoc.org/conferences-events/ieee-international-conference-communications-2027",
+  "n": "通訊學術會議，對個股直接影響小",
+  "mn": 1
+ },
+ {
+  "d": "2027-06-02",
+  "e": "2027-06-04",
+  "c": "ind",
+  "t": "JPCA Show 2027",
+  "pl": "日本東京 Big Sight",
+  "st": "e",
+  "u": "https://www.shifair.com/exhibitionDetails/5165.html",
+  "n": "日本電子電路展；日期來自第三方展會網站，官網未能讀取"
+ },
+ {
+  "d": "2027-06-04",
+  "e": "2027-06-08",
+  "c": "ind",
+  "t": "ASCO 年會 2027",
+  "pl": "美國芝加哥 McCormick Place",
+  "st": "o",
+  "u": "https://www.asco.org/annual-meeting",
+  "n": "腫瘤學臨床數據發表"
+ },
+ {
+  "d": "2027-06-06",
+  "e": "2027-06-11",
+  "c": "ind",
+  "t": "SID Display Week 2027",
+  "pl": "美國聖荷西",
+  "st": "o",
+  "u": "https://www.displayweek.org",
+  "n": "展覽 6/8–10，技術議程 6/6–11"
+ },
+ {
+  "d": "2027-06-07",
+  "e": "2027-06-10",
+  "c": "ind",
+  "t": "BIO 國際生技大會 2027",
+  "pl": "美國費城",
+  "st": "o",
+  "u": "https://convention.bio.org"
+ },
+ {
+  "d": "2027-06-07",
+  "e": "2027-06-10",
+  "c": "ind",
+  "t": "Intersolar Europe 2027",
+  "pl": "德國慕尼黑 Messe München",
+  "st": "o",
+  "u": "https://www.intersolar.de/home",
+  "n": "展覽 6/8–10，會議 6/7–8"
+ },
+ {
+  "d": "2027-06-20",
+  "e": "2027-06-24",
+  "c": "ind",
+  "t": "2027 VLSI 技術與電路研討會",
+  "pl": "日本京都 Rihga Royal Hotel",
+  "st": "o",
+  "u": "https://www.vlsisymposium.org/features/greeting.html",
+  "n": "先進製程與電路論文"
+ },
+ {
+  "d": "2027-06-23",
+  "e": "2027-06-25",
+  "c": "ind",
+  "t": "MWC 上海 2027",
+  "pl": "上海新國際博覽中心",
+  "st": "o",
+  "u": "https://www.mwcshanghai.cn/",
+  "n": "中國電信商與設備商，5G-A 與 AI 主題"
+ },
+ {
+  "d": "2027-07-27",
+  "e": "2027-07-29",
+  "c": "ind",
+  "t": "FMS 2027（未來記憶體與儲存高峰會）",
+  "pl": "美國聖塔克拉拉",
+  "st": "e",
+  "u": "https://www.terrapinn.com/conference/future-memory-storage/",
+  "n": "記憶體與儲存；官網內文寫 7/27–29、橫幅寫 7/28–30，尚待確認"
+ },
+ {
+  "d": "2027-07-27",
+  "e": "2027-07-31",
+  "c": "ind",
+  "t": "台灣國際生技展（BIO Asia-Taiwan）2027",
+  "pl": "台北南港展覽館",
+  "st": "o",
+  "u": "https://www.bioasiataiwan.com",
+  "n": "官網 7/27–31；第三方站曾寫 7/28–8/1，以官網為準"
+ },
+ {
+  "d": "2027-08-01",
+  "e": "2027-08-04",
+  "c": "ind",
+  "t": "SmallSat 2027（小型衛星大會）",
+  "pl": "美國（官網未寫 2027 場地，2026 在鹽湖城）",
+  "st": "o",
+  "u": "https://smallsat.org/",
+  "n": "低軌衛星供應鏈"
+ },
+ {
+  "d": "2027-09-07",
+  "e": "2027-09-12",
+  "c": "ind",
+  "t": "IAA Mobility 2027（慕尼黑車展）",
+  "pl": "德國慕尼黑",
+  "st": "o",
+  "u": "https://www.iaa-mobility.com",
+  "n": "新聞日 9/6"
+ },
+ {
+  "d": "2027-09-08",
+  "e": "2027-09-10",
+  "c": "ind",
+  "t": "CIOE 2027（中國國際光電博覽會）",
+  "pl": "深圳（兩個官網頁面場館不同，請再確認）",
+  "st": "o",
+  "u": "https://www.cioe.cn/",
+  "n": "光模組與光通訊"
+ },
+ {
+  "d": "2027-09-23",
+  "e": "2027-09-25",
+  "c": "ind",
+  "t": "台北國際航太暨國防工業展（TADTE）2027",
+  "pl": "台北南港展覽館 1 館",
+  "st": "o",
+  "u": "https://www.ctee.com.tw/news/20260903701368-431202",
+  "n": "單數年舉辦、外貿協會主辦；無人機與衛星資料鏈。日期取自工商時報報導"
+ },
+ {
+  "d": "2027-09-27",
+  "e": "2027-10-01",
+  "c": "ind",
+  "t": "IAC 2027（國際太空大會）",
+  "pl": "波蘭波茲南",
+  "st": "o",
+  "u": "https://www.iafastro.org/events/iac/",
+  "n": "日期僅來自 IAF 活動列表"
+ },
+ {
+  "d": "2027-10-11",
+  "e": "2027-10-13",
+  "c": "ind",
+  "t": "ECOC 2027（歐洲光通訊大會）",
+  "pl": "義大利米蘭",
+  "st": "o",
+  "u": "https://www.ecocexhibition.com/",
+  "n": "展覽 10/11–13，頁面顯示整個活動週為 10/10–14"
+ },
+ {
+  "d": "2027-11-15",
+  "e": "2027-11-18",
+  "c": "ind",
+  "t": "RE+ 2027 北美再生能源展",
+  "pl": "美國拉斯維加斯",
+  "st": "o",
+  "u": "https://www.re-plus.com",
+  "n": "太陽能與儲能"
+ },
+ {
+  "d": "2027-11-16",
+  "e": "2027-11-19",
+  "c": "ind",
+  "t": "productronica 2027",
+  "pl": "德國慕尼黑 Messe München",
+  "st": "o",
+  "u": "https://productronica.com/en/",
+  "n": "電子生產設備"
+ },
+ {
+  "d": "2026-10-23",
+  "e": "2026-10-27",
+  "c": "ind",
+  "t": "ESMO 2026（歐洲腫瘤內科學會年會）",
+  "pl": "西班牙馬德里 IFEMA",
+  "st": "e",
+  "u": "https://www.ifema.es/congreso-esmo",
+  "n": "日期來自場館 IFEMA 頁面，ESMO 官網未能讀取"
  }
 ]

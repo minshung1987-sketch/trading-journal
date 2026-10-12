@@ -10,7 +10,7 @@
 <style>
 :root{
   --bg:#F3F5F8; --surface:#FFFFFF; --ink:#16203A; --muted:#5A647C; --line:#DCE1EA; --soft:#E9EDF4;
-  --cb:#3B5BDB; --eco:#5C7C0F; --us:#0B7285; --tw:#9C36B5; --agm:#A85F00; --tech:#C2255C;
+  --cb:#3B5BDB; --eco:#5C7C0F; --us:#0B7285; --tw:#9C36B5; --agm:#A85F00; --tech:#C2255C; --ind:#7048E8;
   --focus:#3B5BDB;
   box-sizing:border-box;
   padding-top:env(safe-area-inset-top,0px);
@@ -19,13 +19,13 @@
 @media (prefers-color-scheme: dark){
   :root:not([data-theme="light"]){
     --bg:#0E1322; --surface:#161D32; --ink:#E7EBF6; --muted:#9AA4BD; --line:#283250; --soft:#1E2742;
-    --cb:#8CA7FF; --eco:#A9E34B; --us:#3BC9DB; --tw:#DA77F2; --agm:#FFC24D; --tech:#FF7AA6;
+    --cb:#8CA7FF; --eco:#A9E34B; --us:#3BC9DB; --tw:#DA77F2; --agm:#FFC24D; --tech:#FF7AA6; --ind:#9775FA;
     --focus:#8CA7FF;
   }
 }
 :root[data-theme="dark"]{
   --bg:#0E1322; --surface:#161D32; --ink:#E7EBF6; --muted:#9AA4BD; --line:#283250; --soft:#1E2742;
-  --cb:#8CA7FF; --eco:#A9E34B; --us:#3BC9DB; --tw:#DA77F2; --agm:#FFC24D; --tech:#FF7AA6;
+  --cb:#8CA7FF; --eco:#A9E34B; --us:#3BC9DB; --tw:#DA77F2; --agm:#FFC24D; --tech:#FF7AA6; --ind:#9775FA;
   --focus:#8CA7FF;
 }
 html{scroll-padding-top:env(safe-area-inset-top,0px);background:var(--bg)}
@@ -194,6 +194,12 @@ const TBA=[
  {t:"其他聯準會官員講話（10/12–10/23 以後）",s:"多半在演講前一週才公布，每週更新時補入"},
  {t:"歐洲央行下一次會議紀要（Account）",s:"約 11 月下旬，日期尚未公布"},
  {t:"2027 年美國 GDP、PCE、ISM、JOLTS 發布日",s:"BEA、ISM 等單位尚未公布 2027 年行程，目前資料到 2027 年 3 月底"},
+ {t:"世界機器人大會 2027（北京）",s:"往年為 8 月，2027 年日期尚未公布"},
+ {t:"台北國際自動化工業大展 2027",s:"2026 年為 8/19–22，2027 年尚未公布"},
+ {t:"日本國際機器人展 iREX 2027",s:"官網只寫「2027 年 12 月上旬預定」，沒有具體日期"},
+ {t:"台北車展、日本移動展下一屆",s:"台北車展兩年一度，下一屆約在 2027 年底到 2028 年初；日本移動展 2027 尚未公布"},
+ {t:"MWC 拉斯維加斯、寬頻世界論壇（Broadband World Forum）",s:"查不到 2026 年的正式日期，可能已停辦或併入其他活動"},
+ {t:"華為全聯接大會 2027",s:"2026 年已在 9/17–19 舉辦，2027 年尚未公布"},
  {t:"各公司投資人日（Investor Day）",s:"目前只查到應材 10/13 的投資人早餐會；邁威爾 10/6 剛辦完，其餘多半臨時公告"}
 ];
 
@@ -204,7 +210,8 @@ const CATS={
   tw:{n:"台股法說會"},
   agm:{n:"股東會"},
   us:{n:"美股財報"},
-  tech:{n:"科技大會與展會"}
+  tech:{n:"科技大會與展會"},
+  ind:{n:"產業展會"}
 };
 const WD="日一二三四五六";
 const pd=s=>{const [y,m,d]=s.split("-").map(Number);return new Date(y,m-1,d)};
