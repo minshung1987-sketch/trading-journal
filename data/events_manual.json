@@ -697,10 +697,10 @@
   "d": "2026-10-29",
   "c": "us",
   "t": "Entegris（ENTG）第三季財報",
-  "st": "e",
-  "u": "https://www.marketbeat.com/stocks/NASDAQ/ENTG/earnings/",
-  "n": "公司尚未公告，依往年（10/30）推估",
-  "tm": "時間未公布",
+  "st": "o",
+  "u": "https://www.financialcontent.com/article/bizwire-2026-10-1-entegris-to-report-results-for-third-quarter-of-2026-on-thursday-october-29-2026",
+  "n": "10/1 公司新聞稿（Business Wire）已公告：10/29 開盤前發布；新聞稿轉載站讀取，IR 官網被擋未直接核實",
+  "tm": "美東開盤前，電話會議美東 08:00，台灣 10/29 20:00",
   "mn": 1
  },
  {
@@ -3272,5 +3272,25 @@
   "st": "o",
   "u": "https://www.tairos.tw/en/",
   "n": "機器人與自動化；官網列 2027/8/4–7，1 館已額滿；本環境無法直接開啟官網，內容經官網頁面搜尋摘要確認（10/13）"
+ },
+ {
+  "d": "2027-08-04",
+  "e": "2027-08-07",
+  "c": "ind",
+  "t": "台北國際自動化工業大展 2027",
+  "pl": "台北南港展覽館 1、2 館",
+  "st": "o",
+  "u": "https://automationtaipei.chanchao.com.tw/",
+  "n": "主辦單位（Chanchao）官網公告；智慧製造、機器人與自動化"
+ },
+ {
+  "d": "2026-11-26",
+  "c": "cb",
+  "t": "歐洲央行貨幣政策會議紀要（Account，10/28–29 會議）",
+  "st": "e",
+  "u": "https://www.smartcalendars.ai/en/feeds/ecb-governing-council-calendar",
+  "n": "ECB 官網只寫下一次為 10/8、未列之後日期；此日期來自第三方行事曆預估，通常於會後約四週發布",
+  "tm": "時間未公布",
+  "mn": 1
  }
 ]
