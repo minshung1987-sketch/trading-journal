@@ -10,7 +10,7 @@
 <style>
 :root{
   --bg:#F3F5F8; --surface:#FFFFFF; --ink:#16203A; --muted:#5A647C; --line:#DCE1EA; --soft:#E9EDF4;
-  --cb:#3B5BDB; --eco:#5C7C0F; --us:#0B7285; --tw:#9C36B5; --agm:#A85F00; --tech:#C2255C; --ind:#7048E8; --disp:#D9480F;
+  --cb:#3B5BDB; --eco:#5C7C0F; --us:#0B7285; --tw:#9C36B5; --agm:#A85F00; --tech:#C2255C; --ind:#7048E8; --disp:#D9480F; --mkt:#495057;
   --focus:#3B5BDB; --star:#F2B705; --new:#2B8A3E; --chg:#D9480F;
   box-sizing:border-box;
   padding-top:env(safe-area-inset-top,0px);
@@ -19,13 +19,13 @@
 @media (prefers-color-scheme: dark){
   :root:not([data-theme="light"]){
     --bg:#0E1322; --surface:#161D32; --ink:#E7EBF6; --muted:#9AA4BD; --line:#283250; --soft:#1E2742;
-    --cb:#8CA7FF; --eco:#A9E34B; --us:#3BC9DB; --tw:#DA77F2; --agm:#FFC24D; --tech:#FF7AA6; --ind:#9775FA; --disp:#FF922B;
+    --cb:#8CA7FF; --eco:#A9E34B; --us:#3BC9DB; --tw:#DA77F2; --agm:#FFC24D; --tech:#FF7AA6; --ind:#9775FA; --disp:#FF922B; --mkt:#ADB5BD;
     --focus:#8CA7FF; --star:#FFD43B; --new:#37B24D; --chg:#FD7E14;
   }
 }
 :root[data-theme="dark"]{
   --bg:#0E1322; --surface:#161D32; --ink:#E7EBF6; --muted:#9AA4BD; --line:#283250; --soft:#1E2742;
-  --cb:#8CA7FF; --eco:#A9E34B; --us:#3BC9DB; --tw:#DA77F2; --agm:#FFC24D; --tech:#FF7AA6; --ind:#9775FA; --disp:#FF922B;
+  --cb:#8CA7FF; --eco:#A9E34B; --us:#3BC9DB; --tw:#DA77F2; --agm:#FFC24D; --tech:#FF7AA6; --ind:#9775FA; --disp:#FF922B; --mkt:#ADB5BD;
   --focus:#8CA7FF; --star:#FFD43B; --new:#37B24D; --chg:#FD7E14;
 }
 html{scroll-padding-top:env(safe-area-inset-top,0px);background:var(--bg)}
@@ -256,7 +256,8 @@ const CATS={
   us:{n:"美股財報"},
   tech:{n:"科技大會與展會"},
   ind:{n:"產業展會"},
-  disp:{n:"處置股"}
+  disp:{n:"處置股"},
+  mkt:{n:"交易日程"}
 };
 const WD="日一二三四五六";
 const pd=s=>{const [y,m,d]=s.split("-").map(Number);return new Date(y,m-1,d)};
