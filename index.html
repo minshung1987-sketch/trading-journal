@@ -107,6 +107,11 @@ h1{margin:0;font-size:clamp(28px,4.4vw,40px);line-height:1.15;font-weight:700;le
 .daypanel{margin-top:16px}
 .daypanel h3{margin:0 0 8px;font-size:16px}
 
+.dlg{position:fixed;inset:0;background:rgba(10,15,30,.55);z-index:50;display:flex;align-items:flex-start;justify-content:center;padding:5vh 14px;overflow:auto}
+.dlgbox{background:var(--bg);border:1px solid var(--line);border-radius:14px;width:100%;max-width:720px;padding:16px;max-height:90vh;overflow:auto}
+.dlghead{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:10px;position:sticky;top:0;background:var(--bg);padding-bottom:6px}
+.dlghead h3{margin:0;font-size:17px}
+.cell{user-select:none}
 /* undated */
 .tba{margin-top:40px}
 .tba h2{font-size:18px;margin:0 0 4px}
@@ -380,7 +385,7 @@ function renderMonth(box){
     if(i>=35&&d.getMonth()!==m)break;
     const evs=byDay.get(d.getFullYear()+"-"+d.getMonth()+"-"+d.getDate())||[];
     const cls="cell"+(d.getMonth()!==m?" out":"")+(sameDay(d,TODAY)?" today":"")+(state.sel&&sameDay(d,state.sel)?" sel":"");
-    const cell=h("button",{class:cls,type:"button","aria-label":md(d)+"，"+evs.length+" 筆事件",onclick:()=>{state.sel=d;render();}},
+    const cell=h("button",{class:cls,type:"button","aria-label":md(d)+"，"+evs.length+" 筆事件",onclick:()=>{const t=Date.now();if(lastClick.k===d.getTime()&&t-lastClick.t<450){lastClick={k:0,t:0};openDay(d);return;}lastClick={k:d.getTime(),t};state.sel=d;render();}},
       h("span",{class:"dn",text:String(d.getDate())})
     );
     evs.slice(0,3).forEach(ev=>cell.append(h("span",{class:"pill",style:ccol(ev.c),text:ev.t})));
@@ -397,6 +402,26 @@ function renderMonth(box){
     box.append(panel);
   }
 }
+
+/* ---- 雙擊（或手機連點兩下）月曆日期：彈出當日完整事件列表 ---- */
+let lastClick={k:0,t:0};
+function openDay(d){
+  closeDay();
+  const evs=EVENTS.filter(ev=>state.cats.has(ev.c)&&ev.s<=d&&d<=ev.en);
+  const box=h("div",{class:"dlgbox",role:"dialog","aria-modal":"true","aria-label":"當日事件列表"},
+    h("div",{class:"dlghead"},
+      h("h3",{text:d.getFullYear()+"/"+md(d)+"（週"+WD[d.getDay()]+"）共 "+evs.length+" 筆"}),
+      h("button",{class:"nav",type:"button",text:"關閉",onclick:closeDay})
+    )
+  );
+  if(evs.length)evs.forEach(ev=>box.append(evRow(ev)));
+  else box.append(h("div",{class:"empty",text:"這天沒有事件。"}));
+  const ov=h("div",{class:"dlg",id:"dlg",onclick:e=>{if(e.target===ov)closeDay();}},box);
+  document.body.append(ov);
+  document.body.style.overflow="hidden";
+}
+function closeDay(){const o=document.getElementById("dlg");if(o)o.remove();document.body.style.overflow="";}
+document.addEventListener("keydown",e=>{if(e.key==="Escape")closeDay();});
 
 function render(){
   const box=document.getElementById("view");
