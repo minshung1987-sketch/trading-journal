@@ -1,5 +1,5 @@
 {
- "updated": "2026/10/13 19:07",
+ "updated": "2026/10/14 07:22",
  "events": [
   {
    "d": "2026-08-27",
@@ -3128,250 +3128,30 @@
    "fs": "2026-10-13"
   },
   {
-   "d": "2026-10-13",
+   "d": "2026-10-14",
    "c": "tw",
-   "t": "南亞（1303）法說會",
-   "tm": "15:00",
-   "st": "o",
-   "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
-   "a": 1,
-   "pl": "線上法說會",
-   "n": "參加摩根大通舉辦之法人說明會",
-   "mn": 1,
-   "fs": "0"
-  },
-  {
-   "d": "2026-10-13",
-   "c": "tw",
-   "t": "岱宇（1598）參加 QIC CEO Week",
-   "tm": "09:00",
-   "st": "o",
-   "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
-   "a": 1,
-   "pl": "香港Mandarin Oriental Hotel",
-   "n": "參加寬量國際主辦之「20th QIC CEO Week」",
-   "mn": 1,
-   "fs": "0"
-  },
-  {
-   "d": "2026-10-13",
-   "c": "tw",
-   "t": "元禎（1725）法說會",
+   "t": "味王（1203）法說會",
    "tm": "14:30",
    "st": "o",
    "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
    "a": 1,
-   "pl": "證交所101辦公大樓一樓資訊展示中心(台北市信義路五段七號)",
+   "pl": "臺灣證券交易所1樓資訊展示中心(台北市信義路五段7號)",
    "n": "本公司召開法人說明會",
    "mn": 1,
-   "fs": "0"
+   "fs": "2026-10-14"
   },
   {
-   "d": "2026-10-13",
+   "d": "2026-10-14",
    "c": "tw",
-   "t": "世紀風電（2072）參加 QIC CEO Week",
-   "tm": "09:00",
+   "t": "東陽（1319）財務業務概況座談會",
+   "tm": "13:00",
    "st": "o",
    "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
    "a": 1,
-   "pl": "香港Mandarin Oriental Hotel",
-   "n": "參加寬量國際主辦之「20th QIC CEO Week」",
+   "pl": "台北市南京東路五段188號15樓",
+   "n": "參加國票綜合證券舉辦之投資座談會",
    "mn": 1,
-   "fs": "0"
-  },
-  {
-   "d": "2026-10-13",
-   "c": "tw",
-   "t": "大甲（2221）法說會",
-   "tm": "14:00",
-   "st": "o",
-   "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
-   "a": 1,
-   "pl": "線上",
-   "n": "參加富邦證券舉辦之線上法人說明會",
-   "mn": 1,
-   "fs": "0"
-  },
-  {
-   "d": "2026-10-13",
-   "c": "tw",
-   "t": "廣宇（2328）參加 QIC CEO Week",
-   "tm": "09:00",
-   "st": "o",
-   "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
-   "a": 1,
-   "pl": "香港Mandarin Oriental Hotel (5 Connaught Road, Central, Hong Kong)",
-   "n": "參加寬量國際主辦之「20th QIC CEO Week」",
-   "mn": 1,
-   "fs": "0"
-  },
-  {
-   "d": "2026-10-13",
-   "c": "tw",
-   "t": "英業達（2356）法說會",
-   "tm": "15:00",
-   "st": "o",
-   "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
-   "a": 1,
-   "pl": "線上說明會",
-   "n": "參加SIG線上投資人說明會",
-   "mn": 1,
-   "fs": "0"
-  },
-  {
-   "d": "2026-10-13",
-   "c": "tw",
-   "t": "中華電（2412）法說會",
-   "tm": "12:30",
-   "st": "o",
-   "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
-   "a": 1,
-   "pl": "國票證券(台北市松山區南京東路五段188號15樓)",
-   "n": "參加國票證券主辦法人說明會",
-   "fs": "0"
-  },
-  {
-   "d": "2026-10-13",
-   "c": "tw",
-   "t": "大塚（3570）法說會",
-   "tm": "14:00",
-   "st": "o",
-   "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
-   "a": 1,
-   "pl": "線上直播",
-   "n": "參加永豐金證券舉辦之線上法人說明會",
-   "mn": 1,
-   "fs": "0"
-  },
-  {
-   "d": "2026-10-13",
-   "c": "tw",
-   "t": "廣越（4438）參加 QIC CEO Week",
-   "tm": "09:00",
-   "st": "o",
-   "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
-   "a": 1,
-   "pl": "香港文華東方酒店 (5 Connaught Road, Central, Hong Kong)",
-   "n": "參加寬量國際主辦之「20th QIC CEO Week」",
-   "mn": 1,
-   "fs": "0"
-  },
-  {
-   "d": "2026-10-13",
-   "c": "tw",
-   "t": "南寶（4766）參加 QIC CEO Week",
-   "tm": "09:00",
-   "st": "o",
-   "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
-   "a": 1,
-   "pl": "香港Mandarin Oriental Hotel(5 Connaught Road, Central, Hong Kong)",
-   "n": "參加寬量國際舉辦之法人說明會「20th QIC CEO Week」",
-   "mn": 1,
-   "fs": "0"
-  },
-  {
-   "d": "2026-10-13",
-   "c": "tw",
-   "t": "臻鼎-KY（4958）參加 QIC CEO Week",
-   "tm": "12:00",
-   "st": "o",
-   "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
-   "a": 1,
-   "pl": "香港文華東方酒店 (5 Connaught Road, Central, 香港)",
-   "n": "參加寬量國際主辦之「20th QIC CEO Week」",
-   "mn": 1,
-   "fs": "0"
-  },
-  {
-   "d": "2026-10-13",
-   "c": "tw",
-   "t": "威潤（6465）法說會",
-   "tm": "14:30",
-   "st": "o",
-   "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
-   "a": 1,
-   "pl": "線上法說會",
-   "n": "參加統一證券舉辦之線上法人說明會",
-   "mn": 1,
-   "fs": "0"
-  },
-  {
-   "d": "2026-10-13",
-   "c": "tw",
-   "t": "矽科宏晟（6725）參加 QIC CEO Week",
-   "tm": "12:00",
-   "st": "o",
-   "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
-   "a": 1,
-   "pl": "香港Mandarin Oriental Hotel",
-   "n": "參加寬量國際主辦之「20th QIC CEO Week」",
-   "mn": 1,
-   "fs": "0"
-  },
-  {
-   "d": "2026-10-13",
-   "c": "tw",
-   "t": "巨漢（6903）參加 QIC CEO Week",
-   "tm": "14:00",
-   "st": "o",
-   "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
-   "a": 1,
-   "pl": "香港Mandarin Oriental Hotel",
-   "n": "參加寬量國際主辦之「20th QIC CEO Week」",
-   "mn": 1,
-   "fs": "0"
-  },
-  {
-   "d": "2026-10-13",
-   "c": "tw",
-   "t": "熙特爾-創（7740）法說會",
-   "tm": "09:00",
-   "st": "o",
-   "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
-   "a": 1,
-   "pl": "香港Mandarin Oriental Hotel",
-   "n": "(5 Connaught Road, Central, Hong Kong)",
-   "mn": 1,
-   "fs": "0"
-  },
-  {
-   "d": "2026-10-13",
-   "c": "tw",
-   "t": "鴻勁（7769）法說會",
-   "tm": "09:00",
-   "st": "o",
-   "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
-   "a": 1,
-   "pl": "美國",
-   "n": "參加元大證券舉辦之美國海外路演(NDR)",
-   "mn": 1,
-   "fs": "0"
-  },
-  {
-   "d": "2026-10-13",
-   "c": "tw",
-   "t": "東方風能（7786）法說會",
-   "tm": "09:00",
-   "st": "o",
-   "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
-   "a": 1,
-   "pl": "香港文華東方酒店",
-   "n": "(5 Connaught Road, Central, Hong Kong)",
-   "mn": 1,
-   "fs": "0"
-  },
-  {
-   "d": "2026-10-13",
-   "c": "tw",
-   "t": "禾榮科（7799）參加 QIC CEO Week",
-   "tm": "09:00",
-   "st": "o",
-   "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
-   "a": 1,
-   "pl": "香港Mandarin Oriental Hotel",
-   "n": "參加寬量國際主辦之「20th QIC CEO Week」",
-   "mn": 1,
-   "fs": "0"
+   "fs": "2026-10-14"
   },
   {
    "d": "2026-10-14",
@@ -3398,6 +3178,45 @@
    "n": "參加第一金證券舉辦之線上法人說明會",
    "mn": 1,
    "fs": "0"
+  },
+  {
+   "d": "2026-10-14",
+   "c": "tw",
+   "t": "五福（2745）法說會",
+   "tm": "14:00",
+   "st": "o",
+   "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
+   "a": 1,
+   "pl": "大眾財經大樓(高雄市前鎮區中山二路2號9樓之一)",
+   "n": "參加台新證券舉辦之法人說明會",
+   "mn": 1,
+   "fs": "2026-10-14"
+  },
+  {
+   "d": "2026-10-14",
+   "c": "tw",
+   "t": "旺旺保（2816）法說會",
+   "tm": "14:00",
+   "st": "o",
+   "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
+   "a": 1,
+   "pl": "台北市大安區忠孝東路四段219號4樓會議室",
+   "n": "本公司召開法人說明會",
+   "mn": 1,
+   "fs": "2026-10-14"
+  },
+  {
+   "d": "2026-10-14",
+   "c": "tw",
+   "t": "台灣精材（3467）參加 QIC CEO Week",
+   "tm": "09:00",
+   "st": "o",
+   "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
+   "a": 1,
+   "pl": "香港Mandarin Oriental Hotel",
+   "n": "參加寬量國際主辦之「20th QIC CEO Week」",
+   "mn": 1,
+   "fs": "2026-10-14"
   },
   {
    "d": "2026-10-14",
@@ -3441,6 +3260,19 @@
   {
    "d": "2026-10-14",
    "c": "tw",
+   "t": "迅得（6438）參加 QIC CEO Week",
+   "tm": "09:00",
+   "st": "o",
+   "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
+   "a": 1,
+   "pl": "香港Mandarin Oriental Hotel (5 Connaught Road, Central, Hong Kong)",
+   "n": "參加寬量國際主辦之「20th QIC CEO Week」",
+   "mn": 1,
+   "fs": "2026-10-14"
+  },
+  {
+   "d": "2026-10-14",
+   "c": "tw",
    "t": "長科*（6548）參加 QIC CEO Week",
    "tm": "09:00",
    "st": "o",
@@ -3450,6 +3282,19 @@
    "n": "參加寬量國際主辦之「20th QIC CEO Week」",
    "mn": 1,
    "fs": "0"
+  },
+  {
+   "d": "2026-10-14",
+   "c": "tw",
+   "t": "鏵友益（6877）法說會",
+   "tm": "14:30",
+   "st": "o",
+   "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
+   "a": 1,
+   "pl": "元大金融廣場3樓(106臺北市大安區仁愛路三段157號)",
+   "n": "參加元大證券舉辦之法人說明會",
+   "mn": 1,
+   "fs": "2026-10-14"
   },
   {
    "d": "2026-10-14",
@@ -3502,6 +3347,32 @@
    "n": "本公司召開法人說明會",
    "mn": 1,
    "fs": "0"
+  },
+  {
+   "d": "2026-10-14",
+   "c": "tw",
+   "t": "百和興業-KY（8404）法說會",
+   "tm": "14:00",
+   "st": "o",
+   "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
+   "a": 1,
+   "pl": "聯合線上法人說明會",
+   "n": "參加富邦證券舉辦之聯合線上法人說明會",
+   "mn": 1,
+   "fs": "2026-10-14"
+  },
+  {
+   "d": "2026-10-14",
+   "c": "tw",
+   "t": "百和（9938）法說會",
+   "tm": "14:00",
+   "st": "o",
+   "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
+   "a": 1,
+   "pl": "聯合線上法人說明會",
+   "n": "參加富邦證券舉辦之聯合線上法人說明會",
+   "mn": 1,
+   "fs": "2026-10-14"
   },
   {
    "d": "2026-10-15",
@@ -3686,6 +3557,31 @@
    "fs": "0"
   },
   {
+   "d": "2026-10-27",
+   "c": "tw",
+   "t": "力成（6239）法說會",
+   "tm": "14:30",
+   "st": "o",
+   "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
+   "a": 1,
+   "pl": "線上法說會",
+   "n": "本公司召開法人說明會",
+   "mn": 1,
+   "fs": "2026-10-14"
+  },
+  {
+   "d": "2026-10-28",
+   "c": "tw",
+   "t": "聯電（2303）法說會",
+   "tm": "17:00",
+   "st": "o",
+   "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
+   "a": 1,
+   "pl": "線上法說會",
+   "n": "本公司召開2026年第三季法人說明會",
+   "fs": "2026-10-14"
+  },
+  {
    "d": "2026-10-29",
    "c": "tw",
    "t": "友達（2409）法說會",
@@ -3709,6 +3605,19 @@
    "n": "本公司召開法人說明會",
    "mn": 1,
    "fs": "0"
+  },
+  {
+   "d": "2026-10-29",
+   "c": "tw",
+   "t": "盛群（6202）法說會",
+   "tm": "14:30",
+   "st": "o",
+   "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
+   "a": 1,
+   "pl": "線上法說會",
+   "n": "本公司召開115年第3季法說會",
+   "mn": 1,
+   "fs": "2026-10-14"
   },
   {
    "d": "2026-11-03",
@@ -3773,6 +3682,32 @@
    "fs": "0"
   },
   {
+   "d": "2026-11-05",
+   "c": "tw",
+   "t": "遠傳（4904）法說會",
+   "tm": "16:00",
+   "st": "o",
+   "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
+   "a": 1,
+   "pl": "本公司",
+   "n": "本公司召開法人說明會",
+   "mn": 1,
+   "fs": "2026-10-14"
+  },
+  {
+   "d": "2026-11-06",
+   "c": "tw",
+   "t": "M31（6643）法說會",
+   "tm": "14:00",
+   "st": "o",
+   "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
+   "a": 1,
+   "pl": "線上會議",
+   "n": "參加永豐金證券線上法說會",
+   "mn": 1,
+   "fs": "2026-10-14"
+  },
+  {
    "d": "2026-11-06",
    "c": "tw",
    "t": "力智（6719）法說會",
@@ -3821,17 +3756,6 @@
    "pl": "線上法說會",
    "n": "參加中國信託綜合證券舉辦之法人說明會",
    "mn": 1,
-   "fs": "0"
-  },
-  {
-   "d": "2026-10-13",
-   "c": "agm",
-   "t": "台泥（1101）股東會",
-   "tm": "09:00",
-   "st": "o",
-   "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
-   "a": 1,
-   "pl": "臺北市中山北路2段113號3樓(臺泥大樓3樓士敏廳)",
    "fs": "0"
   },
   {
@@ -4171,6 +4095,18 @@
    "fs": "0"
   },
   {
+   "d": "2026-12-01",
+   "c": "agm",
+   "t": "州巧（3543）股東會",
+   "tm": "09:00",
+   "st": "o",
+   "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
+   "a": 1,
+   "pl": "新竹縣湖口鄉新竹工業區光復路42號",
+   "mn": 1,
+   "fs": "2026-10-14"
+  },
+  {
    "d": "2026-10-08",
    "c": "disp",
    "t": "和益（1709）處置開始",
@@ -4259,48 +4195,60 @@
    "fs": "0"
   },
   {
-   "d": "2026-10-08",
    "c": "disp",
-   "t": "冠西電（2466）處置開始",
    "st": "o",
    "u": "https://openapi.twse.com.tw/v1/announcement/punish",
-   "n": "證交所處置公告（資料整理於 10/12）；處置期間 10/8–10/15；第一次處置",
-   "mn": 1,
    "a": 1,
+   "mn": 1,
    "dp": [
     "2026-10-08",
-    "2026-10-15"
+    "2026-10-20"
    ],
    "dr": [
     [
      "2026-10-08",
      "2026-10-15"
+    ],
+    [
+     "2026-10-14",
+     "2026-10-20"
     ]
    ],
    "mk": "twse",
+   "d": "2026-10-08",
+   "t": "冠西電（2466）處置開始",
+   "n": "證交所處置公告（資料整理於 10/14）；處置期間 10/8–10/20；公告 2 筆：10/8–10/15、10/14–10/20，合併為連續處置",
    "fs": "0"
   },
   {
-   "d": "2026-10-15",
    "c": "disp",
-   "t": "冠西電（2466）處置結束",
    "st": "o",
    "u": "https://openapi.twse.com.tw/v1/announcement/punish",
-   "n": "證交所處置公告（資料整理於 10/12）；處置期間 10/8–10/15；第一次處置；此日為最後處置日",
-   "mn": 1,
    "a": 1,
+   "mn": 1,
    "dp": [
     "2026-10-08",
-    "2026-10-15"
+    "2026-10-20"
    ],
    "dr": [
     [
      "2026-10-08",
      "2026-10-15"
+    ],
+    [
+     "2026-10-14",
+     "2026-10-20"
     ]
    ],
    "mk": "twse",
-   "fs": "0"
+   "d": "2026-10-20",
+   "t": "冠西電（2466）處置結束",
+   "n": "證交所處置公告（資料整理於 10/14）；處置期間 10/8–10/20；公告 2 筆：10/8–10/15、10/14–10/20，合併為連續處置；此日為最後處置日",
+   "fs": "0",
+   "cg": {
+    "on": "2026-10-14",
+    "what": "日期 10/15→10/20"
+   }
   },
   {
    "d": "2026-10-01",
@@ -5701,6 +5649,50 @@
    "t": "耀穎（7772）處置結束",
    "n": "櫃買中心處置公告（資料整理於 10/13）；處置期間 10/14–10/20；此日為最後處置日",
    "fs": "2026-10-13"
+  },
+  {
+   "c": "disp",
+   "st": "o",
+   "u": "https://openapi.twse.com.tw/v1/announcement/punish",
+   "a": 1,
+   "mn": 1,
+   "dp": [
+    "2026-10-14",
+    "2026-10-20"
+   ],
+   "dr": [
+    [
+     "2026-10-14",
+     "2026-10-20"
+    ]
+   ],
+   "mk": "twse",
+   "d": "2026-10-14",
+   "t": "美德醫療-DR（9103）處置開始",
+   "n": "證交所處置公告（資料整理於 10/14）；處置期間 10/14–10/20；第一次處置",
+   "fs": "2026-10-14"
+  },
+  {
+   "c": "disp",
+   "st": "o",
+   "u": "https://openapi.twse.com.tw/v1/announcement/punish",
+   "a": 1,
+   "mn": 1,
+   "dp": [
+    "2026-10-14",
+    "2026-10-20"
+   ],
+   "dr": [
+    [
+     "2026-10-14",
+     "2026-10-20"
+    ]
+   ],
+   "mk": "twse",
+   "d": "2026-10-20",
+   "t": "美德醫療-DR（9103）處置結束",
+   "n": "證交所處置公告（資料整理於 10/14）；處置期間 10/14–10/20；第一次處置；此日為最後處置日",
+   "fs": "2026-10-14"
   }
  ]
 }
