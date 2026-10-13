@@ -1,5 +1,5 @@
 {
- "updated": "2026/10/14 07:22",
+ "updated": "2026/10/14 07:28",
  "events": [
   {
    "d": "2026-08-27",
@@ -3126,6 +3126,407 @@
    "tm": "時間未公布",
    "mn": 1,
    "fs": "2026-10-13"
+  },
+  {
+   "d": "2026-10-26",
+   "c": "mkt",
+   "t": "台股休市：臺灣光復暨金門古寧頭大捷紀念日補假",
+   "st": "o",
+   "u": "https://openapi.twse.com.tw/v1/holidaySchedule/holidaySchedule",
+   "n": "10/25 適逢週日，補假 10/26（證交所開休市表）",
+   "fs": "2026-10-14"
+  },
+  {
+   "d": "2026-12-25",
+   "c": "mkt",
+   "t": "台股休市：行憲紀念日",
+   "st": "o",
+   "u": "https://openapi.twse.com.tw/v1/holidaySchedule/holidaySchedule",
+   "n": "證交所 2026 年開休市表最後一筆",
+   "fs": "2026-10-14"
+  },
+  {
+   "d": "2026-10-21",
+   "c": "mkt",
+   "t": "台指期貨／選擇權月結算日",
+   "st": "e",
+   "u": "https://www.taifex.com.tw/cht/5/futIndxFSP",
+   "n": "依「每月第三個星期三」規則推算，期交所官網未列契約日曆；遇休市會順延",
+   "fs": "2026-10-14"
+  },
+  {
+   "d": "2026-11-18",
+   "c": "mkt",
+   "t": "台指期貨／選擇權月結算日",
+   "st": "e",
+   "u": "https://www.taifex.com.tw/cht/5/futIndxFSP",
+   "n": "依「每月第三個星期三」規則推算，期交所官網未列契約日曆；遇休市會順延",
+   "fs": "2026-10-14"
+  },
+  {
+   "d": "2026-12-16",
+   "c": "mkt",
+   "t": "台指期貨／選擇權月結算日",
+   "st": "e",
+   "u": "https://www.taifex.com.tw/cht/5/futIndxFSP",
+   "n": "依「每月第三個星期三」規則推算，期交所官網未列契約日曆；遇休市會順延",
+   "fs": "2026-10-14"
+  },
+  {
+   "d": "2027-01-20",
+   "c": "mkt",
+   "t": "台指期貨／選擇權月結算日",
+   "st": "e",
+   "u": "https://www.taifex.com.tw/cht/5/futIndxFSP",
+   "n": "依「每月第三個星期三」規則推算，期交所官網未列契約日曆；遇休市會順延",
+   "fs": "2026-10-14"
+  },
+  {
+   "d": "2027-02-17",
+   "c": "mkt",
+   "t": "台指期貨／選擇權月結算日",
+   "st": "e",
+   "u": "https://www.taifex.com.tw/cht/5/futIndxFSP",
+   "n": "依「每月第三個星期三」規則推算，期交所官網未列契約日曆；遇休市會順延（2027 年春節前後，2027 休市日程未公布，可能順延）",
+   "fs": "2026-10-14"
+  },
+  {
+   "d": "2027-03-17",
+   "c": "mkt",
+   "t": "台指期貨／選擇權月結算日",
+   "st": "e",
+   "u": "https://www.taifex.com.tw/cht/5/futIndxFSP",
+   "n": "依「每月第三個星期三」規則推算，期交所官網未列契約日曆；遇休市會順延",
+   "fs": "2026-10-14"
+  },
+  {
+   "d": "2027-04-21",
+   "c": "mkt",
+   "t": "台指期貨／選擇權月結算日",
+   "st": "e",
+   "u": "https://www.taifex.com.tw/cht/5/futIndxFSP",
+   "n": "依「每月第三個星期三」規則推算，期交所官網未列契約日曆；遇休市會順延",
+   "fs": "2026-10-14"
+  },
+  {
+   "d": "2027-05-19",
+   "c": "mkt",
+   "t": "台指期貨／選擇權月結算日",
+   "st": "e",
+   "u": "https://www.taifex.com.tw/cht/5/futIndxFSP",
+   "n": "依「每月第三個星期三」規則推算，期交所官網未列契約日曆；遇休市會順延",
+   "fs": "2026-10-14"
+  },
+  {
+   "d": "2027-06-16",
+   "c": "mkt",
+   "t": "台指期貨／選擇權月結算日",
+   "st": "e",
+   "u": "https://www.taifex.com.tw/cht/5/futIndxFSP",
+   "n": "依「每月第三個星期三」規則推算，期交所官網未列契約日曆；遇休市會順延",
+   "fs": "2026-10-14"
+  },
+  {
+   "d": "2027-07-21",
+   "c": "mkt",
+   "t": "台指期貨／選擇權月結算日",
+   "st": "e",
+   "u": "https://www.taifex.com.tw/cht/5/futIndxFSP",
+   "n": "依「每月第三個星期三」規則推算，期交所官網未列契約日曆；遇休市會順延",
+   "fs": "2026-10-14"
+  },
+  {
+   "d": "2027-08-18",
+   "c": "mkt",
+   "t": "台指期貨／選擇權月結算日",
+   "st": "e",
+   "u": "https://www.taifex.com.tw/cht/5/futIndxFSP",
+   "n": "依「每月第三個星期三」規則推算，期交所官網未列契約日曆；遇休市會順延",
+   "fs": "2026-10-14"
+  },
+  {
+   "d": "2027-09-15",
+   "c": "mkt",
+   "t": "台指期貨／選擇權月結算日",
+   "st": "e",
+   "u": "https://www.taifex.com.tw/cht/5/futIndxFSP",
+   "n": "依「每月第三個星期三」規則推算，期交所官網未列契約日曆；遇休市會順延",
+   "fs": "2026-10-14"
+  },
+  {
+   "d": "2027-10-20",
+   "c": "mkt",
+   "t": "台指期貨／選擇權月結算日",
+   "st": "e",
+   "u": "https://www.taifex.com.tw/cht/5/futIndxFSP",
+   "n": "依「每月第三個星期三」規則推算，期交所官網未列契約日曆；遇休市會順延",
+   "fs": "2026-10-14"
+  },
+  {
+   "d": "2027-11-17",
+   "c": "mkt",
+   "t": "台指期貨／選擇權月結算日",
+   "st": "e",
+   "u": "https://www.taifex.com.tw/cht/5/futIndxFSP",
+   "n": "依「每月第三個星期三」規則推算，期交所官網未列契約日曆；遇休市會順延",
+   "fs": "2026-10-14"
+  },
+  {
+   "d": "2027-12-15",
+   "c": "mkt",
+   "t": "台指期貨／選擇權月結算日",
+   "st": "e",
+   "u": "https://www.taifex.com.tw/cht/5/futIndxFSP",
+   "n": "依「每月第三個星期三」規則推算，期交所官網未列契約日曆；遇休市會順延",
+   "fs": "2026-10-14"
+  },
+  {
+   "d": "2026-11-26",
+   "c": "mkt",
+   "t": "美股休市：感恩節",
+   "st": "o",
+   "u": "https://www.nyse.com/markets/hours-calendars",
+   "fs": "2026-10-14"
+  },
+  {
+   "d": "2026-12-25",
+   "c": "mkt",
+   "t": "美股休市：聖誕節",
+   "st": "o",
+   "u": "https://www.nyse.com/markets/hours-calendars",
+   "fs": "2026-10-14"
+  },
+  {
+   "d": "2027-01-01",
+   "c": "mkt",
+   "t": "美股休市：元旦",
+   "st": "o",
+   "u": "https://www.nyse.com/markets/hours-calendars",
+   "fs": "2026-10-14"
+  },
+  {
+   "d": "2027-01-18",
+   "c": "mkt",
+   "t": "美股休市：馬丁路德金恩日",
+   "st": "o",
+   "u": "https://www.nyse.com/markets/hours-calendars",
+   "fs": "2026-10-14"
+  },
+  {
+   "d": "2027-02-15",
+   "c": "mkt",
+   "t": "美股休市：華盛頓誕辰日",
+   "st": "o",
+   "u": "https://www.nyse.com/markets/hours-calendars",
+   "fs": "2026-10-14"
+  },
+  {
+   "d": "2027-03-26",
+   "c": "mkt",
+   "t": "美股休市：耶穌受難日",
+   "st": "o",
+   "u": "https://www.nyse.com/markets/hours-calendars",
+   "fs": "2026-10-14"
+  },
+  {
+   "d": "2027-05-31",
+   "c": "mkt",
+   "t": "美股休市：陣亡將士紀念日",
+   "st": "o",
+   "u": "https://www.nyse.com/markets/hours-calendars",
+   "fs": "2026-10-14"
+  },
+  {
+   "d": "2027-06-18",
+   "c": "mkt",
+   "t": "美股休市：六月節（Juneteenth 補假）",
+   "st": "o",
+   "u": "https://www.nyse.com/markets/hours-calendars",
+   "n": "6/19 為週六，補假週五；原本的六月四巫日預計提前，見 6/17",
+   "fs": "2026-10-14"
+  },
+  {
+   "d": "2027-07-05",
+   "c": "mkt",
+   "t": "美股休市：獨立紀念日補假",
+   "st": "o",
+   "u": "https://www.nyse.com/markets/hours-calendars",
+   "fs": "2026-10-14"
+  },
+  {
+   "d": "2027-09-06",
+   "c": "mkt",
+   "t": "美股休市：勞動節",
+   "st": "o",
+   "u": "https://www.nyse.com/markets/hours-calendars",
+   "fs": "2026-10-14"
+  },
+  {
+   "d": "2027-11-25",
+   "c": "mkt",
+   "t": "美股休市：感恩節",
+   "st": "o",
+   "u": "https://www.nyse.com/markets/hours-calendars",
+   "fs": "2026-10-14"
+  },
+  {
+   "d": "2027-12-24",
+   "c": "mkt",
+   "t": "美股休市：聖誕節補假",
+   "st": "o",
+   "u": "https://www.nyse.com/markets/hours-calendars",
+   "n": "12/25 為週六，補假週五",
+   "fs": "2026-10-14"
+  },
+  {
+   "d": "2026-11-27",
+   "c": "mkt",
+   "t": "美股提前收盤：感恩節翌日",
+   "st": "o",
+   "u": "https://www.nyse.com/markets/hours-calendars",
+   "n": "股票 13:00 收盤，選擇權 13:15",
+   "tm": "美東 13:00 收盤，台灣 11/28 02:00",
+   "fs": "2026-10-14"
+  },
+  {
+   "d": "2026-12-24",
+   "c": "mkt",
+   "t": "美股提前收盤：平安夜",
+   "st": "o",
+   "u": "https://www.nyse.com/markets/hours-calendars",
+   "n": "股票 13:00 收盤，選擇權 13:15",
+   "tm": "美東 13:00 收盤，台灣 12/25 02:00",
+   "fs": "2026-10-14"
+  },
+  {
+   "d": "2027-11-26",
+   "c": "mkt",
+   "t": "美股提前收盤：感恩節翌日",
+   "st": "o",
+   "u": "https://www.nyse.com/markets/hours-calendars",
+   "n": "股票 13:00 收盤，選擇權 13:15",
+   "tm": "美東 13:00 收盤，台灣 11/27 02:00",
+   "fs": "2026-10-14"
+  },
+  {
+   "d": "2026-12-18",
+   "c": "mkt",
+   "t": "四巫日（2026 年 12 月）",
+   "st": "e",
+   "u": "https://www.cboe.com/about/hours/us-options/",
+   "n": "依「3、6、9、12 月第三個星期五」規則推算。指數期貨、指數選擇權與個股選擇權同日到期，成交量與波動常放大",
+   "fs": "2026-10-14"
+  },
+  {
+   "d": "2027-03-19",
+   "c": "mkt",
+   "t": "四巫日（2027 年 3 月）",
+   "st": "e",
+   "u": "https://www.cboe.com/about/hours/us-options/",
+   "n": "規則推算。指數期貨、指數選擇權與個股選擇權同日到期，成交量與波動常放大",
+   "fs": "2026-10-14"
+  },
+  {
+   "d": "2027-06-17",
+   "c": "mkt",
+   "t": "四巫日（2027 年 6 月）",
+   "st": "e",
+   "u": "https://www.cboe.com/about/hours/us-options/",
+   "n": "第三個週五 6/18 美股休市，到期預計提前到週四；為依休市日推論，未見官方確認。指數期貨、指數選擇權與個股選擇權同日到期，成交量與波動常放大",
+   "fs": "2026-10-14"
+  },
+  {
+   "d": "2027-09-17",
+   "c": "mkt",
+   "t": "四巫日（2027 年 9 月）",
+   "st": "e",
+   "u": "https://www.cboe.com/about/hours/us-options/",
+   "n": "規則推算。指數期貨、指數選擇權與個股選擇權同日到期，成交量與波動常放大",
+   "fs": "2026-10-14"
+  },
+  {
+   "d": "2027-12-17",
+   "c": "mkt",
+   "t": "四巫日（2027 年 12 月）",
+   "st": "e",
+   "u": "https://www.cboe.com/about/hours/us-options/",
+   "n": "規則推算。指數期貨、指數選擇權與個股選擇權同日到期，成交量與波動常放大",
+   "fs": "2026-10-14"
+  },
+  {
+   "d": "2026-11-30",
+   "c": "mkt",
+   "t": "MSCI 11 月季度審核生效",
+   "st": "e",
+   "u": "https://market.bisnis.com/read/20260813/7/1995834/msci-umumkan-jadwal-8-index-review-hingga-agustus-2028",
+   "n": "公告日 11/11；報導寫生效日 12/1，MSCI 慣例是前一交易日收盤後生效。日期來自印尼媒體 bisnis.com 轉述，msci.com 官網未能讀取，請以 MSCI 公告為準",
+   "fs": "2026-10-14"
+  },
+  {
+   "d": "2027-02-26",
+   "c": "mkt",
+   "t": "MSCI 2 月季度審核生效",
+   "st": "e",
+   "u": "https://market.bisnis.com/read/20260813/7/1995834/msci-umumkan-jadwal-8-index-review-hingga-agustus-2028",
+   "n": "公告日 2/9；報導寫生效日 3/1，依慣例為前一交易日收盤後。日期來自印尼媒體 bisnis.com 轉述，msci.com 官網未能讀取，請以 MSCI 公告為準",
+   "fs": "2026-10-14"
+  },
+  {
+   "d": "2027-05-28",
+   "c": "mkt",
+   "t": "MSCI 5 月半年度審核生效",
+   "st": "e",
+   "u": "https://market.bisnis.com/read/20260813/7/1995834/msci-umumkan-jadwal-8-index-review-hingga-agustus-2028",
+   "n": "公告日 5/10；半年度審核，外資調節幅度通常較大。日期來自印尼媒體 bisnis.com 轉述，msci.com 官網未能讀取，請以 MSCI 公告為準",
+   "fs": "2026-10-14"
+  },
+  {
+   "d": "2027-08-31",
+   "c": "mkt",
+   "t": "MSCI 8 月季度審核生效",
+   "st": "e",
+   "u": "https://market.bisnis.com/read/20260813/7/1995834/msci-umumkan-jadwal-8-index-review-hingga-agustus-2028",
+   "n": "公告日 8/12；報導寫生效日 9/1，依慣例為前一交易日收盤後。日期來自印尼媒體 bisnis.com 轉述，msci.com 官網未能讀取，請以 MSCI 公告為準",
+   "fs": "2026-10-14"
+  },
+  {
+   "d": "2027-11-30",
+   "c": "mkt",
+   "t": "MSCI 11 月季度審核生效",
+   "st": "e",
+   "u": "https://market.bisnis.com/read/20260813/7/1995834/msci-umumkan-jadwal-8-index-review-hingga-agustus-2028",
+   "n": "公告日 11/11；報導寫生效日 12/1，依慣例為前一交易日收盤後。日期來自印尼媒體 bisnis.com 轉述，msci.com 官網未能讀取，請以 MSCI 公告為準",
+   "fs": "2026-10-14"
+  },
+  {
+   "d": "2026-10-30",
+   "c": "mkt",
+   "t": "Russell 美國指數 12 月重整：排名日",
+   "st": "o",
+   "u": "https://www.lseg.com/en/media-centre/press-releases/ftse-russell/2026/ftse-russell-announces-december-2026-russell-us-indexes-reconstitution-schedule",
+   "n": "以當天收盤為準排名",
+   "tm": "收盤",
+   "fs": "2026-10-14"
+  },
+  {
+   "d": "2026-11-13",
+   "c": "mkt",
+   "t": "Russell 美國指數 12 月重整：初步名單公布",
+   "st": "o",
+   "u": "https://www.lseg.com/en/media-centre/press-releases/ftse-russell/2026/ftse-russell-announces-december-2026-russell-us-indexes-reconstitution-schedule",
+   "n": "11/16–11/27 查詢期，11/30 起進入鎖定期",
+   "tm": "美股收盤後",
+   "fs": "2026-10-14"
+  },
+  {
+   "d": "2026-12-11",
+   "c": "mkt",
+   "t": "Russell 美國指數 12 月重整生效",
+   "st": "o",
+   "u": "https://www.lseg.com/en/media-centre/press-releases/ftse-russell/2026/ftse-russell-announces-december-2026-russell-us-indexes-reconstitution-schedule",
+   "n": "12/14 開盤採用新指數；成交量通常在收盤集中",
+   "tm": "美股收盤後",
+   "fs": "2026-10-14"
   },
   {
    "d": "2026-10-14",
