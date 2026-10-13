@@ -18,6 +18,9 @@ from datetime import datetime, timedelta, timezone
 from html import unescape
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from annotate import annotate  # noqa: E402
+
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 TZ = timezone(timedelta(hours=8))
@@ -373,7 +376,7 @@ def main():
 
     auto = [e for e in tw + agm + disp if key(e) not in have]
 
-    events = manual + auto
+    events = annotate(old, manual + auto, today)
     out = {"updated": now.strftime("%Y/%m/%d %H:%M"), "events": events}
     DATA.mkdir(exist_ok=True)
     (DATA / "events.json").write_text(

@@ -9,14 +9,16 @@
    "pl": "美國懷俄明州",
    "n": "主題：金融創新對支付與政策的影響",
    "st": "o",
-   "u": "https://www.kansascityfed.org/research/jackson-hole-economic-symposium/2026/"
+   "u": "https://www.kansascityfed.org/research/jackson-hole-economic-symposium/2026/",
+   "fs": "0"
   },
   {
    "d": "2026-09-10",
    "c": "cb",
    "t": "歐洲央行（ECB）利率決議",
    "st": "o",
-   "u": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
+   "u": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html",
+   "fs": "0"
   },
   {
    "d": "2026-09-16",
@@ -24,14 +26,16 @@
    "t": "FOMC 利率決議",
    "n": "含經濟預測與點陣圖",
    "st": "o",
-   "u": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+   "u": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+   "fs": "0"
   },
   {
    "d": "2026-09-18",
    "c": "cb",
    "t": "日本央行（BOJ）利率決議",
    "st": "o",
-   "u": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm"
+   "u": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm",
+   "fs": "0"
   },
   {
    "d": "2026-10-28",
@@ -41,7 +45,8 @@
    "n": "",
    "st": "o",
    "u": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
-   "k": "fomc"
+   "k": "fomc",
+   "fs": "0"
   },
   {
    "d": "2026-10-29",
@@ -51,7 +56,8 @@
    "n": "會議 10/28–29，29 日公布決議",
    "st": "o",
    "u": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html",
-   "k": "ecb"
+   "k": "ecb",
+   "fs": "0"
   },
   {
    "d": "2026-10-30",
@@ -61,7 +67,8 @@
    "n": "同場發布經濟與物價展望報告",
    "st": "o",
    "u": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm",
-   "k": "boj"
+   "k": "boj",
+   "fs": "0"
   },
   {
    "d": "2026-12-09",
@@ -70,7 +77,8 @@
    "tm": "美東 14:00 公布，台灣時間 12/10 03:00",
    "n": "含經濟預測與點陣圖",
    "st": "o",
-   "u": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+   "u": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+   "fs": "0"
   },
   {
    "d": "2026-12-17",
@@ -79,7 +87,8 @@
    "tm": "歐洲時間 14:15 公布，台灣時間 21:15（記者會晚 30 分鐘）",
    "n": "含總體經濟預測",
    "st": "o",
-   "u": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
+   "u": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html",
+   "fs": "0"
   },
   {
    "d": "2026-12-18",
@@ -88,7 +97,8 @@
    "tm": "日本時間中午前後公布，總裁記者會約 15:30",
    "n": "",
    "st": "o",
-   "u": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm"
+   "u": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm",
+   "fs": "0"
   },
   {
    "d": "2027-02-04",
@@ -97,7 +107,8 @@
    "tm": "歐洲時間 14:15 公布，台灣時間 21:15（記者會晚 30 分鐘）",
    "n": "",
    "st": "o",
-   "u": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
+   "u": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html",
+   "fs": "0"
   },
   {
    "d": "2027-01-27",
@@ -106,7 +117,8 @@
    "tm": "美東 14:00 公布，台灣時間 1/28 03:00",
    "n": "",
    "st": "o",
-   "u": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+   "u": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+   "fs": "0"
   },
   {
    "d": "2027-01-22",
@@ -115,7 +127,8 @@
    "tm": "日本時間中午前後公布，總裁記者會約 15:30",
    "n": "同場發布經濟與物價展望報告",
    "st": "o",
-   "u": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm"
+   "u": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm",
+   "fs": "0"
   },
   {
    "d": "2027-03-17",
@@ -124,7 +137,8 @@
    "tm": "美東 14:00 公布，台灣時間 3/18 02:00",
    "n": "含經濟預測與點陣圖",
    "st": "o",
-   "u": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+   "u": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+   "fs": "0"
   },
   {
    "d": "2027-03-18",
@@ -133,7 +147,8 @@
    "tm": "日本時間中午前後公布，總裁記者會約 15:30",
    "n": "",
    "st": "o",
-   "u": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm"
+   "u": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm",
+   "fs": "0"
   },
   {
    "d": "2027-03-18",
@@ -142,7 +157,8 @@
    "tm": "歐洲時間 14:15 公布，台灣時間 21:15（記者會晚 30 分鐘）",
    "n": "含總體經濟預測",
    "st": "o",
-   "u": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
+   "u": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html",
+   "fs": "0"
   },
   {
    "d": "2027-04-28",
@@ -151,7 +167,8 @@
    "tm": "美東 14:00 公布，台灣時間 4/29 02:00",
    "n": "",
    "st": "o",
-   "u": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+   "u": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+   "fs": "0"
   },
   {
    "d": "2027-04-28",
@@ -160,7 +177,8 @@
    "tm": "日本時間中午前後公布，總裁記者會約 15:30",
    "n": "同場發布經濟與物價展望報告",
    "st": "o",
-   "u": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm"
+   "u": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm",
+   "fs": "0"
   },
   {
    "d": "2027-04-29",
@@ -169,7 +187,8 @@
    "tm": "歐洲時間 14:15 公布，台灣時間 20:15（記者會晚 30 分鐘）",
    "n": "",
    "st": "o",
-   "u": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
+   "u": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html",
+   "fs": "0"
   },
   {
    "d": "2027-06-09",
@@ -178,7 +197,8 @@
    "tm": "美東 14:00 公布，台灣時間 6/10 02:00",
    "n": "含經濟預測與點陣圖",
    "st": "o",
-   "u": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+   "u": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+   "fs": "0"
   },
   {
    "d": "2027-06-11",
@@ -187,7 +207,8 @@
    "tm": "日本時間中午前後公布，總裁記者會約 15:30",
    "n": "",
    "st": "o",
-   "u": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm"
+   "u": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm",
+   "fs": "0"
   },
   {
    "d": "2027-06-10",
@@ -196,7 +217,8 @@
    "tm": "歐洲時間 14:15 公布，台灣時間 20:15（記者會晚 30 分鐘）",
    "n": "含總體經濟預測",
    "st": "o",
-   "u": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
+   "u": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html",
+   "fs": "0"
   },
   {
    "d": "2027-07-28",
@@ -205,7 +227,8 @@
    "tm": "美東 14:00 公布，台灣時間 7/29 02:00",
    "n": "",
    "st": "o",
-   "u": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+   "u": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+   "fs": "0"
   },
   {
    "d": "2027-07-22",
@@ -214,7 +237,8 @@
    "tm": "日本時間中午前後公布，總裁記者會約 15:30",
    "n": "同場發布經濟與物價展望報告",
    "st": "o",
-   "u": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm"
+   "u": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm",
+   "fs": "0"
   },
   {
    "d": "2027-07-22",
@@ -223,7 +247,8 @@
    "tm": "歐洲時間 14:15 公布，台灣時間 20:15（記者會晚 30 分鐘）",
    "n": "",
    "st": "o",
-   "u": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
+   "u": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html",
+   "fs": "0"
   },
   {
    "d": "2027-09-09",
@@ -232,7 +257,8 @@
    "tm": "歐洲時間 14:15 公布，台灣時間 20:15（記者會晚 30 分鐘）",
    "n": "含總體經濟預測",
    "st": "o",
-   "u": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
+   "u": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html",
+   "fs": "0"
   },
   {
    "d": "2027-09-15",
@@ -241,7 +267,8 @@
    "tm": "美東 14:00 公布，台灣時間 9/16 02:00",
    "n": "含經濟預測與點陣圖",
    "st": "o",
-   "u": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+   "u": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+   "fs": "0"
   },
   {
    "d": "2027-09-22",
@@ -250,7 +277,8 @@
    "tm": "日本時間中午前後公布，總裁記者會約 15:30",
    "n": "",
    "st": "o",
-   "u": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm"
+   "u": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm",
+   "fs": "0"
   },
   {
    "d": "2027-10-27",
@@ -259,7 +287,8 @@
    "tm": "美東 14:00 公布，台灣時間 10/28 02:00",
    "n": "",
    "st": "o",
-   "u": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+   "u": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+   "fs": "0"
   },
   {
    "d": "2027-10-28",
@@ -268,7 +297,8 @@
    "tm": "歐洲時間 14:15 公布，台灣時間 20:15（記者會晚 30 分鐘）",
    "n": "",
    "st": "o",
-   "u": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
+   "u": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html",
+   "fs": "0"
   },
   {
    "d": "2027-10-29",
@@ -277,7 +307,8 @@
    "tm": "日本時間中午前後公布，總裁記者會約 15:30",
    "n": "同場發布經濟與物價展望報告",
    "st": "o",
-   "u": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm"
+   "u": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm",
+   "fs": "0"
   },
   {
    "d": "2027-12-08",
@@ -286,7 +317,8 @@
    "tm": "美東 14:00 公布，台灣時間 12/9 03:00",
    "n": "含經濟預測與點陣圖",
    "st": "o",
-   "u": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+   "u": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+   "fs": "0"
   },
   {
    "d": "2027-12-16",
@@ -295,7 +327,8 @@
    "tm": "歐洲時間 14:15 公布，台灣時間 21:15（記者會晚 30 分鐘）",
    "n": "含總體經濟預測",
    "st": "o",
-   "u": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
+   "u": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html",
+   "fs": "0"
   },
   {
    "d": "2027-12-17",
@@ -304,7 +337,8 @@
    "tm": "日本時間中午前後公布，總裁記者會約 15:30",
    "n": "",
    "st": "o",
-   "u": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm"
+   "u": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm",
+   "fs": "0"
   },
   {
    "d": "2026-10-15",
@@ -314,7 +348,8 @@
    "n": "靜默期 10/5–10/14；ADR 同步，美東 10/15 凌晨 02:00",
    "st": "o",
    "u": "https://investor.tsmc.com/english/quarterly-results/2026/q3",
-   "k": "tsmc"
+   "k": "tsmc",
+   "fs": "0"
   },
   {
    "d": "2026-10-14",
@@ -322,7 +357,8 @@
    "t": "ASML 2026 年第三季財報",
    "tm": "歐洲時間 07:00 發布，台灣約 13:00",
    "st": "o",
-   "u": "https://www.asml.com/en/investors/financial-results"
+   "u": "https://www.asml.com/en/investors/financial-results",
+   "fs": "0"
   },
   {
    "d": "2026-09-23",
@@ -330,7 +366,8 @@
    "t": "TSMC OIP 生態系論壇（北美）",
    "pl": "美國聖塔克拉拉",
    "st": "o",
-   "u": "https://www.synopsys.com/events/tsmc-oip-ecosystem-forum.html"
+   "u": "https://www.synopsys.com/events/tsmc-oip-ecosystem-forum.html",
+   "fs": "0"
   },
   {
    "d": "2026-09-23",
@@ -339,7 +376,8 @@
    "t": "Meta Connect 2026",
    "pl": "美國門洛帕克（線上直播）",
    "st": "o",
-   "u": "https://developers.meta.com/connect/"
+   "u": "https://developers.meta.com/connect/",
+   "fs": "0"
   },
   {
    "d": "2026-10-20",
@@ -348,14 +386,16 @@
    "t": "NVIDIA GTC 柏林",
    "pl": "德國柏林",
    "st": "o",
-   "u": "https://www.nvidia.com/gtc/"
+   "u": "https://www.nvidia.com/gtc/",
+   "fs": "0"
   },
   {
    "d": "2026-11-06",
    "c": "tech",
    "t": "TSMC OIP 生態系論壇（日本）",
    "st": "o",
-   "u": "https://www.synopsys.com/events/tsmc-oip-ecosystem-forum.html"
+   "u": "https://www.synopsys.com/events/tsmc-oip-ecosystem-forum.html",
+   "fs": "0"
   },
   {
    "d": "2026-11-12",
@@ -363,14 +403,16 @@
    "t": "TSMC OIP 生態系論壇（台灣）",
    "pl": "台灣",
    "st": "o",
-   "u": "https://www.synopsys.com/events/tsmc-oip-ecosystem-forum.html"
+   "u": "https://www.synopsys.com/events/tsmc-oip-ecosystem-forum.html",
+   "fs": "0"
   },
   {
    "d": "2026-11-17",
    "c": "tech",
    "t": "TSMC OIP 生態系論壇（中國）",
    "st": "o",
-   "u": "https://www.synopsys.com/events/tsmc-oip-ecosystem-forum.html"
+   "u": "https://www.synopsys.com/events/tsmc-oip-ecosystem-forum.html",
+   "fs": "0"
   },
   {
    "d": "2026-11-17",
@@ -379,14 +421,16 @@
    "t": "Microsoft Ignite 2026",
    "pl": "美國舊金山 Moscone Center",
    "st": "o",
-   "u": "https://www.microsoft.com/en-us/events"
+   "u": "https://www.microsoft.com/en-us/events",
+   "fs": "0"
   },
   {
    "d": "2026-11-24",
    "c": "tech",
    "t": "TSMC OIP 生態系論壇（歐洲）",
    "st": "o",
-   "u": "https://www.synopsys.com/events/tsmc-oip-ecosystem-forum.html"
+   "u": "https://www.synopsys.com/events/tsmc-oip-ecosystem-forum.html",
+   "fs": "0"
   },
   {
    "d": "2026-11-30",
@@ -395,7 +439,8 @@
    "t": "NVIDIA GTC 華盛頓特區",
    "pl": "美國華盛頓特區",
    "st": "o",
-   "u": "https://www.nvidia.com/gtc/"
+   "u": "https://www.nvidia.com/gtc/",
+   "fs": "0"
   },
   {
    "d": "2026-11-30",
@@ -404,14 +449,16 @@
    "t": "AWS re:Invent 2026",
    "pl": "美國拉斯維加斯",
    "st": "o",
-   "u": "https://reinvent.awsevents.com/"
+   "u": "https://reinvent.awsevents.com/",
+   "fs": "0"
   },
   {
    "d": "2026-12-01",
    "c": "tech",
    "t": "TSMC OIP 生態系論壇（以色列）",
    "st": "o",
-   "u": "https://www.synopsys.com/events/tsmc-oip-ecosystem-forum.html"
+   "u": "https://www.synopsys.com/events/tsmc-oip-ecosystem-forum.html",
+   "fs": "0"
   },
   {
    "d": "2027-01-06",
@@ -420,7 +467,8 @@
    "t": "CES 2027",
    "pl": "美國拉斯維加斯",
    "st": "o",
-   "u": "https://www.ces.tech/"
+   "u": "https://www.ces.tech/",
+   "fs": "0"
   },
   {
    "d": "2027-03-15",
@@ -431,7 +479,8 @@
    "n": "黃仁勳主題演講；官網常見問答寫 3/14–18，活動橫幅寫 3/15–18，請以官網為準",
    "st": "o",
    "u": "https://www.nvidia.com/en-zz/gtc/faq/",
-   "k": "gtc"
+   "k": "gtc",
+   "fs": "0"
   },
   {
    "d": "2027-06-01",
@@ -442,7 +491,8 @@
    "n": "日期與場地來自中央社報導，建議以主辦單位公告為準",
    "st": "o",
    "u": "https://www.cna.com.tw/postwrite/chi/446080",
-   "k": "computex"
+   "k": "computex",
+   "fs": "0"
   },
   {
    "d": "2026-11-17",
@@ -451,7 +501,8 @@
    "st": "e",
    "u": "https://www.tipranks.com/stocks/nvda/earnings",
    "n": "截至 10/11 公司尚未公告；依往年模式（11/19、11/20、11/21）多落在 11 月下旬，通常美西 14:00",
-   "tm": "時間未公布"
+   "tm": "時間未公布",
+   "fs": "0"
   },
   {
    "d": "2026-12-10",
@@ -460,7 +511,8 @@
    "st": "e",
    "u": "https://days.to/broadcom-earnings",
    "n": "公司尚未公告，依往年模式推估",
-   "tm": "美東 17:00，台灣 12/11 06:00"
+   "tm": "美東 17:00，台灣 12/11 06:00",
+   "fs": "0"
   },
   {
    "d": "2026-11-03",
@@ -469,7 +521,8 @@
    "st": "o",
    "u": "https://ir.amd.com/news-events/press-releases/detail/1300/amd-to-report-fiscal-third-quarter-2026-financial-results",
    "n": "盤後發布，電話會議 14:00 PT",
-   "tm": "美西 14:00，台灣 11/4 06:00"
+   "tm": "美西 14:00，台灣 11/4 06:00",
+   "fs": "0"
   },
   {
    "d": "2026-12-16",
@@ -478,7 +531,8 @@
    "st": "e",
    "u": "https://days.to/micron-earnings",
    "n": "公司尚未公告，依往年模式推估（去年 12/17）",
-   "tm": "美東 16:30，台灣 12/17 05:30"
+   "tm": "美東 16:30，台灣 12/17 05:30",
+   "fs": "0"
   },
   {
    "d": "2026-11-04",
@@ -487,7 +541,8 @@
    "st": "e",
    "u": "https://www.quantisnow.com/earnings/QCOM",
    "n": "公司尚未公告；往年為 11/5、11/6，此日期為依模式推估",
-   "tm": "時間未公布"
+   "tm": "時間未公布",
+   "fs": "0"
   },
   {
    "d": "2026-10-29",
@@ -496,7 +551,8 @@
    "st": "o",
    "u": "https://www.intc.com/news-events/press-releases/detail/1782/intel-to-report-third-quarter-2026-financial-results",
    "n": "盤後發布，電話會議 14:00 PT",
-   "tm": "美西 14:00，台灣 10/30 05:00"
+   "tm": "美西 14:00，台灣 10/30 05:00",
+   "fs": "0"
   },
   {
    "d": "2026-12-02",
@@ -506,7 +562,8 @@
    "u": "https://investor.marvell.com/news-events/ir-calendar",
    "n": "公司尚未公告；去年同季為 12/2，依往年推估",
    "tm": "時間未公布",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-11-04",
@@ -516,7 +573,8 @@
    "u": "https://newsroom.arm.com/?p=22756",
    "n": "盤後發布",
    "tm": "美西 14:00，台灣 11/5 06:00",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-11-04",
@@ -526,7 +584,8 @@
    "u": "https://finviz.com/news/396893/globalfoundries-announces-conference-call-to-review-third-quarter-2026-financial-results",
    "n": "電話會議 08:30 ET，財報於會議前發布（轉載自公司新聞稿）",
    "tm": "美東 08:30，台灣 21:30",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-11-04",
@@ -536,7 +595,8 @@
    "u": "https://chartrow.com/quote/cohr/earnings",
    "n": "公司尚未公告，來自 Nasdaq 行事曆預估",
    "tm": "時間未公布",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-12-02",
@@ -546,7 +606,8 @@
    "u": "https://www.marketbeat.com/stocks/NASDAQ/CRDO/earnings",
    "n": "公司尚未公告，依往年推估",
    "tm": "時間未公布",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-11-03",
@@ -556,7 +617,8 @@
    "u": "https://finviz.com/news/399499/astera-labs-announces-conference-call-to-review-third-quarter-2026-financial-results",
    "n": "盤後發布（轉載自公司新聞稿）",
    "tm": "美西 13:30，台灣 11/4 05:30",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-11-05",
@@ -566,7 +628,8 @@
    "u": "https://chartrow.com/quote/mtsi/earnings",
    "n": "公司尚未公告，依往年（11/6）推估",
    "tm": "時間未公布",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-11-05",
@@ -576,7 +639,8 @@
    "u": "https://www.marketbeat.com/stocks/NASDAQ/NVMI/earnings",
    "n": "公司尚未公告，依往年（11/6）推估",
    "tm": "時間未公布",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-10-26",
@@ -586,7 +650,8 @@
    "u": "https://finviz.com/news/398884/rambus-to-announce-third-quarter-fiscal-year-2026-results",
    "n": "盤後發布（轉載自公司新聞稿）",
    "tm": "美西 14:00，台灣 10/27 05:00",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-11-12",
@@ -595,7 +660,8 @@
    "st": "e",
    "u": "https://ir.appliedmaterials.com/events?tab=upcoming",
    "n": "公司 IR 頁標示「預計 11/12」，尚未正式公告",
-   "tm": "時間未公布"
+   "tm": "時間未公布",
+   "fs": "0"
   },
   {
    "d": "2026-10-28",
@@ -604,7 +670,8 @@
    "st": "o",
    "u": "https://ir.kla.com/news-events/press-releases/detail/522/kla-announces-first-quarter-fiscal-year-2027-earnings-date",
    "n": "盤後發布，電話會議 14:00 PT",
-   "tm": "美西 14:00，台灣 10/29 05:00"
+   "tm": "美西 14:00，台灣 10/29 05:00",
+   "fs": "0"
   },
   {
    "d": "2026-10-21",
@@ -613,7 +680,8 @@
    "st": "o",
    "u": "https://finviz.com/news/397904/texas-instruments-to-webcast-q3-2026-earnings-conference-call",
    "n": "電話會議 16:30 ET（轉載自公司新聞稿）",
-   "tm": "美東 16:30，台灣 10/22 04:30"
+   "tm": "美東 16:30，台灣 10/22 04:30",
+   "fs": "0"
   },
   {
    "d": "2026-11-24",
@@ -623,7 +691,8 @@
    "u": "https://www.marketbeat.com/stocks/NASDAQ/ADI/earnings/",
    "n": "公司尚未公告，依往年（11/25）推估",
    "tm": "時間未公布",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-11-04",
@@ -633,7 +702,8 @@
    "u": "https://bullstory.io/en/stocks/mchp/earnings/2027-q2",
    "n": "找不到公司公告，為第三方推估",
    "tm": "時間未公布",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-10-27",
@@ -643,7 +713,8 @@
    "u": "https://finviz.com/news/399191/nxp-semiconductors-announces-conference-call-to-review-third-quarter-2026-financial-results",
    "n": "盤後發布（轉載自公司新聞稿）",
    "tm": "美東 16:30，台灣 10/28 04:30",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-11-02",
@@ -653,7 +724,8 @@
    "u": "https://www.marketbeat.com/stocks/NASDAQ/ON/earnings/",
    "n": "公司尚未公告，依往年（11/3）推估",
    "tm": "時間未公布",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-10-29",
@@ -663,7 +735,8 @@
    "u": "https://finviz.com/news/400581/monolithic-power-systems-to-report-third-quarter-2026-results-on-october-29-2026",
    "n": "盤後發布（轉載自公司新聞稿）",
    "tm": "美西 14:00，台灣 10/30 05:00",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-10-27",
@@ -673,7 +746,8 @@
    "u": "https://www.marketbeat.com/stocks/NASDAQ/TER/earnings/",
    "n": "公司尚未公告，依往年推估，通常盤後發布、隔日早上開電話會議",
    "tm": "時間未公布",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-10-27",
@@ -683,7 +757,8 @@
    "u": "https://www.marketbeat.com/stocks/NASDAQ/SWKS/earnings/",
    "n": "未能核實公司公告，為第三方推估",
    "tm": "時間未公布",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-10-27",
@@ -693,7 +768,8 @@
    "u": "https://www.marketbeat.com/stocks/NASDAQ/QRVO/earnings/",
    "n": "公司尚未公告；去年為 11/3，可能順延到 11 月初",
    "tm": "時間未公布",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-10-29",
@@ -703,7 +779,12 @@
    "u": "https://www.financialcontent.com/article/bizwire-2026-10-1-entegris-to-report-results-for-third-quarter-of-2026-on-thursday-october-29-2026",
    "n": "10/1 公司新聞稿（Business Wire）已公告：10/29 開盤前發布；新聞稿轉載站讀取，IR 官網被擋未直接核實",
    "tm": "美東開盤前，電話會議美東 08:00，台灣 10/29 20:00",
-   "mn": 1
+   "mn": 1,
+   "fs": "0",
+   "cg": {
+    "on": "2026-10-13",
+    "what": "預估→官方；時間更新"
+   }
   },
   {
    "d": "2026-10-28",
@@ -712,7 +793,8 @@
    "st": "o",
    "u": "https://news.microsoft.com/source/2026/10/07/microsoft-announces-quarterly-earnings-release-date-69/",
    "n": "10/7 公司已公告；盤後發布",
-   "tm": "美西 14:30，台灣 10/29 05:30"
+   "tm": "美西 14:30，台灣 10/29 05:30",
+   "fs": "0"
   },
   {
    "d": "2026-10-28",
@@ -721,7 +803,8 @@
    "st": "e",
    "u": "https://www.marketbeat.com/stocks/NASDAQ/META/earnings/",
    "n": "截至 10/11 公司尚未公告，第三方依往年推估；通常美西 14:00",
-   "tm": "時間未公布"
+   "tm": "時間未公布",
+   "fs": "0"
   },
   {
    "d": "2026-10-29",
@@ -730,7 +813,8 @@
    "st": "e",
    "u": "https://www.marketbeat.com/stocks/NASDAQ/AMZN/earnings/",
    "n": "截至 10/11 公司尚未公告；去年於開會前約兩週公告；通常美西 14:00",
-   "tm": "時間未公布"
+   "tm": "時間未公布",
+   "fs": "0"
   },
   {
    "d": "2026-11-02",
@@ -740,7 +824,8 @@
    "u": "https://www.marketbeat.com/stocks/NASDAQ/PLTR/earnings/",
    "n": "公司尚未公告，第三方推估",
    "tm": "時間未公布",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-11-11",
@@ -750,7 +835,8 @@
    "u": "https://www.marketbeat.com/stocks/NASDAQ/CSCO/earnings/",
    "n": "公司尚未公告，第三方推估",
    "tm": "時間未公布",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-12-10",
@@ -760,7 +846,8 @@
    "u": "https://www.marketbeat.com/stocks/NASDAQ/COST/earnings/",
    "n": "第四季已於 9/24 公布；下一次為 12 月，公司尚未公告",
    "tm": "時間未公布",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-11-19",
@@ -770,7 +857,8 @@
    "u": "https://www.marketbeat.com/stocks/NYSE/WMT/earnings/",
    "n": "公司尚未公告，第三方推估；通常盤前發布",
    "tm": "時間未公布",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-10-20",
@@ -780,7 +868,8 @@
    "u": "https://s22.q4cdn.com/959853165/files/doc_news/Netflix-to-Announce-Third-Quarter-2026-Financial-Results-2026.pdf",
    "n": "盤後發布，另有 13:45 PT 視訊訪談",
    "tm": "美西 13:01，台灣 10/21 04:01",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-11-18",
@@ -790,7 +879,8 @@
    "u": "https://www.marketbeat.com/stocks/NASDAQ/PANW/earnings",
    "n": "公司尚未公告，依往年（11/19）推估",
    "tm": "時間未公布",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-12-01",
@@ -800,7 +890,8 @@
    "u": "https://www.marketbeat.com/stocks/NASDAQ/CRWD/earnings",
    "n": "公司尚未公告，依往年（12/2）推估，可能是 12/1 或 12/2",
    "tm": "時間未公布",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-10-29",
@@ -810,7 +901,8 @@
    "u": "https://www.sandisk.com/company/newsroom/press-releases/2026/2026-09-29-sandisk-to-report-first-quarter-fiscal-year-2027-results-on-october-29-2026",
    "n": "盤後發布，電話會議 13:30 PT",
    "tm": "美西 13:30，台灣 10/30 04:30",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-10-29",
@@ -820,7 +912,8 @@
    "u": "https://www.placera.se/pressmeddelanden/linde-linde-announces-third-quarter-2026-earnings-and-conference-call-schedule-20261005",
    "n": "盤前 06:00 ET 發布，電話會議 09:00 ET（轉載自公司新聞稿）",
    "tm": "美東 09:00，台灣 21:00",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-11-03",
@@ -830,7 +923,8 @@
    "u": "https://nextearningsdate.com/amgn.html",
    "n": "公司尚未公告；去年為 10/30，日期可能提前",
    "tm": "時間未公布",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-11-03",
@@ -840,7 +934,8 @@
    "u": "https://investingnews.com/shopify-to-announce-third-quarter-2026-financial-results/",
    "n": "盤前發布，電話會議 08:30 ET（轉載自公司新聞稿）",
    "tm": "美東 08:30，台灣 21:30",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-10-29",
@@ -850,7 +945,8 @@
    "u": "https://unusualwhales.com/stock/GILD/earnings",
    "n": "公司尚未公告；去年為 10/30，通常盤後發布",
    "tm": "時間未公布",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-10-21",
@@ -859,7 +955,8 @@
    "st": "o",
    "u": "https://investor.lamresearch.com/events",
    "n": "公司 IR 網站列出電話會議；盤後發布",
-   "tm": "美西 14:00，台灣 10/22 05:00"
+   "tm": "美西 14:00，台灣 10/22 05:00",
+   "fs": "0"
   },
   {
    "d": "2026-10-21",
@@ -868,7 +965,8 @@
    "st": "o",
    "u": "https://ir.tesla.com",
    "n": "盤後發布，網路直播 17:30 ET",
-   "tm": "美東 17:30，台灣 10/22 05:30"
+   "tm": "美東 17:30，台灣 10/22 05:30",
+   "fs": "0"
   },
   {
    "d": "2026-10-28",
@@ -877,7 +975,8 @@
    "st": "o",
    "u": "https://www.marketscreener.com/news/alphabet-announces-date-of-third-quarter-2026-financial-results-conference-call-ce785dd9dc89f62d",
    "n": "10/6 公司已公告；開會前發布",
-   "tm": "美西 13:30，台灣 10/29 04:30"
+   "tm": "美西 13:30，台灣 10/29 04:30",
+   "fs": "0"
   },
   {
    "d": "2026-11-02",
@@ -886,7 +985,8 @@
    "st": "o",
    "u": "https://www.apple.com/investor/earnings-call/",
    "n": "新任執行長 John Ternus 首次主持；日期來自媒體轉述，蘋果 IR 頁尚未核實",
-   "tm": "美西 14:00，台灣 11/3 06:00"
+   "tm": "美西 14:00，台灣 11/3 06:00",
+   "fs": "0"
   },
   {
    "d": "2026-10-12",
@@ -896,7 +996,8 @@
    "n": "AI 資料中心硬體與伺服器供應鏈；註冊已額滿，2027 起移到舊金山 Moscone",
    "st": "o",
    "u": "https://www.opencompute.org/events/ocp-summit/2026-ocp-global-summit/",
-   "e": "2026-10-15"
+   "e": "2026-10-15",
+   "fs": "0"
   },
   {
    "d": "2026-10-13",
@@ -906,7 +1007,8 @@
    "n": "半導體設備與材料展；2027 起改到春季在鳳凰城舉辦",
    "st": "o",
    "u": "https://www.semiconwest.org/",
-   "e": "2026-10-15"
+   "e": "2026-10-15",
+   "fs": "0"
   },
   {
    "d": "2026-10-13",
@@ -916,7 +1018,8 @@
    "n": "公司高階主管對投資人的簡報（非正式的 Investor Day）",
    "st": "o",
    "u": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-host-investor-breakfast-presentation-during",
-   "tm": "美西 08:00–10:30，台灣 10/13 23:00–10/14 01:30"
+   "tm": "美西 08:00–10:30，台灣 10/13 23:00–10/14 01:30",
+   "fs": "0"
   },
   {
    "d": "2026-12-12",
@@ -926,7 +1029,8 @@
    "n": "先進製程與記憶體技術論文",
    "st": "o",
    "u": "https://ieee-iedm.org/",
-   "e": "2026-12-16"
+   "e": "2026-12-16",
+   "fs": "0"
   },
   {
    "d": "2027-03-30",
@@ -936,7 +1040,8 @@
    "n": "首次改到春季、在鳳凰城舉辦",
    "st": "o",
    "u": "https://www.eenewseurope.com/en/semicon-west-heads-to-phoenix-in-spring-2027/",
-   "e": "2027-04-01"
+   "e": "2027-04-01",
+   "fs": "0"
   },
   {
    "d": "2027-04-13",
@@ -946,7 +1051,8 @@
    "n": "",
    "st": "o",
    "u": "https://www.googlecloudevents.com/next-vegas",
-   "e": "2027-04-15"
+   "e": "2027-04-15",
+   "fs": "0"
   },
   {
    "d": "2027-06-06",
@@ -956,7 +1062,8 @@
    "n": "",
    "st": "o",
    "u": "https://www.ciscolive.com/global/cisco-live-2027.html",
-   "e": "2027-06-10"
+   "e": "2027-06-10",
+   "fs": "0"
   },
   {
    "d": "2027-08-18",
@@ -966,7 +1073,8 @@
    "n": "台灣半導體設備與材料供應鏈最重要的展會",
    "st": "o",
    "u": "https://www.semi.org/zh/node/175346",
-   "e": "2027-08-20"
+   "e": "2027-08-20",
+   "fs": "0"
   },
   {
    "d": "2026-10-14",
@@ -975,7 +1083,8 @@
    "tm": "美東 08:30，台灣 20:30",
    "n": "資料期間：9月（官方時程表）",
    "st": "o",
-   "u": "https://www.bls.gov/schedule/2026/10_sched.htm"
+   "u": "https://www.bls.gov/schedule/2026/10_sched.htm",
+   "fs": "0"
   },
   {
    "d": "2026-10-15",
@@ -984,7 +1093,8 @@
    "tm": "美東 08:30，台灣 20:30",
    "n": "資料期間：9月（官方時程表）",
    "st": "o",
-   "u": "https://www.bls.gov/schedule/2026/10_sched.htm"
+   "u": "https://www.bls.gov/schedule/2026/10_sched.htm",
+   "fs": "0"
   },
   {
    "d": "2026-10-15",
@@ -993,7 +1103,8 @@
    "tm": "美東 08:30，台灣 20:30",
    "n": "資料期間：9月（官方時程表）",
    "st": "o",
-   "u": "https://www.census.gov/economic-indicators/calendar-listview-2026.html"
+   "u": "https://www.census.gov/economic-indicators/calendar-listview-2026.html",
+   "fs": "0"
   },
   {
    "d": "2026-10-16",
@@ -1003,7 +1114,8 @@
    "n": "資料期間：9月（官方時程表）",
    "st": "o",
    "u": "https://www.bls.gov/schedule/news_release/ximpim.htm",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-10-27",
@@ -1013,7 +1125,8 @@
    "n": "資料期間：9月（官方時程表）",
    "st": "o",
    "u": "https://www.census.gov/economic-indicators/calendar-listview-2026.html",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-10-29",
@@ -1022,7 +1135,8 @@
    "tm": "美東 08:30，台灣 20:30",
    "n": "資料期間：第3季（官方時程表）",
    "st": "o",
-   "u": "https://www.bea.gov/news/schedule"
+   "u": "https://www.bea.gov/news/schedule",
+   "fs": "0"
   },
   {
    "d": "2026-10-29",
@@ -1031,7 +1145,8 @@
    "tm": "美東 08:30，台灣 20:30",
    "n": "資料期間：9月（官方時程表）",
    "st": "o",
-   "u": "https://www.bea.gov/news/schedule"
+   "u": "https://www.bea.gov/news/schedule",
+   "fs": "0"
   },
   {
    "d": "2026-11-02",
@@ -1040,7 +1155,8 @@
    "tm": "美東 10:00，台灣 23:00",
    "n": "資料期間：10月（官方時程表）",
    "st": "o",
-   "u": "https://ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/"
+   "u": "https://ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
+   "fs": "0"
   },
   {
    "d": "2026-11-03",
@@ -1050,7 +1166,8 @@
    "n": "資料期間：9月（官方時程表）",
    "st": "o",
    "u": "https://www.bls.gov/schedule/2026/home.htm",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-11-04",
@@ -1059,7 +1176,8 @@
    "tm": "美東 10:00，台灣 23:00",
    "n": "資料期間：10月（官方時程表）",
    "st": "o",
-   "u": "https://ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/"
+   "u": "https://ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
+   "fs": "0"
   },
   {
    "d": "2026-11-06",
@@ -1068,7 +1186,8 @@
    "tm": "美東 08:30，台灣 21:30",
    "n": "資料期間：10月（官方時程表）",
    "st": "o",
-   "u": "https://www.bls.gov/schedule/news_release/empsit.htm"
+   "u": "https://www.bls.gov/schedule/news_release/empsit.htm",
+   "fs": "0"
   },
   {
    "d": "2026-11-10",
@@ -1077,7 +1196,8 @@
    "tm": "美東 08:30，台灣 21:30",
    "n": "資料期間：10月（官方時程表）",
    "st": "o",
-   "u": "https://www.bls.gov/schedule/news_release/cpi.htm"
+   "u": "https://www.bls.gov/schedule/news_release/cpi.htm",
+   "fs": "0"
   },
   {
    "d": "2026-11-13",
@@ -1086,7 +1206,8 @@
    "tm": "美東 08:30，台灣 21:30",
    "n": "資料期間：10月（官方時程表）",
    "st": "o",
-   "u": "https://www.bls.gov/schedule/news_release/ppi.htm"
+   "u": "https://www.bls.gov/schedule/news_release/ppi.htm",
+   "fs": "0"
   },
   {
    "d": "2026-11-17",
@@ -1095,7 +1216,8 @@
    "tm": "美東 08:30，台灣 21:30",
    "n": "資料期間：10月（官方時程表）",
    "st": "o",
-   "u": "https://www.census.gov/economic-indicators/calendar-listview-2026.html"
+   "u": "https://www.census.gov/economic-indicators/calendar-listview-2026.html",
+   "fs": "0"
   },
   {
    "d": "2026-11-17",
@@ -1105,7 +1227,8 @@
    "n": "資料期間：10月（官方時程表）",
    "st": "o",
    "u": "https://www.bls.gov/schedule/news_release/ximpim.htm",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-11-25",
@@ -1114,7 +1237,8 @@
    "tm": "美東 08:30，台灣 21:30",
    "n": "資料期間：第3季（官方時程表）",
    "st": "o",
-   "u": "https://www.bea.gov/news/schedule"
+   "u": "https://www.bea.gov/news/schedule",
+   "fs": "0"
   },
   {
    "d": "2026-11-25",
@@ -1123,7 +1247,8 @@
    "tm": "美東 08:30，台灣 21:30",
    "n": "資料期間：10月（官方時程表）",
    "st": "o",
-   "u": "https://www.bea.gov/news/schedule"
+   "u": "https://www.bea.gov/news/schedule",
+   "fs": "0"
   },
   {
    "d": "2026-11-25",
@@ -1133,7 +1258,8 @@
    "n": "資料期間：10月（官方時程表）",
    "st": "o",
    "u": "https://www.census.gov/economic-indicators/calendar-listview-2026.html",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-12-01",
@@ -1142,7 +1268,8 @@
    "tm": "美東 10:00，台灣 23:00",
    "n": "資料期間：11月（官方時程表）",
    "st": "o",
-   "u": "https://ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/"
+   "u": "https://ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
+   "fs": "0"
   },
   {
    "d": "2026-12-01",
@@ -1152,7 +1279,8 @@
    "n": "資料期間：10月（官方時程表）",
    "st": "o",
    "u": "https://www.bls.gov/schedule/news_release/jolts.htm",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-12-03",
@@ -1161,7 +1289,8 @@
    "tm": "美東 10:00，台灣 23:00",
    "n": "資料期間：11月（官方時程表）",
    "st": "o",
-   "u": "https://ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/"
+   "u": "https://ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
+   "fs": "0"
   },
   {
    "d": "2026-12-04",
@@ -1170,7 +1299,8 @@
    "tm": "美東 08:30，台灣 21:30",
    "n": "資料期間：11月（官方時程表）",
    "st": "o",
-   "u": "https://www.bls.gov/schedule/news_release/empsit.htm"
+   "u": "https://www.bls.gov/schedule/news_release/empsit.htm",
+   "fs": "0"
   },
   {
    "d": "2026-12-10",
@@ -1179,7 +1309,8 @@
    "tm": "美東 08:30，台灣 21:30",
    "n": "資料期間：11月（官方時程表）",
    "st": "o",
-   "u": "https://www.bls.gov/schedule/news_release/cpi.htm"
+   "u": "https://www.bls.gov/schedule/news_release/cpi.htm",
+   "fs": "0"
   },
   {
    "d": "2026-12-15",
@@ -1188,7 +1319,8 @@
    "tm": "美東 08:30，台灣 21:30",
    "n": "資料期間：11月（官方時程表）",
    "st": "o",
-   "u": "https://www.bls.gov/schedule/news_release/ppi.htm"
+   "u": "https://www.bls.gov/schedule/news_release/ppi.htm",
+   "fs": "0"
   },
   {
    "d": "2026-12-16",
@@ -1197,7 +1329,8 @@
    "tm": "美東 08:30，台灣 21:30",
    "n": "資料期間：11月（官方時程表）",
    "st": "o",
-   "u": "https://www.census.gov/economic-indicators/calendar-listview-2026.html"
+   "u": "https://www.census.gov/economic-indicators/calendar-listview-2026.html",
+   "fs": "0"
   },
   {
    "d": "2026-12-17",
@@ -1207,7 +1340,8 @@
    "n": "資料期間：11月（官方時程表）",
    "st": "o",
    "u": "https://www.bls.gov/schedule/news_release/ximpim.htm",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-12-23",
@@ -1216,7 +1350,8 @@
    "tm": "美東 08:30，台灣 21:30",
    "n": "資料期間：第3季（官方時程表）",
    "st": "o",
-   "u": "https://www.bea.gov/news/schedule"
+   "u": "https://www.bea.gov/news/schedule",
+   "fs": "0"
   },
   {
    "d": "2026-12-23",
@@ -1225,7 +1360,8 @@
    "tm": "美東 08:30，台灣 21:30",
    "n": "資料期間：11月（官方時程表）",
    "st": "o",
-   "u": "https://www.bea.gov/news/schedule"
+   "u": "https://www.bea.gov/news/schedule",
+   "fs": "0"
   },
   {
    "d": "2026-12-23",
@@ -1235,7 +1371,8 @@
    "n": "資料期間：11月（官方時程表）",
    "st": "o",
    "u": "https://www.census.gov/economic-indicators/calendar-listview-2026.html",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2027-01-08",
@@ -1244,7 +1381,8 @@
    "tm": "美東 08:30，台灣 21:30",
    "n": "資料期間：12月（官方時程表）",
    "st": "o",
-   "u": "https://www.bls.gov/schedule/2027/01_sched.htm"
+   "u": "https://www.bls.gov/schedule/2027/01_sched.htm",
+   "fs": "0"
   },
   {
    "d": "2027-01-13",
@@ -1253,7 +1391,8 @@
    "tm": "美東 08:30，台灣 21:30",
    "n": "資料期間：12月（官方時程表）",
    "st": "o",
-   "u": "https://www.bls.gov/schedule/news_release/cpi.htm"
+   "u": "https://www.bls.gov/schedule/news_release/cpi.htm",
+   "fs": "0"
   },
   {
    "d": "2027-01-14",
@@ -1262,7 +1401,8 @@
    "tm": "美東 08:30，台灣 21:30",
    "n": "資料期間：12月（官方時程表）",
    "st": "o",
-   "u": "https://www.bls.gov/schedule/news_release/ppi.htm"
+   "u": "https://www.bls.gov/schedule/news_release/ppi.htm",
+   "fs": "0"
   },
   {
    "d": "2027-01-15",
@@ -1272,7 +1412,8 @@
    "n": "資料期間：12月（官方時程表）",
    "st": "o",
    "u": "https://www.bls.gov/schedule/2027/01_sched.htm",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2027-01-15",
@@ -1281,7 +1422,8 @@
    "tm": "美東 08:30，台灣 21:30",
    "n": "資料期間：12月（官方時程表）",
    "st": "o",
-   "u": "https://www.census.gov/economic-indicators/calendar-listview.html"
+   "u": "https://www.census.gov/economic-indicators/calendar-listview.html",
+   "fs": "0"
   },
   {
    "d": "2027-01-27",
@@ -1291,7 +1433,8 @@
    "n": "資料期間：12月（官方時程表）",
    "st": "o",
    "u": "https://www.census.gov/economic-indicators/calendar-listview.html",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2027-02-05",
@@ -1300,7 +1443,8 @@
    "tm": "美東 08:30，台灣 21:30",
    "n": "資料期間：1月（官方時程表）",
    "st": "o",
-   "u": "https://www.bls.gov/schedule/news_release/empsit.htm"
+   "u": "https://www.bls.gov/schedule/news_release/empsit.htm",
+   "fs": "0"
   },
   {
    "d": "2027-02-11",
@@ -1309,7 +1453,8 @@
    "tm": "美東 08:30，台灣 21:30",
    "n": "資料期間：1月（官方時程表）",
    "st": "o",
-   "u": "https://www.bls.gov/schedule/news_release/cpi.htm"
+   "u": "https://www.bls.gov/schedule/news_release/cpi.htm",
+   "fs": "0"
   },
   {
    "d": "2027-02-12",
@@ -1318,7 +1463,8 @@
    "tm": "美東 08:30，台灣 21:30",
    "n": "資料期間：1月（官方時程表）",
    "st": "o",
-   "u": "https://www.bls.gov/schedule/news_release/ppi.htm"
+   "u": "https://www.bls.gov/schedule/news_release/ppi.htm",
+   "fs": "0"
   },
   {
    "d": "2027-02-17",
@@ -1327,7 +1473,8 @@
    "tm": "美東 08:30，台灣 21:30",
    "n": "資料期間：1月（官方時程表）",
    "st": "o",
-   "u": "https://www.census.gov/economic-indicators/calendar-listview.html"
+   "u": "https://www.census.gov/economic-indicators/calendar-listview.html",
+   "fs": "0"
   },
   {
    "d": "2027-02-25",
@@ -1337,7 +1484,8 @@
    "n": "資料期間：1月（官方時程表）",
    "st": "o",
    "u": "https://www.census.gov/economic-indicators/calendar-listview.html",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2027-03-05",
@@ -1346,7 +1494,8 @@
    "tm": "美東 08:30，台灣 21:30",
    "n": "資料期間：2月（官方時程表）",
    "st": "o",
-   "u": "https://www.bls.gov/schedule/news_release/empsit.htm"
+   "u": "https://www.bls.gov/schedule/news_release/empsit.htm",
+   "fs": "0"
   },
   {
    "d": "2027-03-10",
@@ -1355,7 +1504,8 @@
    "tm": "美東 08:30，台灣 21:30",
    "n": "資料期間：2月（官方時程表）",
    "st": "o",
-   "u": "https://www.bls.gov/schedule/news_release/cpi.htm"
+   "u": "https://www.bls.gov/schedule/news_release/cpi.htm",
+   "fs": "0"
   },
   {
    "d": "2027-03-12",
@@ -1364,7 +1514,8 @@
    "tm": "美東 08:30，台灣 21:30",
    "n": "資料期間：2月（官方時程表）",
    "st": "o",
-   "u": "https://www.bls.gov/schedule/news_release/ppi.htm"
+   "u": "https://www.bls.gov/schedule/news_release/ppi.htm",
+   "fs": "0"
   },
   {
    "d": "2027-03-16",
@@ -1373,7 +1524,8 @@
    "tm": "美東 08:30，台灣 20:30",
    "n": "資料期間：2月（官方時程表）",
    "st": "o",
-   "u": "https://www.census.gov/economic-indicators/calendar-listview.html"
+   "u": "https://www.census.gov/economic-indicators/calendar-listview.html",
+   "fs": "0"
   },
   {
    "d": "2027-03-25",
@@ -1383,7 +1535,8 @@
    "n": "資料期間：2月（官方時程表）",
    "st": "o",
    "u": "https://www.census.gov/economic-indicators/calendar-listview.html",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-10-13",
@@ -1393,7 +1546,8 @@
    "pl": "曼谷",
    "st": "o",
    "u": "https://www.imf.org/en/meetings/2026/annual/schedule",
-   "n": "IMF 年會期間；報告本身的發布時間官方頁面未列"
+   "n": "IMF 年會期間；報告本身的發布時間官方頁面未列",
+   "fs": "0"
   },
   {
    "d": "2026-10-13",
@@ -1403,7 +1557,8 @@
    "pl": "曼谷",
    "st": "o",
    "u": "https://www.imf.org/en/meetings/2026/annual/schedule",
-   "n": "IMF 年會期間；報告本身的發布時間官方頁面未列"
+   "n": "IMF 年會期間；報告本身的發布時間官方頁面未列",
+   "fs": "0"
   },
   {
    "d": "2026-10-14",
@@ -1413,7 +1568,8 @@
    "pl": "曼谷",
    "st": "o",
    "u": "https://www.imf.org/en/meetings/2026/annual/schedule",
-   "n": "IMF 年會期間；報告本身的發布時間官方頁面未列"
+   "n": "IMF 年會期間；報告本身的發布時間官方頁面未列",
+   "fs": "0"
   },
   {
    "d": "2026-10-12",
@@ -1423,7 +1579,8 @@
    "u": "https://www.imf.org/en/meetings/2026/annual",
    "e": "2026-10-18",
    "pl": "曼谷 Queen Sirikit 國家會議中心",
-   "n": "期間含 G20 財長與央行總裁會議（10/15）、IMFC（10/16–17）、聯準會主席沃什座談"
+   "n": "期間含 G20 財長與央行總裁會議（10/15）、IMFC（10/16–17）、聯準會主席沃什座談",
+   "fs": "0"
   },
   {
    "d": "2026-10-13",
@@ -1434,7 +1591,8 @@
    "tm": "美東 10/12 12:10，台灣 10/13 00:10",
    "pl": "克利夫蘭 Hilton（可線上參加）",
    "n": "來自路透社聯準會活動日程（報導來源，聯準會官網未列）；主題：AI、人口結構與地緣政治",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-10-13",
@@ -1444,7 +1602,8 @@
    "u": "https://www.federalreserve.gov/newsevents/2026-october.htm",
    "tm": "美東 03:45，台灣 15:45",
    "pl": "印度新德里",
-   "n": "主題：AI；時區由台灣報導換算，聯準會官網未標示時區"
+   "n": "主題：AI；時區由台灣報導換算，聯準會官網未標示時區",
+   "fs": "0"
   },
   {
    "d": "2026-10-13",
@@ -1454,7 +1613,8 @@
    "u": "https://news.futunn.com/t/post/1000837743/BeyzVRuqUf",
    "tm": "台灣 10/14 04:00（美東 10/13 16:00）",
    "n": "僅見於媒體報導（富途），聯準會與波士頓聯儲官網未列，場合不明",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-10-14",
@@ -1463,7 +1623,8 @@
    "st": "o",
    "u": "https://www.federalreserve.gov/monetarypolicy/beige-book-default.htm",
    "tm": "美東 14:00，台灣 10/15 02:00",
-   "n": "FOMC 10/27–28 會議前的經濟狀況報告"
+   "n": "FOMC 10/27–28 會議前的經濟狀況報告",
+   "fs": "0"
   },
   {
    "d": "2026-10-14",
@@ -1473,7 +1634,8 @@
    "u": "https://www.federalreserve.gov/newsevents/2026-october.htm",
    "tm": "美東 05:40，台灣 17:40",
    "pl": "曼谷",
-   "n": "聯準會官網未標示時區，依台灣報導換算"
+   "n": "聯準會官網未標示時區，依台灣報導換算",
+   "fs": "0"
   },
   {
    "d": "2026-10-14",
@@ -1484,7 +1646,8 @@
    "tm": "曼谷 09:10，台灣 10:10",
    "pl": "曼谷",
    "n": "IMF 年會期間；主題：變動時代的領導",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-10-14",
@@ -1493,7 +1656,8 @@
    "st": "o",
    "u": "https://www.ecb.europa.eu/press/calendars/weekly/html/index.en.html",
    "tm": "曼谷 15:30，台灣 16:30",
-   "pl": "曼谷"
+   "pl": "曼谷",
+   "fs": "0"
   },
   {
    "d": "2026-10-14",
@@ -1503,7 +1667,8 @@
    "u": "https://www.ecb.europa.eu/press/calendars/weekly/html/index.en.html",
    "tm": "歐洲中部 18:15，台灣 10/15 00:15",
    "pl": "德國曼海姆大學",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-10-15",
@@ -1513,7 +1678,8 @@
    "u": "https://home.treasury.gov/news/press-releases/sb0398",
    "tm": "時間未公布",
    "pl": "曼谷",
-   "n": "拉加德等央行官員出席；美國財政部與 ECB 行事曆皆列此日"
+   "n": "拉加德等央行官員出席；美國財政部與 ECB 行事曆皆列此日",
+   "fs": "0"
   },
   {
    "d": "2026-10-15",
@@ -1523,7 +1689,12 @@
    "u": "https://www.clevelandfed.org/president-and-ceo",
    "tm": "美東 16:30，台灣 10/16 04:30",
    "n": "高盛與 Girls Who Code 主辦；克利夫蘭聯儲演講行程頁已列（地點未公布）；本環境無法直接開啟官網，內容經官網頁面搜尋摘要確認（10/13）",
-   "mn": 1
+   "mn": 1,
+   "fs": "0",
+   "cg": {
+    "on": "2026-10-13",
+    "what": "預估→官方"
+   }
   },
   {
    "d": "2026-10-16",
@@ -1533,7 +1704,8 @@
    "u": "https://www.imf.org/en/meetings/2026/annual/schedule",
    "tm": "曼谷 10:30–11:00，台灣 11:30–12:00",
    "pl": "曼谷",
-   "n": "位於美國 CPI、PPI、零售銷售之後，市場關注他對通膨與 12 月是否加息的看法；IMF 與聯準會行事曆皆列此場"
+   "n": "位於美國 CPI、PPI、零售銷售之後，市場關注他對通膨與 12 月是否加息的看法；IMF 與聯準會行事曆皆列此場",
+   "fs": "0"
   },
   {
    "d": "2026-10-16",
@@ -1545,7 +1717,8 @@
    "tm": "時間未公布",
    "pl": "曼谷",
    "n": "IMFC 記者會 10/17 曼谷 12:30–13:00",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-10-17",
@@ -1555,7 +1728,8 @@
    "u": "https://www.federalreserve.gov/monetarypolicy/files/fomc-blackout-period-calendar.pdf",
    "e": "2026-10-29",
    "n": "靜默期內官員不公開談貨幣政策；依聯準會規則（會議前第二個週六起至會後隔日）推算",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-10-29",
@@ -1564,7 +1738,8 @@
    "st": "o",
    "u": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html",
    "n": "更正：會議為兩天，決議與記者會在 10/29；下一次為 12/16–17",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-11-05",
@@ -1573,7 +1748,8 @@
    "st": "o",
    "u": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm",
    "tm": "時間未公布",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-11-06",
@@ -1583,7 +1759,8 @@
    "u": "https://www.bloomberght.com/imf-boj-baskani-uedayi-6-kasimda-konusma-yapmaya-davet-etti-3790896",
    "tm": "時間未公布",
    "n": "彭博報導 10/9 邀請；日銀尚未確認出席，時間與地點未公布",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-11-10",
@@ -1592,7 +1769,8 @@
    "st": "o",
    "u": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm",
    "tm": "時間未公布",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-11-18",
@@ -1600,7 +1778,8 @@
    "t": "FOMC 會議紀要（10/27–28 會議）",
    "st": "o",
    "u": "https://www.federalreserve.gov/newsevents/2026-november.htm",
-   "tm": "美東 14:00，台灣 11/19 03:00"
+   "tm": "美東 14:00，台灣 11/19 03:00",
+   "fs": "0"
   },
   {
    "d": "2026-11-25",
@@ -1609,7 +1788,8 @@
    "st": "o",
    "u": "https://www.federalreserve.gov/newsevents/2026-november.htm",
    "tm": "美東 14:00，台灣 11/26 03:00",
-   "n": "FOMC 12/8–9 會議前"
+   "n": "FOMC 12/8–9 會議前",
+   "fs": "0"
   },
   {
    "d": "2026-11-28",
@@ -1619,7 +1799,8 @@
    "u": "https://www.federalreserve.gov/monetarypolicy/files/fomc-blackout-period-calendar.pdf",
    "e": "2026-12-10",
    "n": "依規則推算",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-12-23",
@@ -1628,7 +1809,8 @@
    "st": "o",
    "u": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm",
    "tm": "時間未公布",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-12-28",
@@ -1637,7 +1819,8 @@
    "st": "o",
    "u": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm",
    "tm": "時間未公布",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-12-30",
@@ -1645,7 +1828,8 @@
    "t": "FOMC 會議紀要（12/8–9 會議）",
    "st": "o",
    "u": "https://www.federalreserve.gov/newsevents/2026-december.htm",
-   "tm": "美東 14:00，台灣 12/31 03:00"
+   "tm": "美東 14:00，台灣 12/31 03:00",
+   "fs": "0"
   },
   {
    "d": "2027-01-27",
@@ -1654,7 +1838,8 @@
    "st": "o",
    "u": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm",
    "tm": "時間未公布",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-10-20",
@@ -1664,7 +1849,8 @@
    "pl": "台北南港展覽館 1 館",
    "st": "o",
    "u": "https://www.tpcashow.com",
-   "n": "PCB／載板；官網寫週二至週四，最後一天 15:30 閉館"
+   "n": "PCB／載板；官網寫週二至週四，最後一天 15:30 閉館",
+   "fs": "0"
   },
   {
    "d": "2026-10-20",
@@ -1675,7 +1861,12 @@
    "st": "o",
    "u": "https://www.taitronics.tw/en/menu/34E2DEE62B3B8AB8D0636733C6861689/info.html",
    "n": "電子零組件與 AIoT，與 AIoT Taiwan 同展；外貿協會與電電公會主辦；本環境無法直接開啟官網，內容經官網頁面搜尋摘要確認（10/13）",
-   "tm": "10/20–21 10:00–17:00，10/22 09:30–15:00"
+   "tm": "10/20–21 10:00–17:00，10/22 09:30–15:00",
+   "fs": "0",
+   "cg": {
+    "on": "2026-10-13",
+    "what": "預估→官方"
+   }
   },
   {
    "d": "2026-11-10",
@@ -1685,7 +1876,8 @@
    "pl": "德國慕尼黑",
    "st": "o",
    "u": "https://electronica.de/",
-   "n": "11/9 有車用電子研討會；同期 SEMICON Europa"
+   "n": "11/9 有車用電子研討會；同期 SEMICON Europa",
+   "fs": "0"
   },
   {
    "d": "2026-11-15",
@@ -1695,7 +1887,8 @@
    "pl": "美國芝加哥 McCormick Place",
    "st": "o",
    "u": "https://sc26.supercomputing.org/",
-   "n": "展場開放 11/17–19；HPC 與 AI 伺服器、液冷題材"
+   "n": "展場開放 11/17–19；HPC 與 AI 伺服器、液冷題材",
+   "fs": "0"
   },
   {
    "d": "2026-11-16",
@@ -1705,7 +1898,8 @@
    "pl": "美國拉斯維加斯",
    "st": "o",
    "u": "https://www.re-plus.com",
-   "n": "太陽能與儲能；官網載展場 11/17–19，會議教育場 11/16–18，故起訖含會議日"
+   "n": "太陽能與儲能；官網載展場 11/17–19，會議教育場 11/16–18，故起訖含會議日",
+   "fs": "0"
   },
   {
    "d": "2026-12-02",
@@ -1715,7 +1909,12 @@
    "pl": "深圳國際會展中心（寶安）4–8 館",
    "st": "o",
    "u": "https://www.hkpcashow.org/en/show/information/",
-   "n": "中國 PCB 展；主辦單位官網與招展單張皆列 12/2–4；本環境無法直接開啟官網，內容經官網頁面搜尋摘要確認（10/13）"
+   "n": "中國 PCB 展；主辦單位官網與招展單張皆列 12/2–4；本環境無法直接開啟官網，內容經官網頁面搜尋摘要確認（10/13）",
+   "fs": "0",
+   "cg": {
+    "on": "2026-10-13",
+    "what": "預估→官方"
+   }
   },
   {
    "d": "2026-12-07",
@@ -1726,7 +1925,8 @@
    "st": "o",
    "u": "https://comsoc.org/conferences-events/ieee-global-communications-conference-2026",
    "n": "通訊學術與標準會議（6G、NTN），對個股直接影響小",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-12-09",
@@ -1736,7 +1936,8 @@
    "pl": "日本東京 Big Sight",
    "st": "o",
    "u": "https://www.semiconjapan.org/en",
-   "n": "半導體設備與材料；每天 10:00–17:00"
+   "n": "半導體設備與材料；每天 10:00–17:00",
+   "fs": "0"
   },
   {
    "d": "2027-01-11",
@@ -1746,7 +1947,8 @@
    "pl": "美國舊金山",
    "st": "o",
    "u": "https://www.jpmorgan.com/about-us/events-conferences/health-care-conference",
-   "n": "第 45 屆；生技公司常在此公布財測與合作"
+   "n": "第 45 屆；生技公司常在此公布財測與合作",
+   "fs": "0"
   },
   {
    "d": "2027-02-14",
@@ -1756,7 +1958,8 @@
    "pl": "美國舊金山 Marriott Marquis",
    "st": "o",
    "u": "https://www.isscc.org/",
-   "n": "晶片設計與先進製程論文"
+   "n": "晶片設計與先進製程論文",
+   "fs": "0"
   },
   {
    "d": "2027-03-01",
@@ -1766,7 +1969,8 @@
    "pl": "西班牙巴塞隆納 Fira Gran Via",
    "st": "o",
    "u": "https://www.mwcbarcelona.com/",
-   "n": "5G/6G、手機、衛星直連與網通設備"
+   "n": "5G/6G、手機、衛星直連與網通設備",
+   "fs": "0"
   },
   {
    "d": "2027-03-07",
@@ -1776,7 +1980,8 @@
    "pl": "美國洛杉磯會議中心",
    "st": "o",
    "u": "https://www.ofcconference.org/",
-   "n": "光通訊與 CPO 最重要的展；研討會 3/7–11，展覽 3/9–11"
+   "n": "光通訊與 CPO 最重要的展；研討會 3/7–11，展覽 3/9–11",
+   "fs": "0"
   },
   {
    "d": "2027-03-08",
@@ -1786,7 +1991,8 @@
    "pl": "美國華盛頓特區",
    "st": "o",
    "u": "https://www.satshow.com/event/satshow-2027/",
-   "n": "美國最大衛星產業展，低軌衛星與地面終端題材"
+   "n": "美國最大衛星產業展，低軌衛星與地面終端題材",
+   "fs": "0"
   },
   {
    "d": "2027-03-24",
@@ -1796,7 +2002,8 @@
    "pl": "上海新國際博覽中心",
    "st": "o",
    "u": "https://www.semiconchina.org/en",
-   "n": "半導體設備與材料"
+   "n": "半導體設備與材料",
+   "fs": "0"
   },
   {
    "d": "2027-04-06",
@@ -1806,7 +2013,8 @@
    "pl": "美國安那翰（官網未寫場館）",
    "st": "o",
    "u": "https://apexexpo.org/",
-   "n": "電子製造與 PCB；展覽 4/6–8，研討會 4/5–8"
+   "n": "電子製造與 PCB；展覽 4/6–8，研討會 4/5–8",
+   "fs": "0"
   },
   {
    "d": "2027-04-12",
@@ -1816,7 +2024,8 @@
    "pl": "美國科羅拉多泉 The Broadmoor",
    "st": "o",
    "u": "https://www.spacefoundation.org/?p=46009",
-   "n": "太空與國防產業大會"
+   "n": "太空與國防產業大會",
+   "fs": "0"
   },
   {
    "d": "2027-04-21",
@@ -1826,7 +2035,8 @@
    "pl": "台北南港展覽館 1 館 4 樓",
    "st": "o",
    "u": "https://www.touchtaiwan.com",
-   "n": "面板與觸控、光學膜"
+   "n": "面板與觸控、光學膜",
+   "fs": "0"
   },
   {
    "d": "2027-05-10",
@@ -1836,7 +2046,8 @@
    "pl": "美國拉斯維加斯",
    "st": "o",
    "u": "https://www.automateshow.com",
-   "n": "自動化與機器人"
+   "n": "自動化與機器人",
+   "fs": "0"
   },
   {
    "d": "2027-05-30",
@@ -1847,7 +2058,8 @@
    "st": "o",
    "u": "https://www.comsoc.org/conferences-events/ieee-international-conference-communications-2027",
    "n": "通訊學術會議，對個股直接影響小",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2027-06-02",
@@ -1857,7 +2069,8 @@
    "pl": "日本東京 Big Sight",
    "st": "e",
    "u": "https://www.shifair.com/exhibitionDetails/5165.html",
-   "n": "日本電子電路展；日期來自第三方展會網站，官網未能讀取"
+   "n": "日本電子電路展；日期來自第三方展會網站，官網未能讀取",
+   "fs": "0"
   },
   {
    "d": "2027-06-04",
@@ -1867,7 +2080,8 @@
    "pl": "美國芝加哥 McCormick Place",
    "st": "o",
    "u": "https://www.asco.org/annual-meeting",
-   "n": "腫瘤學臨床數據發表"
+   "n": "腫瘤學臨床數據發表",
+   "fs": "0"
   },
   {
    "d": "2027-06-06",
@@ -1877,7 +2091,8 @@
    "pl": "美國聖荷西",
    "st": "o",
    "u": "https://www.displayweek.org",
-   "n": "展覽 6/8–10，技術議程 6/6–11"
+   "n": "展覽 6/8–10，技術議程 6/6–11",
+   "fs": "0"
   },
   {
    "d": "2027-06-07",
@@ -1886,7 +2101,8 @@
    "t": "BIO 國際生技大會 2027",
    "pl": "美國費城",
    "st": "o",
-   "u": "https://convention.bio.org"
+   "u": "https://convention.bio.org",
+   "fs": "0"
   },
   {
    "d": "2027-06-07",
@@ -1896,7 +2112,8 @@
    "pl": "德國慕尼黑 Messe München",
    "st": "o",
    "u": "https://www.intersolar.de/home",
-   "n": "展覽 6/8–10，會議 6/7–8"
+   "n": "展覽 6/8–10，會議 6/7–8",
+   "fs": "0"
   },
   {
    "d": "2027-06-20",
@@ -1906,7 +2123,8 @@
    "pl": "日本京都 Rihga Royal Hotel",
    "st": "o",
    "u": "https://www.vlsisymposium.org/features/greeting.html",
-   "n": "先進製程與電路論文"
+   "n": "先進製程與電路論文",
+   "fs": "0"
   },
   {
    "d": "2027-06-23",
@@ -1916,7 +2134,8 @@
    "pl": "上海新國際博覽中心",
    "st": "o",
    "u": "https://www.mwcshanghai.cn/",
-   "n": "中國電信商與設備商，5G-A 與 AI 主題"
+   "n": "中國電信商與設備商，5G-A 與 AI 主題",
+   "fs": "0"
   },
   {
    "d": "2027-07-27",
@@ -1926,7 +2145,8 @@
    "pl": "美國聖塔克拉拉",
    "st": "e",
    "u": "https://www.terrapinn.com/conference/future-memory-storage/",
-   "n": "記憶體與儲存；官網內文寫 7/27–29、橫幅寫 7/28–30，尚待確認"
+   "n": "記憶體與儲存；官網內文寫 7/27–29、橫幅寫 7/28–30，尚待確認",
+   "fs": "0"
   },
   {
    "d": "2027-07-27",
@@ -1936,7 +2156,8 @@
    "pl": "台北南港展覽館",
    "st": "o",
    "u": "https://www.bioasiataiwan.com",
-   "n": "官網 7/27–31；第三方站曾寫 7/28–8/1，以官網為準"
+   "n": "官網 7/27–31；第三方站曾寫 7/28–8/1，以官網為準",
+   "fs": "0"
   },
   {
    "d": "2027-08-01",
@@ -1946,7 +2167,8 @@
    "pl": "美國（官網未寫 2027 場地，2026 在鹽湖城）",
    "st": "o",
    "u": "https://smallsat.org/",
-   "n": "低軌衛星供應鏈"
+   "n": "低軌衛星供應鏈",
+   "fs": "0"
   },
   {
    "d": "2027-09-07",
@@ -1956,7 +2178,8 @@
    "pl": "德國慕尼黑",
    "st": "o",
    "u": "https://www.iaa-mobility.com",
-   "n": "新聞日 9/6"
+   "n": "新聞日 9/6",
+   "fs": "0"
   },
   {
    "d": "2027-09-08",
@@ -1966,7 +2189,8 @@
    "pl": "深圳（兩個官網頁面場館不同，請再確認）",
    "st": "o",
    "u": "https://www.cioe.cn/",
-   "n": "光模組與光通訊"
+   "n": "光模組與光通訊",
+   "fs": "0"
   },
   {
    "d": "2027-09-23",
@@ -1976,7 +2200,8 @@
    "pl": "台北南港展覽館 1 館",
    "st": "o",
    "u": "https://www.ctee.com.tw/news/20260903701368-431202",
-   "n": "單數年舉辦、外貿協會主辦；無人機與衛星資料鏈。日期取自工商時報報導"
+   "n": "單數年舉辦、外貿協會主辦；無人機與衛星資料鏈。日期取自工商時報報導",
+   "fs": "0"
   },
   {
    "d": "2027-09-27",
@@ -1986,7 +2211,8 @@
    "pl": "波蘭波茲南",
    "st": "o",
    "u": "https://www.iafastro.org/events/iac/",
-   "n": "日期僅來自 IAF 活動列表"
+   "n": "日期僅來自 IAF 活動列表",
+   "fs": "0"
   },
   {
    "d": "2027-10-11",
@@ -1996,7 +2222,8 @@
    "pl": "義大利米蘭",
    "st": "o",
    "u": "https://www.ecocexhibition.com/",
-   "n": "展覽 10/11–13，頁面顯示整個活動週為 10/10–14"
+   "n": "展覽 10/11–13，頁面顯示整個活動週為 10/10–14",
+   "fs": "0"
   },
   {
    "d": "2027-11-15",
@@ -2006,7 +2233,8 @@
    "pl": "美國拉斯維加斯",
    "st": "o",
    "u": "https://www.re-plus.com",
-   "n": "太陽能與儲能"
+   "n": "太陽能與儲能",
+   "fs": "0"
   },
   {
    "d": "2027-11-16",
@@ -2016,7 +2244,8 @@
    "pl": "德國慕尼黑 Messe München",
    "st": "o",
    "u": "https://productronica.com/en/",
-   "n": "電子生產設備"
+   "n": "電子生產設備",
+   "fs": "0"
   },
   {
    "d": "2026-10-23",
@@ -2026,7 +2255,12 @@
    "pl": "西班牙馬德里（亦可線上參加）",
    "st": "o",
    "u": "https://www.esmo.org/meeting-calendar/esmo-congress-2026",
-   "n": "ESMO 官網列 10/23–27；本環境無法直接開啟官網，內容經官網頁面搜尋摘要確認（10/13）"
+   "n": "ESMO 官網列 10/23–27；本環境無法直接開啟官網，內容經官網頁面搜尋摘要確認（10/13）",
+   "fs": "0",
+   "cg": {
+    "on": "2026-10-13",
+    "what": "預估→官方"
+   }
   },
   {
    "d": "2026-10-15",
@@ -2037,7 +2271,8 @@
    "tm": "美東 10/14 22:55，台灣 10/15 10:55",
    "pl": "曼谷",
    "n": "主題待公布；聯準會官網未標示時區，依 ET 換算",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-10-13",
@@ -2047,7 +2282,8 @@
    "pl": "奧地利維也納 VIECON",
    "st": "o",
    "u": "https://www.networkxevent.com/",
-   "n": "電信與寬頻網路展會（原 Broadband World Forum 的後繼活動）；官網頁面未直接出現 Broadband World Forum 字樣，兩者關係為推論"
+   "n": "電信與寬頻網路展會（原 Broadband World Forum 的後繼活動）；官網頁面未直接出現 Broadband World Forum 字樣，兩者關係為推論",
+   "fs": "0"
   },
   {
    "d": "2027-04-02",
@@ -2056,7 +2292,8 @@
    "tm": "美東 08:30，台灣 20:30",
    "n": "資料期間：3月（官方時程表）",
    "st": "o",
-   "u": "https://www.bls.gov/schedule/2027/home.htm"
+   "u": "https://www.bls.gov/schedule/2027/home.htm",
+   "fs": "0"
   },
   {
    "d": "2027-05-07",
@@ -2065,7 +2302,8 @@
    "tm": "美東 08:30，台灣 20:30",
    "n": "資料期間：4月（官方時程表）",
    "st": "o",
-   "u": "https://www.bls.gov/schedule/2027/home.htm"
+   "u": "https://www.bls.gov/schedule/2027/home.htm",
+   "fs": "0"
   },
   {
    "d": "2027-06-04",
@@ -2074,7 +2312,8 @@
    "tm": "美東 08:30，台灣 20:30",
    "n": "資料期間：5月（官方時程表）",
    "st": "o",
-   "u": "https://www.bls.gov/schedule/2027/home.htm"
+   "u": "https://www.bls.gov/schedule/2027/home.htm",
+   "fs": "0"
   },
   {
    "d": "2027-07-02",
@@ -2083,7 +2322,8 @@
    "tm": "美東 08:30，台灣 20:30",
    "n": "資料期間：6月（官方時程表）",
    "st": "o",
-   "u": "https://www.bls.gov/schedule/2027/home.htm"
+   "u": "https://www.bls.gov/schedule/2027/home.htm",
+   "fs": "0"
   },
   {
    "d": "2027-08-06",
@@ -2092,7 +2332,8 @@
    "tm": "美東 08:30，台灣 20:30",
    "n": "資料期間：7月（官方時程表）",
    "st": "o",
-   "u": "https://www.bls.gov/schedule/2027/home.htm"
+   "u": "https://www.bls.gov/schedule/2027/home.htm",
+   "fs": "0"
   },
   {
    "d": "2027-09-03",
@@ -2101,7 +2342,8 @@
    "tm": "美東 08:30，台灣 20:30",
    "n": "資料期間：8月（官方時程表）",
    "st": "o",
-   "u": "https://www.bls.gov/schedule/2027/home.htm"
+   "u": "https://www.bls.gov/schedule/2027/home.htm",
+   "fs": "0"
   },
   {
    "d": "2027-10-08",
@@ -2110,7 +2352,8 @@
    "tm": "美東 08:30，台灣 20:30",
    "n": "資料期間：9月（官方時程表）",
    "st": "o",
-   "u": "https://www.bls.gov/schedule/2027/home.htm"
+   "u": "https://www.bls.gov/schedule/2027/home.htm",
+   "fs": "0"
   },
   {
    "d": "2027-11-05",
@@ -2119,7 +2362,8 @@
    "tm": "美東 08:30，台灣 20:30",
    "n": "資料期間：10月（官方時程表）",
    "st": "o",
-   "u": "https://www.bls.gov/schedule/2027/home.htm"
+   "u": "https://www.bls.gov/schedule/2027/home.htm",
+   "fs": "0"
   },
   {
    "d": "2027-12-03",
@@ -2128,7 +2372,8 @@
    "tm": "美東 08:30，台灣 21:30",
    "n": "資料期間：11月（官方時程表）",
    "st": "o",
-   "u": "https://www.bls.gov/schedule/2027/home.htm"
+   "u": "https://www.bls.gov/schedule/2027/home.htm",
+   "fs": "0"
   },
   {
    "d": "2027-04-13",
@@ -2137,7 +2382,8 @@
    "tm": "美東 08:30，台灣 20:30",
    "n": "資料期間：3月（官方時程表）",
    "st": "o",
-   "u": "https://www.bls.gov/schedule/2027/home.htm"
+   "u": "https://www.bls.gov/schedule/2027/home.htm",
+   "fs": "0"
   },
   {
    "d": "2027-05-12",
@@ -2146,7 +2392,8 @@
    "tm": "美東 08:30，台灣 20:30",
    "n": "資料期間：4月（官方時程表）",
    "st": "o",
-   "u": "https://www.bls.gov/schedule/2027/home.htm"
+   "u": "https://www.bls.gov/schedule/2027/home.htm",
+   "fs": "0"
   },
   {
    "d": "2027-06-10",
@@ -2155,7 +2402,8 @@
    "tm": "美東 08:30，台灣 20:30",
    "n": "資料期間：5月（官方時程表）",
    "st": "o",
-   "u": "https://www.bls.gov/schedule/2027/home.htm"
+   "u": "https://www.bls.gov/schedule/2027/home.htm",
+   "fs": "0"
   },
   {
    "d": "2027-07-14",
@@ -2164,7 +2412,8 @@
    "tm": "美東 08:30，台灣 20:30",
    "n": "資料期間：6月（官方時程表）",
    "st": "o",
-   "u": "https://www.bls.gov/schedule/2027/home.htm"
+   "u": "https://www.bls.gov/schedule/2027/home.htm",
+   "fs": "0"
   },
   {
    "d": "2027-08-11",
@@ -2173,7 +2422,8 @@
    "tm": "美東 08:30，台灣 20:30",
    "n": "資料期間：7月（官方時程表）",
    "st": "o",
-   "u": "https://www.bls.gov/schedule/2027/home.htm"
+   "u": "https://www.bls.gov/schedule/2027/home.htm",
+   "fs": "0"
   },
   {
    "d": "2027-09-14",
@@ -2182,7 +2432,8 @@
    "tm": "美東 08:30，台灣 20:30",
    "n": "資料期間：8月（官方時程表）",
    "st": "o",
-   "u": "https://www.bls.gov/schedule/2027/home.htm"
+   "u": "https://www.bls.gov/schedule/2027/home.htm",
+   "fs": "0"
   },
   {
    "d": "2027-10-14",
@@ -2191,7 +2442,8 @@
    "tm": "美東 08:30，台灣 20:30",
    "n": "資料期間：9月（官方時程表）",
    "st": "o",
-   "u": "https://www.bls.gov/schedule/2027/home.htm"
+   "u": "https://www.bls.gov/schedule/2027/home.htm",
+   "fs": "0"
   },
   {
    "d": "2027-11-10",
@@ -2200,7 +2452,8 @@
    "tm": "美東 08:30，台灣 21:30",
    "n": "資料期間：10月（官方時程表）",
    "st": "o",
-   "u": "https://www.bls.gov/schedule/2027/home.htm"
+   "u": "https://www.bls.gov/schedule/2027/home.htm",
+   "fs": "0"
   },
   {
    "d": "2027-12-10",
@@ -2209,7 +2462,8 @@
    "tm": "美東 08:30，台灣 21:30",
    "n": "資料期間：11月（官方時程表）",
    "st": "o",
-   "u": "https://www.bls.gov/schedule/2027/home.htm"
+   "u": "https://www.bls.gov/schedule/2027/home.htm",
+   "fs": "0"
   },
   {
    "d": "2027-04-14",
@@ -2218,7 +2472,8 @@
    "tm": "美東 08:30，台灣 20:30",
    "n": "資料期間：3月（官方時程表）",
    "st": "o",
-   "u": "https://www.bls.gov/schedule/2027/home.htm"
+   "u": "https://www.bls.gov/schedule/2027/home.htm",
+   "fs": "0"
   },
   {
    "d": "2027-05-13",
@@ -2227,7 +2482,8 @@
    "tm": "美東 08:30，台灣 20:30",
    "n": "資料期間：4月（官方時程表）",
    "st": "o",
-   "u": "https://www.bls.gov/schedule/2027/home.htm"
+   "u": "https://www.bls.gov/schedule/2027/home.htm",
+   "fs": "0"
   },
   {
    "d": "2027-06-11",
@@ -2236,7 +2492,8 @@
    "tm": "美東 08:30，台灣 20:30",
    "n": "資料期間：5月（官方時程表）",
    "st": "o",
-   "u": "https://www.bls.gov/schedule/2027/home.htm"
+   "u": "https://www.bls.gov/schedule/2027/home.htm",
+   "fs": "0"
   },
   {
    "d": "2027-07-15",
@@ -2245,7 +2502,8 @@
    "tm": "美東 08:30，台灣 20:30",
    "n": "資料期間：6月（官方時程表）",
    "st": "o",
-   "u": "https://www.bls.gov/schedule/2027/home.htm"
+   "u": "https://www.bls.gov/schedule/2027/home.htm",
+   "fs": "0"
   },
   {
    "d": "2027-08-10",
@@ -2254,7 +2512,8 @@
    "tm": "美東 08:30，台灣 20:30",
    "n": "資料期間：7月（官方時程表）",
    "st": "o",
-   "u": "https://www.bls.gov/schedule/2027/home.htm"
+   "u": "https://www.bls.gov/schedule/2027/home.htm",
+   "fs": "0"
   },
   {
    "d": "2027-09-10",
@@ -2263,7 +2522,8 @@
    "tm": "美東 08:30，台灣 20:30",
    "n": "資料期間：8月（官方時程表）",
    "st": "o",
-   "u": "https://www.bls.gov/schedule/2027/home.htm"
+   "u": "https://www.bls.gov/schedule/2027/home.htm",
+   "fs": "0"
   },
   {
    "d": "2027-10-15",
@@ -2272,7 +2532,8 @@
    "tm": "美東 08:30，台灣 20:30",
    "n": "資料期間：9月（官方時程表）",
    "st": "o",
-   "u": "https://www.bls.gov/schedule/2027/home.htm"
+   "u": "https://www.bls.gov/schedule/2027/home.htm",
+   "fs": "0"
   },
   {
    "d": "2027-11-12",
@@ -2281,7 +2542,8 @@
    "tm": "美東 08:30，台灣 21:30",
    "n": "資料期間：10月（官方時程表）",
    "st": "o",
-   "u": "https://www.bls.gov/schedule/2027/home.htm"
+   "u": "https://www.bls.gov/schedule/2027/home.htm",
+   "fs": "0"
   },
   {
    "d": "2027-12-15",
@@ -2290,7 +2552,8 @@
    "tm": "美東 08:30，台灣 21:30",
    "n": "資料期間：11月（官方時程表）",
    "st": "o",
-   "u": "https://www.bls.gov/schedule/2027/home.htm"
+   "u": "https://www.bls.gov/schedule/2027/home.htm",
+   "fs": "0"
   },
   {
    "d": "2027-03-17",
@@ -2300,7 +2563,8 @@
    "n": "資料期間：2月（官方時程表）",
    "st": "o",
    "u": "https://www.bls.gov/schedule/2027/home.htm",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2027-04-16",
@@ -2310,7 +2574,8 @@
    "n": "資料期間：3月（官方時程表）",
    "st": "o",
    "u": "https://www.bls.gov/schedule/2027/home.htm",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2027-05-14",
@@ -2320,7 +2585,8 @@
    "n": "資料期間：4月（官方時程表）",
    "st": "o",
    "u": "https://www.bls.gov/schedule/2027/home.htm",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2027-06-16",
@@ -2330,7 +2596,8 @@
    "n": "資料期間：5月（官方時程表）",
    "st": "o",
    "u": "https://www.bls.gov/schedule/2027/home.htm",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2027-07-16",
@@ -2340,7 +2607,8 @@
    "n": "資料期間：6月（官方時程表）",
    "st": "o",
    "u": "https://www.bls.gov/schedule/2027/home.htm",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2027-08-13",
@@ -2350,7 +2618,8 @@
    "n": "資料期間：7月（官方時程表）",
    "st": "o",
    "u": "https://www.bls.gov/schedule/2027/home.htm",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2027-09-17",
@@ -2360,7 +2629,8 @@
    "n": "資料期間：8月（官方時程表）",
    "st": "o",
    "u": "https://www.bls.gov/schedule/2027/home.htm",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2027-10-19",
@@ -2370,7 +2640,8 @@
    "n": "資料期間：9月（官方時程表）",
    "st": "o",
    "u": "https://www.bls.gov/schedule/2027/home.htm",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2027-11-16",
@@ -2380,7 +2651,8 @@
    "n": "資料期間：10月（官方時程表）",
    "st": "o",
    "u": "https://www.bls.gov/schedule/2027/home.htm",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2027-12-16",
@@ -2390,7 +2662,8 @@
    "n": "資料期間：11月（官方時程表）",
    "st": "o",
    "u": "https://www.bls.gov/schedule/2027/home.htm",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2027-04-16",
@@ -2399,7 +2672,8 @@
    "tm": "美東 08:30，台灣 20:30",
    "n": "資料期間：3月（官方時程表）",
    "st": "o",
-   "u": "https://www.census.gov/economic-indicators/calendar-listview.html"
+   "u": "https://www.census.gov/economic-indicators/calendar-listview.html",
+   "fs": "0"
   },
   {
    "d": "2027-05-14",
@@ -2408,7 +2682,8 @@
    "tm": "美東 08:30，台灣 20:30",
    "n": "資料期間：4月（官方時程表）",
    "st": "o",
-   "u": "https://www.census.gov/economic-indicators/calendar-listview.html"
+   "u": "https://www.census.gov/economic-indicators/calendar-listview.html",
+   "fs": "0"
   },
   {
    "d": "2027-06-16",
@@ -2417,7 +2692,8 @@
    "tm": "美東 08:30，台灣 20:30",
    "n": "資料期間：5月（官方時程表）",
    "st": "o",
-   "u": "https://www.census.gov/economic-indicators/calendar-listview.html"
+   "u": "https://www.census.gov/economic-indicators/calendar-listview.html",
+   "fs": "0"
   },
   {
    "d": "2027-07-16",
@@ -2426,7 +2702,8 @@
    "tm": "美東 08:30，台灣 20:30",
    "n": "資料期間：6月（官方時程表）",
    "st": "o",
-   "u": "https://www.census.gov/economic-indicators/calendar-listview.html"
+   "u": "https://www.census.gov/economic-indicators/calendar-listview.html",
+   "fs": "0"
   },
   {
    "d": "2027-08-16",
@@ -2435,7 +2712,8 @@
    "tm": "美東 08:30，台灣 20:30",
    "n": "資料期間：7月（官方時程表）",
    "st": "o",
-   "u": "https://www.census.gov/economic-indicators/calendar-listview.html"
+   "u": "https://www.census.gov/economic-indicators/calendar-listview.html",
+   "fs": "0"
   },
   {
    "d": "2027-09-16",
@@ -2444,7 +2722,8 @@
    "tm": "美東 08:30，台灣 20:30",
    "n": "資料期間：8月（官方時程表）",
    "st": "o",
-   "u": "https://www.census.gov/economic-indicators/calendar-listview.html"
+   "u": "https://www.census.gov/economic-indicators/calendar-listview.html",
+   "fs": "0"
   },
   {
    "d": "2027-10-15",
@@ -2453,7 +2732,8 @@
    "tm": "美東 08:30，台灣 20:30",
    "n": "資料期間：9月（官方時程表）",
    "st": "o",
-   "u": "https://www.census.gov/economic-indicators/calendar-listview.html"
+   "u": "https://www.census.gov/economic-indicators/calendar-listview.html",
+   "fs": "0"
   },
   {
    "d": "2027-11-16",
@@ -2462,7 +2742,8 @@
    "tm": "美東 08:30，台灣 21:30",
    "n": "資料期間：10月（官方時程表）",
    "st": "o",
-   "u": "https://www.census.gov/economic-indicators/calendar-listview.html"
+   "u": "https://www.census.gov/economic-indicators/calendar-listview.html",
+   "fs": "0"
   },
   {
    "d": "2027-12-15",
@@ -2471,7 +2752,8 @@
    "tm": "美東 08:30，台灣 21:30",
    "n": "資料期間：11月（官方時程表）",
    "st": "o",
-   "u": "https://www.census.gov/economic-indicators/calendar-listview.html"
+   "u": "https://www.census.gov/economic-indicators/calendar-listview.html",
+   "fs": "0"
   },
   {
    "d": "2027-04-27",
@@ -2481,7 +2763,8 @@
    "n": "資料期間：3月（官方時程表）",
    "st": "o",
    "u": "https://www.census.gov/economic-indicators/calendar-listview.html",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2027-05-27",
@@ -2491,7 +2774,8 @@
    "n": "資料期間：4月（官方時程表）",
    "st": "o",
    "u": "https://www.census.gov/economic-indicators/calendar-listview.html",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2027-06-25",
@@ -2501,7 +2785,8 @@
    "n": "資料期間：5月（官方時程表）",
    "st": "o",
    "u": "https://www.census.gov/economic-indicators/calendar-listview.html",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2027-07-28",
@@ -2511,7 +2796,8 @@
    "n": "資料期間：6月（官方時程表）",
    "st": "o",
    "u": "https://www.census.gov/economic-indicators/calendar-listview.html",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2027-08-25",
@@ -2521,7 +2807,8 @@
    "n": "資料期間：7月（官方時程表）",
    "st": "o",
    "u": "https://www.census.gov/economic-indicators/calendar-listview.html",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2027-09-27",
@@ -2531,7 +2818,8 @@
    "n": "資料期間：8月（官方時程表）",
    "st": "o",
    "u": "https://www.census.gov/economic-indicators/calendar-listview.html",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2027-10-27",
@@ -2541,7 +2829,8 @@
    "n": "資料期間：9月（官方時程表）",
    "st": "o",
    "u": "https://www.census.gov/economic-indicators/calendar-listview.html",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2027-11-24",
@@ -2551,7 +2840,8 @@
    "n": "資料期間：10月（官方時程表）",
    "st": "o",
    "u": "https://www.census.gov/economic-indicators/calendar-listview.html",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2027-12-22",
@@ -2561,7 +2851,8 @@
    "n": "資料期間：11月（官方時程表）",
    "st": "o",
    "u": "https://www.census.gov/economic-indicators/calendar-listview.html",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2027-01-28",
@@ -2570,7 +2861,8 @@
    "tm": "美東 08:30，台灣 21:30",
    "n": "資料期間：第4季（官方時程表）",
    "st": "o",
-   "u": "https://www.bea.gov/news/schedule/next-year"
+   "u": "https://www.bea.gov/news/schedule/next-year",
+   "fs": "0"
   },
   {
    "d": "2027-01-28",
@@ -2579,7 +2871,8 @@
    "tm": "美東 08:30，台灣 21:30",
    "n": "資料期間：12月（官方時程表）",
    "st": "o",
-   "u": "https://www.bea.gov/news/schedule/next-year"
+   "u": "https://www.bea.gov/news/schedule/next-year",
+   "fs": "0"
   },
   {
    "d": "2027-02-25",
@@ -2588,7 +2881,8 @@
    "tm": "美東 08:30，台灣 21:30",
    "n": "資料期間：第4季（官方時程表）",
    "st": "o",
-   "u": "https://www.bea.gov/news/schedule/next-year"
+   "u": "https://www.bea.gov/news/schedule/next-year",
+   "fs": "0"
   },
   {
    "d": "2027-02-25",
@@ -2597,7 +2891,8 @@
    "tm": "美東 08:30，台灣 21:30",
    "n": "資料期間：1月（官方時程表）",
    "st": "o",
-   "u": "https://www.bea.gov/news/schedule/next-year"
+   "u": "https://www.bea.gov/news/schedule/next-year",
+   "fs": "0"
   },
   {
    "d": "2027-03-31",
@@ -2606,7 +2901,8 @@
    "tm": "美東 08:30，台灣 20:30",
    "n": "資料期間：第4季（官方時程表）",
    "st": "o",
-   "u": "https://www.bea.gov/news/schedule/next-year"
+   "u": "https://www.bea.gov/news/schedule/next-year",
+   "fs": "0"
   },
   {
    "d": "2027-03-31",
@@ -2615,7 +2911,8 @@
    "tm": "美東 08:30，台灣 20:30",
    "n": "資料期間：2月（官方時程表）",
    "st": "o",
-   "u": "https://www.bea.gov/news/schedule/next-year"
+   "u": "https://www.bea.gov/news/schedule/next-year",
+   "fs": "0"
   },
   {
    "d": "2027-04-29",
@@ -2624,7 +2921,8 @@
    "tm": "美東 08:30，台灣 20:30",
    "n": "資料期間：第1季（官方時程表）",
    "st": "o",
-   "u": "https://www.bea.gov/news/schedule/next-year"
+   "u": "https://www.bea.gov/news/schedule/next-year",
+   "fs": "0"
   },
   {
    "d": "2027-04-29",
@@ -2633,7 +2931,8 @@
    "tm": "美東 08:30，台灣 20:30",
    "n": "資料期間：3月（官方時程表）",
    "st": "o",
-   "u": "https://www.bea.gov/news/schedule/next-year"
+   "u": "https://www.bea.gov/news/schedule/next-year",
+   "fs": "0"
   },
   {
    "d": "2027-05-27",
@@ -2642,7 +2941,8 @@
    "tm": "美東 08:30，台灣 20:30",
    "n": "資料期間：第1季（官方時程表）",
    "st": "o",
-   "u": "https://www.bea.gov/news/schedule/next-year"
+   "u": "https://www.bea.gov/news/schedule/next-year",
+   "fs": "0"
   },
   {
    "d": "2027-05-27",
@@ -2651,7 +2951,8 @@
    "tm": "美東 08:30，台灣 20:30",
    "n": "資料期間：4月（官方時程表）",
    "st": "o",
-   "u": "https://www.bea.gov/news/schedule/next-year"
+   "u": "https://www.bea.gov/news/schedule/next-year",
+   "fs": "0"
   },
   {
    "d": "2027-06-25",
@@ -2660,7 +2961,8 @@
    "tm": "美東 08:30，台灣 20:30",
    "n": "資料期間：第1季（官方時程表）",
    "st": "o",
-   "u": "https://www.bea.gov/news/schedule/next-year"
+   "u": "https://www.bea.gov/news/schedule/next-year",
+   "fs": "0"
   },
   {
    "d": "2027-06-25",
@@ -2669,7 +2971,8 @@
    "tm": "美東 08:30，台灣 20:30",
    "n": "資料期間：5月（官方時程表）",
    "st": "o",
-   "u": "https://www.bea.gov/news/schedule/next-year"
+   "u": "https://www.bea.gov/news/schedule/next-year",
+   "fs": "0"
   },
   {
    "d": "2027-07-29",
@@ -2678,7 +2981,8 @@
    "tm": "美東 08:30，台灣 20:30",
    "n": "資料期間：第2季（官方時程表）",
    "st": "o",
-   "u": "https://www.bea.gov/news/schedule/next-year"
+   "u": "https://www.bea.gov/news/schedule/next-year",
+   "fs": "0"
   },
   {
    "d": "2027-07-29",
@@ -2687,7 +2991,8 @@
    "tm": "美東 08:30，台灣 20:30",
    "n": "資料期間：6月（官方時程表）",
    "st": "o",
-   "u": "https://www.bea.gov/news/schedule/next-year"
+   "u": "https://www.bea.gov/news/schedule/next-year",
+   "fs": "0"
   },
   {
    "d": "2027-08-25",
@@ -2696,7 +3001,8 @@
    "tm": "美東 08:30，台灣 20:30",
    "n": "資料期間：第2季（官方時程表）",
    "st": "o",
-   "u": "https://www.bea.gov/news/schedule/next-year"
+   "u": "https://www.bea.gov/news/schedule/next-year",
+   "fs": "0"
   },
   {
    "d": "2027-08-25",
@@ -2705,7 +3011,8 @@
    "tm": "美東 08:30，台灣 20:30",
    "n": "資料期間：7月（官方時程表）",
    "st": "o",
-   "u": "https://www.bea.gov/news/schedule/next-year"
+   "u": "https://www.bea.gov/news/schedule/next-year",
+   "fs": "0"
   },
   {
    "d": "2027-09-30",
@@ -2714,7 +3021,8 @@
    "tm": "美東 08:30，台灣 20:30",
    "n": "資料期間：第2季（官方時程表）",
    "st": "o",
-   "u": "https://www.bea.gov/news/schedule/next-year"
+   "u": "https://www.bea.gov/news/schedule/next-year",
+   "fs": "0"
   },
   {
    "d": "2027-09-30",
@@ -2723,7 +3031,8 @@
    "tm": "美東 08:30，台灣 20:30",
    "n": "資料期間：8月（官方時程表）",
    "st": "o",
-   "u": "https://www.bea.gov/news/schedule/next-year"
+   "u": "https://www.bea.gov/news/schedule/next-year",
+   "fs": "0"
   },
   {
    "d": "2027-10-28",
@@ -2732,7 +3041,8 @@
    "tm": "美東 08:30，台灣 20:30",
    "n": "資料期間：第3季（官方時程表）",
    "st": "o",
-   "u": "https://www.bea.gov/news/schedule/next-year"
+   "u": "https://www.bea.gov/news/schedule/next-year",
+   "fs": "0"
   },
   {
    "d": "2027-10-28",
@@ -2741,7 +3051,8 @@
    "tm": "美東 08:30，台灣 20:30",
    "n": "資料期間：9月（官方時程表）",
    "st": "o",
-   "u": "https://www.bea.gov/news/schedule/next-year"
+   "u": "https://www.bea.gov/news/schedule/next-year",
+   "fs": "0"
   },
   {
    "d": "2027-11-24",
@@ -2750,7 +3061,8 @@
    "tm": "美東 08:30，台灣 21:30",
    "n": "資料期間：第3季（官方時程表）",
    "st": "o",
-   "u": "https://www.bea.gov/news/schedule/next-year"
+   "u": "https://www.bea.gov/news/schedule/next-year",
+   "fs": "0"
   },
   {
    "d": "2027-11-24",
@@ -2759,7 +3071,8 @@
    "tm": "美東 08:30，台灣 21:30",
    "n": "資料期間：10月（官方時程表）",
    "st": "o",
-   "u": "https://www.bea.gov/news/schedule/next-year"
+   "u": "https://www.bea.gov/news/schedule/next-year",
+   "fs": "0"
   },
   {
    "d": "2027-12-22",
@@ -2768,7 +3081,8 @@
    "tm": "美東 08:30，台灣 21:30",
    "n": "資料期間：第3季（官方時程表）",
    "st": "o",
-   "u": "https://www.bea.gov/news/schedule/next-year"
+   "u": "https://www.bea.gov/news/schedule/next-year",
+   "fs": "0"
   },
   {
    "d": "2027-12-22",
@@ -2777,7 +3091,8 @@
    "tm": "美東 08:30，台灣 21:30",
    "n": "資料期間：11月（官方時程表）",
    "st": "o",
-   "u": "https://www.bea.gov/news/schedule/next-year"
+   "u": "https://www.bea.gov/news/schedule/next-year",
+   "fs": "0"
   },
   {
    "d": "2027-08-04",
@@ -2787,7 +3102,8 @@
    "pl": "台北南港展覽館",
    "st": "o",
    "u": "https://www.tairos.tw/en/",
-   "n": "機器人與自動化；官網列 2027/8/4–7，1 館已額滿；本環境無法直接開啟官網，內容經官網頁面搜尋摘要確認（10/13）"
+   "n": "機器人與自動化；官網列 2027/8/4–7，1 館已額滿；本環境無法直接開啟官網，內容經官網頁面搜尋摘要確認（10/13）",
+   "fs": "2026-10-13"
   },
   {
    "d": "2027-08-04",
@@ -2797,7 +3113,8 @@
    "pl": "台北南港展覽館 1、2 館",
    "st": "o",
    "u": "https://automationtaipei.chanchao.com.tw/",
-   "n": "主辦單位（Chanchao）官網公告；智慧製造、機器人與自動化"
+   "n": "主辦單位（Chanchao）官網公告；智慧製造、機器人與自動化",
+   "fs": "2026-10-13"
   },
   {
    "d": "2026-11-26",
@@ -2807,7 +3124,8 @@
    "u": "https://www.smartcalendars.ai/en/feeds/ecb-governing-council-calendar",
    "n": "ECB 官網只寫下一次為 10/8、未列之後日期；此日期來自第三方行事曆預估，通常於會後約四週發布",
    "tm": "時間未公布",
-   "mn": 1
+   "mn": 1,
+   "fs": "2026-10-13"
   },
   {
    "d": "2026-10-13",
@@ -2819,7 +3137,8 @@
    "a": 1,
    "pl": "線上法說會",
    "n": "參加摩根大通舉辦之法人說明會",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-10-13",
@@ -2831,7 +3150,8 @@
    "a": 1,
    "pl": "香港Mandarin Oriental Hotel",
    "n": "參加寬量國際主辦之「20th QIC CEO Week」",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-10-13",
@@ -2843,7 +3163,8 @@
    "a": 1,
    "pl": "證交所101辦公大樓一樓資訊展示中心(台北市信義路五段七號)",
    "n": "本公司召開法人說明會",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-10-13",
@@ -2855,7 +3176,8 @@
    "a": 1,
    "pl": "香港Mandarin Oriental Hotel",
    "n": "參加寬量國際主辦之「20th QIC CEO Week」",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-10-13",
@@ -2867,7 +3189,8 @@
    "a": 1,
    "pl": "線上",
    "n": "參加富邦證券舉辦之線上法人說明會",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-10-13",
@@ -2879,7 +3202,8 @@
    "a": 1,
    "pl": "香港Mandarin Oriental Hotel (5 Connaught Road, Central, Hong Kong)",
    "n": "參加寬量國際主辦之「20th QIC CEO Week」",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-10-13",
@@ -2891,7 +3215,8 @@
    "a": 1,
    "pl": "線上說明會",
    "n": "參加SIG線上投資人說明會",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-10-13",
@@ -2902,7 +3227,8 @@
    "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
    "a": 1,
    "pl": "國票證券(台北市松山區南京東路五段188號15樓)",
-   "n": "參加國票證券主辦法人說明會"
+   "n": "參加國票證券主辦法人說明會",
+   "fs": "0"
   },
   {
    "d": "2026-10-13",
@@ -2914,7 +3240,8 @@
    "a": 1,
    "pl": "線上直播",
    "n": "參加永豐金證券舉辦之線上法人說明會",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-10-13",
@@ -2926,7 +3253,8 @@
    "a": 1,
    "pl": "香港文華東方酒店 (5 Connaught Road, Central, Hong Kong)",
    "n": "參加寬量國際主辦之「20th QIC CEO Week」",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-10-13",
@@ -2938,7 +3266,8 @@
    "a": 1,
    "pl": "香港Mandarin Oriental Hotel(5 Connaught Road, Central, Hong Kong)",
    "n": "參加寬量國際舉辦之法人說明會「20th QIC CEO Week」",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-10-13",
@@ -2950,7 +3279,8 @@
    "a": 1,
    "pl": "香港文華東方酒店 (5 Connaught Road, Central, 香港)",
    "n": "參加寬量國際主辦之「20th QIC CEO Week」",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-10-13",
@@ -2962,7 +3292,8 @@
    "a": 1,
    "pl": "線上法說會",
    "n": "參加統一證券舉辦之線上法人說明會",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-10-13",
@@ -2974,7 +3305,8 @@
    "a": 1,
    "pl": "香港Mandarin Oriental Hotel",
    "n": "參加寬量國際主辦之「20th QIC CEO Week」",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-10-13",
@@ -2986,7 +3318,8 @@
    "a": 1,
    "pl": "香港Mandarin Oriental Hotel",
    "n": "參加寬量國際主辦之「20th QIC CEO Week」",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-10-13",
@@ -2998,7 +3331,8 @@
    "a": 1,
    "pl": "香港Mandarin Oriental Hotel",
    "n": "(5 Connaught Road, Central, Hong Kong)",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-10-13",
@@ -3010,7 +3344,8 @@
    "a": 1,
    "pl": "美國",
    "n": "參加元大證券舉辦之美國海外路演(NDR)",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-10-13",
@@ -3022,7 +3357,8 @@
    "a": 1,
    "pl": "香港文華東方酒店",
    "n": "(5 Connaught Road, Central, Hong Kong)",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-10-13",
@@ -3034,7 +3370,8 @@
    "a": 1,
    "pl": "香港Mandarin Oriental Hotel",
    "n": "參加寬量國際主辦之「20th QIC CEO Week」",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-10-14",
@@ -3046,7 +3383,8 @@
    "a": 1,
    "pl": "新竹老爺酒店6樓會議室(新竹市東區仙水里光復路一段227號)",
    "n": "本公司舉辦財務業務概況座談會",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-10-14",
@@ -3058,7 +3396,8 @@
    "a": 1,
    "pl": "Webex線上會議",
    "n": "參加第一金證券舉辦之線上法人說明會",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-10-14",
@@ -3070,7 +3409,8 @@
    "a": 1,
    "pl": "香港Mandarin Oriental Hotel (5 Connaught Road, Central, Hong Kong)",
    "n": "參加寬量國際主辦之「20th QIC CEO Week」",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-10-14",
@@ -3082,7 +3422,8 @@
    "a": 1,
    "pl": "香港Mandarin Oriental Hotel",
    "n": "參加寬量國際主辦之「20th QIC CEO Week」",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-10-14",
@@ -3094,7 +3435,8 @@
    "a": 1,
    "pl": "香港Mandarin Oriental Hotel(5 Connaught Road, Central, Hong Kong)",
    "n": "參加寬量國際主辦之「20th QIC CEO Week」",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-10-14",
@@ -3106,7 +3448,8 @@
    "a": 1,
    "pl": "香港Mandarin Oriental Hotel",
    "n": "參加寬量國際主辦之「20th QIC CEO Week」",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-10-14",
@@ -3118,7 +3461,8 @@
    "a": 1,
    "pl": "香港Mandarin Oriental Hotel",
    "n": "參加寬量國際主辦之「20th QIC CEO Week」",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-10-14",
@@ -3130,7 +3474,8 @@
    "a": 1,
    "pl": "新竹老爺酒店6樓會議室(新竹市東區仙水里光復路一段227號)",
    "n": "本公司舉辦財務業務概況座談會",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-10-14",
@@ -3142,7 +3487,8 @@
    "a": 1,
    "pl": "高雄市前鎮區中山二路2號9樓之一（大眾財金大樓）",
    "n": "參加台新證券舉辦之法人說明會",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-10-14",
@@ -3154,7 +3500,8 @@
    "a": 1,
    "pl": "實體(採實名報名制)法說會，實體法說會地點:南投市成功三路239號",
    "n": "本公司召開法人說明會",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-10-15",
@@ -3166,7 +3513,8 @@
    "a": 1,
    "pl": "台北市信義區信義路五段7號1樓(證交所(101大樓1樓資訊展示中心)",
    "n": "本公司召開法人說明會",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-10-15",
@@ -3178,7 +3526,8 @@
    "a": 1,
    "pl": "兆豐證券大樓（台北市忠孝東路二段95號13樓1301會議室）",
    "n": "參加兆豐證券舉辦之法人說明會",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-10-16",
@@ -3190,7 +3539,8 @@
    "a": 1,
    "pl": "線上法說會",
    "n": "參加永豐金證券舉辦之法人說明會",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-10-16",
@@ -3202,7 +3552,8 @@
    "a": 1,
    "pl": "國泰證券 (台北市大安區敦化南路二段218號8樓會議室)",
    "n": "參加國泰證券舉辦之法人說明會",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-10-19",
@@ -3214,7 +3565,8 @@
    "a": 1,
    "pl": "線上說明會",
    "n": "本公司自辦說明會",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-10-19",
@@ -3226,7 +3578,8 @@
    "a": 1,
    "pl": "敦南摩天大樓(台北市敦化南路二段97號11樓)",
    "n": "參加台新綜合證券舉辦之法人說明會",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-10-19",
@@ -3238,7 +3591,8 @@
    "a": 1,
    "pl": "線上法說會",
    "n": "參加永豐金證券舉辦之線上法人說明會",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-10-21",
@@ -3250,7 +3604,8 @@
    "a": 1,
    "pl": "敦南摩天大樓(台北市敦化南路二段97號11樓)",
    "n": "參加台新證券實體法人說明會",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-10-21",
@@ -3262,7 +3617,8 @@
    "a": 1,
    "pl": "敦南摩天大樓(台北市敦化南路二段97號11樓)",
    "n": "參加台新證券實體法說會",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-10-21",
@@ -3274,7 +3630,8 @@
    "a": 1,
    "pl": "敦南摩天大樓(台北市敦化南路二段97號11樓)",
    "n": "參加台新證券實體法說會",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-10-21",
@@ -3286,7 +3643,8 @@
    "a": 1,
    "pl": "群益金鼎證券15樓會議室（台北市松山區民生東路三段156號）",
    "n": "參加群益金鼎證券舉辦之法人說明會",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-10-23",
@@ -3298,7 +3656,8 @@
    "a": 1,
    "pl": "網路直播",
    "n": "本公司舉辦2026年第三季線上法人說明會",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-10-27",
@@ -3310,7 +3669,8 @@
    "a": 1,
    "pl": "線上法人說明會",
    "n": "本公司召開2026年第三季法人說明會",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-10-27",
@@ -3322,7 +3682,8 @@
    "a": 1,
    "pl": "線上法說會",
    "n": "本公司召開115年第三季線上法人說明會",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-10-29",
@@ -3333,7 +3694,8 @@
    "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
    "a": 1,
    "pl": "線上法說會",
-   "n": "本公司召開115年第三季線上法人說明會"
+   "n": "本公司召開115年第三季線上法人說明會",
+   "fs": "0"
   },
   {
    "d": "2026-10-29",
@@ -3345,7 +3707,8 @@
    "a": 1,
    "pl": "線上直播 https://www.zucast.com/webcast/FHFR0R3a",
    "n": "本公司召開法人說明會",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-11-03",
@@ -3356,7 +3719,8 @@
    "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
    "a": 1,
    "pl": "東京",
-   "n": "參加大和國泰證券法人說明會"
+   "n": "參加大和國泰證券法人說明會",
+   "fs": "0"
   },
   {
    "d": "2026-11-03",
@@ -3368,7 +3732,8 @@
    "a": 1,
    "pl": "線上法說會",
    "n": "參加凱基證券舉辦之「線上法人說明會」",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-11-04",
@@ -3379,7 +3744,8 @@
    "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
    "a": 1,
    "pl": "線上會議",
-   "n": "參加大和國泰證券主辦之線上會議"
+   "n": "參加大和國泰證券主辦之線上會議",
+   "fs": "0"
   },
   {
    "d": "2026-11-04",
@@ -3390,7 +3756,8 @@
    "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
    "a": 1,
    "pl": "電話會議",
-   "n": "本公司召開法人說明會"
+   "n": "本公司召開法人說明會",
+   "fs": "0"
   },
   {
    "d": "2026-11-04",
@@ -3402,7 +3769,8 @@
    "a": 1,
    "pl": "台北市信義區基隆路一段176號B2",
    "n": "參加康和證券舉辦之法說會",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-11-06",
@@ -3414,7 +3782,8 @@
    "a": 1,
    "pl": "線上",
    "n": "參加福邦證券舉辦之線上法人說明會",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-11-12",
@@ -3426,7 +3795,8 @@
    "a": 1,
    "pl": "電話會議",
    "n": "本公司召開法人說明會",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-11-13",
@@ -3437,7 +3807,8 @@
    "u": "https://tw.stock.yahoo.com/calendar/earnings-call",
    "a": 1,
    "pl": "線上法說會",
-   "n": "本公司舉辦2026年第三季線上法人說明會"
+   "n": "本公司舉辦2026年第三季線上法人說明會",
+   "fs": "0"
   },
   {
    "d": "2026-11-17",
@@ -3449,7 +3820,8 @@
    "a": 1,
    "pl": "線上法說會",
    "n": "參加中國信託綜合證券舉辦之法人說明會",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-10-13",
@@ -3459,7 +3831,8 @@
    "st": "o",
    "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
    "a": 1,
-   "pl": "臺北市中山北路2段113號3樓(臺泥大樓3樓士敏廳)"
+   "pl": "臺北市中山北路2段113號3樓(臺泥大樓3樓士敏廳)",
+   "fs": "0"
   },
   {
    "d": "2026-10-14",
@@ -3470,7 +3843,8 @@
    "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
    "a": 1,
    "pl": "台北市南港區三重路19之10號2樓(南港軟體園區國際會議中心A棟)",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-10-15",
@@ -3481,7 +3855,8 @@
    "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
    "a": 1,
    "pl": "台北市內湖區成功路五段420巷28號B1",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-10-15",
@@ -3492,7 +3867,8 @@
    "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
    "a": 1,
    "pl": "新北市五股區五權七路20號2樓(本公司會議室)",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-10-19",
@@ -3503,7 +3879,8 @@
    "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
    "a": 1,
    "pl": "新北市汐止區新台五路一段99號35樓(iFG遠雄廣場A棟)",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-10-19",
@@ -3514,7 +3891,8 @@
    "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
    "a": 1,
    "pl": "新竹縣竹北市中和街191巷31號3樓(本公司)",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-10-20",
@@ -3525,7 +3903,8 @@
    "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
    "a": 1,
    "pl": "臺北市南港區三重路19-11號E棟4樓(南港軟體育成中心423會議室)",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-10-20",
@@ -3536,7 +3915,8 @@
    "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
    "a": 1,
    "pl": "桃園市龜山區文茂路88號(本公司會議室)",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-10-21",
@@ -3547,7 +3927,8 @@
    "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
    "a": 1,
    "pl": "新北市土城區中央路四段49號(2樓會議室)",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-10-28",
@@ -3558,7 +3939,8 @@
    "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
    "a": 1,
    "pl": "高雄市燕巢區四林路125之18號",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-10-29",
@@ -3569,7 +3951,8 @@
    "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
    "a": 1,
    "pl": "新北市汐止區大同路三段196號R2樓",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-10-29",
@@ -3580,7 +3963,8 @@
    "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
    "a": 1,
    "pl": "宜蘭縣五結鄉利工一路二段70號",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-11-04",
@@ -3591,7 +3975,8 @@
    "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
    "a": 1,
    "pl": "新竹市新竹科學園區展業一路2號(科學工業園區科學工業同業公會2樓會議室)",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-11-05",
@@ -3602,7 +3987,8 @@
    "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
    "a": 1,
    "pl": "新竹縣竹北市縣政八街77號1樓(新竹縣工業會)",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-11-05",
@@ -3613,7 +3999,8 @@
    "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
    "a": 1,
    "pl": "台南市東區大學路2號太子文旅C廳",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-11-06",
@@ -3624,7 +4011,8 @@
    "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
    "a": 1,
    "pl": "新北市板橋區文化路二段287號21樓（窩克商務中心大會議室）",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-11-06",
@@ -3635,7 +4023,8 @@
    "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
    "a": 1,
    "pl": "苗栗縣竹南鎮公園路106號(馥藝金鬱金香酒店-亞爵會議室)",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-11-09",
@@ -3646,7 +4035,8 @@
    "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
    "a": 1,
    "pl": "台南市西港區中山路519號(本公司國際會議廳)",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-11-09",
@@ -3657,7 +4047,8 @@
    "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
    "a": 1,
    "pl": "新竹縣竹北市台元一街三號2樓(台元科技園區三期會館多功能會議室)",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-11-12",
@@ -3668,7 +4059,8 @@
    "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
    "a": 1,
    "pl": "台北市內湖區成功路五段420巷28號(康寧生活會館)",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-11-13",
@@ -3679,7 +4071,8 @@
    "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
    "a": 1,
    "pl": "台北市內湖區新湖二路329號B1(全球科技廣場會議室)",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-11-16",
@@ -3690,7 +4083,8 @@
    "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
    "a": 1,
    "pl": "台中市西屯區文心路二段107號4樓(集思文心會議中心)",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-11-17",
@@ -3701,7 +4095,8 @@
    "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
    "a": 1,
    "pl": "臺北市信義區信義路五段150巷2號B2(環球世貿大樓)",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-11-17",
@@ -3712,7 +4107,8 @@
    "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
    "a": 1,
    "pl": "新北市汐止區新台五路一段93號17樓之10(汐止遠雄廣場D棟)",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-11-18",
@@ -3723,7 +4119,8 @@
    "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
    "a": 1,
    "pl": "台北市中山區民權東路三段6號8樓(會議室)",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-11-18",
@@ -3734,7 +4131,8 @@
    "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
    "a": 1,
    "pl": "新北市三重區光復一路67號（珍豪大飯店)",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-11-19",
@@ -3745,7 +4143,8 @@
    "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
    "a": 1,
    "pl": "台中市工業區36路24號(本公司5樓之1會議室)",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-11-26",
@@ -3756,7 +4155,8 @@
    "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
    "a": 1,
    "pl": "新竹市香山區大湖路173號",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-12-01",
@@ -3767,7 +4167,8 @@
    "u": "https://tw.stock.yahoo.com/calendar/holders-meeting",
    "a": 1,
    "pl": "台中市大肚區沙田路一段453號(本公司辦公大樓會議室)",
-   "mn": 1
+   "mn": 1,
+   "fs": "0"
   },
   {
    "d": "2026-10-08",
@@ -3788,7 +4189,8 @@
      "2026-10-15"
     ]
    ],
-   "mk": "twse"
+   "mk": "twse",
+   "fs": "0"
   },
   {
    "d": "2026-10-15",
@@ -3809,7 +4211,8 @@
      "2026-10-15"
     ]
    ],
-   "mk": "twse"
+   "mk": "twse",
+   "fs": "0"
   },
   {
    "d": "2026-10-06",
@@ -3830,7 +4233,8 @@
      "2026-10-13"
     ]
    ],
-   "mk": "twse"
+   "mk": "twse",
+   "fs": "0"
   },
   {
    "d": "2026-10-13",
@@ -3851,7 +4255,8 @@
      "2026-10-13"
     ]
    ],
-   "mk": "twse"
+   "mk": "twse",
+   "fs": "0"
   },
   {
    "d": "2026-10-08",
@@ -3872,7 +4277,8 @@
      "2026-10-15"
     ]
    ],
-   "mk": "twse"
+   "mk": "twse",
+   "fs": "0"
   },
   {
    "d": "2026-10-15",
@@ -3893,7 +4299,8 @@
      "2026-10-15"
     ]
    ],
-   "mk": "twse"
+   "mk": "twse",
+   "fs": "0"
   },
   {
    "d": "2026-10-01",
@@ -3914,7 +4321,8 @@
      "2026-10-12"
     ]
    ],
-   "mk": "twse"
+   "mk": "twse",
+   "fs": "0"
   },
   {
    "d": "2026-10-12",
@@ -3935,7 +4343,8 @@
      "2026-10-12"
     ]
    ],
-   "mk": "twse"
+   "mk": "twse",
+   "fs": "0"
   },
   {
    "d": "2026-10-01",
@@ -3956,7 +4365,8 @@
      "2026-10-12"
     ]
    ],
-   "mk": "twse"
+   "mk": "twse",
+   "fs": "0"
   },
   {
    "d": "2026-10-12",
@@ -3977,7 +4387,8 @@
      "2026-10-12"
     ]
    ],
-   "mk": "twse"
+   "mk": "twse",
+   "fs": "0"
   },
   {
    "d": "2026-10-07",
@@ -3998,7 +4409,8 @@
      "2026-10-14"
     ]
    ],
-   "mk": "twse"
+   "mk": "twse",
+   "fs": "0"
   },
   {
    "d": "2026-10-14",
@@ -4019,7 +4431,8 @@
      "2026-10-14"
     ]
    ],
-   "mk": "twse"
+   "mk": "twse",
+   "fs": "0"
   },
   {
    "d": "2026-10-05",
@@ -4040,7 +4453,8 @@
      "2026-10-12"
     ]
    ],
-   "mk": "twse"
+   "mk": "twse",
+   "fs": "0"
   },
   {
    "d": "2026-10-12",
@@ -4061,7 +4475,8 @@
      "2026-10-12"
     ]
    ],
-   "mk": "twse"
+   "mk": "twse",
+   "fs": "0"
   },
   {
    "d": "2026-10-07",
@@ -4082,7 +4497,8 @@
      "2026-10-14"
     ]
    ],
-   "mk": "twse"
+   "mk": "twse",
+   "fs": "0"
   },
   {
    "d": "2026-10-14",
@@ -4103,7 +4519,8 @@
      "2026-10-14"
     ]
    ],
-   "mk": "twse"
+   "mk": "twse",
+   "fs": "0"
   },
   {
    "d": "2026-10-08",
@@ -4124,7 +4541,8 @@
      "2026-10-15"
     ]
    ],
-   "mk": "twse"
+   "mk": "twse",
+   "fs": "0"
   },
   {
    "d": "2026-10-15",
@@ -4145,7 +4563,8 @@
      "2026-10-15"
     ]
    ],
-   "mk": "twse"
+   "mk": "twse",
+   "fs": "0"
   },
   {
    "d": "2026-10-08",
@@ -4166,7 +4585,8 @@
      "2026-10-19"
     ]
    ],
-   "mk": "twse"
+   "mk": "twse",
+   "fs": "0"
   },
   {
    "d": "2026-10-19",
@@ -4187,7 +4607,8 @@
      "2026-10-19"
     ]
    ],
-   "mk": "twse"
+   "mk": "twse",
+   "fs": "0"
   },
   {
    "d": "2026-10-06",
@@ -4208,7 +4629,8 @@
      "2026-10-13"
     ]
    ],
-   "mk": "twse"
+   "mk": "twse",
+   "fs": "0"
   },
   {
    "d": "2026-10-13",
@@ -4229,7 +4651,8 @@
      "2026-10-13"
     ]
    ],
-   "mk": "twse"
+   "mk": "twse",
+   "fs": "0"
   },
   {
    "d": "2026-10-06",
@@ -4250,7 +4673,8 @@
      "2026-10-16"
     ]
    ],
-   "mk": "twse"
+   "mk": "twse",
+   "fs": "0"
   },
   {
    "d": "2026-10-16",
@@ -4271,7 +4695,8 @@
      "2026-10-16"
     ]
    ],
-   "mk": "twse"
+   "mk": "twse",
+   "fs": "0"
   },
   {
    "d": "2026-10-08",
@@ -4292,7 +4717,8 @@
      "2026-10-15"
     ]
    ],
-   "mk": "twse"
+   "mk": "twse",
+   "fs": "0"
   },
   {
    "d": "2026-10-15",
@@ -4313,7 +4739,8 @@
      "2026-10-15"
     ]
    ],
-   "mk": "twse"
+   "mk": "twse",
+   "fs": "0"
   },
   {
    "d": "2026-10-12",
@@ -4334,7 +4761,8 @@
      "2026-10-16"
     ]
    ],
-   "mk": "twse"
+   "mk": "twse",
+   "fs": "0"
   },
   {
    "d": "2026-10-16",
@@ -4355,7 +4783,8 @@
      "2026-10-16"
     ]
    ],
-   "mk": "twse"
+   "mk": "twse",
+   "fs": "0"
   },
   {
    "d": "2026-10-06",
@@ -4376,7 +4805,8 @@
      "2026-10-13"
     ]
    ],
-   "mk": "twse"
+   "mk": "twse",
+   "fs": "0"
   },
   {
    "d": "2026-10-13",
@@ -4397,7 +4827,8 @@
      "2026-10-13"
     ]
    ],
-   "mk": "twse"
+   "mk": "twse",
+   "fs": "0"
   },
   {
    "d": "2026-10-05",
@@ -4418,7 +4849,8 @@
      "2026-10-12"
     ]
    ],
-   "mk": "twse"
+   "mk": "twse",
+   "fs": "0"
   },
   {
    "d": "2026-10-12",
@@ -4439,7 +4871,8 @@
      "2026-10-12"
     ]
    ],
-   "mk": "twse"
+   "mk": "twse",
+   "fs": "0"
   },
   {
    "d": "2026-10-08",
@@ -4460,7 +4893,8 @@
      "2026-10-19"
     ]
    ],
-   "mk": "tpex"
+   "mk": "tpex",
+   "fs": "0"
   },
   {
    "d": "2026-10-19",
@@ -4481,7 +4915,8 @@
      "2026-10-19"
     ]
    ],
-   "mk": "tpex"
+   "mk": "tpex",
+   "fs": "0"
   },
   {
    "d": "2026-10-05",
@@ -4502,7 +4937,8 @@
      "2026-10-15"
     ]
    ],
-   "mk": "tpex"
+   "mk": "tpex",
+   "fs": "0"
   },
   {
    "d": "2026-10-15",
@@ -4523,7 +4959,8 @@
      "2026-10-15"
     ]
    ],
-   "mk": "tpex"
+   "mk": "tpex",
+   "fs": "0"
   },
   {
    "d": "2026-10-08",
@@ -4544,7 +4981,8 @@
      "2026-10-15"
     ]
    ],
-   "mk": "tpex"
+   "mk": "tpex",
+   "fs": "0"
   },
   {
    "d": "2026-10-15",
@@ -4565,7 +5003,8 @@
      "2026-10-15"
     ]
    ],
-   "mk": "tpex"
+   "mk": "tpex",
+   "fs": "0"
   },
   {
    "d": "2026-10-08",
@@ -4586,7 +5025,8 @@
      "2026-10-15"
     ]
    ],
-   "mk": "tpex"
+   "mk": "tpex",
+   "fs": "0"
   },
   {
    "d": "2026-10-15",
@@ -4607,7 +5047,8 @@
      "2026-10-15"
     ]
    ],
-   "mk": "tpex"
+   "mk": "tpex",
+   "fs": "0"
   },
   {
    "d": "2026-10-08",
@@ -4628,7 +5069,8 @@
      "2026-10-15"
     ]
    ],
-   "mk": "tpex"
+   "mk": "tpex",
+   "fs": "0"
   },
   {
    "d": "2026-10-15",
@@ -4649,7 +5091,8 @@
      "2026-10-15"
     ]
    ],
-   "mk": "tpex"
+   "mk": "tpex",
+   "fs": "0"
   },
   {
    "d": "2026-10-07",
@@ -4670,7 +5113,8 @@
      "2026-10-14"
     ]
    ],
-   "mk": "tpex"
+   "mk": "tpex",
+   "fs": "0"
   },
   {
    "d": "2026-10-14",
@@ -4691,7 +5135,8 @@
      "2026-10-14"
     ]
    ],
-   "mk": "tpex"
+   "mk": "tpex",
+   "fs": "0"
   },
   {
    "d": "2026-10-07",
@@ -4712,7 +5157,8 @@
      "2026-10-14"
     ]
    ],
-   "mk": "tpex"
+   "mk": "tpex",
+   "fs": "0"
   },
   {
    "d": "2026-10-14",
@@ -4733,7 +5179,8 @@
      "2026-10-14"
     ]
    ],
-   "mk": "tpex"
+   "mk": "tpex",
+   "fs": "0"
   },
   {
    "c": "disp",
@@ -4758,7 +5205,8 @@
    "mk": "tpex",
    "d": "2026-10-02",
    "t": "巨虹（8084）處置開始",
-   "n": "櫃買中心處置公告（資料整理於 10/13）；處置期間 10/2–10/19；公告 2 筆：10/2–10/14、10/13–10/19，合併為連續處置"
+   "n": "櫃買中心處置公告（資料整理於 10/13）；處置期間 10/2–10/19；公告 2 筆：10/2–10/14、10/13–10/19，合併為連續處置",
+   "fs": "0"
   },
   {
    "c": "disp",
@@ -4783,7 +5231,12 @@
    "mk": "tpex",
    "d": "2026-10-19",
    "t": "巨虹（8084）處置結束",
-   "n": "櫃買中心處置公告（資料整理於 10/13）；處置期間 10/2–10/19；公告 2 筆：10/2–10/14、10/13–10/19，合併為連續處置；此日為最後處置日"
+   "n": "櫃買中心處置公告（資料整理於 10/13）；處置期間 10/2–10/19；公告 2 筆：10/2–10/14、10/13–10/19，合併為連續處置；此日為最後處置日",
+   "fs": "0",
+   "cg": {
+    "on": "2026-10-13",
+    "what": "日期 10/14→10/19"
+   }
   },
   {
    "d": "2026-10-06",
@@ -4804,7 +5257,8 @@
      "2026-10-13"
     ]
    ],
-   "mk": "tpex"
+   "mk": "tpex",
+   "fs": "0"
   },
   {
    "d": "2026-10-13",
@@ -4825,7 +5279,8 @@
      "2026-10-13"
     ]
    ],
-   "mk": "tpex"
+   "mk": "tpex",
+   "fs": "0"
   },
   {
    "c": "disp",
@@ -4850,7 +5305,8 @@
    "mk": "tpex",
    "d": "2026-10-06",
    "t": "天擎（6708）處置開始",
-   "n": "櫃買中心處置公告（資料整理於 10/13）；處置期間 10/6–10/16；公告 2 筆：10/6–10/13、10/12–10/16，合併為連續處置"
+   "n": "櫃買中心處置公告（資料整理於 10/13）；處置期間 10/6–10/16；公告 2 筆：10/6–10/13、10/12–10/16，合併為連續處置",
+   "fs": "0"
   },
   {
    "c": "disp",
@@ -4875,7 +5331,12 @@
    "mk": "tpex",
    "d": "2026-10-16",
    "t": "天擎（6708）處置結束",
-   "n": "櫃買中心處置公告（資料整理於 10/13）；處置期間 10/6–10/16；公告 2 筆：10/6–10/13、10/12–10/16，合併為連續處置；此日為最後處置日"
+   "n": "櫃買中心處置公告（資料整理於 10/13）；處置期間 10/6–10/16；公告 2 筆：10/6–10/13、10/12–10/16，合併為連續處置；此日為最後處置日",
+   "fs": "0",
+   "cg": {
+    "on": "2026-10-13",
+    "what": "日期 10/13→10/16"
+   }
   },
   {
    "d": "2026-10-02",
@@ -4896,7 +5357,8 @@
      "2026-10-08"
     ]
    ],
-   "mk": "tpex"
+   "mk": "tpex",
+   "fs": "0"
   },
   {
    "d": "2026-10-08",
@@ -4917,7 +5379,8 @@
      "2026-10-08"
     ]
    ],
-   "mk": "tpex"
+   "mk": "tpex",
+   "fs": "0"
   },
   {
    "c": "disp",
@@ -4938,7 +5401,8 @@
    "mk": "tpex",
    "d": "2026-10-01",
    "t": "大甲（2221）處置開始",
-   "n": "櫃買中心處置公告（資料整理於 10/13）；處置期間 10/1–10/12"
+   "n": "櫃買中心處置公告（資料整理於 10/13）；處置期間 10/1–10/12",
+   "fs": "2026-10-13"
   },
   {
    "c": "disp",
@@ -4959,7 +5423,8 @@
    "mk": "tpex",
    "d": "2026-10-12",
    "t": "大甲（2221）處置結束",
-   "n": "櫃買中心處置公告（資料整理於 10/13）；處置期間 10/1–10/12；此日為最後處置日"
+   "n": "櫃買中心處置公告（資料整理於 10/13）；處置期間 10/1–10/12；此日為最後處置日",
+   "fs": "2026-10-13"
   },
   {
    "c": "disp",
@@ -4980,7 +5445,8 @@
    "mk": "tpex",
    "d": "2026-10-12",
    "t": "德宏（5475）處置開始",
-   "n": "櫃買中心處置公告（資料整理於 10/13）；處置期間 10/12–10/16"
+   "n": "櫃買中心處置公告（資料整理於 10/13）；處置期間 10/12–10/16",
+   "fs": "2026-10-13"
   },
   {
    "c": "disp",
@@ -5001,7 +5467,8 @@
    "mk": "tpex",
    "d": "2026-10-16",
    "t": "德宏（5475）處置結束",
-   "n": "櫃買中心處置公告（資料整理於 10/13）；處置期間 10/12–10/16；此日為最後處置日"
+   "n": "櫃買中心處置公告（資料整理於 10/13）；處置期間 10/12–10/16；此日為最後處置日",
+   "fs": "2026-10-13"
   },
   {
    "c": "disp",
@@ -5022,7 +5489,8 @@
    "mk": "twse",
    "d": "2026-10-13",
    "t": "華新科（2492）處置開始",
-   "n": "證交所處置公告（資料整理於 10/13）；處置期間 10/13–10/19"
+   "n": "證交所處置公告（資料整理於 10/13）；處置期間 10/13–10/19",
+   "fs": "2026-10-13"
   },
   {
    "c": "disp",
@@ -5043,7 +5511,8 @@
    "mk": "twse",
    "d": "2026-10-19",
    "t": "華新科（2492）處置結束",
-   "n": "證交所處置公告（資料整理於 10/13）；處置期間 10/13–10/19；此日為最後處置日"
+   "n": "證交所處置公告（資料整理於 10/13）；處置期間 10/13–10/19；此日為最後處置日",
+   "fs": "2026-10-13"
   },
   {
    "c": "disp",
@@ -5064,7 +5533,8 @@
    "mk": "tpex",
    "d": "2026-10-13",
    "t": "鈺鎧（5228）處置開始",
-   "n": "櫃買中心處置公告（資料整理於 10/13）；處置期間 10/13–10/19"
+   "n": "櫃買中心處置公告（資料整理於 10/13）；處置期間 10/13–10/19",
+   "fs": "2026-10-13"
   },
   {
    "c": "disp",
@@ -5085,7 +5555,8 @@
    "mk": "tpex",
    "d": "2026-10-19",
    "t": "鈺鎧（5228）處置結束",
-   "n": "櫃買中心處置公告（資料整理於 10/13）；處置期間 10/13–10/19；此日為最後處置日"
+   "n": "櫃買中心處置公告（資料整理於 10/13）；處置期間 10/13–10/19；此日為最後處置日",
+   "fs": "2026-10-13"
   }
  ]
 }

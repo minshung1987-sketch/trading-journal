@@ -11,7 +11,7 @@
 :root{
   --bg:#F3F5F8; --surface:#FFFFFF; --ink:#16203A; --muted:#5A647C; --line:#DCE1EA; --soft:#E9EDF4;
   --cb:#3B5BDB; --eco:#5C7C0F; --us:#0B7285; --tw:#9C36B5; --agm:#A85F00; --tech:#C2255C; --ind:#7048E8; --disp:#D9480F;
-  --focus:#3B5BDB;
+  --focus:#3B5BDB; --star:#F2B705; --new:#2B8A3E; --chg:#D9480F;
   box-sizing:border-box;
   padding-top:env(safe-area-inset-top,0px);
   padding-bottom:env(safe-area-inset-bottom,0px);
@@ -20,13 +20,13 @@
   :root:not([data-theme="light"]){
     --bg:#0E1322; --surface:#161D32; --ink:#E7EBF6; --muted:#9AA4BD; --line:#283250; --soft:#1E2742;
     --cb:#8CA7FF; --eco:#A9E34B; --us:#3BC9DB; --tw:#DA77F2; --agm:#FFC24D; --tech:#FF7AA6; --ind:#9775FA; --disp:#FF922B;
-    --focus:#8CA7FF;
+    --focus:#8CA7FF; --star:#FFD43B; --new:#37B24D; --chg:#FD7E14;
   }
 }
 :root[data-theme="dark"]{
   --bg:#0E1322; --surface:#161D32; --ink:#E7EBF6; --muted:#9AA4BD; --line:#283250; --soft:#1E2742;
   --cb:#8CA7FF; --eco:#A9E34B; --us:#3BC9DB; --tw:#DA77F2; --agm:#FFC24D; --tech:#FF7AA6; --ind:#9775FA; --disp:#FF922B;
-  --focus:#8CA7FF;
+  --focus:#8CA7FF; --star:#FFD43B; --new:#37B24D; --chg:#FD7E14;
 }
 html{scroll-padding-top:env(safe-area-inset-top,0px);background:var(--bg)}
 *,*::before,*::after{box-sizing:border-box}
@@ -112,6 +112,21 @@ h1{margin:0;font-size:clamp(28px,4.4vw,40px);line-height:1.15;font-weight:700;le
 .dlghead{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:10px;position:sticky;top:0;background:var(--bg);padding-bottom:6px}
 .dlghead h3{margin:0;font-size:17px}
 .cell{user-select:none}
+/* 自選股與新增／變動 */
+.watch{display:flex;flex-wrap:wrap;gap:8px;align-items:center;padding:10px 12px;border:1px solid var(--line);border-radius:12px;background:var(--surface)}
+.watch b{font-size:14px}
+.watch input[type="text"]{flex:1 1 180px;min-width:150px;padding:6px 10px;border-radius:8px;border:1px solid var(--line);background:var(--bg)}
+.wbtn{border:1px solid var(--line);background:var(--bg);border-radius:8px;padding:5px 12px;cursor:pointer}
+.wchip{display:inline-flex;align-items:center;gap:4px;padding:2px 4px 2px 10px;border-radius:999px;background:color-mix(in srgb,var(--star) 18%,transparent);border:1px solid var(--star);font-size:13px;font-variant-numeric:tabular-nums}
+.wchip button{border:0;background:transparent;cursor:pointer;color:var(--muted);padding:0 6px;font-size:15px;line-height:1}
+.whint{font-size:12.5px;color:var(--muted)}
+.badge{display:inline-block;font-size:11.5px;font-weight:500;line-height:1.6;padding:0 7px;border-radius:999px;margin-left:6px;vertical-align:2px;color:#fff;white-space:nowrap}
+.b-new{background:var(--new)}
+.b-chg{background:var(--chg)}
+.b-mine{background:var(--star);color:#1a1a1a}
+.ev.mine{background:color-mix(in srgb,var(--star) 9%,var(--surface));box-shadow:0 0 0 2px var(--star)}
+.pill.mine{font-weight:700}
+.cgnote{margin-top:3px;font-size:13px;color:var(--chg)}
 /* undated */
 .tba{margin-top:40px}
 .tba h2{font-size:18px;margin:0 0 4px}
@@ -165,6 +180,7 @@ footer a{text-underline-offset:3px}
       <label class="toggle"><input type="checkbox" id="tPast">顯示已結束</label>
       <span class="count" id="count"></span>
     </div>
+    <div class="watch" id="watch" aria-label="我的自選股"></div>
   </section>
 
   <main id="view"></main>
@@ -174,7 +190,7 @@ footer a{text-underline-offset:3px}
   <footer>
     <p>虛線標示「預估」的日期是公司尚未正式公告、由第三方整理的推估值，正式日期出來後會變動。</p>
     <p>台股法說會資料來自 <a href="https://tw.stock.yahoo.com/calendar/earnings-call" target="_blank" rel="noopener">Yahoo 股市行事曆</a>，股東會資料來自 <a href="https://www.wantgoo.com/stock/calendar/shareholders-meeting" target="_blank" rel="noopener">玩股網</a>（2026/10/01 更新版）。這兩站每天都會新增場次，本頁只收錄整理當下已列出的內容。</p>
-    <p>本頁每天早上 7 點（台灣時間）由 GitHub Actions 自動更新台股法說會與股東會；美股財報、央行與大會日期為人工整理。內容僅供資訊整理，不構成投資建議。</p>
+    <p>本頁每天早上 7 點與晚上 7 點（台灣時間）由 GitHub Actions 自動更新台股法說會、股東會與處置股（證交所、櫃買中心公告）；美股財報、央行與大會日期為每週人工整理。「新」「改」標籤表示最近 7 天新增或變動的事件；★ 自選股只存在你自己的瀏覽器。內容僅供資訊整理，不構成投資建議。</p>
   </footer>
 </div>
 
@@ -232,7 +248,19 @@ EVENTS.forEach((ev,i)=>{ev.id=i;ev.s=pd(ev.d);ev.en=ev.e?pd(ev.e):ev.s;});
 EVENTS.sort((a,b)=>a.s-b.s||a.en-b.en||a.c.localeCompare(b.c)||a.t.localeCompare(b.t,"zh-Hant"));
 }
 
-const state={cats:new Set(Object.keys(CATS)),q:"",est:true,past:false,view:"list",cur:{y:TODAY.getFullYear(),m:TODAY.getMonth()},sel:null};
+const state={cats:new Set(Object.keys(CATS)),q:"",est:true,past:false,mine:false,recent:false,view:"list",cur:{y:TODAY.getFullYear(),m:TODAY.getMonth()},sel:null};
+
+/* ---- 自選股（只存在這台裝置的瀏覽器，不會上傳）與新增／變動 ---- */
+const WKEY="ic_watch_v1";
+let WATCH=new Set();
+try{WATCH=new Set(JSON.parse(localStorage.getItem(WKEY)||"[]"));}catch(e){}
+function saveWatch(){try{localStorage.setItem(WKEY,JSON.stringify([...WATCH]));}catch(e){}}
+const codeOf=ev=>{const m=ev.t.match(/（([0-9A-Z]{2,6})）/);return m?m[1]:null;};
+const isMine=ev=>{const c=codeOf(ev);return !!c&&WATCH.has(c);};
+const iso=d=>d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");
+const RECENT_FROM=iso(new Date(TODAY.getTime()-7*DAY));
+const isNew=ev=>!!ev.fs&&ev.fs!=="0"&&ev.fs>=RECENT_FROM;
+const isChg=ev=>!isNew(ev)&&!!ev.cg&&ev.cg.on>=RECENT_FROM;
 
 function h(tag,attrs,...kids){
   const el=document.createElement(tag);
@@ -270,6 +298,8 @@ function dateLabel(ev){
 function matches(ev){
   if(!state.cats.has(ev.c))return false;
   if(!state.est&&ev.st==="e")return false;
+  if(state.mine&&!isMine(ev))return false;
+  if(state.recent&&!isNew(ev)&&!isChg(ev))return false;
   const q=state.q.trim().toLowerCase();
   if(q){
     const hay=(ev.t+" "+(ev.pl||"")+" "+(ev.n||"")+" "+(ev.tm||"")).toLowerCase();
@@ -314,19 +344,25 @@ function renderTiles(){
 /* ---- 列表 ---- */
 function evRow(ev){
   const cat=CATS[ev.c].n;
-  return h("article",{class:"ev"+(isPast(ev)?" past":""),style:ccol(ev.c)},
+  const mine=isMine(ev),nw=isNew(ev),cg=isChg(ev);
+  return h("article",{class:"ev"+(isPast(ev)?" past":"")+(mine?" mine":""),style:ccol(ev.c)},
     h("div",{class:"date"},
       h("span",{class:"dnum",text:String(dateLabel(ev))}),
       h("span",{class:"dwd",text:"週"+WD[ev.s.getDay()]})
     ),
     h("div",{class:"main"},
-      h("div",{class:"ttl",text:ev.t}),
+      h("div",{class:"ttl"},ev.t,
+        mine?h("span",{class:"badge b-mine",text:"★ 自選"}):null,
+        nw?h("span",{class:"badge b-new",title:md(pd(ev.fs))+" 新增",text:"新"}):null,
+        cg?h("span",{class:"badge b-chg",title:md(pd(ev.cg.on))+" 變動："+ev.cg.what,text:"改"}):null
+      ),
       h("div",{class:"meta"},
         h("span",{class:"cat",text:cat}),
         ev.tm?h("span",{text:ev.tm}):null,
         ev.pl?h("span",{text:ev.pl}):null
       ),
-      ev.n?h("div",{class:"note",text:ev.n}):null
+      ev.n?h("div",{class:"note",text:ev.n}):null,
+      cg?h("div",{class:"cgnote",text:md(pd(ev.cg.on))+" 變動："+ev.cg.what}):null
     ),
     h("div",{class:"side"},
       h("span",{class:"cdp",text:countdownText(ev)}),
@@ -388,7 +424,7 @@ function renderMonth(box){
     const cell=h("button",{class:cls,type:"button","aria-label":md(d)+"，"+evs.length+" 筆事件",onclick:()=>{const t=Date.now();if(lastClick.k===d.getTime()&&t-lastClick.t<450){lastClick={k:0,t:0};openDay(d);return;}lastClick={k:d.getTime(),t};state.sel=d;render();}},
       h("span",{class:"dn",text:String(d.getDate())})
     );
-    evs.slice(0,3).forEach(ev=>cell.append(h("span",{class:"pill",style:ccol(ev.c),text:ev.t})));
+    [...evs].sort((a,b)=>isMine(b)-isMine(a)).slice(0,3).forEach(ev=>cell.append(h("span",{class:"pill"+(isMine(ev)?" mine":""),style:ccol(ev.c),text:(isMine(ev)?"★":"")+ev.t})));
     if(evs.length>3)cell.append(h("span",{class:"more",text:"還有 "+(evs.length-3)+" 筆"}));
     grid.append(cell);
   }
@@ -444,6 +480,32 @@ function renderChips(){
   }
 }
 
+function renderWatch(){
+  const box=document.getElementById("watch");
+  box.replaceChildren();
+  const inp=h("input",{type:"text",placeholder:"輸入股票代號，例如 2330 3037 NVDA",
+    "aria-label":"新增自選股代號",enterkeyhint:"done"});
+  const add=()=>{
+    (inp.value.toUpperCase().match(/[0-9A-Z]{2,6}/g)||[]).forEach(c=>WATCH.add(c));
+    saveWatch();renderWatch();render();
+  };
+  inp.addEventListener("keydown",e=>{if(e.key==="Enter")add();});
+  const nNew=EVENTS.filter(isNew).length,nChg=EVENTS.filter(isChg).length;
+  box.append(
+    h("b",{text:"★ 我的自選股"}),
+    inp,
+    h("button",{class:"wbtn",type:"button",text:"加入",onclick:add}),
+    ...[...WATCH].sort().map(c=>h("span",{class:"wchip"},c,
+      h("button",{type:"button","aria-label":"移除 "+c,title:"移除",text:"×",onclick:()=>{WATCH.delete(c);saveWatch();renderWatch();render();}}))),
+    WATCH.size?h("label",{class:"toggle"},
+      h("input",{type:"checkbox",checked:state.mine,onchange:e=>{state.mine=e.target.checked;render();}}),"只看自選股"):null,
+    h("label",{class:"toggle"},
+      h("input",{type:"checkbox",checked:state.recent,onchange:e=>{state.recent=e.target.checked;render();}}),
+      h("span",null,"只看最近 7 天 ",h("span",{class:"badge b-new",text:"新 "+nNew}),h("span",{class:"badge b-chg",text:"改 "+nChg}))),
+    h("span",{class:"whint",text:WATCH.size?"自選股只存在你這台裝置的瀏覽器，別人看不到。":"自選股只存在你這台裝置的瀏覽器，別人看不到；台股法說會、股東會、處置股與美股財報都會標出來。"})
+  );
+}
+
 function renderTba(){
   const box=document.getElementById("tba");
   box.append(
@@ -465,7 +527,7 @@ fetch("data/events.json",{cache:"no-cache"}).then(r=>{if(!r.ok)throw new Error(r
   EVENTS=j.events;
   const st=document.querySelector(".stamp strong");
   if(st&&j.updated)st.textContent="資料更新於 "+j.updated;
-  prep();renderTiles();render();
+  prep();renderTiles();renderWatch();render();
 }).catch(err=>{
   document.getElementById("view").textContent="讀不到 data/events.json，請確認檔案存在（或到 Actions 手動執行一次更新）。";
 });
