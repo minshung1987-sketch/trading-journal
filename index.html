@@ -312,11 +312,29 @@ const ccol=c=>"--cc:var(--"+c+")";
 const md=d=>(d.getMonth()+1)+"/"+d.getDate();
 const isPast=ev=>ev.en<TODAY;
 
-/* 相關新聞：開 Google 新聞搜尋，限定五個來源；可在事件上加 q 欄位自訂關鍵字 */
+/* 相關新聞：開 Google 新聞搜尋，限定五個來源＋事件前後的日期範圍。
+   關鍵字規則：公司事件用「公司名」精確比對；總經與央行取標題的核心詞；可在事件上加 q 欄位自訂。 */
 const NEWS_SITES=["money.udn.com","ctee.com.tw","digitimes.com.tw","news.cnyes.com","cna.com.tw"];
+const nIso=d=>d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");
+function newsKey(ev){
+  if(ev.q)return ev.q;
+  const t=ev.t;
+  const nm=t.split(/[（(]/)[0].trim();
+  if(ev.c==="tw")return '"'+nm.replace(/(參加|法說會|說明會).*$/,"").trim()+'" 法說會';
+  if(ev.c==="us")return '"'+nm.replace(/\s*(FY\d+|第.季|財報).*$/,"").trim()+'" 財報';
+  if(ev.c==="agm")return '"'+nm.replace(/(臨時|常會)?股東.*$/,"").trim()+'" 股東會';
+  if(ev.c==="disp")return '"'+nm.replace(/處置.*$/,"").trim()+'" 處置';
+  let k=t.split("：")[0];
+  k=k.replace(/[《》「」『』]/g," ").replace(/[（(][^）)]*[）)]/g," ")
+     .replace(/\d+\s*[月季年]/g," ").replace(/第\d+季/g," ")
+     .replace(/記者會|初估|二次估計|三次估計|利率決議|會議紀要|公布|發布/g," ")
+     .replace(/\s+/g," ").trim();
+  return k||t;
+}
+function newsShow(ev){return diffDays(ev.s,TODAY)<=30;}
 function newsUrl(ev){
-  const k=ev.q||ev.t.replace(/（[^）]*）/g," ").replace(/\([^)]*\)/g," ").replace(/FY\d+/g," ").replace(/第[一二三四]季/g," ").replace(/\s+/g," ").trim();
-  const q=k+" ("+NEWS_SITES.map(x=>"site:"+x).join(" OR ")+")";
+  const a=new Date(ev.s.getTime()-14*DAY), b=new Date(ev.en.getTime()+14*DAY);
+  const q=newsKey(ev)+" ("+NEWS_SITES.map(x=>"site:"+x).join(" OR ")+") after:"+nIso(a)+" before:"+nIso(b);
   return "https://news.google.com/search?q="+encodeURIComponent(q)+"&hl=zh-TW&gl=TW&ceid=TW:zh-Hant";
 }
 function countdownText(ev){
@@ -405,7 +423,7 @@ function evRow(ev){
       h("span",{class:"cdp",text:countdownText(ev)}),
       ev.st==="e"?h("span",{class:"est",title:"尚未正式公告的預估日期",text:"預估"}):null,
       ev.u?h("a",{class:"src",href:ev.u,target:"_blank",rel:"noopener",text:"來源"}):null,
-      h("a",{class:"src",href:newsUrl(ev),target:"_blank",rel:"noopener",title:"在 Google 新聞搜尋：經濟日報、工商時報、DIGITIMES、鉅亨網、中央社",text:"相關新聞"})
+      newsShow(ev)?h("a",{class:"src",href:newsUrl(ev),target:"_blank",rel:"noopener",title:"在 Google 新聞搜尋：經濟日報、工商時報、DIGITIMES、鉅亨網、中央社",text:"相關新聞"}):null
     )
   );
 }
