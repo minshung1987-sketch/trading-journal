@@ -4,7 +4,8 @@
 資料來源：
   1. Yahoo 股市「法說會」專頁   https://tw.stock.yahoo.com/calendar/earnings-call
   2. Yahoo 股市「股東會」專頁（主要），玩股網「股東會時間明細表」（補充）  https://www.wantgoo.com/stock/calendar/shareholders-meeting
-  3. data/events_manual.json   （人工整理：央行、美股財報、年度大會…）
+  3. 證交所、櫃買中心處置公告（開放資料 API）  處置開始／處置結束
+  4. data/events_manual.json   （人工整理：央行、美股財報、年度大會…）
 
 任何一個來源抓失敗，就沿用上一次 events.json 裡該類別的資料，不會把網站弄空。
 只用 Python 標準函式庫，不需要 pip install。
@@ -173,6 +174,141 @@ def parse_wantgoo(rows, today):
     return out
 
 
+# ---------- 處置股（證交所＋櫃買中心） ----------
+TWSE_DISP = "https://openapi.twse.com.tw/v1/announcement/punish"
+TPEX_DISP = "https://www.tpex.org.tw/openapi/v1/tpex_disposal_information"
+
+
+def pick(row, *names):
+    """依候選欄位名稱取值（兩個開放資料的欄位名稱不同，也可能改版）。"""
+    for n in names:
+        for k, v in row.items():
+            if k.lower() == n.lower() and str(v).strip():
+                return str(v).strip()
+    return ""
+
+
+def roc_dates(s):
+    """從字串取出所有日期，支援 115/10/08、1151008、2026/10/08，回傳 ISO 字串 list。"""
+    out = []
+    for y, m, d in re.findall(r"(\d{2,4})[/\-.年](\d{1,2})[/\-.月](\d{1,2})", s) or \
+            re.findall(r"(?<!\d)(\d{3})(\d{2})(\d{2})(?!\d)", s):
+        y = int(y)
+        y = y + 1911 if y < 1911 else y
+        try:
+            out.append(datetime(y, int(m), int(d)).strftime("%Y-%m-%d"))
+        except ValueError:
+            pass
+    return out
+
+
+def parse_disp(rows, market):
+    """回傳 [{code, name, s, e, nth, mkt}]，只收 4 位數代號的個股。"""
+    out = []
+    for r in rows:
+        code = pick(r, "Code", "SecuritiesCompanyCode", "SecuritiesCode", "StockNo")
+        name = pick(r, "Name", "CompanyName", "SecuritiesName", "StockName")
+        period = pick(r, "DispositionPeriod", "DisposePeriod", "Period")
+        if not re.fullmatch(r"\d{4}", code) or not name:
+            continue
+        ds = roc_dates(period)
+        if len(ds) < 2:
+            continue
+        nth = pick(r, "NumberOfAnnouncement", "DispositionCount", "Times")
+        out.append({"code": code, "name": name, "s": min(ds), "e": max(ds),
+                    "nth": nth, "mkt": market})
+    return out
+
+
+def disp_events(p, today):
+    """一個處置期間產生「處置開始」「處置結束」兩個事件。"""
+    md = lambda iso: f"{int(iso[5:7])}/{int(iso[8:10])}"
+    src = "證交所" if p["mkt"] == "twse" else "櫃買中心"
+    url = TWSE_DISP if p["mkt"] == "twse" else TPEX_DISP
+    note = f"{src}處置公告（資料整理於 {md(today)}）；處置期間 {md(p['s'])}–{md(p['e'])}"
+    if len(p["dr"]) > 1:
+        note += "；公告 " + str(len(p["dr"])) + " 筆：" + "、".join(
+            f"{md(a)}–{md(b)}" for a, b in p["dr"]) + "，合併為連續處置"
+    elif p.get("nth"):
+        nth = p["nth"]
+        note += "；" + (f"第{nth}次處置" if nth.isdigit() else nth)
+    base = {"c": "disp", "st": "o", "u": url, "a": 1, "mn": 1,
+            "dp": [p["s"], p["e"]], "dr": p["dr"], "mk": p["mkt"]}
+    who = f"{p['name']}（{p['code']}）"
+    return [dict(base, d=p["s"], t=who + "處置開始", n=note),
+            dict(base, d=p["e"], t=who + "處置結束", n=note + "；此日為最後處置日")]
+
+
+def merge_disp(old_disp, fetched, today):
+    """把新公告併進既有的處置期間。已過去的保留；同一檔連續或重疊的公告合併成一段。"""
+    periods = {}   # (code, start) -> 舊事件組成的期間
+    for e in old_disp:
+        m = re.search(r"（(\d{4})）處置(開始|結束)$", e["t"])
+        if not m or "dp" not in e:
+            continue
+        k = (m.group(1), e["dp"][0])
+        p = periods.setdefault(k, {"code": m.group(1), "name": e["t"][:m.start()],
+                                   "s": e["dp"][0], "e": e["dp"][1],
+                                   "dr": e.get("dr") or [e["dp"]], "mkt": e.get("mk", ""),
+                                   "evs": [], "changed": False})
+        p["evs"].append(e)
+    day = timedelta(days=1)
+    for f in sorted(fetched, key=lambda x: x["s"]):
+        hit = None
+        for p in periods.values():
+            if p["code"] != f["code"]:
+                continue
+            ps, pe = (datetime.strptime(x, "%Y-%m-%d") for x in (p["s"], p["e"]))
+            fs, fe = (datetime.strptime(x, "%Y-%m-%d") for x in (f["s"], f["e"]))
+            # 重疊，或前一段結束後 4 天內（含週末）接著開始，就視為連續
+            if fs <= pe + 4 * day and fe >= ps - 4 * day:
+                hit = p
+                break
+        if hit is None:
+            periods[(f["code"], f["s"])] = dict(f, dr=[[f["s"], f["e"]]], evs=[], changed=True)
+            continue
+        if hit["s"] <= f["s"] and f["e"] <= hit["e"]:
+            continue   # 已涵蓋在既有期間內，沒有新資訊
+        hit["dr"] = sorted(hit["dr"] + [[f["s"], f["e"]]])
+        hit["s"], hit["e"] = min(hit["s"], f["s"]), max(hit["e"], f["e"])
+        hit["mkt"] = hit["mkt"] or f["mkt"]
+        hit["changed"] = True
+    out, n_new = [], 0
+    for p in periods.values():
+        if p["changed"]:
+            n_new += 1
+            out += disp_events(p, today)
+        else:
+            out += p["evs"]
+    return out, n_new
+
+
+def fetch_disp(today, old_disp, problems):
+    fetched, seen = [], {}
+    for mkt, url in (("twse", TWSE_DISP), ("tpex", TPEX_DISP)):
+        try:
+            rows = json.loads(get(url))
+            if not isinstance(rows, list):
+                raise ValueError("回傳不是資料列")
+            got = parse_disp(rows, mkt)
+            if rows and not got:
+                print(f"{mkt} 欄位範例：{list(rows[0].keys())}")
+            print(f"{mkt} 處置公告：{len(rows)} 筆，個股 {len(got)} 筆")
+            for g in got:
+                seen.setdefault(g["code"], set()).add(mkt)
+            fetched += got
+        except Exception as e:
+            problems.append(f"{mkt} 處置公告失敗：{e}（沿用上次資料）")
+    # 同一代號同時出現在上市與上櫃，資料有疑義，先不收
+    both = {c for c, s in seen.items() if len(s) > 1}
+    for c in sorted(both):
+        problems.append(f"處置股 {c} 同時出現在證交所與櫃買中心，先不收")
+    fetched = [f for f in fetched if f["code"] not in both]
+    merged, n = merge_disp(old_disp, fetched, today)
+    print(f"處置股：新增或延長 {n} 段，合計 {len(merged)} 個事件")
+    return merged
+
+
 def load_json(path, default):
     try:
         return json.loads(path.read_text(encoding="utf-8"))
@@ -230,7 +366,11 @@ def main():
         m = re.search(r"（(\d{4,6}[A-Z]?)）", e["t"])
         return (m.group(1) if m else e["t"], e["d"], e["c"])
     have = {key(e) for e in manual}
-    auto = [e for e in tw + agm if key(e) not in have]
+    # 處置股：沿用舊的（含已過去的）再併入今天的公告；失敗只警告，不讓流程失敗
+    disp_problems = []
+    disp = fetch_disp(today, [e for e in old_auto if e["c"] == "disp"], disp_problems)
+
+    auto = [e for e in tw + agm + disp if key(e) not in have]
 
     events = manual + auto
     out = {"updated": now.strftime("%Y/%m/%d %H:%M"), "events": events}
@@ -238,7 +378,7 @@ def main():
     (DATA / "events.json").write_text(
         json.dumps(out, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     print(f"合計 {len(events)} 筆（手動 {len(manual)}＋自動 {len(auto)}）")
-    for p in problems:
+    for p in problems + disp_problems:
         print("::warning::" + p)
     # 法說會與股東會兩邊都抓不到，才讓流程顯示失敗，方便你在 GitHub 看到
     if len(problems) >= 2:

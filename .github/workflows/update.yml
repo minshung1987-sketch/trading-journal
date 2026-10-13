@@ -3,6 +3,7 @@ name: 更新行事曆資料
 on:
   schedule:
     - cron: "0 23 * * *"   # UTC 23:00 = 台灣時間每天早上 07:00
+    - cron: "0 11 * * *"   # UTC 11:00 = 台灣時間每天晚上 19:00（抓當天收盤後的處置公告）
   workflow_dispatch:        # 允許你在 Actions 頁面手動按一下就執行
 
 permissions:
@@ -20,7 +21,7 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: 更新資料（Yahoo 法說會 + 玩股網股東會）
+      - name: 更新資料（Yahoo 法說會 + 股東會 + 證交所／櫃買處置股）
         run: python scripts/update.py
 
       - name: 存回變更
