@@ -127,6 +127,14 @@ h1{margin:0;font-size:clamp(28px,4.4vw,40px);line-height:1.15;font-weight:700;le
 .ev.mine{background:color-mix(in srgb,var(--star) 9%,var(--surface));box-shadow:0 0 0 2px var(--star)}
 .pill.mine{font-weight:700}
 .cgnote{margin-top:3px;font-size:13px;color:var(--chg)}
+.newnote{margin-top:3px;font-size:13px;color:var(--new)}
+.sumbox{border:1px solid var(--line);border-radius:10px;background:var(--surface);padding:10px 14px;margin-bottom:12px}
+.sumbox h4{margin:4px 0 6px;font-size:14.5px}
+.sumbox ul{margin:0 0 6px;padding-left:18px}
+.sumbox li{font-size:13.5px;line-height:1.55;margin:2px 0}
+.sumbox li small{color:var(--muted)}
+.sumbox .what{color:var(--chg)}
+button.badge{border:0;cursor:pointer;font:inherit;font-size:11.5px;font-weight:500}
 /* undated */
 .tba{margin-top:40px}
 .tba h2{font-size:18px;margin:0 0 4px}
@@ -362,6 +370,7 @@ function evRow(ev){
         ev.pl?h("span",{text:ev.pl}):null
       ),
       ev.n?h("div",{class:"note",text:ev.n}):null,
+      nw?h("div",{class:"newnote",text:md(pd(ev.fs))+" 新增"}):null,
       cg?h("div",{class:"cgnote",text:md(pd(ev.cg.on))+" 變動："+ev.cg.what}):null
     ),
     h("div",{class:"side"},
@@ -441,20 +450,43 @@ function renderMonth(box){
 
 /* ---- 雙擊（或手機連點兩下）月曆日期：彈出當日完整事件列表 ---- */
 let lastClick={k:0,t:0};
-function openDay(d){
+function openDlg(title,label,...kids){
   closeDay();
-  const evs=EVENTS.filter(ev=>state.cats.has(ev.c)&&ev.s<=d&&d<=ev.en);
-  const box=h("div",{class:"dlgbox",role:"dialog","aria-modal":"true","aria-label":"當日事件列表"},
+  const box=h("div",{class:"dlgbox",role:"dialog","aria-modal":"true","aria-label":label},
     h("div",{class:"dlghead"},
-      h("h3",{text:d.getFullYear()+"/"+md(d)+"（週"+WD[d.getDay()]+"）共 "+evs.length+" 筆"}),
+      h("h3",{text:title}),
       h("button",{class:"nav",type:"button",text:"關閉",onclick:closeDay})
-    )
+    ),
+    ...kids
   );
-  if(evs.length)evs.forEach(ev=>box.append(evRow(ev)));
-  else box.append(h("div",{class:"empty",text:"這天沒有事件。"}));
   const ov=h("div",{class:"dlg",id:"dlg",onclick:e=>{if(e.target===ov)closeDay();}},box);
   document.body.append(ov);
   document.body.style.overflow="hidden";
+}
+/* 「新增了什麼、改了什麼」摘要 */
+const evDate=ev=>md(ev.s)+(ev.en>ev.s?"–"+md(ev.en):"");
+function summaryBox(evs,lead){
+  const nw=evs.filter(isNew),cg=evs.filter(isChg);
+  if(!nw.length&&!cg.length)return null;
+  return h("div",{class:"sumbox"},
+    lead?h("div",{class:"whint",text:lead}):null,
+    nw.length?[h("h4",null,h("span",{class:"badge b-new",style:"margin:0 6px 0 0",text:"新"}),"新增 "+nw.length+" 筆"),
+      h("ul",null,nw.map(ev=>h("li",null,ev.t+" ",h("small",{text:"（"+evDate(ev)+"，"+CATS[ev.c].n+"，"+md(pd(ev.fs))+" 加入）"}))))]:null,
+    cg.length?[h("h4",null,h("span",{class:"badge b-chg",style:"margin:0 6px 0 0",text:"改"}),"變動 "+cg.length+" 筆"),
+      h("ul",null,cg.map(ev=>h("li",null,ev.t,h("span",{class:"what",text:"："+ev.cg.what}),h("small",{text:"（"+md(pd(ev.cg.on))+" 更新）"}))))]:null
+  );
+}
+function openDay(d){
+  const evs=EVENTS.filter(ev=>state.cats.has(ev.c)&&ev.s<=d&&d<=ev.en);
+  openDlg(d.getFullYear()+"/"+md(d)+"（週"+WD[d.getDay()]+"）共 "+evs.length+" 筆","當日事件列表",
+    summaryBox(evs,"這天的事件中，最近 7 天有新增或變動的："),
+    evs.length?evs.map(evRow):h("div",{class:"empty",text:"這天沒有事件。"}));
+}
+function openRecent(kind){
+  const evs=EVENTS.filter(ev=>kind==="new"?isNew(ev):isChg(ev));
+  openDlg((kind==="new"?"最近 7 天新增 ":"最近 7 天變動 ")+evs.length+" 筆",kind==="new"?"新增列表":"變動列表",
+    summaryBox(evs,null),
+    evs.length?evs.map(evRow):h("div",{class:"empty",text:"最近 7 天沒有。"}));
 }
 function closeDay(){const o=document.getElementById("dlg");if(o)o.remove();document.body.style.overflow="";}
 document.addEventListener("keydown",e=>{if(e.key==="Escape")closeDay();});
@@ -501,7 +533,9 @@ function renderWatch(){
       h("input",{type:"checkbox",checked:state.mine,onchange:e=>{state.mine=e.target.checked;render();}}),"只看自選股"):null,
     h("label",{class:"toggle"},
       h("input",{type:"checkbox",checked:state.recent,onchange:e=>{state.recent=e.target.checked;render();}}),
-      h("span",null,"只看最近 7 天 ",h("span",{class:"badge b-new",text:"新 "+nNew}),h("span",{class:"badge b-chg",text:"改 "+nChg}))),
+      "只看最近 7 天"),
+    h("button",{class:"badge b-new",type:"button",title:"看最近 7 天新增了什麼",text:"新 "+nNew+" ›",onclick:()=>openRecent("new")}),
+    h("button",{class:"badge b-chg",type:"button",title:"看最近 7 天改了什麼",text:"改 "+nChg+" ›",onclick:()=>openRecent("chg")}),
     h("span",{class:"whint",text:WATCH.size?"自選股只存在你這台裝置的瀏覽器，別人看不到。":"自選股只存在你這台裝置的瀏覽器，別人看不到；台股法說會、股東會、處置股與美股財報都會標出來。"})
   );
 }
