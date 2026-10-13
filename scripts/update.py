@@ -214,7 +214,9 @@ def parse_disp(rows, market):
         ds = roc_dates(period)
         if len(ds) < 2:
             continue
-        nth = pick(r, "NumberOfAnnouncement", "DispositionCount", "Times")
+        # 「第○次處置」直接從公告文字找，找不到就不寫，避免誤標
+        m = re.search(r"第[一二三四五六七八九十\d]+次處置", " ".join(str(v) for v in r.values()))
+        nth = m.group(0) if m else ""
         out.append({"code": code, "name": name, "s": min(ds), "e": max(ds),
                     "nth": nth, "mkt": market})
     return out
@@ -230,8 +232,7 @@ def disp_events(p, today):
         note += "；公告 " + str(len(p["dr"])) + " 筆：" + "、".join(
             f"{md(a)}–{md(b)}" for a, b in p["dr"]) + "，合併為連續處置"
     elif p.get("nth"):
-        nth = p["nth"]
-        note += "；" + (f"第{nth}次處置" if nth.isdigit() else nth)
+        note += "；" + p["nth"]
     base = {"c": "disp", "st": "o", "u": url, "a": 1, "mn": 1,
             "dp": [p["s"], p["e"]], "dr": p["dr"], "mk": p["mkt"]}
     who = f"{p['name']}（{p['code']}）"
