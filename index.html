@@ -307,6 +307,13 @@ const ccol=c=>"--cc:var(--"+c+")";
 const md=d=>(d.getMonth()+1)+"/"+d.getDate();
 const isPast=ev=>ev.en<TODAY;
 
+/* 相關新聞：開 Google 新聞搜尋，限定五個來源；可在事件上加 q 欄位自訂關鍵字 */
+const NEWS_SITES=["money.udn.com","ctee.com.tw","digitimes.com.tw","news.cnyes.com","cna.com.tw"];
+function newsUrl(ev){
+  const k=ev.q||ev.t.replace(/（[^）]*）/g," ").replace(/\([^)]*\)/g," ").replace(/FY\d+/g," ").replace(/第[一二三四]季/g," ").replace(/\s+/g," ").trim();
+  const q=k+" ("+NEWS_SITES.map(x=>"site:"+x).join(" OR ")+")";
+  return "https://news.google.com/search?q="+encodeURIComponent(q)+"&hl=zh-TW&gl=TW&ceid=TW:zh-Hant";
+}
 function countdownText(ev){
   if(isPast(ev))return "已結束";
   if(ev.s<=TODAY&&TODAY<=ev.en)return ev.s.getTime()===ev.en.getTime()?"今天":"進行中";
@@ -392,7 +399,8 @@ function evRow(ev){
     h("div",{class:"side"},
       h("span",{class:"cdp",text:countdownText(ev)}),
       ev.st==="e"?h("span",{class:"est",title:"尚未正式公告的預估日期",text:"預估"}):null,
-      ev.u?h("a",{class:"src",href:ev.u,target:"_blank",rel:"noopener",text:"來源"}):null
+      ev.u?h("a",{class:"src",href:ev.u,target:"_blank",rel:"noopener",text:"來源"}):null,
+      h("a",{class:"src",href:newsUrl(ev),target:"_blank",rel:"noopener",title:"在 Google 新聞搜尋：經濟日報、工商時報、DIGITIMES、鉅亨網、中央社",text:"相關新聞"})
     )
   );
 }
