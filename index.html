@@ -324,6 +324,27 @@ const isPast=ev=>ev.en<TODAY;
 const NEWS_SITES=["money.udn.com","ctee.com.tw","news.cnyes.com","moneydj.com","tw.stock.yahoo.com","ec.ltn.com.tw","digitimes.com.tw","cna.com.tw"];
 const shortName=nm=>nm.replace(/[*＊]/g,"").replace(/-?(KY|DR)/gi,"").replace(/-?創$/,"").replace(/-$/,"").trim();
 const nIso=d=>d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");
+/* 美股中文新聞常用名稱（代號 → 別名）；代號太短或是常見字的（ON、ARM）不拿來搜 */
+const US_ALIAS={LRCX:["科林研發"],KLAC:["科磊"],ENTG:["英特格"],TSLA:["特斯拉"],GOOGL:["谷歌","Google"],META:["臉書"],
+  ASML:["艾司摩爾"],NFLX:["Netflix"],AMD:["AMD"],ARM:["Arm"],"ARM!":1,"ON!":1,TXN:["德儀"],AMZN:["Amazon"],AAPL:["Apple"],
+  MSFT:["Microsoft"],NVDA:["NVIDIA"],AVGO:["Broadcom"],MU:["Micron"],QCOM:["Qualcomm"],INTC:["Intel"],SNDK:["SanDisk"],
+  MRVL:["Marvell"],COST:["Costco"],WMT:["Walmart"],CSCO:["Cisco"],PANW:["Palo Alto"],CRWD:["CrowdStrike"]};
+/* 央行官員常見譯名 */
+const PERSON_ALIAS={"沃什":["華許","Warsh"],"拉加德":["Lagarde"],"植田和男":["植田"],"鮑曼":["Bowman"],"沃勒":["Waller"],
+  "哈瑪克":["Hammack"],"柯林斯":["Collins"],"施納貝爾":["Schnabel"]};
+/* 總經數據與央行例行事件：關鍵字須出現在標題，避免「最新在前」排序時被不相干的新新聞擠到上面 */
+const MACRO_Q=[
+  [/CPI/,'intitle:CPI intitle:美國'],[/PPI/,'intitle:PPI intitle:美國'],[/零售銷售/,'(intitle:零售銷售 OR intitle:零售額) intitle:美國'],[/非農/,'intitle:非農'],
+  [/PCE/,'intitle:PCE'],[/GDP/,'intitle:GDP intitle:美國'],[/ISM 製造業/,'intitle:ISM 製造業'],[/ISM 服務業/,'intitle:ISM 服務業'],
+  [/JOLTS/,'intitle:JOLTS'],[/耐久財/,'intitle:耐久財'],[/進出口物價/,'intitle:進口物價 美國'],
+  [/FOMC 利率決議/,'(intitle:FOMC OR intitle:聯準會 OR intitle:Fed) (intitle:利率 OR intitle:升息 OR intitle:降息 OR intitle:決議)'],[/FOMC.*紀要/,'(intitle:FOMC OR intitle:聯準會) 紀要'],
+  [/靜默期/,'(intitle:FOMC OR intitle:聯準會) 靜默期'],[/褐皮書|Beige/,'intitle:褐皮書'],
+  [/歐洲央行|ECB.*利率/,'(intitle:歐洲央行 OR intitle:ECB OR intitle:歐央) (intitle:利率 OR intitle:升息 OR intitle:降息 OR intitle:決議)'],
+  [/日本央行.*(紀要|意見)/,'(intitle:日本央行 OR intitle:日銀) (intitle:紀要 OR intitle:意見摘要)'],[/日本央行.*利率/,'(intitle:日本央行 OR intitle:日銀) (intitle:利率 OR intitle:升息 OR intitle:降息 OR intitle:決議)'],
+  [/世界經濟展望/,'intitle:IMF "世界經濟展望"'],[/全球金融穩定報告/,'intitle:IMF "全球金融穩定"'],[/財政監測/,'intitle:IMF "財政監測"'],
+  [/IMF／世界銀行年會/,'intitle:IMF (世銀 OR 世界銀行) 年會'],[/IMFC/,'IMFC IMF'],[/G20/,'intitle:G20 財長'],
+  [/Jackson Hole/,'(intitle:"Jackson Hole" OR intitle:傑克森霍爾 OR intitle:全球央行年會)']
+];
 function newsKey(ev){
   if(ev.q)return ev.q;
   const t=ev.t;
@@ -331,7 +352,12 @@ function newsKey(ev){
   const code=(t.match(/（(\d{4,6}[A-Z]?)）/)||[])[1];
   /* intitle：公司名要出現在新聞標題，避免「注意股 22 檔名單」這類條列新聞因內文剛好列到而被搜出來 */
   if(code&&(ev.c==="tw"||ev.c==="agm"||ev.c==="disp"))return 'intitle:"'+shortName(nm)+'" '+code;
-  if(ev.c==="us")return '"'+nm.replace(/\s*(FY\d+|第.季|財報).*$/,"").trim()+'" 財報';
+  if(ev.c==="us"){
+    const tk=(t.match(/（([A-Z]{2,5})）/)||[])[1]||"";
+    const cn=nm.replace(/\s*(20\d\d\s*年|FY\d+|第.季|財報|投資人).*$/,"").trim();
+    const names=[cn,...(US_ALIAS[tk]||[]),...(tk.length>=3&&!US_ALIAS[tk+"!"]?[tk]:[])];
+    return "("+[...new Set(names)].map(x=>'intitle:"'+x+'"').join(" OR ")+") (intitle:財報 OR intitle:營收 OR intitle:財測 OR intitle:季)";
+  }
   if(ev.c==="tw")return '"'+nm.replace(/(參加|法說會|說明會).*$/,"").trim()+'" 法說會';
   if(ev.c==="agm")return '"'+nm.replace(/(臨時|常會)?股東.*$/,"").trim()+'" 股東會';
   if(ev.c==="disp")return '"'+nm.replace(/處置.*$/,"").trim()+'" 處置';
@@ -342,6 +368,10 @@ function newsKey(ev){
     const toks=core.split(/\s+/).filter(Boolean);
     if(toks.length)return toks.map(x=>'"'+x+'"').join(" ");
   }
+  for(const [re,q] of MACRO_Q)if(re.test(t))return q;
+  /* 官員講話：取人名（去掉職稱），人名須出現在標題 */
+  const sp=t.split("：")[0].match(/(?:理事|主席|總裁|執委|副主席|行長)\s*(\S+)$/);
+  if(sp){const n=sp[1];return "("+[n,...(PERSON_ALIAS[n]||[])].map(x=>'intitle:"'+x+'"').join(" OR ")+")";}
   let k=t.split("：")[0];
   k=k.replace(/[《》「」『』]/g," ").replace(/[（(][^）)]*[）)]/g," ")
      .replace(/\d+\s*[月季年]/g," ").replace(/第\d+季/g," ")
