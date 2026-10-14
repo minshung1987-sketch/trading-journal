@@ -329,11 +329,19 @@ function newsKey(ev){
   const t=ev.t;
   const nm=t.split(/[（(]/)[0].trim();
   const code=(t.match(/（(\d{4,6}[A-Z]?)）/)||[])[1];
-  if(code&&(ev.c==="tw"||ev.c==="agm"||ev.c==="disp"))return '"'+shortName(nm)+'" '+code;
+  /* intitle：公司名要出現在新聞標題，避免「注意股 22 檔名單」這類條列新聞因內文剛好列到而被搜出來 */
+  if(code&&(ev.c==="tw"||ev.c==="agm"||ev.c==="disp"))return 'intitle:"'+shortName(nm)+'" '+code;
   if(ev.c==="us")return '"'+nm.replace(/\s*(FY\d+|第.季|財報).*$/,"").trim()+'" 財報';
   if(ev.c==="tw")return '"'+nm.replace(/(參加|法說會|說明會).*$/,"").trim()+'" 法說會';
   if(ev.c==="agm")return '"'+nm.replace(/(臨時|常會)?股東.*$/,"").trim()+'" 股東會';
   if(ev.c==="disp")return '"'+nm.replace(/處置.*$/,"").trim()+'" 處置';
+  /* 展會與大會：去掉年份、屆數與括號說明，每個詞加引號要求完全符合（否則「台灣國際水週」會被拆成「台灣」「國際」亂配） */
+  if(ev.c==="ind"||ev.c==="tech"){
+    const core=t.split("：")[0].replace(/[（(][^）)]*[）)]/g," ").replace(/〔[^〕]*〕/g," ")
+      .replace(/(^|\s)20\d\d(?=\s|$)/g," ").replace(/第\s*[\d一二三四五六七八九十百]+\s*屆/g," ").replace(/\d{4}$/,"").trim();
+    const toks=core.split(/\s+/).filter(Boolean);
+    if(toks.length)return toks.map(x=>'"'+x+'"').join(" ");
+  }
   let k=t.split("：")[0];
   k=k.replace(/[《》「」『』]/g," ").replace(/[（(][^）)]*[）)]/g," ")
      .replace(/\d+\s*[月季年]/g," ").replace(/第\d+季/g," ")

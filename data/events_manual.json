@@ -328,7 +328,8 @@
   "t": "TSMC OIP 生態系論壇（北美）",
   "pl": "美國聖塔克拉拉",
   "st": "o",
-  "u": "https://www.synopsys.com/events/tsmc-oip-ecosystem-forum.html"
+  "u": "https://www.synopsys.com/events/tsmc-oip-ecosystem-forum.html",
+  "q": "\"OIP\" 台積電"
  },
  {
   "d": "2026-09-23",
@@ -353,7 +354,8 @@
   "c": "tech",
   "t": "TSMC OIP 生態系論壇（日本）",
   "st": "o",
-  "u": "https://www.synopsys.com/events/tsmc-oip-ecosystem-forum.html"
+  "u": "https://www.synopsys.com/events/tsmc-oip-ecosystem-forum.html",
+  "q": "\"OIP\" 台積電"
  },
  {
   "d": "2026-11-12",
@@ -361,14 +363,16 @@
   "t": "TSMC OIP 生態系論壇（台灣）",
   "pl": "台灣",
   "st": "o",
-  "u": "https://www.synopsys.com/events/tsmc-oip-ecosystem-forum.html"
+  "u": "https://www.synopsys.com/events/tsmc-oip-ecosystem-forum.html",
+  "q": "\"OIP\" 台積電"
  },
  {
   "d": "2026-11-17",
   "c": "tech",
   "t": "TSMC OIP 生態系論壇（中國）",
   "st": "o",
-  "u": "https://www.synopsys.com/events/tsmc-oip-ecosystem-forum.html"
+  "u": "https://www.synopsys.com/events/tsmc-oip-ecosystem-forum.html",
+  "q": "\"OIP\" 台積電"
  },
  {
   "d": "2026-11-17",
@@ -384,7 +388,8 @@
   "c": "tech",
   "t": "TSMC OIP 生態系論壇（歐洲）",
   "st": "o",
-  "u": "https://www.synopsys.com/events/tsmc-oip-ecosystem-forum.html"
+  "u": "https://www.synopsys.com/events/tsmc-oip-ecosystem-forum.html",
+  "q": "\"OIP\" 台積電"
  },
  {
   "d": "2026-11-30",
@@ -409,7 +414,8 @@
   "c": "tech",
   "t": "TSMC OIP 生態系論壇（以色列）",
   "st": "o",
-  "u": "https://www.synopsys.com/events/tsmc-oip-ecosystem-forum.html"
+  "u": "https://www.synopsys.com/events/tsmc-oip-ecosystem-forum.html",
+  "q": "\"OIP\" 台積電"
  },
  {
   "d": "2027-01-06",
@@ -1662,7 +1668,8 @@
   "pl": "台北南港展覽館 1 館",
   "st": "o",
   "u": "https://www.tpcashow.com",
-  "n": "PCB／載板；官網寫週二至週四，最後一天 15:30 閉館"
+  "n": "PCB／載板；官網寫週二至週四，最後一天 15:30 閉館",
+  "q": "\"TPCA Show\" OR \"台灣電路板產業國際展覽會\" OR \"TPCA展\""
  },
  {
   "d": "2026-10-20",
@@ -1673,7 +1680,8 @@
   "st": "o",
   "u": "https://www.taitronics.tw/en/menu/34E2DEE62B3B8AB8D0636733C6861689/info.html",
   "n": "電子零組件與 AIoT，與 AIoT Taiwan 同展；外貿協會與電電公會主辦；本環境無法直接開啟官網，內容經官網頁面搜尋摘要確認（10/13）",
-  "tm": "10/20–21 10:00–17:00，10/22 09:30–15:00"
+  "tm": "10/20–21 10:00–17:00，10/22 09:30–15:00",
+  "q": "\"台北國際電子產業科技展\" OR \"秋季電子展\" OR \"TAITRONICS\""
  },
  {
   "d": "2026-11-10",
@@ -2045,7 +2053,8 @@
   "pl": "奧地利維也納 VIECON",
   "st": "o",
   "u": "https://www.networkxevent.com/",
-  "n": "電信與寬頻網路展會（原 Broadband World Forum 的後繼活動）；官網頁面未直接出現 Broadband World Forum 字樣，兩者關係為推論"
+  "n": "電信與寬頻網路展會（原 Broadband World Forum 的後繼活動）；官網頁面未直接出現 Broadband World Forum 字樣，兩者關係為推論",
+  "q": "\"Network X\" 寬頻"
  },
  {
   "d": "2027-04-02",
@@ -3171,7 +3180,8 @@
   "pl": "台北南港展覽館 1 館",
   "n": "太陽光電、風力能源、智慧儲能、多元創能四大展區；外貿協會與 SEMI GESA 綠能暨永續發展聯盟主辦，另有氫能論壇",
   "st": "o",
-  "u": "https://www.energytaiwan.com.tw"
+  "u": "https://www.energytaiwan.com.tw",
+  "q": "\"智慧能源週\" OR \"Energy Taiwan\" OR \"淨零永續展\""
  },
  {
   "d": "2026-10-14",
@@ -3211,7 +3221,8 @@
   "pl": "台北世貿一館",
   "n": "金融科技、支付與銀行數位轉型；台灣金融研訓院主辦",
   "st": "o",
-  "u": "https://www.fintechtaipei.tw/"
+  "u": "https://www.fintechtaipei.tw/",
+  "q": "\"台北金融科技展\" OR \"FinTech Taipei\""
  },
  {
   "d": "2026-11-12",
@@ -3452,7 +3463,8 @@
   "pl": "台北南港展覽館 1 館",
   "st": "o",
   "u": "https://www.taiwanitf.org.tw/",
-  "n": "台灣最大旅展，觀察航空、旅行社、飯店與觀光類股（長榮航、華航、星宇、雄獅、鳳凰、晶華、寒舍等）年底旺季買氣；台灣觀光協會主辦。日期與展館依台北世貿／南港展覽館檔期表（10/14 讀取）"
+  "n": "台灣最大旅展，觀察航空、旅行社、飯店與觀光類股（長榮航、華航、星宇、雄獅、鳳凰、晶華、寒舍等）年底旺季買氣；台灣觀光協會主辦。日期與展館依台北世貿／南港展覽館檔期表（10/14 讀取）",
+  "q": "\"ITF\" 旅展"
  },
  {
   "d": "2026-12-25",
