@@ -14,7 +14,12 @@ const nIso=d=>d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+Str
 const US_ALIAS={LRCX:["科林研發"],KLAC:["科磊"],ENTG:["英特格"],TSLA:["特斯拉"],GOOGL:["谷歌","Google"],META:["臉書"],
   ASML:["艾司摩爾"],NFLX:["Netflix"],AMD:["AMD"],ARM:["Arm"],"ARM!":1,"ON!":1,TXN:["德儀"],AMZN:["Amazon"],AAPL:["Apple"],
   MSFT:["Microsoft"],NVDA:["NVIDIA"],AVGO:["Broadcom"],MU:["Micron"],QCOM:["Qualcomm"],INTC:["Intel"],SNDK:["SanDisk"],
-  MRVL:["Marvell"],COST:["Costco"],WMT:["Walmart"],CSCO:["Cisco"],PANW:["Palo Alto"],CRWD:["CrowdStrike"]};
+  MRVL:["Marvell"],COST:["Costco"],WMT:["Walmart"],CSCO:["Cisco"],PANW:["Palo Alto"],CRWD:["CrowdStrike"],
+  /* 日韓歐股：台灣媒體常用簡稱 */
+  "8035":["東京威力","TEL"],"6857":["愛德萬"],"285A":["鎧俠"],"005930":["三星"],"000660":["海力士"],"009150":["三星電機"],
+  "4063":["信越"],"4062":["揖斐電"],"6981":["村田"],"6976":["太陽誘電"],"9984":["軟銀"],"6594":["日本電產","尼得科"],
+  "6723":["瑞薩"],"6971":["京瓷"],"5803":["藤倉"],"5802":["住友電工"],"5801":["古河電工"],"2802":["味之素"],
+  "3436":["勝高"],"5706":["三井金屬"],"3110":["日東紡"],IFX:["英飛凌"],STM:["意法"]};
 /* 央行官員常見譯名 */
 const PERSON_ALIAS={"沃什":["華許","Warsh"],"拉加德":["Lagarde"],"植田和男":["植田"],"鮑曼":["Bowman"],"沃勒":["Waller"],
   "哈瑪克":["Hammack"],"柯林斯":["Collins"],"施納貝爾":["Schnabel"]};
@@ -43,7 +48,10 @@ function newsKey(ev){
     const cn=nm.replace(/\s*(20\d\d\s*年|FY\d+|第.季|財報|投資人).*$/,"").trim();
     if(!tk&&US_ALIAS[cn.toUpperCase()])tk=cn.toUpperCase();
     const names=[...cn.split(/(?<=[\u4e00-\u9fff])\s+(?=[A-Za-z])/),...(US_ALIAS[tk]||[]),...(tk.length>=3&&!/^\d/.test(tk)&&!US_ALIAS[tk+"!"]?[tk]:[])];
-    return "("+[...new Set(names)].map(x=>'intitle:"'+x+'"').join(" OR ")+") (intitle:財報 OR intitle:營收 OR intitle:財測 OR intitle:季)";
+    const grp="("+[...new Set(names)].map(x=>'intitle:"'+x+'"').join(" OR ")+")";
+    /* 日韓歐股台灣媒體報導少，只要求公司名在標題（財報週以外也看得到公司新聞）；美股報導多，另要求財報相關字 */
+    if(/^\d/.test(tk)||tk==="IFX"||tk==="STM")return grp;
+    return grp+" (intitle:財報 OR intitle:營收 OR intitle:財測 OR intitle:季)";
   }
   if(ev.c==="tw")return '"'+nm.replace(/(參加|法說會|說明會).*$/,"").trim()+'" 法說會';
   if(ev.c==="agm")return '"'+nm.replace(/(臨時|常會)?股東.*$/,"").trim()+'" 股東會';
