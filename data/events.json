@@ -1,5 +1,5 @@
 {
- "updated": "2026/10/14 07:28",
+ "updated": "2026/10/14 12:48",
  "events": [
   {
    "d": "2026-08-27",
@@ -3526,6 +3526,17 @@
    "u": "https://www.lseg.com/en/media-centre/press-releases/ftse-russell/2026/ftse-russell-announces-december-2026-russell-us-indexes-reconstitution-schedule",
    "n": "12/14 開盤採用新指數；成交量通常在收盤集中",
    "tm": "美股收盤後",
+   "fs": "2026-10-14"
+  },
+  {
+   "d": "2026-10-14",
+   "e": "2026-10-16",
+   "c": "ind",
+   "t": "台灣國際智慧能源週（含 Net-Zero Taiwan 淨零永續展）",
+   "pl": "台北南港展覽館 1 館",
+   "n": "太陽光電、風力能源、智慧儲能、多元創能四大展區；外貿協會與 SEMI GESA 綠能暨永續發展聯盟主辦，另有氫能論壇",
+   "st": "o",
+   "u": "https://www.energytaiwan.com.tw",
    "fs": "2026-10-14"
   },
   {

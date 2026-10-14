@@ -335,7 +335,7 @@ function newsShow(ev){return diffDays(ev.s,TODAY)<=30;}
 function newsUrl(ev){
   const a=new Date(ev.s.getTime()-14*DAY), b=new Date(ev.en.getTime()+14*DAY);
   const q=newsKey(ev)+" ("+NEWS_SITES.map(x=>"site:"+x).join(" OR ")+") after:"+nIso(a)+" before:"+nIso(b);
-  return "https://news.google.com/search?q="+encodeURIComponent(q)+"&hl=zh-TW&gl=TW&ceid=TW:zh-Hant";
+  return "https://www.google.com/search?tbm=nws&tbs=sbd:1&hl=zh-TW&gl=TW&q="+encodeURIComponent(q);  /* tbs=sbd:1 ＝ 依時間排序，最新的在最上面 */
 }
 function countdownText(ev){
   if(isPast(ev))return "已結束";
@@ -423,7 +423,7 @@ function evRow(ev){
       h("span",{class:"cdp",text:countdownText(ev)}),
       ev.st==="e"?h("span",{class:"est",title:"尚未正式公告的預估日期",text:"預估"}):null,
       ev.u?h("a",{class:"src",href:ev.u,target:"_blank",rel:"noopener",text:"來源"}):null,
-      newsShow(ev)?h("a",{class:"src",href:newsUrl(ev),target:"_blank",rel:"noopener",title:"在 Google 新聞搜尋：經濟日報、工商時報、DIGITIMES、鉅亨網、中央社",text:"相關新聞"}):null
+      newsShow(ev)?h("a",{class:"src",href:newsUrl(ev),target:"_blank",rel:"noopener",title:"在 Google 新聞搜尋（最新優先）：經濟日報、工商時報、DIGITIMES、鉅亨網、中央社",text:"相關新聞"}):null
     )
   );
 }
