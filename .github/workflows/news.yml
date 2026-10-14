@@ -1,0 +1,45 @@
+name: 抓取相關新聞
+
+on:
+  schedule:
+    - cron: "7 23,0-15 * * *"   # 台灣時間每天 07:07～23:07，每小時一次（UTC 23 點與 0～15 點）
+  workflow_dispatch:            # 允許在 Actions 頁面手動執行
+
+permissions:
+  contents: write
+
+concurrency:
+  group: data-commit            # 與「更新行事曆資料」排隊，不會同時推送
+  cancel-in-progress: false
+
+jobs:
+  news:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: 取得程式碼
+        uses: actions/checkout@v4
+
+      - name: 安裝 Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: 抓 Google 新聞（台灣版＋陸媒），依時間排序
+        run: node scripts/news.mjs
+
+      - name: 存回變更
+        run: |
+          git config user.name "calendar-bot"
+          git config user.email "calendar-bot@users.noreply.github.com"
+          git add data/news.json
+          if git diff --cached --quiet; then
+            echo "沒有變更"
+            exit 0
+          fi
+          git commit -m "自動更新相關新聞"
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push && exit 0
+            sleep 10
+          done
+          exit 1

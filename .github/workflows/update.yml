@@ -9,6 +9,10 @@ on:
 permissions:
   contents: write           # 允許機器人把更新後的資料存回儲存庫
 
+concurrency:
+  group: data-commit        # 與「抓取相關新聞」排隊，不會同時推送
+  cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -33,5 +37,6 @@ jobs:
             echo "沒有變更"
           else
             git commit -m "自動更新行事曆資料"
+            git pull --rebase origin main
             git push
           fi
