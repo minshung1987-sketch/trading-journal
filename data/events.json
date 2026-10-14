@@ -1,5 +1,5 @@
 {
- "updated": "2026/10/14 12:56",
+ "updated": "2026/10/14 13:47",
  "events": [
   {
    "d": "2026-08-27",
@@ -3558,7 +3558,7 @@
    "pl": "台北南港展覽館 2 館",
    "n": "五金、手工具與扣件等傳產出口題材",
    "st": "o",
-   "u": "https://www.tainex.com.tw/event",
+   "u": "https://taiwanindustryweek.com.tw/tw/taiwan-hardware-show",
    "fs": "2026-10-14"
   },
   {
@@ -3569,7 +3569,7 @@
    "pl": "台北南港展覽館 2 館",
    "n": "金屬材料與精密加工設備，工具機供應鏈",
    "st": "o",
-   "u": "https://www.tainex.com.tw/event",
+   "u": "https://taiwanindustryweek.com.tw/tw/international-metal-technology-taiwan",
    "fs": "2026-10-14"
   },
   {
@@ -3580,7 +3580,7 @@
    "pl": "台北世貿一館",
    "n": "金融科技、支付與銀行數位轉型；台灣金融研訓院主辦",
    "st": "o",
-   "u": "https://www.twtc.org.tw/exhibition?p=menu1",
+   "u": "https://www.fintechtaipei.tw/",
    "fs": "2026-10-14"
   },
   {
@@ -3602,7 +3602,7 @@
    "pl": "台北南港展覽館 1 館（另有雲端展場）",
    "n": "醫材與醫療科技",
    "st": "o",
-   "u": "https://www.tainex.com.tw/event",
+   "u": "https://expo.taiwan-healthcare.org/zh/",
    "fs": "2026-10-14"
   },
   {
@@ -3613,7 +3613,7 @@
    "pl": "台北南港展覽館 1 館",
    "n": "建材、綠建築與營建",
    "st": "o",
-   "u": "https://www.twtc.org.tw/exhibition?p=menu1",
+   "u": "https://www.taipeibex.com.tw/zh-tw/index.html",
    "fs": "2026-10-14"
   },
   {
@@ -3823,6 +3823,18 @@
    "n": "工具機年度大展，2027 年改在米蘭",
    "st": "o",
    "u": "https://www.emo-milan.com/?p=64",
+   "fs": "2026-10-14"
+  },
+  {
+   "d": "2026-11-14",
+   "e": "2026-11-15",
+   "c": "ind",
+   "t": "全國牙科器材展（中華牙醫學會年會）",
+   "pl": "台北世貿一館",
+   "st": "o",
+   "u": "http://www.ads.org.tw",
+   "mn": 1,
+   "n": "牙材、植體、數位牙科與齒科設備，醫材族群；與中華牙醫學會第 50 次學術研討會同場。日期與展館依台北世貿檔期表（10/14 讀取），主辦單位網址取自檔期表",
    "fs": "2026-10-14"
   },
   {
