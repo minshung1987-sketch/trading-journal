@@ -7,7 +7,7 @@
    關鍵字規則：
    - 台股公司事件（法說會、股東會、處置股）：用「新聞常用簡稱＋股票代號」，不強制加「股東會」「處置」等字，
      因為這類事件很少是新聞主角；簡稱會去掉 -KY、創、*、-DR 等上市別後綴（新聞不會寫「漢康-KY創」，只寫「漢康」）。
-   - 美股財報：中文名＋財報；總經與央行：取標題核心詞。可在事件上加 q 欄位自訂。 */
+   - 國外財報（美日韓歐）：中文名／英文名＋財報；總經與央行：取標題核心詞。可在事件上加 q 欄位自訂。 */
 const shortName=nm=>nm.replace(/[*＊]/g,"").replace(/-?(KY|DR)/gi,"").replace(/-?創$/,"").replace(/-$/,"").trim();
 const nIso=d=>d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");
 /* 美股中文新聞常用名稱（代號 → 別名）；代號太短或是常見字的（ON、ARM）不拿來搜 */
@@ -39,10 +39,10 @@ function newsKey(ev){
   /* intitle：公司名要出現在新聞標題，避免「注意股 22 檔名單」這類條列新聞因內文剛好列到而被搜出來 */
   if(code&&(ev.c==="tw"||ev.c==="agm"||ev.c==="disp"))return 'intitle:"'+shortName(nm)+'" '+code;
   if(ev.c==="us"){
-    let tk=(t.match(/（([A-Z]{2,5})）/)||[])[1]||"";
+    let tk=(t.match(/（([0-9A-Z]{2,6})）/)||[])[1]||"";
     const cn=nm.replace(/\s*(20\d\d\s*年|FY\d+|第.季|財報|投資人).*$/,"").trim();
     if(!tk&&US_ALIAS[cn.toUpperCase()])tk=cn.toUpperCase();
-    const names=[cn,...(US_ALIAS[tk]||[]),...(tk.length>=3&&!US_ALIAS[tk+"!"]?[tk]:[])];
+    const names=[...cn.split(/(?<=[\u4e00-\u9fff])\s+(?=[A-Za-z])/),...(US_ALIAS[tk]||[]),...(tk.length>=3&&!/^\d/.test(tk)&&!US_ALIAS[tk+"!"]?[tk]:[])];
     return "("+[...new Set(names)].map(x=>'intitle:"'+x+'"').join(" OR ")+") (intitle:財報 OR intitle:營收 OR intitle:財測 OR intitle:季)";
   }
   if(ev.c==="tw")return '"'+nm.replace(/(參加|法說會|說明會).*$/,"").trim()+'" 法說會';
@@ -90,7 +90,13 @@ const CN_US={NVDA:"英伟达",AAPL:"苹果",MSFT:"微软",GOOGL:"谷歌",AMZN:"�
   MU:"美光",QCOM:"高通",INTC:"英特尔",ASML:"阿斯麦",LRCX:"泛林",KLAC:"科磊",AMAT:"应用材料",TXN:"德州仪器",NFLX:"奈飞",ARM:"Arm",
   NXPI:"恩智浦",ADI:"亚德诺",MRVL:"迈威尔",CSCO:"Cisco",COST:"开市客",WMT:"沃尔玛",PLTR:"Palantir",ON:"安森美",TER:"泰瑞达",
   SNDK:"闪迪",GFS:"格芯",MCHP:"微芯",PANW:"Palo Alto",CRWD:"CrowdStrike",AMGN:"安进",GILD:"吉利德",LIN:"林德",ENTG:"英特格",
-  MPWR:"芯源系统",COHR:"Coherent",SWKS:"Skyworks",QRVO:"Qorvo",ALAB:"Astera Labs",SHOP:"Shopify",NVMI:"Nova",MTSI:"MACOM",RMBS:"Rambus"};
+  MPWR:"芯源系统",COHR:"Coherent",SWKS:"Skyworks",QRVO:"Qorvo",ALAB:"Astera Labs",SHOP:"Shopify",NVMI:"Nova",MTSI:"MACOM",RMBS:"Rambus",
+  ORCL:"甲骨文",SMCI:"超微电脑",DELL:"戴尔",VRT:"维谛",ANET:"Arista",CRWV:"CoreWeave",IFX:"英飞凌",STM:"意法半导体",
+  "005930":"三星电子","000660":"SK海力士","009150":"三星电机",
+  "8035":"东京电子","6857":"爱德万","6146":"迪思科","6920":"Lasertec","7735":"SCREEN","6525":"国际电气","4063":"信越化学",
+  "6981":"村田","4062":"揖斐电","3436":"胜高","6976":"太阳诱电","285A":"铠侠","9984":"软银","6723":"瑞萨","6762":"TDK",
+  "6971":"京瓷","6594":"尼得科","5803":"藤仓","5802":"住友电工","5801":"古河电工","2802":"味之素","4004":"力森诺科",
+  "3110":"日东纺","5706":"三井金属","3445":"RS Technologies","6955":"FDK","6962":"大真空"};
 const CN_PERSON={"華許":"沃什"};
 const CN_MACRO=[
   [/CPI/,'intitle:CPI 美国'],[/PPI/,'intitle:PPI 美国'],[/零售銷售/,'intitle:零售销售 美国'],[/非農/,'intitle:非农 美国'],
@@ -107,10 +113,10 @@ const TW_PLACE=/台北|臺北|台灣|臺灣|南港|世貿|高雄|台中|臺中|�
 function cnKey(ev){
   const t=ev.t, nm=t.split(/[（(]/)[0].trim();
   if(ev.c==="us"){
-    let tk=(t.match(/（([A-Z]{2,5})）/)||[])[1]||"";
+    let tk=(t.match(/（([0-9A-Z]{2,6})）/)||[])[1]||"";
     const cn=toS(nm.replace(/\s*(20\d\d\s*年|FY\d+|第.季|財報|投資人).*$/,"").trim());
     if(!tk&&CN_US[cn.toUpperCase()])tk=cn.toUpperCase();
-    const ns=[...new Set([CN_US[tk],cn].filter(Boolean))];
+    const ns=[...new Set([CN_US[tk],cn.split(/(?<=[\u4e00-\u9fff])\s+(?=[A-Za-z])/)[0]].filter(Boolean))];
     return (ns.length>1?"("+ns.map(x=>'intitle:"'+x+'"').join(" OR ")+")":'intitle:"'+ns[0]+'"')+" 财报";
   }
   if(ev.c==="tw")return 'intitle:"'+toS(shortName(nm.replace(/(參加|法說會|說明會|財務業務).*$/,"")))+'"';
