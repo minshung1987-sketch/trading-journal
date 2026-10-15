@@ -10,7 +10,7 @@
 <style>
 :root{
   --bg:#F3F5F8; --surface:#FFFFFF; --ink:#16203A; --muted:#5A647C; --line:#DCE1EA; --soft:#E9EDF4;
-  --cb:#3B5BDB; --eco:#5C7C0F; --us:#0B7285; --tw:#9C36B5; --agm:#A85F00; --tech:#C2255C; --ind:#7048E8; --disp:#D9480F; --mkt:#495057;
+  --cb:#3B5BDB; --eco:#5C7C0F; --us:#0B7285; --tw:#9C36B5; --agm:#A85F00; --tech:#C2255C; --ind:#7048E8; --disp:#D9480F; --mkt:#495057; --pol:#C92A2A;
   --focus:#3B5BDB; --star:#F2B705; --new:#2B8A3E; --chg:#D9480F;
   box-sizing:border-box;
   padding-top:env(safe-area-inset-top,0px);
@@ -19,13 +19,13 @@
 @media (prefers-color-scheme: dark){
   :root:not([data-theme="light"]){
     --bg:#0E1322; --surface:#161D32; --ink:#E7EBF6; --muted:#9AA4BD; --line:#283250; --soft:#1E2742;
-    --cb:#8CA7FF; --eco:#A9E34B; --us:#3BC9DB; --tw:#DA77F2; --agm:#FFC24D; --tech:#FF7AA6; --ind:#9775FA; --disp:#FF922B; --mkt:#ADB5BD;
+    --cb:#8CA7FF; --eco:#A9E34B; --us:#3BC9DB; --tw:#DA77F2; --agm:#FFC24D; --tech:#FF7AA6; --ind:#9775FA; --disp:#FF922B; --mkt:#ADB5BD; --pol:#FF8787;
     --focus:#8CA7FF; --star:#FFD43B; --new:#37B24D; --chg:#FD7E14;
   }
 }
 :root[data-theme="dark"]{
   --bg:#0E1322; --surface:#161D32; --ink:#E7EBF6; --muted:#9AA4BD; --line:#283250; --soft:#1E2742;
-  --cb:#8CA7FF; --eco:#A9E34B; --us:#3BC9DB; --tw:#DA77F2; --agm:#FFC24D; --tech:#FF7AA6; --ind:#9775FA; --disp:#FF922B; --mkt:#ADB5BD;
+  --cb:#8CA7FF; --eco:#A9E34B; --us:#3BC9DB; --tw:#DA77F2; --agm:#FFC24D; --tech:#FF7AA6; --ind:#9775FA; --disp:#FF922B; --mkt:#ADB5BD; --pol:#FF8787;
   --focus:#8CA7FF; --star:#FFD43B; --new:#37B24D; --chg:#FD7E14;
 }
 html{scroll-padding-top:env(safe-area-inset-top,0px);background:var(--bg)}
@@ -161,6 +161,23 @@ button.badge{border:0;cursor:pointer;font:inherit;font-size:11.5px;font-weight:5
 .nsrc{color:var(--muted);font-size:12.5px;white-space:nowrap;max-width:9em;overflow:hidden;text-overflow:ellipsis}
 .nmore{margin:6px 0 0;text-align:right;font-size:13px}
 @media (max-width:760px){.nlist li{grid-template-columns:1fr auto}.nlist li a{grid-column:1/3;grid-row:1}}
+.tile{position:relative}
+.tilex{position:absolute;top:6px;right:8px;border:0;background:transparent;color:var(--muted);font-size:17px;line-height:1;cursor:pointer;padding:2px 4px;opacity:.55}
+.tilex:hover{opacity:1;color:var(--chg)}
+.tileadd{display:flex;flex-direction:column;justify-content:center;gap:4px;border-style:dashed;cursor:pointer;text-align:left;font:inherit;color:var(--muted)}
+.tileadd b{color:var(--ink);font-size:15px}
+.tileadd span{font-size:12.5px}
+.pinbtn{border:0;background:transparent;cursor:pointer;font-size:14px;opacity:.35;padding:0 2px;filter:grayscale(1)}
+.pinbtn:hover,.pinbtn.on{opacity:1;filter:none}
+.pinopt{display:flex;flex-direction:column;gap:2px;width:100%;text-align:left;font:inherit;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px 14px;margin:8px 0;cursor:pointer}
+.pinopt:hover{border-color:var(--focus)}
+.pinopt span{font-size:13px;color:var(--muted)}
+.pinopt.on{cursor:default;border-color:var(--new)}
+.pinopt.on .wbtn{align-self:flex-start;margin-top:4px}
+.tmove{display:flex;gap:2px}
+.chipall{font-size:13px;color:var(--muted);margin-left:4px}
+.linkbtn{border:0;background:transparent;color:var(--muted);cursor:pointer;text-decoration:underline;text-underline-offset:3px;padding:0 2px;font:inherit}
+.linkbtn:hover{color:var(--ink)}
 /* undated */
 .tba{margin-top:40px}
 .tba h2{font-size:18px;margin:0 0 4px}
@@ -237,6 +254,10 @@ let EVENTS=[];
 
 /* 尚未公布日期的項目（依往年慣例推估月份，不是官方日期） */
 const TBA=[
+ {t:"日本自民黨總裁選舉（決定首相人選）",s:"現任首相高市早苗的總裁任期至 2027 年 9 月底，總裁選預計 2027 年 9 月前後，日期尚未公布"},
+ {t:"日本參議院選舉",s:"上次為 2025 年 7 月，下次預計 2028 年夏季，日期尚未公布"},
+ {t:"日本眾議院大選",s:"上次為 2026/2/8（自民黨單獨過半），任期至 2030 年 2 月；首相可隨時解散，目前沒有解散的消息"},
+ {t:"台灣 2028 總統與立委選舉",s:"中選會尚未公告，依慣例約 2028 年 1 月中旬的週六（2024 年為 1/13），2028/5/20 就職"},
  {t:"台灣央行理監事會議（2026 年 12 月與 2027 全年）",s:"央行已公布 115 年預定日期但我讀不到內文；2026 年已開過 3/19、6/18、9/17"},
  {t:"2027 年台股休市日（春節、清明、端午、中秋、國慶等）",s:"證交所尚未公布 116 年開休市日期"},
  {t:"臺灣 50、中型 100 指數 2026 年 12 月與 2027 年定期審核",s:"臺灣指數公司目前只公布 2026 年 11 月審核日程，我無法讀取內文"},
@@ -276,7 +297,8 @@ const CATS={
   tech:{n:"科技大會與展會"},
   ind:{n:"產業展會"},
   disp:{n:"處置股"},
-  mkt:{n:"交易日程"}
+  mkt:{n:"交易日程"},
+  pol:{n:"政治事件"}
 };
 const WD="日一二三四五六";
 const pd=s=>{const [y,m,d]=s.split("-").map(Number);return new Date(y,m-1,d)};
@@ -292,6 +314,7 @@ EVENTS.forEach((ev,i)=>{ev.id=i;ev.s=pd(ev.d);ev.en=ev.e?pd(ev.e):ev.s;});
 EVENTS.sort((a,b)=>a.s-b.s||a.en-b.en||a.c.localeCompare(b.c)||a.t.localeCompare(b.t,"zh-Hant"));
 }
 
+const PKEY="ic_prefs_v1";
 const state={cats:new Set(Object.keys(CATS)),q:"",est:true,past:false,mine:false,recent:false,view:"list",cur:{y:TODAY.getFullYear(),m:TODAY.getMonth()},sel:null};
 
 /* ---- 自選股（只存在這台裝置的瀏覽器，不會上傳）與新增／變動 ---- */
@@ -305,6 +328,21 @@ const iso=d=>d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+Stri
 const RECENT_FROM=iso(new Date(TODAY.getTime()-7*DAY));
 const isNew=ev=>!!ev.fs&&ev.fs!=="0"&&ev.fs>=RECENT_FROM;
 const isChg=ev=>!isNew(ev)&&!!ev.cg&&ev.cg.on>=RECENT_FROM;
+
+/* 記住上次的類別勾選、「包含預估日期」與「列表／月曆」；第一次來的人預設全開。
+   之後新增的類別（存檔時還不存在的）預設開啟，避免新類別被藏起來。 */
+try{
+  const pf=JSON.parse(localStorage.getItem(PKEY)||"null");
+  if(pf){
+    const known=new Set(pf.known||[]);
+    state.cats=new Set(Object.keys(CATS).filter(k=>(pf.cats||[]).includes(k)||!known.has(k)));
+    if(typeof pf.est==="boolean")state.est=pf.est;
+    if(pf.view==="list"||pf.view==="month")state.view=pf.view;
+  }
+}catch(e){}
+function savePrefs(){
+  try{localStorage.setItem(PKEY,JSON.stringify({cats:[...state.cats],known:Object.keys(CATS),est:state.est,view:state.view}));}catch(e){}
+}
 
 function h(tag,attrs,...kids){
   const el=document.createElement(tag);
@@ -392,25 +430,45 @@ function matches(ev){
 function nextBy(pred){
   return EVENTS.find(ev=>!isPast(ev)&&pred(ev));
 }
+/* ---- 倒數區：可自訂（存在各自瀏覽器）----
+   兩種項目：{s:類型} 追蹤這一類，永遠顯示下一場（例如 FOMC、CPI、台積電法說）；{e:事件} 只釘這一場，結束後自動移除。
+   沒設定過的人看到預設 6 個。 */
+const TKEY="ic_tiles_v1", TMAX=9;
+const TILE_DEFAULT=[{s:"cb|FOMC 利率決議"},{s:"cb|日本央行（BOJ）利率決議"},{s:"cb|歐洲央行（ECB）利率決議"},{k:"tsmc"},{k:"gtc"},{k:"computex"}];
+let TILES=TILE_DEFAULT;
+try{const t=JSON.parse(localStorage.getItem(TKEY)||"null");if(Array.isArray(t))TILES=t;}catch(e){}
+function saveTiles(){try{localStorage.setItem(TKEY,JSON.stringify(TILES));}catch(e){}}
+/* 同一類事件：去掉年份、月份、季別、FY、括號內的會議日期等，剩下的標題相同就算同一類 */
+const seriesName=t=>t.replace(/（[^）]*\d+\/\d+[^）]*）/g,"").replace(/FY\d{4}/g,"").replace(/20\d\d\s*年?/g,"")
+  .replace(/第[一二三四1-4]季/g,"").replace(/\d{1,2}\s*月/g,"").replace(/\s+/g," ").replace(/\s*([（）])\s*/g,"$1").trim();
+const seriesKey=ev=>ev.c+"|"+seriesName(ev.t);
+const eventKey=ev=>ev.c+"|"+ev.t+"|"+ev.d;
+const sameTile=(a,b)=>(a.s&&a.s===b.s)||(a.e&&a.e===b.e)||(a.k&&a.k===b.k);
+function tileEvent(it){
+  if(it.k)return nextBy(e=>e.k===it.k);
+  if(it.s)return nextBy(e=>seriesKey(e)===it.s);
+  if(it.e)return EVENTS.find(e=>eventKey(e)===it.e&&!isPast(e));
+}
+function tileLabel(it,ev){
+  if(it.s)return "下一次 "+it.s.slice(it.s.indexOf("|")+1);
+  return ev.t;
+}
 function renderTiles(){
   const box=document.getElementById("tiles");
   box.replaceChildren();
-  const defs=[
-    {lab:"下一次 FOMC 決議",ev:nextBy(e=>e.t==="FOMC 利率決議")},
-    {lab:"下一次日本央行決議",ev:nextBy(e=>e.t.startsWith("日本央行"))},
-    {lab:"下一次歐洲央行決議",ev:nextBy(e=>e.t.startsWith("歐洲央行")&&e.c==="cb")},
-    {lab:"台積電法說會",ev:nextBy(e=>e.k==="tsmc")},
-    {lab:"NVIDIA GTC 聖荷西",ev:nextBy(e=>e.k==="gtc")},
-    {lab:"COMPUTEX",ev:nextBy(e=>e.k==="computex")}
-  ];
-  for(const d of defs){
-    if(!d.ev)continue;
-    const ev=d.ev;
+  /* 只釘一場的事件結束後自動移除 */
+  const alive=TILES.filter(it=>!it.e||EVENTS.some(e=>eventKey(e)===it.e&&!isPast(e)));
+  if(alive.length!==TILES.length){TILES=alive;saveTiles();}
+  for(const it of TILES){
+    const ev=tileEvent(it);
+    if(!ev)continue;
     const n=diffDays(ev.s,TODAY);
     const active=ev.s<=TODAY&&TODAY<=ev.en;
     box.append(
       h("div",{class:"tile",style:ccol(ev.c)},
-        h("div",{class:"lab",text:d.lab}),
+        h("button",{class:"tilex",type:"button",title:"從倒數區移除","aria-label":"從倒數區移除",text:"×",
+          onclick:()=>{TILES=TILES.filter(x=>!sameTile(x,it));saveTiles();renderTiles();render();}}),
+        h("div",{class:"lab",text:tileLabel(it,ev)}),
         h("div",{class:"when",text:ev.s.getFullYear()+"/"+md(ev.s)+"（週"+WD[ev.s.getDay()]+"）"+(ev.en>ev.s?"起":"")}),
         h("div",{class:"cd"},
           active?h("b",{text:"進行中"}):[h("b",{text:String(n)}),h("span",{text:"天後"})]
@@ -419,6 +477,49 @@ function renderTiles(){
       )
     );
   }
+  box.append(h("button",{class:"tile tileadd",type:"button",onclick:openTiles},
+    h("b",{text:"⚙ 管理倒數區"}),
+    h("span",{text:"在任何事件右邊按 📌 就能加進來"})));
+}
+function addTile(it){
+  if(TILES.some(x=>sameTile(x,it)))return;
+  if(TILES.length>=TMAX){alert("倒數區最多 "+TMAX+" 個，請先移除一些（右上角 ×）。");return;}
+  TILES=[...TILES,it];saveTiles();renderTiles();render();
+}
+/* 事件右邊的 📌：選「只釘這一場」或「追蹤這一類」 */
+function openPin(ev){
+  const one={e:eventKey(ev)}, ser={s:seriesKey(ev)};
+  const nSer=EVENTS.filter(e=>!isPast(e)&&seriesKey(e)===ser.s).length;
+  const has=it=>TILES.some(x=>sameTile(x,it));
+  const btn=(it,title,desc)=>has(it)
+    ?h("div",{class:"pinopt on"},h("b",{text:"✓ "+title}),h("span",{text:"已在倒數區"}),
+        h("button",{class:"wbtn",type:"button",text:"移除",onclick:()=>{TILES=TILES.filter(x=>!sameTile(x,it));saveTiles();renderTiles();render();closeDay();}}))
+    :h("button",{class:"pinopt",type:"button",onclick:()=>{addTile(it);closeDay();}},h("b",{text:title}),h("span",{text:desc}));
+  openDlg("📌 加到倒數區","加到倒數區",
+    h("p",{class:"whint",text:ev.t+"　"+ev.s.getFullYear()+"/"+md(ev.s)}),
+    btn(one,"只釘這一場","這場結束後自動從倒數區移除"),
+    nSer>1?btn(ser,"追蹤這一類（每次顯示下一場）","「"+seriesName(ev.t)+"」目前排了 "+nSer+" 場，結束後自動換成下一場"):null,
+    h("p",{class:"whint",text:"倒數區最多 "+TMAX+" 個；設定只存在你這台裝置的瀏覽器。"}));
+}
+/* 管理倒數區：調整順序（越前面越重要）、移除、恢復預設 */
+function openTiles(){
+  const rows=TILES.map((it,i)=>{
+    const ev=tileEvent(it);
+    const mv=d=>()=>{const j=i+d;if(j<0||j>=TILES.length)return;const t=[...TILES];[t[i],t[j]]=[t[j],t[i]];TILES=t;saveTiles();renderTiles();openTiles();};
+    return h("li",{class:"wrow"},
+      h("span",{class:"wcode",text:String(i+1)}),
+      h("span",{class:"wname",text:ev?tileLabel(it,ev):(it.s?it.s.slice(it.s.indexOf("|")+1):"（已結束）")}),
+      h("span",{class:"wnext"},ev?h("span",{class:"wdate",text:ev.s.getFullYear()+"/"+md(ev.s)}):h("small",{text:"目前沒有下一場"})),
+      h("span",{class:"tmove"},
+        h("button",{class:"wdel",type:"button",title:"往前",text:"↑",onclick:mv(-1)}),
+        h("button",{class:"wdel",type:"button",title:"往後",text:"↓",onclick:mv(1)}),
+        h("button",{class:"wdel",type:"button",title:"移除",text:"×",onclick:()=>{TILES=TILES.filter((_,j)=>j!==i);saveTiles();renderTiles();openTiles();}})));
+  });
+  openDlg("⚙ 管理倒數區（"+TILES.length+"／"+TMAX+"）","管理倒數區",
+    h("p",{class:"whint",text:"順序越前面越重要。要新增：在列表或月曆的任何事件右邊按 📌，可選「只釘這一場」或「追蹤這一類」。設定只存在你這台裝置的瀏覽器。"}),
+    TILES.length?h("ul",{class:"wlist"},rows):h("div",{class:"empty",text:"倒數區是空的。"}),
+    h("div",{class:"wfoot"},h("span"),
+      h("button",{class:"wbtn",type:"button",text:"恢復預設",onclick:()=>{TILES=TILE_DEFAULT;saveTiles();renderTiles();render();openTiles();}})));
 }
 
 /* ---- 列表 ---- */
@@ -449,7 +550,9 @@ function evRow(ev){
       h("span",{class:"cdp",text:countdownText(ev)}),
       ev.st==="e"?h("span",{class:"est",title:"尚未正式公告的預估日期",text:"預估"}):null,
       ev.u?h("a",{class:"src",href:ev.u,target:"_blank",rel:"noopener",text:"來源"}):null,
-      ...newsLinks(ev)
+      ...newsLinks(ev),
+      isPast(ev)?null:h("button",{class:"pinbtn"+(TILES.some(it=>it.e===eventKey(ev)||it.s===seriesKey(ev))?" on":""),type:"button",
+        title:"加到最上方倒數區","aria-label":"加到倒數區",text:"📌",onclick:()=>openPin(ev)})
     )
   );
 }
@@ -574,15 +677,20 @@ function render(){
 
 function renderChips(){
   const box=document.getElementById("chips");
+  box.replaceChildren();
   for(const key of Object.keys(CATS)){
-    const b=h("button",{class:"chip",type:"button","aria-pressed":"true",style:ccol(key)},h("i"),CATS[key].n);
+    const b=h("button",{class:"chip",type:"button","aria-pressed":String(state.cats.has(key)),style:ccol(key)},h("i"),CATS[key].n);
     b.addEventListener("click",()=>{
       if(state.cats.has(key))state.cats.delete(key);else state.cats.add(key);
       b.setAttribute("aria-pressed",String(state.cats.has(key)));
-      render();
+      savePrefs();render();
     });
     box.append(b);
   }
+  const all=on=>()=>{state.cats=new Set(on?Object.keys(CATS):[]);savePrefs();renderChips();render();};
+  box.append(h("span",{class:"chipall"},
+    h("button",{class:"linkbtn",type:"button",text:"全選",onclick:all(true)}),"／",
+    h("button",{class:"linkbtn",type:"button",text:"全不選",onclick:all(false)})));
 }
 
 function renderWatch(){
@@ -656,10 +764,11 @@ function renderTba(){
 }
 
 document.getElementById("q").addEventListener("input",e=>{state.q=e.target.value;render();});
-document.getElementById("tEst").addEventListener("change",e=>{state.est=e.target.checked;render();});
+document.getElementById("tEst").checked=state.est;
+document.getElementById("tEst").addEventListener("change",e=>{state.est=e.target.checked;savePrefs();render();});
 document.getElementById("tPast").addEventListener("change",e=>{state.past=e.target.checked;render();});
-document.getElementById("vList").addEventListener("click",()=>{state.view="list";render();});
-document.getElementById("vMonth").addEventListener("click",()=>{state.view="month";render();});
+document.getElementById("vList").addEventListener("click",()=>{state.view="list";savePrefs();render();});
+document.getElementById("vMonth").addEventListener("click",()=>{state.view="month";savePrefs();render();});
 
 renderChips();
 renderTba();
