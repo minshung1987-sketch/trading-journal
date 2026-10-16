@@ -25,7 +25,7 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: 更新資料（Yahoo 法說會 + 股東會 + 證交所／櫃買處置股）
+      - name: 更新資料（Yahoo 法說會 + 股東會 + 證交所／櫃買處置股 + 聯準會行事曆）
         run: python scripts/update.py
 
       - name: 存回變更

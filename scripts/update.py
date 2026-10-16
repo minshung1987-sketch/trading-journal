@@ -5,7 +5,8 @@
   1. Yahoo 股市「法說會」專頁   https://tw.stock.yahoo.com/calendar/earnings-call
   2. Yahoo 股市「股東會」專頁（主要），玩股網「股東會時間明細表」（補充）  https://www.wantgoo.com/stock/calendar/shareholders-meeting
   3. 證交所、櫃買中心處置公告（開放資料 API）  處置開始／處置結束
-  4. data/events_manual.json   （人工整理：央行、美股財報、年度大會…）
+  4. 聯準會官網每月行事曆（理事演說、座談、國會作證；見 fed.py）
+  5. data/events_manual.json   （人工整理：央行、美股財報、年度大會…）
 
 任何一個來源抓失敗，就沿用上一次 events.json 裡該類別的資料，不會把網站弄空。
 只用 Python 標準函式庫，不需要 pip install。
@@ -20,6 +21,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from annotate import annotate  # noqa: E402
+from fed import fetch_fed  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
@@ -374,7 +376,11 @@ def main():
     disp_problems = []
     disp = fetch_disp(today, [e for e in old_auto if e["c"] == "disp"], disp_problems)
 
-    auto = [e for e in tw + agm + disp if key(e) not in have]
+    # 聯準會官網行事曆（理事演說、國會作證）：失敗只警告，沿用舊資料
+    fed_problems = []
+    fed = fetch_fed(get, today, [e for e in old_auto if e["c"] == "cb"], manual, fed_problems)
+
+    auto = [e for e in tw + agm + disp + fed if key(e) not in have]
 
     events = annotate(old, manual + auto, today)
     out = {"updated": now.strftime("%Y/%m/%d %H:%M"), "events": events}
@@ -382,7 +388,7 @@ def main():
     (DATA / "events.json").write_text(
         json.dumps(out, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     print(f"合計 {len(events)} 筆（手動 {len(manual)}＋自動 {len(auto)}）")
-    for p in problems + disp_problems:
+    for p in problems + disp_problems + fed_problems:
         print("::warning::" + p)
     # 法說會與股東會兩邊都抓不到，才讓流程顯示失敗，方便你在 GitHub 看到
     if len(problems) >= 2:
