@@ -593,6 +593,14 @@ function renderList(box){
 }
 
 /* ---- 月曆 ---- */
+/* 格子裡的排序：追蹤清單 → 央行、總經 → 政治 → 國外財報、科技大會、台積電等大廠 → 交易日程 → 展會 → 法說會 → 股東會 → 處置股 */
+const RANK={cb:1,eco:1,pol:2,us:3,tech:3,mkt:4,ind:5,tw:6,agm:7,disp:8};
+function rank(ev){
+  if(isMine(ev))return 0;
+  if(ev.c==="tw"&&!ev.a)return 3;          // 手動整理的大廠法說（例如台積電）
+  return RANK[ev.c]??5;
+}
+
 function renderMonth(box){
   const {y,m}=state.cur;
   const list=EVENTS.filter(matches);
@@ -614,6 +622,9 @@ function renderMonth(box){
     h("button",{class:"nav",type:"button",text:"今天",onclick:()=>{state.cur={y:TODAY.getFullYear(),m:TODAY.getMonth()};state.sel=TODAY;render();}}),
     h("button",{class:"nav",type:"button","aria-label":"下個月",text:"下個月",onclick:()=>{state.cur=m===11?{y:y+1,m:0}:{y,m:m+1};state.sel=null;render();}})
   );
+  /* 展開的那一週：點選的日期所在週；沒點選時，看本月就展開今天那週 */
+  const pivot=state.sel||(y===TODAY.getFullYear()&&m===TODAY.getMonth()?TODAY:null);
+  const openWk=pivot?new Date(pivot.getFullYear(),pivot.getMonth(),pivot.getDate()-pivot.getDay()):null;
   const grid=h("div",{class:"grid"});
   for(const w of WD)grid.append(h("div",{class:"gw",text:w}));
   for(let i=0;i<42;i++){
@@ -624,8 +635,10 @@ function renderMonth(box){
     const cell=h("button",{class:cls,type:"button","aria-label":md(d)+"，"+evs.length+" 筆事件",onclick:()=>{const t=Date.now();if(lastClick.k===d.getTime()&&t-lastClick.t<450){lastClick={k:0,t:0};openDay(d);return;}lastClick={k:d.getTime(),t};state.sel=d;render();}},
       h("span",{class:"dn",text:String(d.getDate())})
     );
-    [...evs].sort((a,b)=>isMine(b)-isMine(a)).slice(0,3).forEach(ev=>cell.append(h("span",{class:"pill"+(isMine(ev)?" mine":""),style:ccol(ev.c),text:(isMine(ev)?"★":"")+ev.t})));
-    if(evs.length>3)cell.append(h("span",{class:"more",text:"還有 "+(evs.length-3)+" 筆"}));
+    const open=openWk&&d>=openWk&&d<new Date(openWk.getFullYear(),openWk.getMonth(),openWk.getDate()+7);
+    const show=[...evs].sort((a,b)=>rank(a)-rank(b));
+    (open?show:show.slice(0,3)).forEach(ev=>cell.append(h("span",{class:"pill"+(isMine(ev)?" mine":""),style:ccol(ev.c),text:(isMine(ev)?"★":"")+ev.t})));
+    if(!open&&evs.length>3)cell.append(h("span",{class:"more",text:"還有 "+(evs.length-3)+" 筆"}));
     grid.append(cell);
   }
   box.append(head,grid);
