@@ -73,6 +73,7 @@ h1{margin:0;font-size:clamp(28px,4.4vw,40px);line-height:1.15;font-weight:700;le
 /* list */
 .month{margin:26px 0 8px;font-size:18px;font-weight:700;display:flex;align-items:baseline;gap:10px}
 .month small{font-size:13px;font-weight:400;color:var(--muted)}
+.mtag{display:inline-block;margin:0 6px;padding:1px 8px;border-radius:999px;font-size:12px;font-weight:600;vertical-align:middle;color:var(--mkt);border:1px solid var(--mkt);cursor:help}
 .ev{display:grid;grid-template-columns:76px 1fr auto;gap:4px 16px;align-items:start;padding:14px 16px;background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--cc,var(--line));border-radius:10px;margin-bottom:8px}
 .ev.past{opacity:.62}
 .date{display:flex;flex-direction:column;line-height:1.1}
@@ -259,6 +260,7 @@ const TBA=[
  {t:"日本眾議院大選",s:"上次為 2026/2/8（自民黨單獨過半），任期至 2030 年 2 月；首相可隨時解散，目前沒有解散的消息"},
  {t:"台灣 2028 總統與立委選舉",s:"中選會尚未公告，依慣例約 2028 年 1 月中旬的週六（2024 年為 1/13），2028/5/20 就職"},
  {t:"台灣央行理監事會議（2026 年 12 月與 2027 全年）",s:"央行已公布 115 年預定日期但我讀不到內文；2026 年已開過 3/19、6/18、9/17"},
+ {t:"00919 群益台灣精選高息 12 月成分股調整",s:"每年 5、12 月審核；2026 年 12 月的公告日與生效日尚未公布"},
  {t:"2027 年台股休市日（春節、清明、端午、中秋、國慶等）",s:"證交所尚未公布 116 年開休市日期"},
  {t:"臺灣 50、中型 100 指數 2026 年 12 月與 2027 年定期審核",s:"臺灣指數公司目前只公布 2026 年 11 月審核日程，我無法讀取內文"},
  {t:"2027 年 Russell 美國指數重整日期",s:"LSEG 只說明改為每年 6 月、12 月半年度重整，2027 日期尚未公布"},
@@ -557,6 +559,19 @@ function evRow(ev){
   );
 }
 
+/* 月份標籤：季底／半年底／年底作帳月、季初月（滑鼠移上去看說明） */
+function monthTag(m){
+  const t={2:["季底月","季底前約兩週投信、基金作帳；美股庫藏股靜默期開始；台灣50 審核與四巫日"],
+    5:["半年底作帳月","半年績效結算，作帳重要性僅次於年底；美股庫藏股靜默期開始"],
+    8:["季底月","季底前約兩週投信、基金作帳；美股庫藏股靜默期開始；台灣50 審核與四巫日"],
+    11:["年底作帳月","一年中最重要的作帳；美股節稅賣壓、退休基金與避險基金年底調整"],
+    0:["季初月","上季作帳股常遭獲利了結；美股庫藏股靜默期至財報後才結束"],
+    3:["季初月","上季作帳股常遭獲利了結；美股庫藏股靜默期至財報後才結束"],
+    6:["季初月","上季作帳股常遭獲利了結；美股庫藏股靜默期至財報後才結束"],
+    9:["季初月","上季作帳股常遭獲利了結；美股庫藏股靜默期至財報後才結束；美國共同基金 10/31 年度結算"]}[m];
+  return t?h("span",{class:"mtag",title:t[1],text:t[0]}):null;
+}
+
 function renderList(box){
   let list=EVENTS.filter(matches);
   if(!state.past)list=list.filter(ev=>!isPast(ev));
@@ -571,7 +586,7 @@ function renderList(box){
     if(key!==last){
       last=key;
       const inM=list.filter(x=>x.s.getFullYear()===ev.s.getFullYear()&&x.s.getMonth()===ev.s.getMonth()).length;
-      box.append(h("h2",{class:"month"},key,h("small",{text:inM+" 筆"})));
+      box.append(h("h2",{class:"month"},...[key,monthTag(ev.s.getMonth()),h("small",{text:inM+" 筆"})].filter(Boolean)));
     }
     box.append(evRow(ev));
   }
@@ -595,7 +610,7 @@ function renderMonth(box){
   const start=new Date(y,m,1-first.getDay());
   const head=h("div",{class:"mhead"},
     h("button",{class:"nav",type:"button","aria-label":"上個月",text:"上個月",onclick:()=>{state.cur=m===0?{y:y-1,m:11}:{y,m:m-1};state.sel=null;render();}}),
-    h("h2",{text:y+" 年 "+(m+1)+" 月"}),
+    h("h2",null,...[y+" 年 "+(m+1)+" 月",monthTag(m)].filter(Boolean)),
     h("button",{class:"nav",type:"button",text:"今天",onclick:()=>{state.cur={y:TODAY.getFullYear(),m:TODAY.getMonth()};state.sel=TODAY;render();}}),
     h("button",{class:"nav",type:"button","aria-label":"下個月",text:"下個月",onclick:()=>{state.cur=m===11?{y:y+1,m:0}:{y,m:m+1};state.sel=null;render();}})
   );

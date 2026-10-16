@@ -6,7 +6,8 @@
   2. Yahoo 股市「股東會」專頁（主要），玩股網「股東會時間明細表」（補充）  https://www.wantgoo.com/stock/calendar/shareholders-meeting
   3. 證交所、櫃買中心處置公告（開放資料 API）  處置開始／處置結束
   4. 聯準會官網每月行事曆（理事演說、座談、國會作證；見 fed.py）
-  5. data/events_manual.json   （人工整理：央行、美股財報、年度大會…）
+  5. 規則推算的制度性資金流（作帳期、庫藏股靜默期、13F、財報截止、指數審核等；見 rules.py）
+  6. data/events_manual.json   （人工整理：央行、美股財報、年度大會…）
 
 任何一個來源抓失敗，就沿用上一次 events.json 裡該類別的資料，不會把網站弄空。
 只用 Python 標準函式庫，不需要 pip install。
@@ -22,6 +23,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from annotate import annotate  # noqa: E402
 from fed import fetch_fed  # noqa: E402
+from rules import build as rule_events, holidays as mkt_holidays, trading as is_td  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
@@ -380,7 +382,24 @@ def main():
     fed_problems = []
     fed = fetch_fed(get, today, [e for e in old_auto if e["c"] == "cb"], manual, fed_problems)
 
-    auto = [e for e in tw + agm + disp + fed if key(e) not in have]
+    # 股東常會（3～6 月）：推算融券最後回補日（停止過戶首日前第 6 個營業日），可能出現軋空
+    tw_hol = mkt_holidays(manual, "台股")
+    for e in agm:
+        d0 = datetime.strptime(e["d"], "%Y-%m-%d").date()
+        if not 3 <= d0.month <= 6 or "融券最後回補" in e.get("n", ""):
+            continue
+        d, n = d0 - timedelta(days=59), 0       # 常會停止過戶：開會前 60 日內（含開會日）
+        while n < 6:
+            d -= timedelta(days=1)
+            n += is_td(d, tw_hol)
+        note = (f"若為股東常會：融券最後回補日約 {d.month}/{d.day}（停止過戶首日前第 6 個營業日推算，"
+                "以公司與證交所公告為準），回補前後可能出現軋空")
+        e["n"] = (e["n"] + "；" + note) if e.get("n") else note
+
+    # 規則推算的交易日程（作帳期、庫藏股靜默期、13F…）：不連網，每天重算
+    rules = rule_events(manual, today)
+
+    auto = [e for e in tw + agm + disp + fed + rules if key(e) not in have]
 
     events = annotate(old, manual + auto, today)
     out = {"updated": now.strftime("%Y/%m/%d %H:%M"), "events": events}
