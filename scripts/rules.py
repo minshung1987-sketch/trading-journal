@@ -13,16 +13,17 @@ AHEAD = 400                 # 往後產生多少天
 U_WINDOW = "https://www.stockfeel.com.tw/?p=126208"
 U_PENSION = "https://www.cnbc.com/2020/06/23/theres-a-wave-of-selling-estimated-to-be-in-the-billions-thats-about-to-hit-the-stock-market.html"
 U_BUYBACK = "https://www.cnbc.com/2018/10/12/companies-buying-their-own-shares-could-fuel-the-next-market-rally.html"
-U_13F = "https://www.comply.com/resource/7-frequently-asked-questions-and-answers-about-form-13f"
-U_CTAX = "https://taxact.com/support/24380/form-1120-estimated-tax-payments"
-U_TWFS = "https://money.udn.com/money/story/5607/9668302"
+U_13F = "https://www.ecfr.gov/current/title-17/section-240.13f-1"
+U_CTAX = "https://www.irs.gov/publications/p509"
+U_TWFS = "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=G0400001&flno=36"
 U_HF = "https://www.hedgeco.net/news/?p=9183"
 U_MF = "https://www.sec.gov/Archives/edgar/data/0000825063/000165558926000598/c485bpos.htm"
 U_TAXLOSS = "https://www.luxalgo.com/library/concept/tax-loss-selling-season/"
 U_TW50 = "https://www.yuantaetfs.com/product/detail/0051/"
 U_MSCI = "https://news.cnyes.com/news/id/6481342"
 
-SEARCH_NOTE = "（規則說明經搜尋摘要確認）"
+SEARCH_NOTE = "（市場慣例、非法規強制；說明來自財經媒體報導）"
+OFFICIAL = "（依官方規定：{}）"
 
 
 def holidays(manual, market):
@@ -114,13 +115,13 @@ def build(manual, today_iso):
                           U_BUYBACK, st="e"))
             # 13F：季後 45 天
             out.append(ev(next_td(qe + timedelta(days=45), us), f"13F 持股申報截止（{y} 年第 {q} 季）",
-                          "管理資產逾 1 億美元的機構須在季後 45 天內申報美股持股，巴菲特（波克夏）、避險基金等的增減持名單在截止前後陸續曝光，常引發話題股波動。"
-                          + SEARCH_NOTE, U_13F))
+                          "管理資產逾 1 億美元的機構須在季後 45 天內申報美股持股，巴菲特（波克夏）、避險基金等的增減持名單在截止前後陸續曝光，常引發話題股波動；遇假日順延。"
+                          + OFFICIAL.format("美國聯邦法規 17 CFR 240.13f-1"), U_13F))
             # 美國企業季度預繳稅（4、6、9、12 月 15 日）
             tm = {1: 4, 2: 6, 3: 9, 4: 12}[q]
             out.append(ev(next_td(date(y, tm, 15), us), "美國企業季度預繳稅日",
                           "日曆年度的美國企業在 4、6、9、12 月 15 日預繳所得稅，資金從銀行體系流入財政部帳戶，"
-                          "短期資金面（附買回利率）可能偏緊；遇假日順延。" + SEARCH_NOTE, U_CTAX))
+                          "短期資金面（附買回利率）可能偏緊；遇假日順延。" + OFFICIAL.format("美國國稅局 Publication 509 稅務日曆"), U_CTAX))
             # 避險基金贖回通知（季後一個半月：2、5、8、11 月 15 日前後；年底最重要）
             hm = {1: 5, 2: 8, 3: 11, 4: 2}[q]
             hy = y + (q == 4)
@@ -131,9 +132,10 @@ def build(manual, today_iso):
             # 台灣 50／中型 100（含高股息 0056 於 6、12 月）季度審核：第三個星期五收盤後生效
             eff = prev_td(third_friday(y, m), tw)
             extra = "、0056（臺灣高股息）" if m in (6, 12) else ""
-            out.append(ev(eff, f"台灣50／中型100{'／高股息' if extra else ''}指數 {m} 月審核生效",
-                          f"富時與證交所每季審核，第三個星期五收盤後生效；0050、006208、0051{extra} 等 ETF 在生效前調整持股，"
-                          "被納入或剔除的個股尾盤常有大量被動買賣。審核結果約於生效前兩週公布（以證交所公告為準）。" + SEARCH_NOTE,
+            out.append(ev(eff, f"台灣50／中型100{'／高股息' if extra else ''}指數 {m} 月審核換股",
+                          f"證交所與富時每季審核，3、6、9、12 月第三個星期五後的下一個交易日生效；0050、006208、0051{extra} 等 ETF 在當天收盤前後調整持股，"
+                          "被納入或剔除的個股尾盤常有大量被動買賣；審核結果約於兩週前公布，以證交所公告為準。"
+                          "日期依元大投信 0051 產品頁所載規則推算；高股息指數（0056）6、12 月同步審核為媒體報導。",
                           U_TW50, st="e"))
 
         # ---- 每年 ----
@@ -154,7 +156,7 @@ def build(manual, today_iso):
                                  (8, 14, "第二季財報", y), (11, 14, "第三季財報", y)):
             out.append(ev(next_td(date(yy, mm, dd), tw), f"台股{name}公告截止",
                           "一般上市櫃公司的法定公告期限（金融保險業、F 股與部分大型公司期限不同；遇假日順延）。"
-                          "截止前有不少公司密集公布，逾期未公布可能被打入全額交割或停止交易。" + SEARCH_NOTE, U_TWFS))
+                          "截止前有不少公司密集公布，逾期未公布可能被打入全額交割或停止交易。" + OFFICIAL.format("證券交易法第 36 條：年報 3 個月內、季報 45 日內"), U_TWFS))
 
     return sorted((x for x in out if START <= date.fromisoformat(x["d"]) <= last),
                   key=lambda x: (x["d"], x["t"]))
