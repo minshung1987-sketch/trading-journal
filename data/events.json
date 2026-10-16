@@ -1,5 +1,5 @@
 {
- "updated": "2026/10/16 07:21",
+ "updated": "2026/10/16 11:57",
  "events": [
   {
    "d": "2026-08-27",
@@ -6922,6 +6922,84 @@
    "d": "2026-10-22",
    "t": "隴華（2424）處置結束",
    "n": "證交所處置公告（資料整理於 10/16）；處置期間 10/16–10/22；此日為最後處置日",
+   "fs": "2026-10-16"
+  },
+  {
+   "d": "2026-10-01",
+   "c": "cb",
+   "t": "聯準會理事沃勒演說：Federal Reserve Economic Data",
+   "st": "o",
+   "u": "https://www.federalreserve.gov/newsevents/2026-october.htm",
+   "a": 1,
+   "tm": "美東 10:00，台灣 22:00",
+   "pl": "FRED Con: Navigating Trust, AI & Storytelling in a World of Data, St. Louis, Mo.",
+   "n": "聯準會官網行事曆（自動抓取）；Governor Christopher J. Waller",
+   "mn": 1,
+   "fs": "2026-10-16"
+  },
+  {
+   "d": "2026-10-02",
+   "c": "cb",
+   "t": "聯準會副主席傑佛遜演說：U.S. Economy and Monetary Policy",
+   "st": "o",
+   "u": "https://www.federalreserve.gov/newsevents/2026-october.htm",
+   "a": 1,
+   "tm": "美東 10/1 13:30，台灣 10/2 01:30",
+   "pl": "Talk and Q&A with Federal Reserve Board Vice Chair Philip N. Jefferson, Charlottesville, Va.",
+   "n": "聯準會官網行事曆（自動抓取）；Vice Chair Philip N. Jefferson",
+   "mn": 1,
+   "fs": "2026-10-16"
+  },
+  {
+   "d": "2026-10-02",
+   "c": "cb",
+   "t": "聯準會監理副主席鮑曼演說：Modernizing Financial Regulation: Initial Observations from eSLR",
+   "st": "o",
+   "u": "https://www.federalreserve.gov/newsevents/2026-october.htm",
+   "a": 1,
+   "tm": "美東 10/1 15:00，台灣 10/2 03:00",
+   "pl": "Atlantic Council’s Conversation with Michelle W. Bowman, Washington, D.C.",
+   "n": "聯準會官網行事曆（自動抓取）；Vice Chair for Supervision Michelle W. Bowman",
+   "mn": 1,
+   "fs": "2026-10-16"
+  },
+  {
+   "d": "2026-10-02",
+   "c": "cb",
+   "t": "聯準會理事庫克座談：Global Central Banking",
+   "st": "o",
+   "u": "https://www.federalreserve.gov/newsevents/2026-october.htm",
+   "a": 1,
+   "tm": "美東 10/1 15:30，台灣 10/2 03:30",
+   "pl": "Central Banking Seminar (Virtual)",
+   "n": "聯準會官網行事曆（自動抓取）；Governor Lisa D. Cook",
+   "mn": 1,
+   "fs": "2026-10-16"
+  },
+  {
+   "d": "2026-10-06",
+   "c": "cb",
+   "t": "聯準會監理副主席鮑曼演說：Modernizing Regulation and Supervision",
+   "st": "o",
+   "u": "https://www.federalreserve.gov/newsevents/2026-october.htm",
+   "a": 1,
+   "tm": "美東 10:45，台灣 22:45",
+   "pl": "2026 Community Banking Research Conference, St. Louis, Missouri",
+   "n": "聯準會官網行事曆（自動抓取）；Vice Chair for Supervision Michelle W. Bowman",
+   "mn": 1,
+   "fs": "2026-10-16"
+  },
+  {
+   "d": "2026-10-08",
+   "c": "cb",
+   "t": "聯準會理事沃勒演說：Economic Outlook",
+   "st": "o",
+   "u": "https://www.federalreserve.gov/newsevents/2026-october.htm",
+   "a": 1,
+   "tm": "美東 04:30，台灣 16:30",
+   "pl": "Central Bank of the Republic of Türkiye (TCMB) İstanbul Economic Forum, Ümraniye/İstanbul, Türkiye",
+   "n": "聯準會官網行事曆（自動抓取）；Governor Christopher J. Waller",
+   "mn": 1,
    "fs": "2026-10-16"
   }
  ]
