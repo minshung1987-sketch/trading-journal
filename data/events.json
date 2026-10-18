@@ -1,5 +1,5 @@
 {
- "updated": "2026/10/19 07:20",
+ "updated": "2026/10/19 07:58",
  "events": [
   {
    "d": "2026-08-27",
@@ -641,12 +641,16 @@
    "d": "2026-11-05",
    "c": "us",
    "t": "Nova（NVMI）第三季財報",
-   "st": "e",
-   "u": "https://www.marketbeat.com/stocks/NASDAQ/NVMI/earnings",
-   "n": "公司尚未公告，依往年（11/6）推估",
-   "tm": "時間未公布",
+   "st": "o",
+   "u": "https://www.sec.gov/Archives/edgar/data/0001109345/000117891326004775/zk2636227.htm",
+   "n": "公司已公告（10/19 查證）",
+   "tm": "盤前公布；電話會議美東 08:30，台灣 21:30",
    "mn": 1,
-   "fs": "0"
+   "fs": "0",
+   "cg": {
+    "on": "2026-10-19",
+    "what": "預估→官方；時間更新"
+   }
   },
   {
    "d": "2026-10-26",
@@ -701,15 +705,19 @@
    "fs": "0"
   },
   {
-   "d": "2026-11-04",
+   "d": "2026-11-05",
    "c": "us",
    "t": "微芯（MCHP）FY2027 第二季財報",
-   "st": "e",
-   "u": "https://bullstory.io/en/stocks/mchp/earnings/2027-q2",
-   "n": "找不到公司公告，為第三方推估",
-   "tm": "時間未公布",
+   "st": "o",
+   "u": "https://ir.microchip.com/news-events/ir-calendar/detail/20261105-microchips-q2fy27-financial-results-conference-call",
+   "n": "公司已公告（10/19 查證）",
+   "tm": "網路直播美東 17:00，台灣 11/6 06:00",
    "mn": 1,
-   "fs": "0"
+   "fs": "0",
+   "cg": {
+    "on": "2026-10-19",
+    "what": "日期 11/4→11/5；預估→官方；時間更新"
+   }
   },
   {
    "d": "2026-10-27",
@@ -726,12 +734,16 @@
    "d": "2026-11-02",
    "c": "us",
    "t": "安森美（ON）第三季財報",
-   "st": "e",
-   "u": "https://www.marketbeat.com/stocks/NASDAQ/ON/earnings/",
-   "n": "公司尚未公告，依往年（11/3）推估",
-   "tm": "時間未公布",
+   "st": "o",
+   "u": "https://www.placera.se/pressmeddelanden/on-semiconductor-onsemi-to-announce-third-quarter-financial-results-20261015",
+   "n": "來源：公司 GlobeNewswire 新聞稿（經 placera.se 轉載）",
+   "tm": "盤後公布；電話會議美東 17:00，台灣 11/3 06:00",
    "mn": 1,
-   "fs": "0"
+   "fs": "0",
+   "cg": {
+    "on": "2026-10-19",
+    "what": "預估→官方；時間更新"
+   }
   },
   {
    "d": "2026-10-29",
@@ -748,12 +760,16 @@
    "d": "2026-10-27",
    "c": "us",
    "t": "泰瑞達（TER）第三季財報",
-   "st": "e",
-   "u": "https://www.marketbeat.com/stocks/NASDAQ/TER/earnings/",
-   "n": "公司尚未公告，依往年推估，通常盤後發布、隔日早上開電話會議",
-   "tm": "時間未公布",
+   "st": "o",
+   "u": "https://investors.teradyne.com/news-events/press-releases/detail/454/teradyne-to-announce-third-quarter-2026-results",
+   "n": "公司已公告（10/19 查證）",
+   "tm": "盤後公布（美東 16:30 後，台灣 10/28 04:30 後）；電話會議 10/28 美東 08:30，台灣 20:30",
    "mn": 1,
-   "fs": "0"
+   "fs": "0",
+   "cg": {
+    "on": "2026-10-19",
+    "what": "預估→官方；時間更新"
+   }
   },
   {
    "d": "2026-10-27",
@@ -803,24 +819,32 @@
    "fs": "0"
   },
   {
-   "d": "2026-10-28",
+   "d": "2026-10-21",
    "c": "us",
    "t": "Meta（META）第三季財報",
-   "st": "e",
-   "u": "https://www.marketbeat.com/stocks/NASDAQ/META/earnings/",
-   "n": "截至 10/11 公司尚未公告，第三方依往年推估；通常美西 14:00",
-   "tm": "時間未公布",
-   "fs": "0"
+   "st": "o",
+   "u": "https://s21.q4cdn.com/399680738/files/doc_news/Meta-to-Announce-Third-Quarter-2026-Results-2026.pdf",
+   "n": "公司已公告（10/19 查證）",
+   "tm": "盤後公布；電話會議美東 16:30，台灣 10/22 04:30",
+   "fs": "0",
+   "cg": {
+    "on": "2026-10-19",
+    "what": "日期 10/28→10/21；預估→官方；時間更新"
+   }
   },
   {
    "d": "2026-10-29",
    "c": "us",
    "t": "亞馬遜（AMZN）第三季財報",
-   "st": "e",
-   "u": "https://www.marketbeat.com/stocks/NASDAQ/AMZN/earnings/",
-   "n": "截至 10/11 公司尚未公告；去年於開會前約兩週公告；通常美西 14:00",
-   "tm": "時間未公布",
-   "fs": "0"
+   "st": "o",
+   "u": "https://www.aboutamazon.com/news/company-news/amazon-earnings-q3-2026-report",
+   "n": "公司已公告（10/19 查證）",
+   "tm": "電話會議美東 17:00，台灣 10/30 05:00",
+   "fs": "0",
+   "cg": {
+    "on": "2026-10-19",
+    "what": "預估→官方；時間更新"
+   }
   },
   {
    "d": "2026-11-02",
@@ -947,12 +971,16 @@
    "d": "2026-10-29",
    "c": "us",
    "t": "吉利德（GILD）第三季財報",
-   "st": "e",
-   "u": "https://unusualwhales.com/stock/GILD/earnings",
-   "n": "公司尚未公告；去年為 10/30，通常盤後發布",
-   "tm": "時間未公布",
+   "st": "o",
+   "u": "https://www.gilead.com/news/news-details/2026/gilead-sciences-to-release-third-quarter-2026-financial-results-on-thursday-october-29-2026",
+   "n": "公司已公告（10/19 查證）",
+   "tm": "盤後公布；網路直播美東 16:30，台灣 10/30 04:30",
    "mn": 1,
-   "fs": "0"
+   "fs": "0",
+   "cg": {
+    "on": "2026-10-19",
+    "what": "預估→官方；時間更新"
+   }
   },
   {
    "d": "2026-10-21",
@@ -3886,34 +3914,46 @@
    "d": "2026-10-28",
    "c": "us",
    "t": "FDK（6955）FY2027 上半年財報",
-   "st": "e",
-   "u": "https://kabutan.jp/stock/?code=6955",
+   "st": "o",
+   "u": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan09_1016.xlsx",
    "tm": "時間未公布",
-   "n": "官網未能讀取；日期來自株探、Yahoo Japan；電池、電源元件",
+   "n": "電池、電源元件；來源：日本交易所集團（JPX）決算發表預定日一覽",
    "mn": 1,
-   "fs": "2026-10-14"
+   "fs": "2026-10-14",
+   "cg": {
+    "on": "2026-10-19",
+    "what": "預估→官方"
+   }
   },
   {
    "d": "2026-10-27",
    "c": "us",
    "t": "信越化學 Shin-Etsu（4063）FY2027 上半年財報",
-   "st": "e",
-   "u": "https://www.shinetsu.co.jp/en/ir-calendar/",
-   "tm": "時間未公布",
-   "n": "官網只寫「10 月下旬」，10/27 來自 Yahoo Japan、株探；矽晶圓、光阻",
+   "st": "o",
+   "u": "https://www.shinetsu.co.jp/jp/ir/ir-calendar/",
+   "tm": "日本 15:30，台灣 14:30",
+   "n": "公司已公告（10/19 查證）；矽晶圓、光阻",
    "mn": 1,
-   "fs": "2026-10-14"
+   "fs": "2026-10-14",
+   "cg": {
+    "on": "2026-10-19",
+    "what": "預估→官方；時間更新"
+   }
   },
   {
    "d": "2026-10-29",
    "c": "us",
    "t": "IBIDEN（4062）FY2027 上半年財報",
-   "st": "e",
-   "u": "https://finance.yahoo.co.jp/quote/4062.T",
-   "tm": "時間未公布",
-   "n": "官網未見日期；Yahoo Japan、株探一致；ABF 載板",
+   "st": "o",
+   "u": "https://www.ibiden.co.jp/ir/calendar/",
+   "tm": "日本 15:20，台灣 14:20",
+   "n": "公司已公告（10/19 查證）；ABF 載板",
    "mn": 1,
-   "fs": "2026-10-14"
+   "fs": "2026-10-14",
+   "cg": {
+    "on": "2026-10-19",
+    "what": "預估→官方；時間更新"
+   }
   },
   {
    "d": "2026-10-30",
@@ -3940,12 +3980,16 @@
    "d": "2026-11-05",
    "c": "us",
    "t": "太陽誘電 TAIYO YUDEN（6976）FY2027 上半年財報",
-   "st": "e",
-   "u": "https://finance.yahoo.co.jp/quote/6976.T",
-   "tm": "時間未公布",
-   "n": "官網未見日期；Yahoo Japan、株探一致；MLCC",
+   "st": "o",
+   "u": "https://www.yuden.co.jp/jp/ir/event/",
+   "tm": "日本 15:30，台灣 14:30",
+   "n": "公司已公告（10/19 查證）；MLCC",
    "mn": 1,
-   "fs": "2026-10-14"
+   "fs": "2026-10-14",
+   "cg": {
+    "on": "2026-10-19",
+    "what": "預估→官方；時間更新"
+   }
   },
   {
    "d": "2026-11-05",
@@ -3962,34 +4006,46 @@
    "d": "2026-11-10",
    "c": "us",
    "t": "三井金屬 Mitsui Kinzoku（5706）FY2027 上半年財報",
-   "st": "e",
-   "u": "https://finance.yahoo.co.jp/quote/5706.T",
+   "st": "o",
+   "u": "https://www.mitsui-kinzoku.com/toushi/event/",
    "tm": "時間未公布",
-   "n": "官網未見日期；Yahoo Japan、株探一致；極薄銅箔",
+   "n": "公司已公告（10/19 查證）；極薄銅箔",
    "mn": 1,
-   "fs": "2026-10-14"
+   "fs": "2026-10-14",
+   "cg": {
+    "on": "2026-10-19",
+    "what": "預估→官方"
+   }
   },
   {
    "d": "2026-11-11",
    "c": "us",
    "t": "SUMCO（3436）第三季財報",
-   "st": "e",
-   "u": "https://www.sumcosi.com/english/ir/event/calendar.html",
-   "tm": "時間未公布",
-   "n": "12 月結算；官網只寫「11 月」，11/11 來自 Yahoo Japan、株探；矽晶圓",
+   "st": "o",
+   "u": "https://www.sumcosi.com/ir/event/calendar.html",
+   "tm": "日本約 15:30，台灣約 14:30",
+   "n": "公司已公告（10/19 查證）；12 月結算；矽晶圓",
    "mn": 1,
-   "fs": "2026-10-14"
+   "fs": "2026-10-14",
+   "cg": {
+    "on": "2026-10-19",
+    "what": "預估→官方；時間更新"
+   }
   },
   {
    "d": "2026-11-12",
    "c": "us",
    "t": "大真空 DAISHINKU（6962）FY2027 上半年財報",
-   "st": "e",
-   "u": "https://finance.yahoo.co.jp/quote/6962.T",
+   "st": "o",
+   "u": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan09_1016.xlsx",
    "tm": "時間未公布",
-   "n": "官網未見日期；Yahoo Japan 等一致；石英元件",
+   "n": "石英元件；來源：日本交易所集團（JPX）決算發表預定日一覽；公司官網尚未列出",
    "mn": 1,
-   "fs": "2026-10-14"
+   "fs": "2026-10-14",
+   "cg": {
+    "on": "2026-10-19",
+    "what": "預估→官方"
+   }
   },
   {
    "d": "2026-11-13",
@@ -4027,12 +4083,16 @@
    "d": "2026-10-30",
    "c": "us",
    "t": "Lasertec（6920）FY2027 第一季財報",
-   "st": "e",
-   "u": "https://finance.yahoo.co.jp/quote/6920.T",
-   "tm": "時間未公布",
-   "n": "6 月結算；官網未見日期，日期來自 Yahoo Japan，Investing.com 列 11/4，尚待確認",
+   "st": "o",
+   "u": "https://www.lasertec.co.jp/ir/calendar.html",
+   "tm": "日本 15:45，台灣 14:45（說明會 16:00）",
+   "n": "公司已公告（10/19 查證）；6 月結算",
    "mn": 1,
-   "fs": "2026-10-14"
+   "fs": "2026-10-14",
+   "cg": {
+    "on": "2026-10-19",
+    "what": "預估→官方；時間更新"
+   }
   },
   {
    "d": "2026-10-30",
@@ -4049,12 +4109,16 @@
    "d": "2026-11-09",
    "c": "us",
    "t": "Kokusai Electric（6525）FY2027 第二季財報",
-   "st": "e",
-   "u": "https://kabutan.jp/stock/finance?code=6525",
-   "tm": "時間未公布",
-   "n": "公司 IR 行事曆已登錄但未能讀取；日期來自株探、Yahoo Japan",
+   "st": "o",
+   "u": "https://www.kokusai-electric.com/ir/calendar",
+   "tm": "日本 14:00，台灣 13:00",
+   "n": "公司已公告（10/19 查證）",
    "mn": 1,
-   "fs": "2026-10-14"
+   "fs": "2026-10-14",
+   "cg": {
+    "on": "2026-10-19",
+    "what": "預估→官方；時間更新"
+   }
   },
   {
    "d": "2026-11-09",
@@ -4071,12 +4135,16 @@
    "d": "2026-11-11",
    "c": "us",
    "t": "Resonac（4004）第三季財報",
-   "st": "e",
-   "u": "https://finance.yahoo.co.jp/quote/4004.T",
-   "tm": "盤後",
-   "n": "12 月結算；官網未見日期，來自 Yahoo Japan",
+   "st": "o",
+   "u": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan09_1016.xlsx",
+   "tm": "時間未公布",
+   "n": "12 月結算；來源：日本交易所集團（JPX）決算發表預定日一覽",
    "mn": 1,
-   "fs": "2026-10-14"
+   "fs": "2026-10-14",
+   "cg": {
+    "on": "2026-10-19",
+    "what": "預估→官方；時間更新"
+   }
   },
   {
    "d": "2026-10-29",
@@ -4093,12 +4161,16 @@
    "d": "2026-11-10",
    "c": "us",
    "t": "藤倉 Fujikura（5803）FY2027 第二季財報",
-   "st": "e",
-   "u": "https://kabutan.jp/stock/finance?code=5803",
-   "tm": "時間未公布",
-   "n": "官網未能讀取；株探列 11/10、Investing.com 列 11/11",
+   "st": "o",
+   "u": "https://www.fujikura.co.jp/ir/ir-calendar/",
+   "tm": "日本 14:00，台灣 13:00",
+   "n": "公司已公告（10/19 查證）",
    "mn": 1,
-   "fs": "2026-10-14"
+   "fs": "2026-10-14",
+   "cg": {
+    "on": "2026-10-19",
+    "what": "預估→官方；時間更新"
+   }
   },
   {
    "d": "2026-11-09",
@@ -4187,14 +4259,18 @@
    "fs": "2026-10-14"
   },
   {
-   "d": "2026-10-29",
+   "d": "2026-10-28",
    "c": "us",
    "t": "SK 海力士 SK hynix（000660）第三季財報",
-   "st": "e",
-   "u": "https://news.skhynix.com/en/q3-2025-earnings-conference-call-invitation/",
-   "tm": "去年為韓國 09:00，台灣 08:00",
-   "n": "公司尚未公告；依去年（10/29）推估，第三方行事曆列 10/27–10/29 不一；HBM",
-   "fs": "2026-10-14"
+   "st": "o",
+   "u": "https://www.sec.gov/Archives/edgar/data/0002120882/000119312526420934/d413172d6k.htm",
+   "tm": "電話會議韓國 09:00，台灣 08:00",
+   "n": "HBM；來源：公司向美國 SEC 提交的 6-K（10/14）載明 10/28 電話會議；多家媒體報導一致",
+   "fs": "2026-10-14",
+   "cg": {
+    "on": "2026-10-19",
+    "what": "日期 10/29→10/28；預估→官方；時間更新"
+   }
   },
   {
    "d": "2026-10-28",
@@ -4241,15 +4317,19 @@
    "fs": "2026-10-14"
   },
   {
-   "d": "2026-10-22",
+   "d": "2026-10-28",
    "c": "us",
    "t": "Vertiv（VRT）第三季財報",
-   "st": "e",
-   "u": "https://finviz.com/news/186738/vertiv-announces-date-of-third-quarter-2025-earnings-release-and-conference-call",
-   "tm": "通常盤前，電話會議 11:00 ET",
-   "n": "公司尚未公告；依去年（10/22）推估；AI 資料中心散熱與電源",
+   "st": "o",
+   "u": "https://www.prnewswire.com/news-releases/vertiv-announces-date-of-third-quarter-2026-earnings-release-and-conference-call-302907659.html",
+   "tm": "盤前公布；電話會議美東 11:00，台灣 23:00",
+   "n": "公司已公告（10/19 查證）；AI 資料中心散熱與電源",
    "mn": 1,
-   "fs": "2026-10-14"
+   "fs": "2026-10-14",
+   "cg": {
+    "on": "2026-10-19",
+    "what": "日期 10/22→10/28；預估→官方；時間更新"
+   }
   },
   {
    "d": "2026-11-04",
@@ -4352,6 +4432,15 @@
    "u": "https://home.treasury.gov/news/press-releases/sb0590",
    "n": "公布未來一季的長天期公債發行規模，發債超預期會推升美債殖利率、壓抑股市（2023 年 8 月、10 月曾引發大震）；日期見財政部 2026 年 8 月再融資聲明（官網原文：next quarterly refunding announcement will take place on Wednesday, November 4, 2026）；美東時間依往例 08:30；前兩天（11/2）先公布融資需求估計",
    "fs": "2026-10-16"
+  },
+  {
+   "d": "2026-12-17",
+   "c": "cb",
+   "t": "台灣央行理監事會（第四季利率決議）",
+   "st": "o",
+   "u": "https://www.cbc.gov.tw/en/cp-448-189515-f1342-2.html",
+   "n": "央行 2025/12/18 公布 2026 年暫定會議日期（3/19、6/18、9/17、12/17），會後舉行記者會；6 月會議紀錄顯示有理事主張升息",
+   "fs": "2026-10-19"
   },
   {
    "d": "2026-10-19",
