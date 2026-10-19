@@ -1,5 +1,5 @@
 {
- "updated": "2026/10/19 07:58",
+ "updated": "2026/10/19 08:01",
  "events": [
   {
    "d": "2026-08-27",
@@ -1790,9 +1790,9 @@
    "c": "cb",
    "t": "日本央行總裁植田和男：IMF 央行會議演說與對談",
    "st": "e",
-   "u": "https://www.bloomberght.com/imf-boj-baskani-uedayi-6-kasimda-konusma-yapmaya-davet-etti-3790896",
+   "u": "https://www.devdiscourse.com/article/international/3989410-imf-invites-boj-chief-ueda-to-speak-on-november-6",
    "tm": "時間未公布",
-   "n": "彭博報導 10/9 邀請；日銀尚未確認出席，時間與地點未公布",
+   "n": "路透報導（devdiscourse 轉載，10/9）：IMF 邀請植田 11/6 在 IMF 央行講座（Michel Camdessus Central Banking Lecture）演說，之後與 IMF 總裁對談；日銀官網講話預定表尚未列出",
    "mn": 1,
    "fs": "0"
   },
@@ -4440,6 +4440,41 @@
    "st": "o",
    "u": "https://www.cbc.gov.tw/en/cp-448-189515-f1342-2.html",
    "n": "央行 2025/12/18 公布 2026 年暫定會議日期（3/19、6/18、9/17、12/17），會後舉行記者會；6 月會議紀錄顯示有理事主張升息",
+   "fs": "2026-10-19"
+  },
+  {
+   "d": "2026-10-22",
+   "c": "cb",
+   "t": "ECB 總裁拉加德：威斯巴登 Museum Reinhard Ernst 台上對談",
+   "tm": "法蘭克福 10/21 18:30，台灣 10/22 00:30",
+   "pl": "德國威斯巴登",
+   "st": "o",
+   "u": "https://www.ecb.europa.eu/press/calendars/weekly/html/index.en.html",
+   "n": "ECB 會前（10/28–29）最後一次公開露面；官方表示不提供講稿",
+   "mn": 1,
+   "fs": "2026-10-19"
+  },
+  {
+   "d": "2026-11-03",
+   "c": "cb",
+   "t": "芝加哥聯儲主席古爾斯比：芝加哥聯儲金融市場研討會對談（與 BIS 副總經理 Maechler）",
+   "tm": "美中 11/2 10:15（美東 11:15），台灣 11/3 00:15",
+   "pl": "美國芝加哥",
+   "st": "o",
+   "u": "https://www.chicagofed.org/utilities/about-us/office-of-the-president/office-of-the-president-speaking",
+   "n": "FOMC 靜默期結束後首批聯儲官員公開活動之一；擔任主持人",
+   "mn": 1,
+   "fs": "2026-10-19"
+  },
+  {
+   "d": "2026-11-16",
+   "c": "cb",
+   "t": "聯準會「生產力與就業」任務小組首場 AI 聽證會（舊金山灣區）",
+   "st": "e",
+   "u": "https://www.boersen-zeitung.de/konjunktur-politik/fed-holt-ki-debatte-ins-silicon-valley",
+   "pl": "美國舊金山灣區（地點細節未公布）",
+   "n": "主席沃什 10/16 在曼谷 IMF 年會與 IMF 總裁對談時宣布（彭博、德國證券報等報導；金十數據亦有快訊）；聯準會官網尚未發新聞稿，時間與議程未公布。任務小組由 Marc Andreessen、Charles I. Jones、Asha Sharma 主持，研究 AI 對生產力與就業的影響，年底前提出建議",
+   "q": "聯準會 AI 聽證會",
    "fs": "2026-10-19"
   },
   {
