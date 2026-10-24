@@ -145,6 +145,23 @@ h1{margin:0;font-size:clamp(28px,4.4vw,40px);line-height:1.15;font-weight:700;le
 .pill.mine{font-weight:700}
 .cgnote{margin-top:3px;font-size:13px;color:var(--chg)}
 .newnote{margin-top:3px;font-size:13px;color:var(--new)}
+.focus{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 16px;margin-bottom:16px}
+.focus h2{margin:0 0 2px;font-size:17px;display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.focus h2 small{font-size:13px;font-weight:400;color:var(--muted)}
+.focus ol{list-style:none;margin:6px 0 0;padding:0}
+.focus li{display:grid;grid-template-columns:92px 1fr;gap:2px 12px;padding:8px 0;border-top:1px solid var(--line);cursor:pointer}
+.focus li:first-child{border-top:0}
+.focus li:hover .ft{text-decoration:underline}
+.fd{font-variant-numeric:tabular-nums;font-size:13.5px;line-height:1.35}
+.fd b{display:block;font-size:14.5px}
+.ft{font-weight:700;line-height:1.4;border-left:3px solid var(--cc);padding-left:8px}
+.fi{grid-column:2;font-size:13px;color:var(--muted);padding-left:11px}
+.fi .hot{color:var(--chg);font-weight:500}
+.ftable{width:100%;border-collapse:collapse;font-size:13.5px;margin:8px 0}
+.ftable th,.ftable td{border-top:1px solid var(--line);padding:6px 6px;text-align:right;font-variant-numeric:tabular-nums}
+.ftable th:first-child,.ftable td:first-child{text-align:left}
+.ftable thead th{color:var(--muted);font-weight:500;border-top:0}
+@media (max-width:760px){.focus li{grid-template-columns:70px 1fr}.ftable{font-size:12.5px}}
 .sumbox{border:1px solid var(--line);border-radius:10px;background:var(--surface);padding:10px 14px;margin-bottom:12px}
 .sumbox h4{margin:4px 0 6px;font-size:14.5px}
 .sumbox ul{margin:0 0 6px;padding-left:18px}
@@ -218,6 +235,7 @@ footer a{text-underline-offset:3px}
     <div class="stamp"><strong>資料載入中…</strong>日期可能變動，請以各公司與機構公告為準</div>
   </header>
 
+  <section class="focus" id="focus" aria-label="本週重點" hidden></section>
   <section class="tiles" id="tiles" aria-label="重要事件倒數"></section>
 
   <section class="controls" aria-label="篩選">
@@ -366,6 +384,70 @@ function h(tag,attrs,...kids){
 const ccol=c=>"--cc:var(--"+c+")";
 const md=d=>(d.getMonth()+1)+"/"+d.getDate();
 const isPast=ev=>ev.en<TODAY;
+
+
+/* ---- 本週重點：未來 7 天最可能讓股價大幅波動的事件（不分漲跌）----
+   沒有統計的類型給固定分數（1.0＝和平常日一樣），所以有數據證明波動較大的事件會排在前面。
+   有歷史統計的類型（data/impact.json，由 scripts/impact.py 用 10 年股價算出）依「公布後平均波動是平常的幾倍」排序；
+   沒有統計的類型依事先定好的等級；★ 自選股一定列入。最多 8 項，依日期排列。 */
+let IMPACT=null;
+const ITYPE=[["fomc",/FOMC 利率決議/],["cpi",/美國\d+月 CPI/],["nfp",/非農就業/],["boj",/日本央行（BOJ）利率決議/],
+  ["nvda",/（NVDA）.*財報/],["tsmc",/台積電（2330）.*法說/],["txo",/台指期貨／選擇權月結算/],["quad",/四巫日/],["msci",/MSCI .*審核生效/]];
+const itypeOf=ev=>(ITYPE.find(([,re])=>re.test(ev.t))||[])[0];
+const BIGCO=/（(AAPL|MSFT|GOOGL|AMZN|META|TSLA|AVGO|AMD|MU|ASML|005930|000660)）/;
+function fscore(ev){
+  const k=itypeOf(ev), st=k&&IMPACT&&IMPACT.types[k];
+  if(st&&(st.tw||st.us)&&Math.max(st.tw?st.tw.n:0,st.us?st.us.n:0)>=8)return Math.max(st.tw?st.tw.x:0,st.us?st.us.x:0);
+  if(/歐洲央行（ECB）利率決議|台灣央行理監事會|美國.*PCE|美國總統大選|期中選舉|政府.*到期/.test(ev.t)||(ev.c==="us"&&BIGCO.test(ev.t)))return 1.0;
+  if(ev.c==="eco"||/聯準會主席|FOMC 會議紀要/.test(ev.t))return 0.95;
+  if(ev.c==="cb"||ev.c==="pol"||(ev.c==="us"&&!ev.mn)||ev.c==="tech")return 0.85;
+  return 0;
+}
+const twTime=ev=>{const m=(ev.tm||"").match(/台灣(?:時間)?\s*(\d{1,2}\/\d{1,2})?\s*(\d{1,2}:\d{2})/);return m?((m[1]?m[1]+" ":"")+m[2]):"";};
+const pct=v=>"±"+v.toFixed(1)+"%";
+function impactText(ev){
+  const k=itypeOf(ev), st=k&&IMPACT&&IMPACT.types[k];
+  if(!st||!(st.tw||st.us)||Math.max(st.tw?st.tw.n:0,st.us?st.us.n:0)<8)return h("span",{text:"尚無足夠歷史統計，依事件類型列入"});
+  const part=(side,name)=>{const s=st[side];if(!s)return null;
+    return h("span",{class:s.x>=1.15?"hot":null,text:name+" 平均 "+pct(s.avg)+"（平常 "+pct(IMPACT.base[side].avg)+"，"+s.x.toFixed(1)+" 倍）"});};
+  const big=Math.max(st.tw?st.tw.big:0,st.us?st.us.big:0);
+  return [part("tw","加權"),st.tw&&st.us?"・":null,part("us","費半"),"・大波動機率 "+big+"%（平常 20%）"];
+}
+function renderFocus(){
+  const box=document.getElementById("focus");
+  const end=new Date(TODAY.getTime()+7*DAY);
+  const cand=EVENTS.filter(ev=>ev.s>=TODAY&&ev.s<end&&(state.est||ev.st!=="e"))
+    .map(ev=>({ev,sc:fscore(ev)+(isMine(ev)?1:0)})).filter(x=>x.sc>0);
+  cand.sort((a,b)=>b.sc-a.sc||a.ev.s-b.ev.s);
+  const pick=cand.slice(0,8).map(x=>x.ev).sort((a,b)=>a.s-b.s);
+  box.replaceChildren();
+  if(!pick.length){box.hidden=true;return;}
+  box.hidden=false;
+  box.append(h("h2",null,"本週重點",h("small",{text:md(TODAY)+"–"+md(new Date(end.getTime()-DAY))+"，依歷史上公布後的股價波動大小挑選（不分漲跌）"}),
+    h("button",{class:"linkbtn",type:"button",text:"怎麼排的？",onclick:openImpact})));
+  box.append(h("ol",null,pick.map(ev=>{
+    const tt=twTime(ev);
+    return h("li",{onclick:()=>openDay(ev.s),title:"點一下看當天全部事件"},
+      h("span",{class:"fd"},h("b",{text:md(ev.s)+"（"+WD[ev.s.getDay()]+"）"}),tt?"台灣 "+tt:""),
+      h("span",{class:"ft",style:ccol(ev.c),text:(isMine(ev)?"★ ":"")+ev.t+(ev.st==="e"?"（預估）":"")}),
+      h("span",{class:"fi"},impactText(ev)));
+  })));
+}
+function openImpact(){
+  if(!IMPACT){openDlg("本週重點怎麼排的","說明",h("p",{text:"歷史統計資料尚未載入。"}));return;}
+  const row=(k,st)=>{const c=(s,f)=>s?f(s):"—";
+    return h("tr",null,h("td",{text:st.n}),
+      h("td",{text:c(st.tw,s=>pct(s.avg)+"／"+s.x.toFixed(2)+"x")}),h("td",{text:c(st.tw,s=>s.recent?s.recent.x.toFixed(2)+"x":"—")}),
+      h("td",{text:c(st.us,s=>pct(s.avg)+"／"+s.x.toFixed(2)+"x")}),h("td",{text:c(st.us,s=>s.recent?s.recent.x.toFixed(2)+"x":"—")}),
+      h("td",{text:Math.max(st.tw?st.tw.big:0,st.us?st.us.big:0)+"%"}),h("td",{text:String(Math.max(st.tw?st.tw.n:0,st.us?st.us.n:0))}));};
+  const rows=Object.entries(IMPACT.types).sort((a,b)=>Math.max(b[1].tw?b[1].tw.x:0,b[1].us?b[1].us.x:0)-Math.max(a[1].tw?a[1].tw.x:0,a[1].us?a[1].us.x:0)).map(([k,st])=>row(k,st));
+  openDlg("本週重點怎麼排的","說明",
+    h("p",{text:"用最近 "+IMPACT.years+" 年的每日收盤價，計算每類事件公布後第一個能反應的交易日，加權指數與費城半導體指數的漲跌幅絕對值（不分漲跌），再和所有交易日的平均比較。倍數越高，代表這類事件公布後通常波動越大，排得越前面。"}),
+    h("p",{class:"whint",text:"平常日平均：加權 "+pct(IMPACT.base.tw.avg)+"、費半 "+pct(IMPACT.base.us.avg)+"。「大波動機率」是反應日落在所有交易日波動最大 20% 的比例，平常就是 20%。近 3 年倍數是和近 3 年的平常日比較。資料更新於 "+IMPACT.updated+"。"}),
+    h("table",{class:"ftable"},h("thead",null,h("tr",null,...["事件","加權 平均／倍數","近3年","費半 平均／倍數","近3年","大波動機率","樣本數"].map(t=>h("th",{text:t})))),h("tbody",null,rows)),
+    h("p",{class:"whint",text:"反應日：美國盤中或盤後公布的（FOMC、CPI、非農、輝達財報）加權看台灣隔天；日銀看當天；台積電法說在台股收盤後，加權看隔天、費半看美國當天；結算、四巫日、MSCI 生效看當天。"}),
+    h("p",{class:"whint",text:"這只代表「歷史上公布後股價動得多大」，不是預測漲跌，也不是投資建議。結算日、MSCI 生效日成交量大，但價格波動不一定比平常大。沒有歷史統計的事件（例如歐洲央行、台灣央行、大型科技股財報）依事件類型排序。"}));
+}
 
 /* ---- 相關新聞清單：GitHub Actions 每小時抓好存在 data/news.json，依時間由新到舊 ----
    有資料的事件：按鈕開站內清單（台灣＋陸媒）；沒有資料的（例如較早的事件）：照舊直接開 Google 新聞 */
@@ -701,6 +783,7 @@ function render(){
   document.getElementById("vList").setAttribute("aria-pressed",String(state.view==="list"));
   document.getElementById("vMonth").setAttribute("aria-pressed",String(state.view==="month"));
   if(state.view==="list")renderList(box);else renderMonth(box);
+  renderFocus();
 }
 
 function renderChips(){
@@ -805,6 +888,7 @@ fetch("data/events.json",{cache:"no-cache"}).then(r=>{if(!r.ok)throw new Error(r
   const st=document.querySelector(".stamp strong");
   if(st&&j.updated)st.textContent="資料更新於 "+j.updated;
   prep();renderTiles();renderWatch();render();
+  fetch("data/impact.json",{cache:"no-cache"}).then(r=>r.ok?r.json():null).then(x=>{if(x&&x.types){IMPACT=x;renderFocus();}}).catch(()=>{});
   fetch("data/news.json",{cache:"no-cache"}).then(r=>r.ok?r.json():null).then(n=>{if(n&&n.tw){NEWS=n;render();}}).catch(()=>{});
 }).catch(err=>{
   document.getElementById("view").textContent="讀不到 data/events.json，請確認檔案存在（或到 Actions 手動執行一次更新）。";

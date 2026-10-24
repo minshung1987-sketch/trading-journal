@@ -28,6 +28,9 @@ jobs:
       - name: 更新資料（Yahoo 法說會 + 股東會 + 證交所／櫃買處置股 + 聯準會行事曆）
         run: python scripts/update.py
 
+      - name: 計算各類事件的歷史股價波動（本週重點排序用；失敗不影響其他資料）
+        run: python scripts/impact.py || echo "::warning::impact.py 執行失敗，沿用上次結果"
+
       - name: 存回變更
         run: |
           git config user.name "calendar-bot"
