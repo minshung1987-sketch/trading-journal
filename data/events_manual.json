@@ -1573,10 +1573,10 @@
   "d": "2026-11-06",
   "c": "cb",
   "t": "日本央行總裁植田和男：IMF 央行會議演說與對談",
-  "st": "e",
-  "u": "https://www.devdiscourse.com/article/international/3989410-imf-invites-boj-chief-ueda-to-speak-on-november-6",
+  "st": "o",
+  "u": "https://www.boj.or.jp/en/about/press/index.htm",
   "tm": "時間未公布",
-  "n": "路透報導（devdiscourse 轉載，10/9）：IMF 邀請植田 11/6 在 IMF 央行講座（Michel Camdessus Central Banking Lecture）演說，之後與 IMF 總裁對談；日銀官網講話預定表尚未列出",
+  "n": "日銀官網「講話預定」已列出：美國華府 IMF 2026 Michel Camdessus 央行講座（日本時間 11/7）；演說後與 IMF 總裁對談，時間未公布",
   "mn": 1
  },
  {
@@ -3942,5 +3942,27 @@
   "pl": "美國舊金山灣區（地點細節未公布）",
   "n": "主席沃什 10/16 在曼谷 IMF 年會與 IMF 總裁對談時宣布（彭博、德國證券報等報導；金十數據亦有快訊）；聯準會官網尚未發新聞稿，時間與議程未公布。任務小組由 Marc Andreessen、Charles I. Jones、Asha Sharma 主持，研究 AI 對生產力與就業的影響，年底前提出建議",
   "q": "聯準會 AI 聽證會"
+ },
+ {
+  "d": "2026-10-31",
+  "c": "cb",
+  "t": "舊金山聯儲 AI 與經濟研討會：戴利致詞、ECB 首席經濟學家連恩主講",
+  "tm": "美西 10/30 09:00（美東 12:00），台灣 10/31 00:00；連恩主講台灣約 00:10",
+  "pl": "美國舊金山聯儲（有直播）",
+  "st": "o",
+  "u": "https://www.frbsf.org/news-and-media/events/conferences/2026/10/impact-of-ai-and-the-economy-conference/",
+  "n": "FOMC 會後第一批官員公開露面；議程含聯準會 AI 任務小組成員 Chad Jones（Anthropic／史丹佛）的報告",
+  "mn": 1
+ },
+ {
+  "d": "2026-11-09",
+  "c": "cb",
+  "t": "芝加哥聯儲主席古爾斯比：Leadership Greater Chicago 對談",
+  "tm": "美中 09:00（美東 10:00），台灣 23:00",
+  "pl": "美國芝加哥（有直播）",
+  "st": "o",
+  "u": "https://www.chicagofed.org/utilities/about-us/office-of-the-president/office-of-the-president-speaking",
+  "n": "主題「Economics: Are We Ready for Tomorrow?」",
+  "mn": 1
  }
 ]
