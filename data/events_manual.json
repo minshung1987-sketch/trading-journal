@@ -488,10 +488,10 @@
   "d": "2026-11-04",
   "c": "us",
   "t": "高通（QCOM）FY2026 第四季財報",
-  "st": "e",
-  "u": "https://www.quantisnow.com/earnings/QCOM",
-  "n": "公司尚未公告；往年為 11/5、11/6，此日期為依模式推估",
-  "tm": "時間未公布"
+  "st": "o",
+  "u": "https://finviz.com/news/406548/qualcomm-schedules-fourth-quarter-and-fiscal-2026-earnings-release-and-conference-call",
+  "n": "公司已公告（10/26 查證）；來源：公司 PR Newswire 新聞稿（經 Finviz 轉載）",
+  "tm": "盤後公布；電話會議美西 13:45，台灣 11/5 05:45"
  },
  {
   "d": "2026-10-29",
@@ -536,10 +536,10 @@
   "d": "2026-11-04",
   "c": "us",
   "t": "Coherent（COHR）FY2027 第一季財報",
-  "st": "e",
-  "u": "https://chartrow.com/quote/cohr/earnings",
-  "n": "公司尚未公告，來自 Nasdaq 行事曆預估",
-  "tm": "時間未公布",
+  "st": "o",
+  "u": "https://finviz.com/news/402637/coherent-corp-announces-timing-of-fy2027-first-quarter-earnings-release",
+  "n": "公司已公告（10/26 查證）；來源：公司 GlobeNewswire 新聞稿（經 Finviz 轉載）",
+  "tm": "盤後公布；網路直播美東 16:30，台灣 11/5 05:30",
   "mn": 1
  },
  {
@@ -566,10 +566,10 @@
   "d": "2026-11-05",
   "c": "us",
   "t": "MACOM（MTSI）FY2026 第四季財報",
-  "st": "e",
-  "u": "https://chartrow.com/quote/mtsi/earnings",
-  "n": "公司尚未公告，依往年（11/6）推估",
-  "tm": "時間未公布",
+  "st": "o",
+  "u": "https://finviz.com/news/406482/macom-to-report-fourth-quarter-and-fiscal-year-2026-financial-results-on-november-5-2026",
+  "n": "公司已公告（10/26 查證）；來源：公司 GlobeNewswire 新聞稿（經 Finviz 轉載）",
+  "tm": "盤前公布；電話會議美東 08:30，台灣 21:30",
   "mn": 1
  },
  {
@@ -596,10 +596,10 @@
   "d": "2026-11-12",
   "c": "us",
   "t": "應用材料（AMAT）FY2026 第四季財報",
-  "st": "e",
-  "u": "https://ir.appliedmaterials.com/events?tab=upcoming",
-  "n": "公司 IR 頁標示「預計 11/12」，尚未正式公告",
-  "tm": "時間未公布"
+  "st": "o",
+  "u": "https://finviz.com/news/406307/applied-materials-to-report-fourth-quarter-and-fiscal-2026-results-on-nov-12-2026",
+  "n": "公司已公告（10/26 查證）；來源：公司 GlobeNewswire 新聞稿（經 Finviz 轉載）；公司 IR 頁標示「預計 11/12」，尚未正式公告",
+  "tm": "電話會議美東 16:30，台灣 11/13 05:30"
  },
  {
   "d": "2026-10-28",
@@ -623,10 +623,10 @@
   "d": "2026-11-24",
   "c": "us",
   "t": "亞德諾（ADI）FY2026 第四季財報",
-  "st": "e",
-  "u": "https://www.marketbeat.com/stocks/NASDAQ/ADI/earnings/",
-  "n": "公司尚未公告，依往年（11/25）推估",
-  "tm": "時間未公布",
+  "st": "o",
+  "u": "https://finviz.com/news/406749/analog-devices-to-report-fourth-quarter-fiscal-year-2026-financial-results-on-tuesday-november-24-2026",
+  "n": "公司已公告（10/26 查證）；來源：公司 PR Newswire 新聞稿（經 Finviz 轉載）",
+  "tm": "美東 07:00 公布（台灣 20:00）；電話會議美東 10:00，台灣 23:00",
   "mn": 1
  },
  {
@@ -680,23 +680,13 @@
   "mn": 1
  },
  {
-  "d": "2026-10-27",
+  "d": "2026-11-03",
   "c": "us",
   "t": "思佳訊（SWKS）FY2026 第四季財報",
-  "st": "e",
-  "u": "https://www.marketbeat.com/stocks/NASDAQ/SWKS/earnings/",
-  "n": "未能核實公司公告，為第三方推估",
-  "tm": "時間未公布",
-  "mn": 1
- },
- {
-  "d": "2026-10-27",
-  "c": "us",
-  "t": "Qorvo（QRVO）FY2027 第二季財報",
-  "st": "e",
-  "u": "https://www.marketbeat.com/stocks/NASDAQ/QRVO/earnings/",
-  "n": "公司尚未公告；去年為 11/3，可能順延到 11 月初",
-  "tm": "時間未公布",
+  "st": "o",
+  "u": "https://finviz.com/news/404486/skyworks-sets-date-for-fourth-quarter-fiscal-2026-earnings-release-and-conference-call",
+  "n": "公司已公告（10/26 查證）；來源：公司 GlobeNewswire 新聞稿（經 Finviz 轉載）；已完成併購 Qorvo",
+  "tm": "盤後公布；電話會議美東 16:30，台灣 11/4 05:30",
   "mn": 1
  },
  {
@@ -740,10 +730,10 @@
   "d": "2026-11-02",
   "c": "us",
   "t": "Palantir（PLTR）第三季財報",
-  "st": "e",
-  "u": "https://www.marketbeat.com/stocks/NASDAQ/PLTR/earnings/",
-  "n": "公司尚未公告，第三方推估",
-  "tm": "時間未公布",
+  "st": "o",
+  "u": "https://stocks.observer-reporter.com/observerreporter/article/bizwire-2026-10-12-palantir-announces-date-of-third-quarter-2026-earnings-release-and-webcast",
+  "n": "公司已公告（10/26 查證）；來源：公司 Business Wire 新聞稿（轉載）",
+  "tm": "盤後公布；網路直播美東 17:00，台灣 11/3 06:00",
   "mn": 1
  },
  {
@@ -760,20 +750,20 @@
   "d": "2026-12-10",
   "c": "us",
   "t": "好市多（COST）FY2027 第一季財報",
-  "st": "e",
-  "u": "https://www.marketbeat.com/stocks/NASDAQ/COST/earnings/",
-  "n": "第四季已於 9/24 公布；下一次為 12 月，公司尚未公告",
-  "tm": "時間未公布",
+  "st": "o",
+  "u": "https://investor.costco.com/",
+  "n": "公司已公告（10/26 查證）；來源：公司 IR 行事曆；第四季已於 9/24 公布",
+  "tm": "美西 13:15 公布（台灣 12/11 05:15）；電話會議美西 14:00，台灣 12/11 06:00",
   "mn": 1
  },
  {
   "d": "2026-11-19",
   "c": "us",
   "t": "沃爾瑪（WMT）FY2027 第三季財報",
-  "st": "e",
-  "u": "https://www.marketbeat.com/stocks/NYSE/WMT/earnings/",
-  "n": "公司尚未公告，第三方推估；通常盤前發布",
-  "tm": "時間未公布",
+  "st": "o",
+  "u": "https://corporate.walmart.com/investors/events",
+  "n": "公司已公告（10/26 查證）；來源：公司 IR 行事曆",
+  "tm": "美中 07:00，台灣 21:00",
   "mn": 1
  },
  {
@@ -3715,13 +3705,13 @@
   "mn": 1
  },
  {
-  "d": "2026-10-29",
+  "d": "2026-11-02",
   "c": "us",
   "t": "京瓷 Kyocera（6971）FY2027 第二季財報",
-  "st": "e",
-  "u": "https://www.kyocera.co.jp/ir/calendar/",
+  "st": "o",
+  "u": "https://global.kyocera.com/ir/calendar/",
   "tm": "時間未公布",
-  "n": "官網只寫「10 月下旬」，確切日期未公布",
+  "n": "公司已公告（10/26 查證）；來源：公司 IR 行事曆與日本交易所決算發表預定日一覽",
   "mn": 1
  },
  {
@@ -3822,13 +3812,13 @@
   "mn": 1
  },
  {
-  "d": "2026-11-04",
+  "d": "2026-11-03",
   "c": "us",
   "t": "美超微 Supermicro（SMCI）FY2027 第一季財報",
-  "st": "e",
-  "u": "https://ir.supermicro.com/news/news-details/2025/Supermicro-Announces-First-Quarter-Fiscal-Year-2026-Financial-Results/default.aspx",
-  "tm": "通常盤後，電話會議 17:00 ET",
-  "n": "公司尚未公告；依去年（11/4）推估；AI 伺服器"
+  "st": "o",
+  "u": "https://ir.supermicro.com/",
+  "tm": "電話會議美東 17:00，台灣 11/4 06:00",
+  "n": "公司已公告（10/26 查證）；來源：公司 IR 新聞稿（10/20 初步營運更新）與活動行事曆；AI 伺服器"
  },
  {
   "d": "2026-11-10",
@@ -3841,13 +3831,13 @@
   "mn": 1
  },
  {
-  "d": "2026-11-25",
+  "d": "2026-11-24",
   "c": "us",
   "t": "戴爾 Dell（DELL）FY2027 第三季財報",
-  "st": "e",
-  "u": "https://www.businesswire.com/news/home/20251125215025/en",
-  "tm": "通常盤後",
-  "n": "公司尚未公告；依去年（11/25）推估；AI 伺服器"
+  "st": "o",
+  "u": "https://investors.delltechnologies.com/",
+  "tm": "美中 15:30，台灣 11/25 05:30",
+  "n": "公司已公告（10/26 查證）；來源：公司 IR 行事曆；AI 伺服器"
  },
  {
   "d": "2026-12-10",
