@@ -741,18 +741,41 @@ function renderMonth(box){
 
 /* ---- 雙擊（或手機連點兩下）月曆日期：彈出當日完整事件列表 ---- */
 let lastClick={k:0,t:0};
+/* 對話框堆疊：從「當日事件列表」點進「相關新聞」等第二層，關閉時回到上一層（並回到原本捲動的位置），而不是整個關掉 */
+const DLG_STACK=[];
 function openDlg(title,label,...kids){
-  closeDay();
+  let ov0=null;
+  const prev=document.getElementById("dlg");
+  if(prev){
+    const bx=prev.querySelector(".dlgbox");
+    /* 同一個對話框自己重畫（例如管理倒數區調整順序）直接取代，不算「往下一層」 */
+    if(!bx||bx.getAttribute("aria-label")!==label)DLG_STACK.push({reopen:prev._reopen,top:bx?bx.scrollTop:0,ovTop:prev.scrollTop});
+    else ov0=prev._reopen;
+    prev.remove();
+  }
   const box=h("div",{class:"dlgbox",role:"dialog","aria-modal":"true","aria-label":label},
     h("div",{class:"dlghead"},
       h("h3",{text:title}),
-      h("button",{class:"nav",type:"button",text:"關閉",onclick:closeDay})
+      h("button",{class:"nav",type:"button",text:DLG_STACK.length?"返回":"關閉",onclick:backDlg})
     ),
     ...kids
   );
-  const ov=h("div",{class:"dlg",id:"dlg",onclick:e=>{if(e.target===ov)closeDay();}},box);
+  const ov=h("div",{class:"dlg",id:"dlg",onclick:e=>{if(e.target===ov)backDlg();}},box);
+  ov._reopen=openDlg._reopen||ov0||null; openDlg._reopen=null;
   document.body.append(ov);
   document.body.style.overflow="hidden";
+}
+/* 重新開啟某個對話框用：openDlgFor(重建函式, ...參數)，讓「返回」時能重建上一層 */
+function openDlgFor(rebuild){openDlg._reopen=rebuild;rebuild();}
+function backDlg(){
+  const o=document.getElementById("dlg");if(o)o.remove();
+  const prev=DLG_STACK.pop();
+  if(prev&&prev.reopen){
+    openDlgFor(prev.reopen);
+    const n=document.getElementById("dlg"),bx=n&&n.querySelector(".dlgbox");
+    if(bx)bx.scrollTop=prev.top;
+    if(n)n.scrollTop=prev.ovTop;
+  }else{DLG_STACK.length=0;document.body.style.overflow="";}
 }
 /* 「新增了什麼、改了什麼」摘要 */
 const evDate=ev=>md(ev.s)+(ev.en>ev.s?"–"+md(ev.en):"");
@@ -767,20 +790,22 @@ function summaryBox(evs,lead){
       h("ul",null,cg.map(ev=>h("li",null,ev.t,h("span",{class:"what",text:"："+ev.cg.what}),h("small",{text:"（"+md(pd(ev.cg.on))+" 更新）"}))))]:null
   );
 }
-function openDay(d){
+function openDay(d){openDlgFor(()=>openDayInner(d));}
+function openDayInner(d){
   const evs=EVENTS.filter(ev=>state.cats.has(ev.c)&&ev.s<=d&&d<=ev.en);
   openDlg(d.getFullYear()+"/"+md(d)+"（週"+WD[d.getDay()]+"）共 "+evs.length+" 筆","當日事件列表",
     summaryBox(evs,"這天的事件中，最近 7 天有新增或變動的："),
     evs.length?evs.map(evRow):h("div",{class:"empty",text:"這天沒有事件。"}));
 }
-function openRecent(kind){
+function openRecent(kind){openDlgFor(()=>openRecentInner(kind));}
+function openRecentInner(kind){
   const evs=EVENTS.filter(ev=>kind==="new"?isNew(ev):isChg(ev));
   openDlg((kind==="new"?"最近 7 天新增 ":"最近 7 天變動 ")+evs.length+" 筆",kind==="new"?"新增列表":"變動列表",
     summaryBox(evs,null),
     evs.length?evs.map(evRow):h("div",{class:"empty",text:"最近 7 天沒有。"}));
 }
-function closeDay(){const o=document.getElementById("dlg");if(o)o.remove();document.body.style.overflow="";}
-document.addEventListener("keydown",e=>{if(e.key==="Escape")closeDay();});
+function closeDay(){const o=document.getElementById("dlg");if(o)o.remove();DLG_STACK.length=0;document.body.style.overflow="";}
+document.addEventListener("keydown",e=>{if(e.key==="Escape")backDlg();});
 
 function render(){
   const box=document.getElementById("view");
