@@ -149,19 +149,21 @@ h1{margin:0;font-size:clamp(28px,4.4vw,40px);line-height:1.15;font-weight:700;le
 .focus h2{margin:0 0 2px;font-size:17px;display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
 .focus h2 small{font-size:13px;font-weight:400;color:var(--muted)}
 .focus ol{list-style:none;margin:6px 0 0;padding:0}
-.focus li{display:grid;grid-template-columns:92px 1fr;gap:2px 12px;padding:8px 0;border-top:1px solid var(--line);cursor:pointer}
-.focus li:first-child{border-top:0}
-.focus li:hover .ft{text-decoration:underline}
-.fd{font-variant-numeric:tabular-nums;font-size:13.5px;line-height:1.35}
-.fd b{display:block;font-size:14.5px}
-.ft{font-weight:700;line-height:1.4;border-left:3px solid var(--cc);padding-left:8px}
-.fi{grid-column:2;font-size:13px;color:var(--muted);padding-left:11px}
-.fi .hot{color:var(--chg);font-weight:500}
+.focus li.fday{display:grid;grid-template-columns:92px 1fr;gap:10px;padding:8px 0;border-top:1px solid var(--line);align-items:start}
+.focus li.fday:first-child{border-top:0}
+.fd{font-weight:700;font-size:14.5px;font-variant-numeric:tabular-nums;padding-top:6px}
+.fcards{display:flex;flex-wrap:wrap;gap:8px}
+.fcard{flex:1 1 180px;max-width:300px;min-width:0;background:var(--bg);border:1px solid var(--line);border-left:4px solid var(--cc);border-radius:8px;padding:6px 10px;cursor:pointer;text-align:left;font:inherit;color:inherit}
+.fcard:hover{border-color:var(--focus);border-left-color:var(--cc)}
+.fcard .ft{display:block;font-weight:700;font-size:14px;line-height:1.35;overflow-wrap:anywhere}
+.fcard .ftm{display:block;font-size:12.5px;color:var(--muted);font-variant-numeric:tabular-nums}
+.fcard .fi{display:block;font-size:12.5px;color:var(--muted);margin-top:2px;line-height:1.4}
+.fcard .fi .hot{color:var(--chg);font-weight:500}
 .ftable{width:100%;border-collapse:collapse;font-size:13.5px;margin:8px 0}
 .ftable th,.ftable td{border-top:1px solid var(--line);padding:6px 6px;text-align:right;font-variant-numeric:tabular-nums}
 .ftable th:first-child,.ftable td:first-child{text-align:left}
 .ftable thead th{color:var(--muted);font-weight:500;border-top:0}
-@media (max-width:760px){.focus li{grid-template-columns:70px 1fr}.ftable{font-size:12.5px}}
+@media (max-width:760px){.focus li.fday{grid-template-columns:1fr;gap:4px}.fd{padding-top:0}.fcard{max-width:none}.ftable{font-size:12.5px}}
 .sumbox{border:1px solid var(--line);border-radius:10px;background:var(--surface);padding:10px 14px;margin-bottom:12px}
 .sumbox h4{margin:4px 0 6px;font-size:14.5px}
 .sumbox ul{margin:0 0 6px;padding-left:18px}
@@ -407,11 +409,10 @@ const twTime=ev=>{const m=(ev.tm||"").match(/台灣(?:時間)?\s*(\d{1,2}\/\d{1,
 const pct=v=>"±"+v.toFixed(1)+"%";
 function impactText(ev){
   const k=itypeOf(ev), st=k&&IMPACT&&IMPACT.types[k];
-  if(!st||!(st.tw||st.us)||Math.max(st.tw?st.tw.n:0,st.us?st.us.n:0)<8)return h("span",{text:"尚無足夠歷史統計，依事件類型列入"});
+  if(!st||!(st.tw||st.us)||Math.max(st.tw?st.tw.n:0,st.us?st.us.n:0)<8)return h("span",{text:"無歷史統計"});
   const part=(side,name)=>{const s=st[side];if(!s)return null;
-    return h("span",{class:s.x>=1.15?"hot":null,text:name+" 平均 "+pct(s.avg)+"（平常 "+pct(IMPACT.base[side].avg)+"，"+s.x.toFixed(1)+" 倍）"});};
-  const big=Math.max(st.tw?st.tw.big:0,st.us?st.us.big:0);
-  return [part("tw","加權"),st.tw&&st.us?"・":null,part("us","費半"),"・大波動機率 "+big+"%（平常 20%）"];
+    return h("span",{class:s.x>=1.15?"hot":null,title:name+"平常 "+pct(IMPACT.base[side].avg),text:name+" "+pct(s.avg)+"（"+s.x.toFixed(1)+"倍）"});};
+  return [part("tw","加權"),st.tw&&st.us?"・":null,part("us","費半")];
 }
 function renderFocus(){
   const box=document.getElementById("focus");
@@ -425,13 +426,17 @@ function renderFocus(){
   box.hidden=false;
   box.append(h("h2",null,"本週重點",h("small",{text:md(TODAY)+"–"+md(new Date(end.getTime()-DAY))+"，依歷史上公布後的股價波動大小挑選（不分漲跌）"}),
     h("button",{class:"linkbtn",type:"button",text:"怎麼排的？",onclick:openImpact})));
-  box.append(h("ol",null,pick.map(ev=>{
-    const tt=twTime(ev);
-    return h("li",{onclick:()=>openDay(ev.s),title:"點一下看當天全部事件"},
-      h("span",{class:"fd"},h("b",{text:md(ev.s)+"（"+WD[ev.s.getDay()]+"）"}),tt?"台灣 "+tt:""),
-      h("span",{class:"ft",style:ccol(ev.c),text:(isMine(ev)?"★ ":"")+ev.t+(ev.st==="e"?"（預估）":"")}),
-      h("span",{class:"fi"},impactText(ev)));
-  })));
+  const days=[];
+  for(const ev of pick){const d=days.find(x=>sameDay(x.d,ev.s));if(d)d.evs.push(ev);else days.push({d:ev.s,evs:[ev]});}
+  box.append(h("ol",null,days.map(({d,evs})=>h("li",{class:"fday"},
+    h("span",{class:"fd",text:md(d)+"（"+WD[d.getDay()]+"）"}),
+    h("div",{class:"fcards"},evs.map(ev=>{
+      const tt=twTime(ev);
+      return h("button",{class:"fcard",type:"button",style:ccol(ev.c),onclick:()=>openDay(ev.s),title:"點一下看當天全部事件"},
+        h("span",{class:"ft",text:(isMine(ev)?"★ ":"")+ev.t+(ev.st==="e"?"（預估）":"")}),
+        tt?h("span",{class:"ftm",text:"台灣 "+tt}):null,
+        h("span",{class:"fi"},impactText(ev)));
+    }))))));
 }
 function openImpact(){
   if(!IMPACT){openDlg("本週重點怎麼排的","說明",h("p",{text:"歷史統計資料尚未載入。"}));return;}
