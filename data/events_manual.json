@@ -3964,5 +3964,37 @@
   "u": "https://www.chicagofed.org/utilities/about-us/office-of-the-president/office-of-the-president-speaking",
   "n": "主題「Economics: Are We Ready for Tomorrow?」",
   "mn": 1
+ },
+ {
+  "d": "2026-10-28",
+  "c": "us",
+  "t": "甲骨文 Oracle（ORCL）投資人日（Oracle AI World）",
+  "tm": "美中 10:55，台灣 23:55",
+  "pl": "美國拉斯維加斯（Oracle AI World，線上直播）",
+  "st": "o",
+  "u": "https://investor.oracle.com/investor-news/news-details/2026/ORACLE-INVESTOR-DAY-MEETING-TO-BE-HELD-OCTOBER-28-2026/default.aspx",
+  "n": "公司新聞稿公告；市場關注雲端與 AI 資料中心（OCI）展望、資本支出，台股伺服器供應鏈（鴻海、廣達、緯穎等）相關"
+ },
+ {
+  "d": "2026-10-30",
+  "e": "2026-10-31",
+  "c": "tech",
+  "t": "2026 鴻海科技日（HHTD26）",
+  "pl": "台北南港展覽館 1 館 1 樓、4 樓",
+  "st": "o",
+  "u": "https://finance.ettoday.net/news/2813888",
+  "n": "10/30 限受邀賓客、10/31 開放民眾免費參觀；規模首度擴大，預告展出電動三輪車 BEAVER2；AI 伺服器、電動車、機器人等三大平台；日期來自鴻海邀請函的新聞報導（ETtoday、優分析）",
+  "q": "intitle:鴻海科技日"
+ },
+ {
+  "d": "2026-11-10",
+  "c": "us",
+  "t": "Cohu（COHU）投資人日（AMD 主題演講）",
+  "tm": "美東 09:00–12:00，台灣 22:00–11/11 01:00",
+  "pl": "美國紐約（網路直播）",
+  "st": "o",
+  "u": "https://www.morningstar.com/news/business-wire/20261008080990/cohu-to-host-investor-day-on-november-10-2026",
+  "n": "半導體測試設備商；大客戶 AMD 主講先進晶片需求；公司 Business Wire 新聞稿（經 Morningstar 轉載）",
+  "mn": 1
  }
 ]
