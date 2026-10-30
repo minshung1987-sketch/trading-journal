@@ -5,7 +5,7 @@
   "tw": {
    "avg": 0.81,
    "top20": 1.24,
-   "days": 2447,
+   "days": 2449,
    "recent_avg": 1.05
   },
   "us": {
@@ -20,13 +20,13 @@
    "n": "FOMC 利率決議",
    "u": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
    "tw": {
-    "n": 78,
+    "n": 79,
     "avg": 1.01,
     "x": 1.25,
-    "big": 28,
+    "big": 29,
     "recent": {
-     "n": 24,
-     "avg": 1.22,
+     "n": 25,
+     "avg": 1.23,
      "x": 1.17
     }
    },
@@ -79,7 +79,7 @@
     "recent": {
      "n": 34,
      "avg": 1.61,
-     "x": 1.54
+     "x": 1.53
     }
    },
    "us": {
@@ -179,7 +179,7 @@
     "n": 121,
     "avg": 0.76,
     "x": 0.94,
-    "big": 21,
+    "big": 20,
     "recent": {
      "n": 36,
      "avg": 1.07,
