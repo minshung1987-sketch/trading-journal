@@ -1,5 +1,5 @@
 {
- "updated": "2026/11/02 07:51",
+ "updated": "2026/11/02 07:55",
  "events": [
   {
    "d": "2026-08-27",
@@ -504,11 +504,15 @@
    "d": "2026-11-17",
    "c": "us",
    "t": "輝達（NVDA）FY2027 第三季財報",
-   "st": "e",
-   "u": "https://www.tipranks.com/stocks/nvda/earnings",
-   "n": "截至 10/11 公司尚未公告；依往年模式（11/19、11/20、11/21）多落在 11 月下旬，通常美西 14:00",
-   "tm": "時間未公布",
-   "fs": "0"
+   "st": "o",
+   "u": "https://investor.nvidia.com/events-and-presentations/events-and-presentations/default.aspx",
+   "n": "公司已公告（11/2 查證）；來源：公司 IR 活動行事曆（NVIDIA 3rd Quarter FY27 Financial Results）",
+   "tm": "美東 17:00 公布（財報與電話會議），台灣 11/18 06:00",
+   "fs": "0",
+   "cg": {
+    "on": "2026-11-02",
+    "what": "預估→官方；時間更新"
+   }
   },
   {
    "d": "2026-12-10",
@@ -974,12 +978,16 @@
    "d": "2026-11-03",
    "c": "us",
    "t": "安進（AMGN）第三季財報",
-   "st": "e",
-   "u": "https://nextearningsdate.com/amgn.html",
-   "n": "公司尚未公告；去年為 10/30，日期可能提前",
-   "tm": "時間未公布",
+   "st": "o",
+   "u": "https://www.amgen.com/newsroom/press-releases/2026/10/amgen-announces-webcast-of-2026-third-quarter-financial-results",
+   "n": "公司已公告（11/2 查證）；來源：公司新聞稿（10/28）；時間來自搜尋摘要",
+   "tm": "盤後公布；網路直播美東 16:30，台灣 11/4 05:30",
    "mn": 1,
-   "fs": "0"
+   "fs": "0",
+   "cg": {
+    "on": "2026-11-02",
+    "what": "預估→官方；時間更新"
+   }
   },
   {
    "d": "2026-11-03",
@@ -4386,12 +4394,16 @@
    "d": "2026-11-10",
    "c": "us",
    "t": "CoreWeave（CRWV）第三季財報",
-   "st": "e",
-   "u": "https://www.businesswire.com/news/home/20251027854203/en/CoreWeave-Announces-Date-of-Third-Quarter-2025-Financial-Results",
-   "tm": "通常盤後，電話會議 17:00 ET",
-   "n": "公司尚未公告；依去年（11/10）推估；AI 雲端算力",
+   "st": "o",
+   "u": "https://investors.coreweave.com/",
+   "tm": "美東 17:00，台灣 11/11 06:00",
+   "n": "公司已公告（11/2 查證）；來源：公司 IR 活動行事曆（Third Quarter 2026 Earnings Call）；AI 雲端算力",
    "mn": 1,
-   "fs": "2026-10-14"
+   "fs": "2026-10-14",
+   "cg": {
+    "on": "2026-11-02",
+    "what": "預估→官方；時間更新"
+   }
   },
   {
    "d": "2026-11-24",
