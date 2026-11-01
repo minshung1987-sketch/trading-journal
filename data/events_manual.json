@@ -3940,7 +3940,7 @@
   "st": "e",
   "u": "https://www.boersen-zeitung.de/konjunktur-politik/fed-holt-ki-debatte-ins-silicon-valley",
   "pl": "美國舊金山灣區（地點細節未公布）",
-  "n": "主席沃什 10/16 在曼谷 IMF 年會與 IMF 總裁對談時宣布（彭博、德國證券報等報導；金十數據亦有快訊）；聯準會官網尚未發新聞稿，時間與議程未公布。任務小組由 Marc Andreessen、Charles I. Jones、Asha Sharma 主持，研究 AI 對生產力與就業的影響，年底前提出建議",
+  "n": "主席沃什 10/16 在曼谷 IMF 年會與 IMF 總裁對談時宣布（彭博、德國證券報等報導；金十數據亦有快訊）；聯準會官網尚未發新聞稿，時間與議程未公布。任務小組由 Marc Andreessen、Charles I. Jones、Asha Sharma 主持，研究 AI 對生產力與就業的影響，年底前提出建議；10/30 聯準會任務小組頁面更新（仍無聽證日期、議程）；路透 10/28 報導沃什計畫出席（搜尋摘要）",
   "q": "聯準會 AI 聽證會"
  },
  {
@@ -3996,5 +3996,67 @@
   "u": "https://www.morningstar.com/news/business-wire/20261008080990/cohu-to-host-investor-day-on-november-10-2026",
   "n": "半導體測試設備商；大客戶 AMD 主講先進晶片需求；公司 Business Wire 新聞稿（經 Morningstar 轉載）",
   "mn": 1
+ },
+ {
+  "d": "2026-11-07",
+  "c": "cb",
+  "t": "聯準會監理副主席鮑曼：密西西比大學銀行金融研討會討論",
+  "tm": "美東 11/6 12:15，台灣 11/7 01:15",
+  "pl": "美國密西西比州 Oxford",
+  "st": "o",
+  "u": "https://www.federalreserve.gov/newsevents/2026-november.htm",
+  "n": "主題：監理與法規；聯準會官網行事曆列出（時間為美東，依美東+13 換算台灣）",
+  "mn": 1
+ },
+ {
+  "d": "2026-11-12",
+  "c": "cb",
+  "t": "芝加哥聯儲主席古爾斯比：Yahoo Finance Invest 2026 線上對談",
+  "tm": "美中 10:30（美東 11:30），台灣 11/12 23:30",
+  "pl": "線上",
+  "st": "o",
+  "u": "https://www.chicagofed.org/utilities/about-us/office-of-the-president/office-of-the-president-speaking",
+  "n": "芝加哥聯儲官網演講行程頁已列",
+  "mn": 1
+ },
+ {
+  "d": "2026-11-05",
+  "c": "cb",
+  "t": "克利夫蘭聯儲主席哈瑪克講話",
+  "tm": "美東 08:50，台灣 21:50",
+  "st": "e",
+  "u": "https://www.kiplinger.com/investing/economy/this-weeks-economic-calendar",
+  "n": "僅見於 Kiplinger 本週經濟日曆（媒體整理），克利夫蘭聯儲官網未列；哈瑪克與庫克在 10 月 FOMC 投票主張升息",
+  "mn": 1
+ },
+ {
+  "d": "2026-11-06",
+  "c": "cb",
+  "t": "聖路易聯儲主席穆薩萊姆講話",
+  "tm": "美東 09:10，台灣 22:10",
+  "st": "e",
+  "u": "https://www.kiplinger.com/investing/economy/this-weeks-economic-calendar",
+  "n": "僅見於 Kiplinger 本週經濟日曆（媒體整理），聖路易聯儲官網未能讀取",
+  "mn": 1
+ },
+ {
+  "d": "2026-11-05",
+  "c": "cb",
+  "t": "ECB 總裁拉加德：米蘭座談「New Dialogues for the Future」",
+  "tm": "歐洲中部 17:00，台灣 11/6 00:00",
+  "pl": "義大利米蘭",
+  "st": "o",
+  "u": "https://www.ecb.europa.eu/press/calendars/weekly/html/index.en.html",
+  "n": "官方不提供講稿；ECB 官網另列 11/5 斯洛維尼亞入歐元區 20 週年影片致詞",
+  "mn": 1
+ },
+ {
+  "d": "2027-02-07",
+  "c": "cb",
+  "t": "ECB 總裁拉加德卸任",
+  "st": "o",
+  "u": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261029~abbb6dc64b.en.html",
+  "n": "ECB 10/29 新聞稿：拉加德將於 2027/2/7 卸任，由歐洲理事會任命接任人選（提前於任期 2027/10 屆滿）；接任人選公布前後，市場會關注歐元與歐債反應",
+  "q": "拉加德 卸任 接任"
  }
 ]
