@@ -1,5 +1,5 @@
 {
- "updated": "2026/11/06 02:23",
+ "updated": "2026/11/06 11:20",
  "events": [
   {
    "d": "2026-08-27",
@@ -10189,6 +10189,97 @@
    "n": "聯準會官網行事曆（自動抓取）；Governor Christopher J. Waller",
    "mn": 1,
    "fs": "2026-10-16"
+  },
+  {
+   "d": "2026-11-09",
+   "c": "cb",
+   "t": "聯準會監理副主席鮑曼座談：Community Banking",
+   "st": "o",
+   "u": "https://www.federalreserve.gov/newsevents/2026-november.htm",
+   "a": 1,
+   "tm": "美東 08:40，台灣 21:40",
+   "pl": "Mutual Board Summit Conference, Boston, Mass.",
+   "n": "聯準會官網行事曆（自動抓取）；Vice Chair for Supervision Michelle W. Bowman",
+   "mn": 1,
+   "fs": "2026-11-06"
+  },
+  {
+   "d": "2026-11-10",
+   "c": "cb",
+   "t": "聯準會理事沃勒演說：Economic Outlook",
+   "st": "o",
+   "u": "https://www.federalreserve.gov/newsevents/2026-november.htm",
+   "a": 1,
+   "tm": "美東 04:00，台灣 17:00",
+   "pl": "The Bank of England and its Watchers Conference 2026, London, United Kingdom",
+   "n": "聯準會官網行事曆（自動抓取）；Governor Christopher J. Waller",
+   "mn": 1,
+   "fs": "2026-11-06"
+  },
+  {
+   "d": "2026-11-11",
+   "c": "cb",
+   "t": "聯準會監理副主席鮑曼演說：Economic Outlook",
+   "st": "o",
+   "u": "https://www.federalreserve.gov/newsevents/2026-november.htm",
+   "a": 1,
+   "tm": "美東 11/10 15:30，台灣 11/11 04:30",
+   "pl": "C. Peter McColough Series on International Economics with Michelle Bowman, Washington, D.C.",
+   "n": "聯準會官網行事曆（自動抓取）；Vice Chair for Supervision Michelle W. Bowman",
+   "mn": 1,
+   "fs": "2026-11-06"
+  },
+  {
+   "d": "2026-11-11",
+   "c": "cb",
+   "t": "聯準會監理副主席鮑曼演說：Economic Outlook",
+   "st": "o",
+   "u": "https://www.federalreserve.gov/newsevents/2026-november.htm",
+   "a": 1,
+   "tm": "美東 11/10 18:30，台灣 11/11 07:30",
+   "pl": "A View from the Federal Reserve Board (virtual)",
+   "n": "聯準會官網行事曆（自動抓取）；Vice Chair for Supervision Michelle W. Bowman",
+   "mn": 1,
+   "fs": "2026-11-06"
+  },
+  {
+   "d": "2026-11-12",
+   "c": "cb",
+   "t": "聯準會理事巴爾演說：Artificial Intelligence and Inequality",
+   "st": "o",
+   "u": "https://www.federalreserve.gov/newsevents/2026-november.htm",
+   "a": 1,
+   "tm": "美東 10:00，台灣 23:00",
+   "pl": "A Conversation with Michael S. Barr (virtual)",
+   "n": "聯準會官網行事曆（自動抓取）；Governor Michael S. Barr",
+   "mn": 1,
+   "fs": "2026-11-06"
+  },
+  {
+   "d": "2026-11-13",
+   "c": "cb",
+   "t": "聯準會監理副主席鮑曼座談：Supervision and Regulation",
+   "st": "o",
+   "u": "https://www.federalreserve.gov/newsevents/2026-november.htm",
+   "a": 1,
+   "tm": "美東 10:50，台灣 23:50",
+   "pl": "Connecticut Bankers Association Annual Meeting and Conference 2026 (virtual)",
+   "n": "聯準會官網行事曆（自動抓取）；Vice Chair for Supervision Michelle W. Bowman",
+   "mn": 1,
+   "fs": "2026-11-06"
+  },
+  {
+   "d": "2026-11-14",
+   "c": "cb",
+   "t": "聯準會副主席傑佛遜演說：New Technology, Old Questions: Assessing Productivity Puzzles and Their Implications for Macroeconomic Activity",
+   "st": "o",
+   "u": "https://www.federalreserve.gov/newsevents/2026-november.htm",
+   "a": 1,
+   "tm": "美東 11/13 19:00，台灣 11/14 08:00",
+   "pl": "University of California San Diego Economics Roundtable, La Jolla, Calif.",
+   "n": "聯準會官網行事曆（自動抓取）；Vice Chair Philip N. Jefferson",
+   "mn": 1,
+   "fs": "2026-11-06"
   },
   {
    "d": "2026-07-01",
