@@ -503,13 +503,13 @@
   "tm": "美西 14:00，台灣 10/30 05:00"
  },
  {
-  "d": "2026-12-02",
+  "d": "2026-12-01",
   "c": "us",
   "t": "邁威爾（MRVL）FY2027 第三季財報",
-  "st": "e",
-  "u": "https://investor.marvell.com/news-events/ir-calendar",
-  "n": "公司尚未公告；去年同季為 12/2，依往年推估",
-  "tm": "時間未公布",
+  "st": "o",
+  "u": "https://investor.marvell.com/news-events/press-releases/detail/1041/marvell-technology-inc-announces-conference-call-to-review-third-quarter-of-fiscal-year-2027-financial-results",
+  "n": "公司已公告（11/9 查證）；來源：公司 Business Wire 新聞稿（11/6）",
+  "tm": "盤後公布；電話會議美西 13:30（美東 16:30），台灣 12/2 05:30",
   "mn": 1
  },
  {
@@ -737,13 +737,13 @@
   "mn": 1
  },
  {
-  "d": "2026-11-11",
+  "d": "2026-11-12",
   "c": "us",
   "t": "思科（CSCO）FY2027 第一季財報",
-  "st": "e",
-  "u": "https://www.marketbeat.com/stocks/NASDAQ/CSCO/earnings/",
-  "n": "公司尚未公告，第三方推估",
-  "tm": "時間未公布",
+  "st": "o",
+  "u": "https://finviz.com/news/414708/cisco-schedules-conference-call-for-q1-fiscal-year-2027-financial-results",
+  "n": "公司已公告（11/9 查證）；來源：公司 PR Newswire 新聞稿（11/3，經 Finviz 轉載）",
+  "tm": "盤後公布；電話會議美西 13:30（美東 16:30），台灣 11/13 05:30",
   "mn": 1
  },
  {
@@ -780,20 +780,20 @@
   "d": "2026-11-18",
   "c": "us",
   "t": "派拓網路（PANW）FY2027 第一季財報",
-  "st": "e",
-  "u": "https://www.marketbeat.com/stocks/NASDAQ/PANW/earnings",
-  "n": "公司尚未公告，依往年（11/19）推估",
-  "tm": "時間未公布",
+  "st": "o",
+  "u": "https://stockhub.kr/en/newswire/prn/302927448",
+  "n": "公司已公告（11/9 查證）；來源：公司 PR Newswire 新聞稿（11/3，轉載）",
+  "tm": "盤後公布；電話會議美西 13:30（美東 16:30），台灣 11/19 05:30",
   "mn": 1
  },
  {
   "d": "2026-12-01",
   "c": "us",
   "t": "CrowdStrike（CRWD）FY2027 第三季財報",
-  "st": "e",
-  "u": "https://www.marketbeat.com/stocks/NASDAQ/CRWD/earnings",
-  "n": "公司尚未公告，依往年（12/2）推估，可能是 12/1 或 12/2",
-  "tm": "時間未公布",
+  "st": "o",
+  "u": "https://finviz.com/news/415373/crowdstrike-announces-date-of-fiscal-third-quarter-2027-financial-results-conference-call",
+  "n": "公司已公告（11/9 查證）；來源：公司 Business Wire 新聞稿（11/4，經 Finviz 轉載）",
+  "tm": "盤後公布；電話會議美西 14:00（美東 17:00），台灣 12/2 06:00",
   "mn": 1
  },
  {
