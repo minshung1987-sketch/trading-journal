@@ -369,6 +369,16 @@ def main():
             problems.append("玩股網也失敗，股東會沿用上次資料")
             agm = [x for x in old_auto if x["c"] == "agm"]
 
+    # Yahoo 只列「還沒發生」的場次，當天過後就消失；把已發生（日期 ≤ 今天）的舊場次從上次資料沿用下來，
+    # 這樣法說會、股東會開完後仍留在行事曆（可用「顯示已結束」查看）。超過 400 天的才清掉。
+    def keep_past(fresh, cat):
+        fk = {(e["t"], e["d"]) for e in fresh}
+        cutoff = (now - timedelta(days=400)).strftime("%Y-%m-%d")
+        kept = [e for e in old_auto if e["c"] == cat and cutoff <= e["d"] <= today and (e["t"], e["d"]) not in fk]
+        return fresh + kept
+    tw = keep_past(tw, "tw")
+    agm = keep_past(agm, "agm")
+
     # 手動資料裡已有的同公司同日期事件（例如台積電）不重複加入
     def key(e):
         m = re.search(r"（(\d{4,6}[A-Z]?)）", e["t"])
