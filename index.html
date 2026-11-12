@@ -686,6 +686,7 @@ function renderList(box){
 const RANK={cb:1,eco:1,pol:2,us:3,tech:3,mkt:4,ind:5,tw:6,agm:7,disp:8};
 function rank(ev){
   if(isMine(ev))return 0;
+  if(/月結算日|四巫日/.test(ev.t))return 2;      // 台指期結算日、四巫日：每月重要的資金日，排前面避免被「還有 N 筆」藏起來
   if(ev.c==="tw"&&!ev.a)return 3;          // 手動整理的大廠法說（例如台積電）
   return RANK[ev.c]??5;
 }
