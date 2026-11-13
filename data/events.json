@@ -1,5 +1,5 @@
 {
- "updated": "2026/11/13 02:38",
+ "updated": "2026/11/13 11:19",
  "events": [
   {
    "d": "2026-08-27",
@@ -16285,6 +16285,96 @@
    "n": "聯準會官網行事曆（自動抓取）；Vice Chair Philip N. Jefferson",
    "mn": 1,
    "fs": "2026-11-06"
+  },
+  {
+   "d": "2026-11-16",
+   "c": "cb",
+   "t": "聯準會理事巴爾演說：Artificial Intelligence and Financial Stability",
+   "st": "o",
+   "u": "https://www.federalreserve.gov/newsevents/2026-november.htm",
+   "a": 1,
+   "tm": "美東 05:00，台灣 18:00",
+   "pl": "7th ACM International Conference on AI in Finance, Milan, Italy",
+   "n": "聯準會官網行事曆（自動抓取）；Governor Michael S. Barr",
+   "mn": 1,
+   "fs": "2026-11-13"
+  },
+  {
+   "d": "2026-11-17",
+   "c": "cb",
+   "t": "聯準會理事沃勒演說：Payments",
+   "st": "o",
+   "u": "https://www.federalreserve.gov/newsevents/2026-november.htm",
+   "a": 1,
+   "tm": "美東 09:10，台灣 22:10",
+   "pl": "The Clearing House (TCH) Annual Conference, New York, N.Y.",
+   "n": "聯準會官網行事曆（自動抓取）；Governor Christopher J. Waller",
+   "mn": 1,
+   "fs": "2026-11-13"
+  },
+  {
+   "d": "2026-11-17",
+   "c": "cb",
+   "t": "聯準會主席沃什演說：Opening Remarks",
+   "st": "o",
+   "u": "https://www.federalreserve.gov/newsevents/2026-november.htm",
+   "a": 1,
+   "tm": "美東 11/16 12:00，台灣 11/17 01:00",
+   "pl": "Federal Reserve’s Productivity and Jobs Task Force Conference, Federal Reserve Bank of San Francisco, San Francisco, Calif.",
+   "n": "聯準會官網行事曆（自動抓取）；Chairman Kevin Warsh",
+   "fs": "2026-11-13"
+  },
+  {
+   "d": "2026-11-19",
+   "c": "cb",
+   "t": "聯準會理事巴爾演說：Community Development Investments",
+   "st": "o",
+   "u": "https://www.federalreserve.gov/newsevents/2026-november.htm",
+   "a": 1,
+   "tm": "美東 11/18 13:35，台灣 11/19 02:35",
+   "pl": "Making Missing Markets: Catalyzing Capital and Igniting Innovation, Federal Reserve Bank of New York, New York, N.Y.",
+   "n": "聯準會官網行事曆（自動抓取）；Governor Michael S. Barr",
+   "mn": 1,
+   "fs": "2026-11-13"
+  },
+  {
+   "d": "2026-11-20",
+   "c": "cb",
+   "t": "聯準會理事沃勒演說：Welcoming Remarks",
+   "st": "o",
+   "u": "https://www.federalreserve.gov/newsevents/2026-november.htm",
+   "a": 1,
+   "tm": "美東 08:25，台灣 21:25",
+   "pl": "College Fed Challenge Finals",
+   "n": "聯準會官網行事曆（自動抓取）；Governor Christopher J. Waller",
+   "mn": 1,
+   "fs": "2026-11-13"
+  },
+  {
+   "d": "2026-11-20",
+   "c": "cb",
+   "t": "聯準會理事巴爾座談：Artificial Intelligence",
+   "st": "o",
+   "u": "https://www.federalreserve.gov/newsevents/2026-november.htm",
+   "a": 1,
+   "tm": "美東 11/19 14:15，台灣 11/20 03:15",
+   "pl": "FinRegLab 2026 AI Symposium, Washington, D.C.",
+   "n": "聯準會官網行事曆（自動抓取）；Governor Michael S. Barr",
+   "mn": 1,
+   "fs": "2026-11-13"
+  },
+  {
+   "d": "2026-11-21",
+   "c": "cb",
+   "t": "聯準會理事庫克演說：The U.S. Economy in Global Context",
+   "st": "o",
+   "u": "https://www.federalreserve.gov/newsevents/2026-november.htm",
+   "a": 1,
+   "tm": "美東 11/20 12:15，台灣 11/21 01:15",
+   "pl": "Annual Conference of the Central Bank of Chile, Santiago, Chile",
+   "n": "聯準會官網行事曆（自動抓取）；Governor Lisa D. Cook",
+   "mn": 1,
+   "fs": "2026-11-13"
   },
   {
    "d": "2026-07-01",
