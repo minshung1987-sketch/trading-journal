@@ -1,5 +1,5 @@
 {
- "updated": "2026/11/14 02:15",
+ "updated": "2026/11/14 10:58",
  "events": [
   {
    "d": "2026-08-27",
@@ -16954,6 +16954,19 @@
    "pl": "Federal Reserve’s Productivity and Jobs Task Force Conference, Federal Reserve Bank of San Francisco, San Francisco, Calif.",
    "n": "聯準會官網行事曆（自動抓取）；Chairman Kevin Warsh",
    "fs": "2026-11-13"
+  },
+  {
+   "d": "2026-11-19",
+   "c": "cb",
+   "t": "聯準會副主席傑佛遜座談：Economic Shocks",
+   "st": "o",
+   "u": "https://www.federalreserve.gov/newsevents/2026-november.htm",
+   "a": 1,
+   "tm": "美東 09:25，台灣 22:25",
+   "pl": "International Monetary Fund (IMF) and Central Bank of Brazil conference \"A Quarter Century of Inflation Targeting in Latin America: Progress, Challenges, and the Road Ahead\" (virtual)",
+   "n": "聯準會官網行事曆（自動抓取）；Vice Chair Philip N. Jefferson",
+   "mn": 1,
+   "fs": "2026-11-14"
   },
   {
    "d": "2026-11-19",
