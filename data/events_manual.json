@@ -454,17 +454,17 @@
   "t": "輝達（NVDA）FY2027 第三季財報",
   "st": "o",
   "u": "https://investor.nvidia.com/events-and-presentations/events-and-presentations/default.aspx",
-  "n": "公司已公告（11/2 查證）；來源：公司 IR 活動行事曆（NVIDIA 3rd Quarter FY27 Financial Results）",
+  "n": "公司已公告（11/2 查證）；來源：公司 IR 活動行事曆（NVIDIA 3rd Quarter FY27 Financial Results）；11/8 輝達董事會宣布對執行長黃仁勳展開獨立調查（媒體報導：與一名前 Megaspeed 主管的關聯引發關注，董事會稱無理由相信國安或機密受影響），接班人安排受關注，11/9 股價開盤一度跌約 8%（媒體報導）；財報與電話會議可能被問及",
   "tm": "美東 17:00 公布（財報與電話會議），台灣 11/18 06:00"
  },
  {
-  "d": "2026-12-10",
+  "d": "2026-12-09",
   "c": "us",
   "t": "博通（AVGO）FY2026 第四季財報",
-  "st": "e",
-  "u": "https://days.to/broadcom-earnings",
-  "n": "公司尚未公告，依往年模式推估",
-  "tm": "美東 17:00，台灣 12/11 06:00"
+  "st": "o",
+  "u": "https://finviz.com/news/418980/broadcom-inc-to-announce-fourth-quarter-and-fiscal-year-2026-financial-results-on-wednesday-december-9-2026",
+  "n": "公司已公告（11/16 查證）；來源：公司 PR Newswire 新聞稿（11/9，經 Finviz 轉載）",
+  "tm": "盤後公布；電話會議美西 14:00（美東 17:00），台灣 12/10 06:00"
  },
  {
   "d": "2026-11-03",
@@ -543,13 +543,13 @@
   "mn": 1
  },
  {
-  "d": "2026-12-02",
+  "d": "2026-12-01",
   "c": "us",
   "t": "Credo（CRDO）FY2027 第二季財報",
-  "st": "e",
-  "u": "https://www.marketbeat.com/stocks/NASDAQ/CRDO/earnings",
-  "n": "公司尚未公告，依往年推估",
-  "tm": "時間未公布",
+  "st": "o",
+  "u": "https://investors.credosemi.com/",
+  "n": "公司已公告（11/16 查證）；來源：公司 IR 活動行事曆（Q2 FY2027 Earnings Conference Call）",
+  "tm": "電話會議美西 14:00–15:00，台灣 12/2 06:00",
   "mn": 1
  },
  {
@@ -3715,13 +3715,13 @@
   "mn": 1
  },
  {
-  "d": "2026-11-13",
+  "d": "2026-12-16",
   "c": "us",
   "t": "日本電產 Nidec（6594）FY2027 第二季財報",
   "st": "e",
-  "u": "https://www.nidec.com/jp/ir/event/calender/",
+  "u": "https://www.nidec.com/files/user/www-nidec-com/corporate/news/2026/1114-01/261114-01en.pdf",
   "tm": "時間未公布",
-  "n": "官網未列日期；公司前期財報延後公布，時程不確定，去年同期為 11/14",
+  "n": "原預估 11/13 落空：公司 11/14 公告考慮申請延後半年報（法定期限 11/16）提出期限，因重編前期財報與會計師查核；11/13 董事會決議不發中期股息；第二季財報日期未公布，預估最晚約 12/16（延期申請若獲准，推測）；去年度年報會計師出具無法表示意見",
   "mn": 1
  },
  {
