@@ -7,7 +7,8 @@
   3. 證交所、櫃買中心處置公告（開放資料 API）  處置開始／處置結束
   4. 聯準會官網每月行事曆（理事演說、座談、國會作證；見 fed.py）
   5. 規則推算的制度性資金流（作帳期、庫藏股靜默期、13F、財報截止、指數審核等；見 rules.py）
-  6. data/events_manual.json   （人工整理：央行、美股財報、年度大會…）
+  6. 機器人與 AI 學術會議日期（ccf-deadlines）與公司發布候選（官方部落格 RSS；見 feeds.py）
+  7. data/events_manual.json   （人工整理：央行、美股財報、年度大會…）
 
 任何一個來源抓失敗，就沿用上一次 events.json 裡該類別的資料，不會把網站弄空。
 只用 Python 標準函式庫，不需要 pip install。
@@ -23,6 +24,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from annotate import annotate  # noqa: E402
 from fed import fetch_fed  # noqa: E402
+from feeds import conf_events, radar as feed_radar
 from rules import build as rule_events, holidays as mkt_holidays, trading as is_td  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -409,7 +411,16 @@ def main():
     # 規則推算的交易日程（作帳期、庫藏股靜默期、13F…）：不連網，每天重算
     rules = rule_events(manual, today)
 
-    auto = [e for e in tw + agm + disp + fed + rules if key(e) not in have]
+    # 機器人與 AI 的學術會議日期（自動上行事曆）與公司發布候選清單（只存 data/radar.json，不上行事曆）
+    conf = []
+    try:
+        conf = keep_past(conf_events(get, manual, fed_problems), "tech")
+        n = feed_radar(get, today, fed_problems, DATA / "radar.json")
+        print(f"會議 {len(conf)} 場；發布候選 {n} 則")
+    except Exception as e:
+        fed_problems.append(f"會議／發布候選失敗：{e}")
+
+    auto = [e for e in tw + agm + disp + fed + rules + conf if key(e) not in have]
 
     events = annotate(old, manual + auto, today)
     out = {"updated": now.strftime("%Y/%m/%d %H:%M"), "events": events}

@@ -121,6 +121,8 @@ def fetch_fed(get, today_iso, old_fed, manual, problems):
             done.add(url)
             print(f"聯準會行事曆 {y}-{m:02d}：{len(evs)} 筆")
         except Exception as e:
+            if "404" in str(e):          # 還沒公布的月份（例如 3 個月後）不算失敗
+                continue
             problems.append(f"聯準會行事曆 {y}-{m:02d} 失敗：{e}")
     keep = [e for e in old_fed if e.get("u") not in done]
 

@@ -1,0 +1,195 @@
+{
+ "updated": "2026-11-15",
+ "note": "公司官方部落格 RSS 的標題粗篩，只是候選，確認過才加入行事曆",
+ "items": [
+  {
+   "src": "OpenAI",
+   "title": "Introducing ChatGPT Wallet",
+   "link": "https://openai.com/index/introducing-chatgpt-wallet",
+   "d": "2026-11-13",
+   "first_seen": "2026-11-15"
+  },
+  {
+   "src": "Google DeepMind",
+   "title": "Introducing Gemini 4 Hydrogen",
+   "link": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+   "d": "2026-11-13",
+   "first_seen": "2026-11-15"
+  },
+  {
+   "src": "Google AI",
+   "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+   "link": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+   "d": "2026-11-13",
+   "first_seen": "2026-11-15"
+  },
+  {
+   "src": "Google AI",
+   "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+   "link": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+   "d": "2026-11-12",
+   "first_seen": "2026-11-15"
+  },
+  {
+   "src": "Google DeepMind",
+   "title": "Gemini 4 Carbon is now available",
+   "link": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
+   "d": "2026-11-11",
+   "first_seen": "2026-11-15"
+  },
+  {
+   "src": "Google AI",
+   "title": "Gemini Intelligence: New features, on more devices",
+   "link": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
+   "d": "2026-11-11",
+   "first_seen": "2026-11-15"
+  },
+  {
+   "src": "OpenAI",
+   "title": "Introducing Businesses in ChatGPT",
+   "link": "https://openai.com/index/introducing-businesses-chatgpt",
+   "d": "2026-11-10",
+   "first_seen": "2026-11-15"
+  },
+  {
+   "src": "OpenAI",
+   "title": "ChatGPT Enterprise now available in AWS Marketplace",
+   "link": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+   "d": "2026-11-10",
+   "first_seen": "2026-11-15"
+  },
+  {
+   "src": "Google DeepMind",
+   "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+   "link": "https://deepmind.google/blog/introducing-alphaproof-code/",
+   "d": "2026-11-10",
+   "first_seen": "2026-11-15"
+  },
+  {
+   "src": "Google DeepMind",
+   "title": "Gemini Robotics 2.5 accelerates real-world general dexterity",
+   "link": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+   "d": "2026-11-10",
+   "first_seen": "2026-11-15"
+  },
+  {
+   "src": "Google AI",
+   "title": "Google Cloud launches Gemini for healthcare.",
+   "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
+   "d": "2026-11-10",
+   "first_seen": "2026-11-15"
+  },
+  {
+   "src": "NVIDIA",
+   "title": "Practice Makes Precise: At CoRL, NVIDIA and Partners Reveal How Robots Rehearse Delicate Work in Simulation",
+   "link": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/",
+   "d": "2026-11-09",
+   "first_seen": "2026-11-15"
+  },
+  {
+   "src": "NVIDIA",
+   "title": "NVIDIA Announces New Planned Investments in Korean Startups at the MSIT-NVIDIA AI Startup Partnership Forum",
+   "link": "https://blogs.nvidia.com/blog/korean-startup-investments-msit/",
+   "d": "2026-11-09",
+   "first_seen": "2026-11-15"
+  },
+  {
+   "src": "NVIDIA",
+   "title": "Vera Delivers the Best of Both Worlds: Highest Throughput and Fastest Agents",
+   "link": "https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents/",
+   "d": "2026-11-06",
+   "first_seen": "2026-11-15"
+  },
+  {
+   "src": "Google DeepMind",
+   "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+   "link": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
+   "d": "2026-11-06",
+   "first_seen": "2026-11-15"
+  },
+  {
+   "src": "Google AI",
+   "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+   "link": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+   "d": "2026-11-06",
+   "first_seen": "2026-11-15"
+  },
+  {
+   "src": "OpenAI",
+   "title": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
+   "link": "https://openai.com/index/introducing-gpt-6-cyber",
+   "d": "2026-11-05",
+   "first_seen": "2026-11-15"
+  },
+  {
+   "src": "OpenAI",
+   "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
+   "link": "https://openai.com/index/daybreak-red-aws-govcloud",
+   "d": "2026-11-04",
+   "first_seen": "2026-11-15"
+  },
+  {
+   "src": "OpenAI",
+   "title": "Introducing Images 2.6",
+   "link": "https://openai.com/index/introducing-images-2-6",
+   "d": "2026-11-04",
+   "first_seen": "2026-11-15"
+  },
+  {
+   "src": "OpenAI",
+   "title": "DevRev delivers autonomous self-service with GPT-6.1 Sol",
+   "link": "https://openai.com/index/devrev-enterprise-self-service",
+   "d": "2026-11-04",
+   "first_seen": "2026-11-15"
+  },
+  {
+   "src": "Google AI",
+   "title": "The latest AI news we announced in October 2026",
+   "link": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/",
+   "d": "2026-11-03",
+   "first_seen": "2026-11-15"
+  },
+  {
+   "src": "OpenAI",
+   "title": "Introducing the Grid Protectors Program",
+   "link": "https://openai.com/index/grid-protectors-program",
+   "d": "2026-11-02",
+   "first_seen": "2026-11-15"
+  },
+  {
+   "src": "Google DeepMind",
+   "title": "Gemini 4 Carbon: Our next frontier model",
+   "link": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+   "d": "2026-10-29",
+   "first_seen": "2026-11-15"
+  },
+  {
+   "src": "Google DeepMind",
+   "title": "Genie 4: A new generation of world simulation",
+   "link": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+   "d": "2026-10-28",
+   "first_seen": "2026-11-15"
+  },
+  {
+   "src": "OpenAI",
+   "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+   "link": "https://openai.com/index/greptile-code-review-codex-astra",
+   "d": "2026-10-27",
+   "first_seen": "2026-11-15"
+  },
+  {
+   "src": "OpenAI",
+   "title": "Introducing GPT-6.1 Terra",
+   "link": "https://openai.com/index/introducing-gpt-6-1-terra",
+   "d": "2026-10-27",
+   "first_seen": "2026-11-15"
+  },
+  {
+   "src": "OpenAI",
+   "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+   "link": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+   "d": "2026-10-26",
+   "first_seen": "2026-11-15"
+  }
+ ]
+}
