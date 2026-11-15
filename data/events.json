@@ -1,5 +1,5 @@
 {
- "updated": "2026/11/15 10:29",
+ "updated": "2026/11/15 23:42",
  "events": [
   {
    "d": "2026-08-27",
@@ -4961,6 +4961,53 @@
    "u": "https://www.taifex.com.tw/cht/5/futIndxFSP",
    "n": "期交所「最後結算價」頁面已列此日；期交所契約規格：最後結算日＝交割月份第三個星期三，遇休市順延",
    "fs": "2026-11-12"
+  },
+  {
+   "d": "2026-11-09",
+   "e": "2026-11-12",
+   "c": "tech",
+   "t": "CoRL 2026（機器人學習研討會）",
+   "pl": "美國德州奧斯汀",
+   "st": "o",
+   "u": "https://2026.corl.org/",
+   "n": "機器人學習領域頂尖學術會議；官方：11/9 工作坊與教學，11/10–12 主會議（其他整理頁面分法略有出入）；輝達在會上發表 GR00T 2 與 Isaac Lab 3.0",
+   "mn": 1,
+   "q": "CoRL 機器人 研討會",
+   "fs": "2026-11-15"
+  },
+  {
+   "d": "2026-11-09",
+   "c": "tech",
+   "t": "Anthropic 發布 Claude Fable 5.2 與 Mythos 5.2",
+   "st": "o",
+   "u": "https://www.constellationr.com/insights/news/anthropic-releases-mythos-52-fable-52",
+   "n": "公司產品發布（非預先排定的活動）；API 輸入降至每百萬 token 8 美元；華爾街見聞 11/15 文章指其在 RoboDojo 雙臂機器人基準拿 64.9%（廠商與媒體引述數字）；11/9 宇樹科技漲 8%（媒體報導）",
+   "mn": 1,
+   "q": "Anthropic Claude Fable 5.2",
+   "fs": "2026-11-15"
+  },
+  {
+   "d": "2026-11-09",
+   "c": "tech",
+   "t": "NVIDIA 發布 GR00T 2 與 Isaac Lab 3.0（CoRL）",
+   "pl": "美國德州奧斯汀",
+   "st": "o",
+   "u": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/",
+   "n": "輝達部落格 11/9 於 CoRL 發表開放式世界動作模型 GR00T 2（基於 Cosmos、用 10 萬小時人類第一人稱影片訓練）與機器人學習框架 Isaac Lab 3.0；輝達稱 50 項任務中 40 項無需專門示範；鴻海報導稱將用於伺服器製造自動化（尚未證實量產導入）",
+   "mn": 1,
+   "q": "輝達 GR00T 2",
+   "fs": "2026-11-15"
+  },
+  {
+   "d": "2026-11-10",
+   "c": "tech",
+   "t": "Google DeepMind 發布 Gemini Robotics 2.5",
+   "st": "o",
+   "u": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+   "n": "DeepMind 部落格 11/10 發布，定位「迄今能力最強的視覺—語言—動作（VLA）模型」；僅開放機器人合作夥伴，無公開 API；Apptronik Apollo 2 人形機器人在賓士工廠概念驗證零件分揀成功率 96%（廠商數據）",
+   "mn": 1,
+   "q": "Gemini Robotics 2.5",
+   "fs": "2026-11-15"
   },
   {
    "d": "2026-11-16",
