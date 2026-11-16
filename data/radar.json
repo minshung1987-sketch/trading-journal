@@ -1,7 +1,35 @@
 {
- "updated": "2026-11-16",
+ "updated": "2026-11-17",
  "note": "公司官方部落格 RSS 的標題粗篩，只是候選，確認過才加入行事曆",
  "items": [
+  {
+   "src": "NVIDIA",
+   "title": "NVIDIA Sweeps MLPerf Training and Endpoints as Vera Rubin Debuts With Leading Performance",
+   "link": "https://blogs.nvidia.com/blog/mlperf-training-endpoints-vera-rubin/",
+   "d": "2026-11-17",
+   "first_seen": "2026-11-17"
+  },
+  {
+   "src": "NVIDIA",
+   "title": "NVIDIA Announces Rubin HPC — A New GPU to Accelerate Agents for Science, Engineering and Analytics",
+   "link": "https://blogs.nvidia.com/blog/rubin-hpc/",
+   "d": "2026-11-17",
+   "first_seen": "2026-11-17"
+  },
+  {
+   "src": "OpenAI",
+   "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
+   "link": "https://openai.com/index/lvmh-media-division-partnership",
+   "d": "2026-11-16",
+   "first_seen": "2026-11-17"
+  },
+  {
+   "src": "OpenAI",
+   "title": "The King’s Trust and OpenAI launch £1m partnership",
+   "link": "https://openai.com/index/the-kings-trust-and-openai",
+   "d": "2026-11-16",
+   "first_seen": "2026-11-17"
+  },
   {
    "src": "OpenAI",
    "title": "Introducing ChatGPT Wallet",
