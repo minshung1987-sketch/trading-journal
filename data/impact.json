@@ -1,17 +1,17 @@
 {
- "updated": "2026/11/17",
+ "updated": "2026/11/18",
  "years": 10,
  "base": {
   "tw": {
    "avg": 0.82,
    "top20": 1.26,
-   "days": 2441,
+   "days": 2440,
    "recent_avg": 1.09
   },
   "us": {
    "avg": 1.62,
    "top20": 2.54,
-   "days": 2524,
+   "days": 2525,
    "recent_avg": 1.89
   }
  },

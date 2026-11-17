@@ -1,7 +1,28 @@
 {
- "updated": "2026-11-17",
+ "updated": "2026-11-18",
  "note": "公司官方部落格 RSS 的標題粗篩，只是候選，確認過才加入行事曆",
  "items": [
+  {
+   "src": "OpenAI",
+   "title": "Introducing GPT-6.2 Astra and Sol",
+   "link": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+   "d": "2026-11-18",
+   "first_seen": "2026-11-18"
+  },
+  {
+   "src": "Google AI",
+   "title": "Put Gemini to work for you",
+   "link": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+   "d": "2026-11-18",
+   "first_seen": "2026-11-18"
+  },
+  {
+   "src": "OpenAI",
+   "title": "Introducing OpenAI for Chile",
+   "link": "https://openai.com/index/introducing-openai-for-chile",
+   "d": "2026-11-17",
+   "first_seen": "2026-11-18"
+  },
   {
    "src": "NVIDIA",
    "title": "NVIDIA Sweeps MLPerf Training and Endpoints as Vera Rubin Debuts With Leading Performance",
