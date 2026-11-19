@@ -1,7 +1,14 @@
 {
- "updated": "2026-11-19",
+ "updated": "2026-11-20",
  "note": "公司官方部落格 RSS 的標題粗篩，只是候選，確認過才加入行事曆",
  "items": [
+  {
+   "src": "Google AI",
+   "title": "Introducing Tool Retrieval in the Gemini API",
+   "link": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+   "d": "2026-11-20",
+   "first_seen": "2026-11-20"
+  },
   {
    "src": "Google DeepMind",
    "title": "Genie 4 is now available",
