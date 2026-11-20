@@ -187,3 +187,48 @@ def radar(get, today, problems, path):
     path.write_text(json.dumps({"updated": today, "note": "公司官方部落格 RSS 的標題粗篩，只是候選，確認過才加入行事曆", "items": items},
                                ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     return len(items)
+
+
+# ---------- 政治與重大人物行程雷達（Google 新聞 RSS 標題掃描）----------
+# 用意：美國總統演講、峰會、談判這類臨時公布的行程，沒有固定官方日曆，只能從新聞標題發現。
+# 只存成候選清單（data/radar_events.json），每週例行更新由我人工確認日期與來源後才加入行事曆。
+NEWS_Q = [
+    # (查詢字串, 語系參數)
+    ("Trump to deliver speech OR address OR keynote OR remarks", "hl=en-US&gl=US&ceid=US:en"),
+    ("Trump will travel OR visit OR meet OR attend summit", "hl=en-US&gl=US&ceid=US:en"),
+    ("Xi Jinping OR Putin OR Zelensky to meet OR visit OR summit talks next week", "hl=en-US&gl=US&ceid=US:en"),
+    ("Warsh OR Bessent OR Lutnick OR Greer to testify OR travel OR speak", "hl=en-US&gl=US&ceid=US:en"),
+    ("peace talks OR trade talks OR ceasefire talks scheduled next week", "hl=en-US&gl=US&ceid=US:en"),
+    ("川普 將於 演說 OR 出席 OR 會晤 OR 訪問", "hl=zh-TW&gl=TW&ceid=TW:zh-Hant"),
+    ("習近平 OR 普丁 OR 澤倫斯基 將於 會談 OR 峰會 OR 訪問", "hl=zh-TW&gl=TW&ceid=TW:zh-Hant"),
+    ("特朗普 将于 发表演讲 OR 出席 OR 会晤", "hl=zh-CN&gl=CN&ceid=CN:zh-Hans"),
+    ("金十数据 将于 举行 会谈 OR 听证会 OR 峰会", "hl=zh-CN&gl=CN&ceid=CN:zh-Hans"),
+]
+CUE = re.compile(r"(\bto (speak|deliver|address|meet|visit|travel|testify|host|attend|hold|give|make)\b|\bwill (speak|deliver|address|meet|visit|travel|testify|host|attend|hold|give)\b|"
+                 r"\bnext week\b|\bscheduled\b|\bset (for|to)\b|\bon (Dec|Nov|Jan)\w*\.? \d|將於|将于|預計|预计|下週|下周|定於|定于|會晤|会晤|峰會|峰会|聽證|听证|演說|演讲)", re.I)
+NOISE = re.compile(r"(horoscope|stock picks?|why .* (stock|shares)|earnings (preview|call)|opinion:|\bNFL\b|\bNBA\b|\bsoccer\b)", re.I)
+
+
+def radar_news(today, problems, path):
+    from urllib.parse import quote
+    try:
+        old = json.loads(path.read_text(encoding="utf-8"))
+    except Exception:
+        old = {"items": []}
+    seen = {i["link"]: i for i in old.get("items", [])}
+    for q, ed in NEWS_Q:
+        url = f"https://news.google.com/rss/search?q={quote(q + ' when:3d')}&{ed}"
+        try:
+            for i in parse_feed(fetch_feed(url), q):
+                if CUE.search(i["title"]) and not NOISE.search(i["title"]) and i["link"] not in seen:
+                    i["first_seen"] = today
+                    i["q"] = q[:40]
+                    del i["src"]
+                    seen[i["link"]] = i
+        except Exception as e:
+            problems.append(f"事件雷達查詢失敗（{q[:20]}…）：{e}")
+    cutoff = (datetime.strptime(today, "%Y-%m-%d") - timedelta(days=45)).strftime("%Y-%m-%d")
+    items = sorted((i for i in seen.values() if i["d"] >= cutoff), key=lambda i: (i["d"], i["title"]), reverse=True)[:400]
+    path.write_text(json.dumps({"updated": today, "note": "Google 新聞標題粗篩，只是候選，確認過才加入行事曆", "items": items},
+                               ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    return len(items)

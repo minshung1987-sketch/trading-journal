@@ -24,7 +24,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from annotate import annotate  # noqa: E402
 from fed import fetch_fed  # noqa: E402
-from feeds import conf_events, radar as feed_radar
+from feeds import conf_events, radar as feed_radar, radar_news
 from rules import build as rule_events, holidays as mkt_holidays, trading as is_td  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -417,6 +417,8 @@ def main():
         conf = keep_past(conf_events(get, manual, fed_problems), "tech")
         n = feed_radar(get, today, fed_problems, DATA / "radar.json")
         print(f"會議 {len(conf)} 場；發布候選 {n} 則")
+        n2 = radar_news(today, fed_problems, DATA / "radar_events.json")
+        print(f"事件雷達候選 {n2} 則")
     except Exception as e:
         fed_problems.append(f"會議／發布候選失敗：{e}")
 
