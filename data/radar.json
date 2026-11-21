@@ -3,6 +3,13 @@
  "note": "公司官方部落格 RSS 的標題粗篩，只是候選，確認過才加入行事曆",
  "items": [
   {
+   "src": "OpenAI",
+   "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
+   "link": "https://openai.com/business/customer-stories/hebbia",
+   "d": "2026-11-20",
+   "first_seen": "2026-11-21"
+  },
+  {
    "src": "Google AI",
    "title": "Introducing Tool Retrieval in the Gemini API",
    "link": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
