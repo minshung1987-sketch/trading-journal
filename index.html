@@ -89,6 +89,7 @@ h1{margin:0;font-size:clamp(28px,4.4vw,40px);line-height:1.15;font-weight:700;le
 .est{border:1px dashed var(--muted);color:var(--muted);border-radius:999px;padding:0 8px;font-size:12px;line-height:1.7}
 .src{color:var(--muted);text-decoration:underline;text-underline-offset:3px}
 .src:hover{color:var(--ink)}
+.fedw{color:var(--accent,var(--ink));font-weight:600}
 .empty{padding:36px 16px;text-align:center;color:var(--muted);border:1px dashed var(--line);border-radius:12px}
 
 /* month grid */
@@ -640,6 +641,7 @@ function evRow(ev){
       h("span",{class:"cdp",text:countdownText(ev)}),
       ev.st==="e"?h("span",{class:"est",title:"尚未正式公告的預估日期",text:"預估"}):null,
       ev.u?h("a",{class:"src",href:ev.u,target:"_blank",rel:"noopener",text:"來源"}):null,
+      /FOMC 利率決議/.test(ev.t)?h("a",{class:"src fedw",href:"https://www.cmegroup.com/cn-t/markets/interest-rates/cme-fedwatch-tool.html",target:"_blank",rel:"noopener",title:"CME FedWatch：市場預期的升息／降息機率",text:"升降息機率"}):null,
       ...newsLinks(ev),
       isPast(ev)?null:h("button",{class:"pinbtn"+(TILES.some(it=>it.e===eventKey(ev)||it.s===seriesKey(ev))?" on":""),type:"button",
         title:"加到最上方倒數區","aria-label":"加到倒數區",text:"📌",onclick:()=>openPin(ev)})
