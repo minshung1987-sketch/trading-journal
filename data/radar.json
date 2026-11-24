@@ -4,6 +4,13 @@
  "items": [
   {
    "src": "OpenAI",
+   "title": "OpenAI and Cisco introduce Shirudo",
+   "link": "https://openai.com/index/introducing-shirudo",
+   "d": "2026-11-24",
+   "first_seen": "2026-11-24"
+  },
+  {
+   "src": "OpenAI",
    "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
    "link": "https://openai.com/business/customer-stories/hebbia",
    "d": "2026-11-20",
