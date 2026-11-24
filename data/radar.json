@@ -1,7 +1,14 @@
 {
- "updated": "2026-11-24",
+ "updated": "2026-11-25",
  "note": "公司官方部落格 RSS 的標題粗篩，只是候選，確認過才加入行事曆",
  "items": [
+  {
+   "src": "Google AI",
+   "title": "How Gemini is changing the game for Golden State's organization and fans.",
+   "link": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
+   "d": "2026-11-25",
+   "first_seen": "2026-11-25"
+  },
   {
    "src": "OpenAI",
    "title": "OpenAI and Cisco introduce Shirudo",
