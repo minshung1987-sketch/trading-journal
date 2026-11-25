@@ -3,6 +3,34 @@
  "note": "Google 新聞標題粗篩，只是候選，確認過才加入行事曆",
  "items": [
   {
+   "title": "王慶民觀點：形過於實─被高估的中美俄領導人峰會 | 王慶民 | 評論 - 風傳媒",
+   "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5QYkhLZFhYdmZhNFVsVmJLYXg1LThjRmVkSW9vSWFyS2lXX3VGcGVvWmNGc3BaYWptWTFjenE4VmZfenlqRWl6c281ZDRfZw?oc=5",
+   "d": "2026-11-25",
+   "first_seen": "2026-11-25",
+   "q": "習近平 OR 普丁 OR 澤倫斯基 將於 會談 OR 峰會 OR 訪問"
+  },
+  {
+   "title": "民主黨參院領袖舒默控違反出口管制 黃仁勳將出席兩院聽證會 | 路透社 - LINE TODAY",
+   "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1UdjlVcWNEX1lzYmtwODIwRFkzTjJkcHFsa29JZkFoOV95eUtXRk1DOU5WcXpVSTlnOXlqVGl6UTJwX3FubWpQY2VmQ05ScFhxVUVob2t3?oc=5",
+   "d": "2026-11-25",
+   "first_seen": "2026-11-25",
+   "q": "川普 將於 演說 OR 出席 OR 會晤 OR 訪問"
+  },
+  {
+   "title": "Trump to meet Xi, Putin in China for nuclear arms talks; Ukraine off agenda - Todayville",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPbHFyNEVPc1AtRE14N3RBbzZOZ3NKZDY5LU9IMEVEY1dEY3pxWXVHT28wMEtJRVBkX2YyS0diV1NFVEpyNXZXUVRGY1VLRGd6dHZETXpJNUNkd0QxenRyWDMtZEV4am01YnF2SlFaUnVuODk4XzdoaWY5eXdrd08yTVlZclVNS2d4dDVyNW9fVG1pYzZnLVlkSl9fcXZtLWV0TzY4?oc=5",
+   "d": "2026-11-25",
+   "first_seen": "2026-11-25",
+   "q": "Xi Jinping OR Putin OR Zelensky to meet "
+  },
+  {
+   "title": "APEC峰會研討灣區與亞太發展機遇 - TDM",
+   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE50dGdaUE1JVkNDU3RpeHVpbTY2ZXlUSExhTzNWZWU4UE1qOGsyNGttSE9OanJocS1JYzRReE5kQ2pCNzA3Z2ZTTzZ3Y0lWQVlOWWozc2pRck5sczQwRV9OWkYzaDdnMDhNeVdvUHBUdjBaT1JfTkFzdA?oc=5",
+   "d": "2026-11-25",
+   "first_seen": "2026-11-25",
+   "q": "習近平 OR 普丁 OR 澤倫斯基 將於 會談 OR 峰會 OR 訪問"
+  },
+  {
    "title": "20 lawmakers urge Trump to withdraw invitation to Putin to attend the G20 summit - Mezha.net",
    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQc09oYTNESVY4YUpFbzNnckRrQlotVHA2WDNSNTlQeUpKVG9taGk1REVoU2EwY0I2YllXQnE2LUZfanF1Q25udEhXbjA3STFsQWc5SFo3R3VMYWZhOVVxaXpTRF9maF9zMzR0eFZqTnltWXhGTHlkY1lGb2ZheTEyc01R?oc=5",
    "d": "2026-11-25",
@@ -52,10 +80,24 @@
    "q": "特朗普 将于 发表演讲 OR 出席 OR 会晤"
   },
   {
+   "title": "英伟达股价暴涨31.5%！黄仁勋将于12月3日出席美国国会参议院听证会，特朗普曾亲自介入其复职 - Sohu",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMHFvNHd1aGRJV1ctVVBPdUEyWmdUcjNBMlNsLTlqSUtocUNpWFg3QjdwRnBHZExYU05pTVA0eVNaXzF6R1FDaVVvZXowd1lhclFEUHJUVzdlY2pRNExDeFpIdC05aGlNYVpoeUFaZkpkalhDVElKU3ZhZ09IeV9IMDBjcEtmN0tnVjhDcQ?oc=5",
+   "d": "2026-11-24",
+   "first_seen": "2026-11-25",
+   "q": "特朗普 将于 发表演讲 OR 出席 OR 会晤"
+  },
+  {
    "title": "英伟达市值暴涨近1万亿美元，黄仁勋将出席美国国会参议院听证会并作证；特朗普称曾与英伟达董事会沟通，为黄仁勋复职背书 - Sohu",
    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQbUh5VENBdkhvMXloRWtDSHJNMW03T1V0dk83S2lZMGlBeEY4cUJNX0t0dUw3bEhqNjJSMjFNb2h6YlEyQXlBZ0ZTWGlCaWdFSFNPZU1nZ1B2TkNmOFA0bkxtTVRJWWFwYmFib0MyNFc1SlVwMHVmZXVIVUlBQ1pSUnVwWmhpVjhzMVRN?oc=5",
    "d": "2026-11-24",
    "first_seen": "2026-11-24",
+   "q": "特朗普 将于 发表演讲 OR 出席 OR 会晤"
+  },
+  {
+   "title": "英伟达市值暴涨近1万亿美元，黄仁勋将出席美国国会参议院听证会并作证；特朗普称曾与英伟达董事会沟通，为黄仁勋复职背书 - Sohu",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZWxhUVlMb3o5cllEZVhlMjJJemRHdDMxRm5DVEFHTTlDY3lHeEZaelJ5WXVvUkxtdUl1RjVGWXdFa3BKX1A3dGExZWIxMlRSaW45NXpoeU9QbnBfVE9KLXAwNS1NMTQyai0tT1ZIWVYwaS1rWWtPZ3BSVmRjT3BPMHAxMlhCSUpp?oc=5",
+   "d": "2026-11-24",
+   "first_seen": "2026-11-25",
    "q": "特朗普 将于 发表演讲 OR 出席 OR 会晤"
   },
   {
@@ -64,6 +106,20 @@
    "d": "2026-11-24",
    "first_seen": "2026-11-25",
    "q": "川普 將於 演說 OR 出席 OR 會晤 OR 訪問"
+  },
+  {
+   "title": "美伊下一步動向不明 范斯、盧比歐會晤卡達總理 | 中央廣播電臺 - LINE TODAY",
+   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPT2RUV2t5WU9FOHFGM0U4WS15NDlsTTJyUlF5ajFTSzhiYnJsQ0tKbFZoMDI4eGZ6Mi02VnluMy1VRFEtNk5yYnlzUUlDUWc4OFJVRjlwalhxSElYV2Zva3AtYUwybm1yN25TMkJCT1p5WXpVYmVvSnR5VlVvWXNWTA?oc=5",
+   "d": "2026-11-24",
+   "first_seen": "2026-11-25",
+   "q": "川普 將於 演說 OR 出席 OR 會晤 OR 訪問"
+  },
+  {
+   "title": "特朗普：将安排普京与泽连斯基会晤，具体日期未定-市场参考 - 金十数据",
+   "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBYdGNJZFdCVVRsNGFDMDRGQ1NSSXVLbUx6UFBfSHpaMHktWXdidWdDU20wXzIwNVp5WVVGUDZUUFcxM1hrUHBnQTU1VVEzYkE?oc=5",
+   "d": "2026-11-24",
+   "first_seen": "2026-11-25",
+   "q": "特朗普 将于 发表演讲 OR 出席 OR 会晤"
   },
   {
    "title": "特朗普释重要信号:不会绕过乌克兰与普京达成协议！美俄元首会晤引发欧洲担忧 - FX168财经",
@@ -143,6 +199,13 @@
    "q": "川普 將於 演說 OR 出席 OR 會晤 OR 訪問"
   },
   {
+   "title": "Why Donald Trump and Kim Jong Un failed to meet once again - NK News",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOUzFJVkZiaUlyOTZGNFFOcTRKZmFQWHAwaGViTUctdk5XcnU0c0JsRkQ1WWlXTGxCSDhvRF9uUl9hZ0lDMkoyYmRRZmRCWFdaVXdPNE1ZenJiZEMwT2hPUkhfSFZZcGZsUWcxZjN6R1NIc3p6WkxULWNvUHVYYmlNNHFObnZ0cFN6YUVPQjRsV3l4QkMy?oc=5",
+   "d": "2026-11-24",
+   "first_seen": "2026-11-25",
+   "q": "Trump will travel OR visit OR meet OR at"
+  },
+  {
    "title": "Who is Tim Scott, the Senate Banking chairman bringing Jensen Huang to testify on December 3? - Nacionale",
    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQVVZ4NUNrTUJsOVNOWWdvRVVhdEZhbWdwWEZRdjQwdDRpQTVTX2VmWlc0LWVVYkllNzNxX1BtNlFlQTBUNXhRNkk3M2lsRE82d1JDb2lvajhubWxEY2JQYWlKMHV5ckJ1Z3BFaXRwWTFmS0tVRmxaR201a0VwUjBhbzI2eENjSGRFcXRqZXEyRG9GZks0RkpzRndhMERacklpTG9aVkowS2ZTM25lZ1dN?oc=5",
    "d": "2026-11-24",
@@ -162,6 +225,20 @@
    "d": "2026-11-24",
    "first_seen": "2026-11-24",
    "q": "Trump will travel OR visit OR meet OR at"
+  },
+  {
+   "title": "Trump to meet NATO chief ​Mark Rutte on Wednesday, White House says - Merced Sun-Star",
+   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPVWVIbGVyM3VMQnZDVWljTi1SaEFORGxFTnFGSnlCZUVVR2RyNzZfRWdTVnRIc3lnQ0ZkQkVJN3lKdXd4ZG1Ualdpd3pHMmVxT1RnaENEOW90WHF5cnk4cjdkZF9IQjJoMkZkLTVxbUtaOGFDNmV4T25WN2REekFwYg?oc=5",
+   "d": "2026-11-24",
+   "first_seen": "2026-11-25",
+   "q": "Trump will travel OR visit OR meet OR at"
+  },
+  {
+   "title": "Trump to meet NATO chief ​Mark Rutte on Wednesday, White House says - Kansas City Star",
+   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5GOUVaRlNwdFNRY1FWOHI2UF8xV2FjSENuVERiLVIzVVlMbGJ3SWNab1ROc3c5VFVXYjMzV1dpbGgxRlpZallsOEVubDh4Tm5CZnNfaW9oTnZ4dTBBbDdsWHVoeFI1elVMQUlpdGljOHR1UmUtd0ZxWEZIRFM?oc=5",
+   "d": "2026-11-24",
+   "first_seen": "2026-11-25",
+   "q": "Xi Jinping OR Putin OR Zelensky to meet "
   },
   {
    "title": "Trump to meet NATO chief ​Mark Rutte on Wednesday, White House says - Idaho Statesman",
@@ -197,6 +274,13 @@
    "d": "2026-11-24",
    "first_seen": "2026-11-24",
    "q": "Trump will travel OR visit OR meet OR at"
+  },
+  {
+   "title": "Trump to Meet NATO Chief Mark Rutte on Wednesday, White House Says - شبكة تواصل الإخبارية",
+   "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5na1dDTHdmOTdMUnJad1pqYkxmRnVLVjhXZU5oOEFSd2RVUWhxVDhvTmlqQWhuVFdueTdTcmtCUGQ1N1JXV2huYnBzZ2VWMkoyUXFN?oc=5",
+   "d": "2026-11-24",
+   "first_seen": "2026-11-25",
+   "q": "Xi Jinping OR Putin OR Zelensky to meet "
   },
   {
    "title": "Trump to Meet NATO Chief Mark Rutte on Wednesday, White House Says - U.S. News & World Report",
@@ -260,6 +344,13 @@
    "d": "2026-11-24",
    "first_seen": "2026-11-24",
    "q": "Trump to deliver speech OR address OR ke"
+  },
+  {
+   "title": "金融時報：克宮推動美中俄峰會後發表聯合聲明 - 經濟日報",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5IMVRkNjhOSzlPUWVEbDJoUUpYdHdNUjNHa3B5bmJ5MHc1WWJhS3g1dmFBMmc5TGJoQ3hVVlZ6RVJFQUV1bG80eklneGdNVTBvZlU5b2NVd21zd9IBX0FVX3lxTFB5Y0tLNlJJYkt3RF8zYjQ1LXJNc1JxbDVpUktIQmw1VjhOX28tWDFMamplcUhJeEc2WE5FQVRhVzNMVVNjc3JhQVd0cmxBYWI5dWEyZXU2V1F5ejROMElV?oc=5",
+   "d": "2026-11-23",
+   "first_seen": "2026-11-25",
+   "q": "習近平 OR 普丁 OR 澤倫斯基 將於 會談 OR 峰會 OR 訪問"
   },
   {
    "title": "記者編輯部| 【梅花專論】深圳中美俄峰會並非雅爾達2.0 台灣應防被邊緣化 - 梅花新聞網",
