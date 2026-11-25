@@ -202,12 +202,15 @@ NEWS_Q = [
     ("Fed president OR governor to speak OR remarks OR fireside chat OR keynote Williams OR Musalem OR Hammack OR Logan OR Schmid OR Goolsbee OR Daly OR Kashkari OR Bostic OR Collins OR Paulson OR Harker", "hl=en-US&gl=US&ceid=US:en"),
     ("Fedspeak today OR tomorrow OR \"this week\" Fed speakers", "hl=en-US&gl=US&ceid=US:en"),
     ("聯儲 主席 將發表講話 OR 將發表演說 威廉斯 OR 穆薩萊姆 OR 哈瑪克 OR 洛根 OR 古爾斯比 OR 戴利 OR 卡什卡利", "hl=zh-CN&gl=CN&ceid=CN:zh-Hans"),
+    ("Trump groundbreaking OR ceremony OR factory OR plant OR visit TSMC OR Nvidia OR Intel OR Micron OR Apple OR chip", "hl=en-US&gl=US&ceid=US:en"),
+    ("White House official says Trump will attend OR headline OR lead next week", "hl=en-US&gl=US&ceid=US:en"),
+    ("川普 OR 特朗普 動工 OR 动工 OR 剪綵 OR 剪彩 OR 出席 台積電 OR 輝達 OR 英特爾 OR 美光 OR 工廠", "hl=zh-TW&gl=TW&ceid=TW:zh-Hant"),
     ("川普 將於 演說 OR 出席 OR 會晤 OR 訪問", "hl=zh-TW&gl=TW&ceid=TW:zh-Hant"),
     ("習近平 OR 普丁 OR 澤倫斯基 將於 會談 OR 峰會 OR 訪問", "hl=zh-TW&gl=TW&ceid=TW:zh-Hant"),
     ("特朗普 将于 发表演讲 OR 出席 OR 会晤", "hl=zh-CN&gl=CN&ceid=CN:zh-Hans"),
     ("金十数据 将于 举行 会谈 OR 听证会 OR 峰会", "hl=zh-CN&gl=CN&ceid=CN:zh-Hans"),
 ]
-CUE = re.compile(r"(\bto (speak|deliver|address|meet|visit|travel|testify|host|attend|hold|give|make)\b|\bwill (speak|deliver|address|meet|visit|travel|testify|host|attend|hold|give)\b|"
+CUE = re.compile(r"(\bto (speak|deliver|address|meet|visit|travel|testify|host|attend|hold|give|make|lead|preside|headline|join|unveil|open|break|sign|announce|chair)\b|\bwill (speak|deliver|address|meet|visit|travel|testify|host|attend|hold|give)\b|"
                  r"\bnext week\b|\bscheduled\b|\bset (for|to)\b|\bon (Dec|Nov|Jan)\w*\.? \d|將於|将于|預計|预计|下週|下周|定於|定于|會晤|会晤|峰會|峰会|聽證|听证|演說|演讲)", re.I)
 NOISE = re.compile(r"(horoscope|stock picks?|why .* (stock|shares)|earnings (preview|call)|opinion:|\bNFL\b|\bNBA\b|\bsoccer\b)", re.I)
 
