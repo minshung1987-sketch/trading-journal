@@ -1,13 +1,111 @@
 {
- "updated": "2026-11-25",
+ "updated": "2026-11-26",
  "note": "Google 新聞標題粗篩，只是候選，確認過才加入行事曆",
  "items": [
+  {
+   "title": "首度造訪！台積電下周亞利桑那廠擴建典禮川普將出席| 財經焦點| 產經 - UDN",
+   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5IaVNWcnJkb19mVkZWVnc3RG9pNXFvOXZzQm90RXdWNmxNQk82bVA3eGlCZ2RoWnZ3clJXVXVkZkh6QWNSd2FOLWVHanF4MjFZYkVOVkxjOE8zTThybzFxcDhxSzN6dktJV0J3eUMxN0tOUQ?oc=5",
+   "d": "2026-11-26",
+   "first_seen": "2026-11-26",
+   "q": "川普 OR 特朗普 動工 OR 动工 OR 剪綵 OR 剪彩 OR 出席 台積電"
+  },
+  {
+   "title": "首度造訪！台積電下周亞利桑那廠擴建典禮川普將出席| 科技產業| 產經 - UDN",
+   "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1BblBDTTNGXzludktGOU9YZV9QY0RndnNCOXVxNkJjQmlfa1lCeTRLVUZRYWt6alNlNVJka0t0SzBUVDcwbGpfdlA5YmVXWnlxNUZWVjRn?oc=5",
+   "d": "2026-11-26",
+   "first_seen": "2026-11-26",
+   "q": "川普 將於 演說 OR 出席 OR 會晤 OR 訪問"
+  },
+  {
+   "title": "特朗普给中俄美元首会晤打12分！回国后还在「回味」深圳 - haiwaiwai.com",
+   "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5GMGpXQTdvclVJQXlLYTJzMFBvX0tRWDk4U0x4VnBoNjdnYW5hSzE0bzlJY29KS0F6blg0RWNOVW53dmNOY09XLQ?oc=5",
+   "d": "2026-11-26",
+   "first_seen": "2026-11-26",
+   "q": "特朗普 将于 发表演讲 OR 出席 OR 会晤"
+  },
+  {
+   "title": "特朗普下周亲临台积电！黄仁勋涉「中谍疑云」赴参院作证 - haiwaiwai.com",
+   "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9pMmNxSk95Q3dtQUFncU16bDNIald0TG8ySUF2N1BsdkU1WXVLREc1T3BiSncxUzdsd0d0NkVfUDZoQTVuS3pyVg?oc=5",
+   "d": "2026-11-26",
+   "first_seen": "2026-11-26",
+   "q": "特朗普 将于 发表演讲 OR 出席 OR 会晤"
+  },
+  {
+   "title": "Trump will visit Phoenix semiconductor manufacturer next week - Arizona Capitol Times",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOamhPY2Y0cDEzMXMwdUwyd3RtQXZ5dWZKbjNNWE1vaV93N1dvLVZ4UmhYMkpIZGdkNHVST0FfQUtfakhydGJKRmdXSDlkQWUycFlnSUYyN0JMNXAtQlN3WER0RmRLbjFiNmQ2bXBJUVFYRml6cV9TUEwtQ0dKeVNXbzBhREhQYXB3TDdIU0VqbU1lWFF3TF9mVFNyZ3pKX3RuY3puMXNVZDk?oc=5",
+   "d": "2026-11-26",
+   "first_seen": "2026-11-26",
+   "q": "Trump to deliver speech OR address OR ke"
+  },
+  {
+   "title": "Trump to lead TSMC groundbreaking in Arizona after Nvidia gambit - Taipei Times",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBsRmptNFl3aXNESnM2YnRyeUxfUE9fNWc4UDJRX1g4Y0RsUVZZQmdrTGprUVlINGJBRnZMVWR0azZneG44WVBfcV9rc2wtUkF4SHRWX1dUa0dweHY4SVp2cDNrUG9NUk5uZjJKamhXc3RBcDA0b1E?oc=5",
+   "d": "2026-11-26",
+   "first_seen": "2026-11-26",
+   "q": "Trump groundbreaking OR ceremony OR fact"
+  },
+  {
+   "title": "Trump to lead TSMC Arizona plant expansion groundbreaking: what to know - The News International",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTTZtTXM1YUZsT2RFU2taZXdMTmF4WWl6d2lzNWUzd2NsUkVlak5NVFN3ZE9wM0JKTjUyVmtQcWN3bklFbnhkWmJHVy1GeWFienU2aEV5NWc4S0xvTmlIRnlOSU5JTWdwYl9VbHY4aGppU3ZOU3FMWXVsc2o3b3dHclZFMVNGUWw2M3prNXZRMzRkMHdaUTEzc3o3WkhIMFFsTFRjaFNCUzhZUjFMSlpfYkN30gGuAUFVX3lxTFBPMzdDd3hJdFVyUmZDbjM3VDlNSXVRSUs2aGNoYjcxRE91NEQ1cGdZNWZOcFRiS1AxSm9pV0JrSUhqcTllc2NuQzJJYW5tTkpPaTFkeXVOOEZsSGpkLW9vaUozZnNDdWJTTDNMZ256WHFVNWc5b3NyR0hjMGItS0M1YUREWHlpcnlkVjB3Z0drWWJLdGNPX3ZpR1haQnh4RFlyS1pTa1RueWpNWjlnQQ?oc=5",
+   "d": "2026-11-26",
+   "first_seen": "2026-11-26",
+   "q": "Trump groundbreaking OR ceremony OR fact"
+  },
+  {
+   "title": "Trump is expected to visit TSMC's Phoenix campus, where they make Nvidia chips - KJZZ",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNWk0yQzQ4a2FQV0RzZlhGd2c0TkMtMHgwVDE2dzlYX1dSTjc3d3NJNkZxVG1SQjExaGwzQWJJYVVNa000UEFRUmNCcGJLaW5wSDAxampxNXIxZGtqS2lMOFhaZ1VkdzZQUGZNQjdVbkFYYl9tRDdEem1na0EyQkVlc1hQOGh0WUJCTHVPRnVxYUpZNzNPMkVvRW5VNF92WmoyVGp3SVJhYzF3bEVscjFCbzlfSWtwX1dr?oc=5",
+   "d": "2026-11-26",
+   "first_seen": "2026-11-26",
+   "q": "Trump groundbreaking OR ceremony OR fact"
+  },
+  {
+   "title": "President Trump to attend latest TSMC groundbreaking in Phoenix next week - KOLD",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTkVXQTA5b2tOdGZlcDQtRFlPbUtiUXhtTFdweHhENjVQcEl1d3ljb3pYZzEzX3BGUlYtelVkRHNqMHV5clItdlctVW9SZXhCODZpdW1NUmF4QzJZWnhmcGtLZEJuUDJvVUpvWWZiNkpKdVY2VXI3emhic0ZTeTlIMVhVMXBHR0tnbXowNHpyWnJxS2hmZk1uQ2JObzA5aTRWWHfSAbYBQVVfeXFMTTZSZklJaVRvMnhXMzRzemxzTkYzZnFwOVFNQzBkenQ0UHNxcEszaVJPYnc4aWxsc0tfWWpJVnBXZXE0dmJvdXRXVWtsUjVmNDRCTlF4aUJYZmhOQmd5WFlNNWgtX0JqUVdvUzE4bEtmWEU2TFJyUG8yWlB6TWxMRnJCQ1Z0cG1nQ0RJVXd6VHNIeklFRk56NEhKTjJlQ1RtYTgtSUVZeEdDRnRqWEVfNXNNZHZzV0E?oc=5",
+   "d": "2026-11-26",
+   "first_seen": "2026-11-26",
+   "q": "Trump groundbreaking OR ceremony OR fact"
+  },
+  {
+   "title": "President Trump expected to visit Phoenix next week - AZ Family",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPTnQ0LXBnV0Q1WjJFSmVSWFlFcDA2RlpGQWhGTHY0RWZxaDMzSGtqNW1BTTRJcldpQmJzSFJudkNyTmZ3RjI2NklLZHZGZ0tuc2toUmNPdHpuTHUzZnAwMk1KT1MyUTVveENjU3BxWjZGNGw1U3pERlJQZjB5WldtX01fRmFHQjRPYUZCZ2lRVC1wcE1zYXc?oc=5",
+   "d": "2026-11-26",
+   "first_seen": "2026-11-26",
+   "q": "Trump groundbreaking OR ceremony OR fact"
+  },
+  {
+   "title": "President Donald Trump expected to attend TSMC Arizona groundbreaking event next week - KTAR News 92.3 FM",
+   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1KVmF3Q1BiRkxXY1RGbWFXSlVTYmU5OVFIRm1rVjRHUktfSGppUGJPcDE0QlFSVkwteThzakVZdmgxZERzT0Z1dFhBM2dHaWpNN2QtWFktT3JHdDJYQldybUJORWFxR2F6VXVaMmRCTG5MczU1UzRBRjB3c1I?oc=5",
+   "d": "2026-11-26",
+   "first_seen": "2026-11-26",
+   "q": "Trump groundbreaking OR ceremony OR fact"
+  },
+  {
+   "title": "Donald Trump returning to Arizona to headline TSMC event in Phoenix - azcentral.com and The Arizona Republic",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNV3MyVkVYVDhManN3MktCQzJ6T3I1a2ZNWnV3aEI5V3FhOGpZOVV1OXROU0s1MVRmaUx3TG1peW5paXFyb0VpNllPZGUwdm1mMGFrNlZabmdpNGE1UldtWlM1R2lCT01FXy1qV1Q3WWRQOVdwaG1zT0R1ZWIzczZvaFpmbW01LTNOTmY3N3BLc3VsVDVvOERncFpKVG56TUNBdEZMaE82WWFmQVBHQWc?oc=5",
+   "d": "2026-11-26",
+   "first_seen": "2026-11-26",
+   "q": "Trump groundbreaking OR ceremony OR fact"
+  },
+  {
+   "title": "BREAKING: President Trump to headline TSMC groundbreaking in Arizona - KTAR News 92.3 FM",
+   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNU0tuczlvZDFFZDIxb1JwQjY5VmFNSTB1Mi1TaUpRVWE2ZWE1Qk1Zczl6T0hfQlQ4ZFFrc010azg1M3R4d2FZNWJub2dLcXZfcmF5Q0NyX2VNb1A1bWw0YzFXTDJBZmh6N1pJbDZram9mME8wTVRfelhla3dhTm8zbmVnVnZCUkFnU1JXZEVEUkdpXzN2T3FLTVo5UzRkVFZoaE05YmMzdU9ucVVqdmdVVm5uUlNxMUMtdUN4WUFlNVBaZXctM2NSU0NNd0czeGs?oc=5",
+   "d": "2026-11-26",
+   "first_seen": "2026-11-26",
+   "q": "Trump groundbreaking OR ceremony OR fact"
+  },
   {
    "title": "黃仁勳下周國會連闖2關 共和黨罕見不接受川普政策 - 世界新聞網",
    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE52Y1plT3RVSjV3ZXJXaTVpbHcwNzIwWXRlWUZVQUNGVHdha1B3eEg5anhZOHNIVU00cVpkTWlrQWl3WjMyQkVwOXM1VGxJQlFvTkxaM0dMb3hUcHVRS3JjSkhwaFFkMlXSAWdBVV95cUxOdmNaZU90VUo1d2VyV2k1aWx3MDcyMFl0ZVlGVUFDRlR3YWtQd3hIOWp4WThzSFVNNHFaZE1pa0Fpd1ozMkJFcDlzNVRsSUJRb05MWjNHTG94VHB1UUtyY0pIcGhRZDJV?oc=5",
    "d": "2026-11-25",
    "first_seen": "2026-11-25",
    "q": "川普 將於 演說 OR 出席 OR 會晤 OR 訪問"
+  },
+  {
+   "title": "習近平出席APEC工商峰會開幕式/習近平：中方支持深化灣區交流互動 - TDM",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPS1RrTlB2aDl6NFEtYnVVd0l3TWlJa1ZOWUNabHI0SUhwZnBXMnJSNGNPcFFPLW1zaDl2QzNZUkExc2lYVDlGUWpBc2Z5WVFJbmY1QVlNX0VnTks3VzdMZFp0R0x1ZGpXUHlwb0wzbExMdWE0YVFtU2YtNU1lSFNOdWFzYmZqam9iaTBOaVB1MHh0UWUyUFQ3Nw?oc=5",
+   "d": "2026-11-25",
+   "first_seen": "2026-11-26",
+   "q": "習近平 OR 普丁 OR 澤倫斯基 將於 會談 OR 峰會 OR 訪問"
   },
   {
    "title": "美国总统唐纳德·特朗普与中国国家主席习近平举行首脑会晤还不到一周，美国对华施压的力度便再次加大。从通信、半导体等高科技领域，到封堵经由第三国迂回布局的据点，再到普通消费品和电商市场，施压战线呈扩大之势.. - 매일경제",
@@ -52,6 +150,13 @@
    "q": "川普 將於 演說 OR 出席 OR 會晤 OR 訪問"
   },
   {
+   "title": "德語媒體：中美俄峰會，誰是受益者？ | 德國之聲 - LINE TODAY",
+   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBSekZXX205XzVPOWkwVF9fOE41LTQ3RkhtbjdUTmhUWUJQU3lvbXBtc19KV3RZZGRldi1YdWQ0bDJuNDZhenJHSVJDVWg3RTVlYUo2MFc0ZldhLVJSMXBZV1RTczdTZ183TDl4TWRTSEQ?oc=5",
+   "d": "2026-11-25",
+   "first_seen": "2026-11-26",
+   "q": "習近平 OR 普丁 OR 澤倫斯基 將於 會談 OR 峰會 OR 訪問"
+  },
+  {
    "title": "彭博：川普下周將親臨台積電亞利桑那廠擴建典禮| 全球財經| 全球 - UDN",
    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1KTXUyM01YeGpoRUxTRXBPNGR4Q0tNQ3ByWEFnODdXOC15NFdHVTVzTEp3Z0o2OUl3RHc1blYtc1R2d04tY2VvS3NxVHJjLUw3?oc=5",
    "d": "2026-11-25",
@@ -59,11 +164,39 @@
    "q": "川普 OR 特朗普 動工 OR 动工 OR 剪綵 OR 剪彩 OR 出席 台積電"
   },
   {
+   "title": "川普下週赴台積電美廠！黃仁勳會否同框受矚 | NOWNEWS今日新聞 - LINE TODAY",
+   "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB6R2RZYlRyaWFOY2JrNTlyc1pwRjNmYU5jNksxeEZNUXpMZkZVaWRnT1U3Mm55TXRqY0JneHg5NGY1VnEtS2ZGb3o3Y1pHcFp1QlE0R2Fn?oc=5",
+   "d": "2026-11-25",
+   "first_seen": "2026-11-26",
+   "q": "川普 OR 特朗普 動工 OR 动工 OR 剪綵 OR 剪彩 OR 出席 台積電"
+  },
+  {
+   "title": "促成黄仁勋回归英伟达后传特朗普下周将主持台积电(TSM.US)亚利桑那厂扩建仪式提供者智通财经 - 英为财情 Investing.com",
+   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE40VGR3bVAwa3hGVGZFMGppUDFPeEFNRGNnSUNKTGFuc2hKMmc5SzBUNzl1WW4tRWZRNkpxQTZNd1preVlYeENfRHhlWko2elZDZExFdGluV3JNQzFHclBVelZrdzl5UU5jTnVGejN2Qzg?oc=5",
+   "d": "2026-11-25",
+   "first_seen": "2026-11-26",
+   "q": "特朗普 将于 发表演讲 OR 出席 OR 会晤"
+  },
+  {
+   "title": "Ukraine and Europe will hold consultations on negotiations on November 25 — Budanov - Українські Національні Новини (УНН)",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPUEM5bVB0cnNnTGRsNWVkZ2JrdEtCR1pLNi1KbGk2ZFpXU3h5bzhna2d3T0dpYXJtYUFCMXdaVjdVOVJ5WV9WN1pRWlV5NnFGc1NQQWxJOEFrUXE1R3MtQ3FqcS1Kak1LaHpqWEhOOFAzVjFiUzdsVWtac1QwUjQ2YWIwS0U0VXc1a0lkM3o4LVQ1MVhweVBYaGRscXBVWm5fVk5CYVFFWdIBpgFBVV95cUxQUURpUE9rd2lpd3JkUF9nR1p2aUhUV2M3MnBnTXE5eFlyS0dfOU5rZXI4UnFlQXdBeUV3OEp3UE1KUTRnRlEwRDBKWG12b3k3RVhxSEJTSUh1SGxrSUZGU0hjVkNLWGhsOGVJbFNNV2ItMUh5ZnVwOWxyaHlsakVQal80YURIZnVTVUdHWkxLUVlmc3JvMEJqNmEwLUpQMklTN1A4aFhB?oc=5",
+   "d": "2026-11-25",
+   "first_seen": "2026-11-26",
+   "q": "peace talks OR trade talks OR ceasefire "
+  },
+  {
    "title": "Trump to meet Xi, Putin in China for nuclear arms talks; Ukraine off agenda - Todayville",
    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPbHFyNEVPc1AtRE14N3RBbzZOZ3NKZDY5LU9IMEVEY1dEY3pxWXVHT28wMEtJRVBkX2YyS0diV1NFVEpyNXZXUVRGY1VLRGd6dHZETXpJNUNkd0QxenRyWDMtZEV4am01YnF2SlFaUnVuODk4XzdoaWY5eXdrd08yTVlZclVNS2d4dDVyNW9fVG1pYzZnLVlkSl9fcXZtLWV0TzY4?oc=5",
    "d": "2026-11-25",
    "first_seen": "2026-11-25",
    "q": "Xi Jinping OR Putin OR Zelensky to meet "
+  },
+  {
+   "title": "Trump to meet Abdul El-Sayed: Will he agree to a renamed Medicare-for-all? - Al Jazeera",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUUhWeFJvZVo0NXhocGgyU1BhZXRlYlBsVEc3bHlaYThpNW9meGR6cnRZWklaWjk3ZC1wdi02UDRYTEE0NnFybWE4UzFqckJ4ZmJ0WndYZnE1UGtnMHp4LU43VmhxWU9zT0NydzE5LXJISHpKSHAwTnpXc2pKaGlNWmRuSjlsYXYxejdKMVFjZi02eExlLWN4a2pyX2paNFZ4amVlaUxjQjlMVVlGeTVsQTZXOVXSAboBQVVfeXFMTnhJbVNNSzhXYnJTelNjRjhjdUs1dGJYeFNmbWZ0eC1jYkh5STlIUDNUXy12clNfU1Y3Nkk0Y2xQbzVVRll1RW5nemw3VmtyMlNOeHVvbGtsVTUyQWZCRWoxTmV6MzZLOWlPWGkwTnItMHJsazNMWDNkU2hadUFYSmFJLTVLNG9KU2tQOVFRVWNyUzdCWF9pbHNhOHFBS2IyY1RFV2dTLXBmYnIyYlFKXzF5SjF6Z3FVZE5n?oc=5",
+   "d": "2026-11-25",
+   "first_seen": "2026-11-26",
+   "q": "Trump will travel OR visit OR meet OR at"
   },
   {
    "title": "Trump to Lead TSMC Groundbreaking in Arizona After Nvidia Gambit - Bloomberg",
@@ -211,6 +344,13 @@
    "d": "2026-11-24",
    "first_seen": "2026-11-24",
    "q": "川普 將於 演說 OR 出席 OR 會晤 OR 訪問"
+  },
+  {
+   "title": "英伟达股价暴涨31.5%！黄仁勋将于12月3日出席美国国会参议院听证会，特朗普曾亲自介入其复职 - news.qq.com",
+   "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBLV1EtRmlTSlJ6T3pDVjNTNVh1V2NKWlVoWEdDYW1raEN1TGxTOVFiczgyLU5YNFR0aEUxOGNMT29pTktzaDNlT0FxUU5yX2hEQk9JSEJR?oc=5",
+   "d": "2026-11-24",
+   "first_seen": "2026-11-26",
+   "q": "特朗普 将于 发表演讲 OR 出席 OR 会晤"
   },
   {
    "title": "英伟达股价暴涨31.5%！黄仁勋将于12月3日出席美国国会参议院听证会，特朗普曾亲自介入其复职 - Sohu",
@@ -507,11 +647,25 @@
    "q": "Trump to deliver speech OR address OR ke"
   },
   {
+   "title": "Pakistani astronaut set to become first foreigner aboard China’s space station - South China Morning Post",
+   "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNMDBUNHBheElLUlRmM3lBZlJPcUkycmtpbjFzYjhMNVMzZlFXczkweEZkUHpvU0k5ZmZydkRWU0NKM3ZfbjJSaERVMDZicTVuMTQ2M0JIekw4Q21aUHIxRFJucFBOazNNbmdZTjdaTHZaYXRDU0tQVzdTSHFYakI0cXhsS1g3aS1pVk5iWDhBMlF2UFRGblNsRUl4QVF4UUVubTZBQ1hTRlh0UXU1cXVIN1o5UG5RRGszS2h3Yk1nWDE4TWpkanFQd2Nha3BlZjYxZ0FtN1VoYjc3OTJEZ0t0c0R3?oc=5",
+   "d": "2026-11-24",
+   "first_seen": "2026-11-26",
+   "q": "Xi Jinping OR Putin OR Zelensky to meet "
+  },
+  {
    "title": "Nepal PM Balen Shah's first India visit on November 23, talks with PM Modi on agenda - The Times of India",
    "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQNldjeEkzclV3OHhaRFE5T0d2bm40dXhUUXVCQ1NzTFFHZnN6VVBIVVJjV3VpNmlLREVPdF9vYkF5cld1YmhTR1FUT3lTWVhEZG5CWjFGRHQxRjVkMW1ManFmUS1Sb3hJZWZBMmRYTEV6T1FyRm1MT2NxS3dMTUhpcU5wSkR5MGxSdWhDSEQ4Z19JeF9CQ3BqendNTnBlRmdNUUJQb2hoQnQ1UkF6cGJYd3Nfb1lmQzQ0YUNkMkRaOGpDa3lXYUh0aDljbzFaRGRRdGg1TDRlbWp5MXVZUXVtVjJQaETSAeoBQVVfeXFMUFFQb1h2T0k0ZWlEelAyTnpINjlVSkRkbmJTTGR5SndURHZfWE00bERrUVM0MDBGZU5XZFA0NUtEdTVMblhETmFITU9yU1d0clgxZ0FfVlFLcWs1VGp5R0FVeW94WGI2cEJyV19lZWpjTzd1NF9Cb3did01QT3VmMF9INy1ia3BnX1R6SkRjNHlOOXNGSnYyaGdMX2ZBSkN6X3N1SlBWSWdYaVZJYXZWNm4wYS01OU13MjgyQTBNaFlXUUZUVV84QzcwZU5xb0FQeTdIbmhNXzU2MFo3aWdOVEpZZEVOX29pU2lR?oc=5",
    "d": "2026-11-24",
    "first_seen": "2026-11-25",
    "q": "peace talks OR trade talks OR ceasefire "
+  },
+  {
+   "title": "Lao Prime Minister to visit Viet Nam, attend CLMV and ACMECS Summits this week - en.baochinhphu.vn",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNU3NoN0tkM3ZyclYxbk1RODdMb1RRMVhNXzNQNkNBQVJTMG9teWJLVmp5c3FJYWY0NHcwdXVBTE1leWJtMUhRTTNpZThQTXNjdUFGVjh3Y3dpNktLbTJOay1iaEM0ckxDeVE5b1VGVzdKZ3pjWWZ2Y0xMaGFnZW0xSWI4QWxjMG52VmNMSlVwSmhMenhucjlkcExlaDhybmppdGtWQlJhbEphb1EzRWdycWNPMlh6eUQxczh5UTVvNG5ta2R1?oc=5",
+   "d": "2026-11-24",
+   "first_seen": "2026-11-26",
+   "q": "Trump will travel OR visit OR meet OR at"
   },
   {
    "title": "Kremlin spokesperson: Next round of Abu Dhabi peace talks has yet to be scheduled - Apa.az",
@@ -617,6 +771,13 @@
    "d": "2026-11-23",
    "first_seen": "2026-11-24",
    "q": "川普 將於 演說 OR 出席 OR 會晤 OR 訪問"
+  },
+  {
+   "title": "普京: 俄中美元首會晤歸功於習近平 - 澳門廣播電視股份有限公司",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPX2FTRUxuTl9fazVQNlB6YzBGUGNmSm5sV3p0WTdoNUpLSFdrV2NES1V5LUMtMkdaNTZKcUdXaXNpTzk5SjNHZVdHTk9IQmZtMm01TWlKOUVQTFhxTkE5SWNYX0tzeE9BaHRKY0NBYVBsOGpkUFNvOEJoaXZEMEN0R3RxWk5rUmtxZDJ3em1hR0xEOVhGU1E?oc=5",
+   "d": "2026-11-23",
+   "first_seen": "2026-11-26",
+   "q": "習近平 OR 普丁 OR 澤倫斯基 將於 會談 OR 峰會 OR 訪問"
   },
   {
    "title": "巴媒：巴基斯坦总理将于12月3日赴伊朗出席地区峰会 - 富途牛牛",
@@ -742,6 +903,13 @@
    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOVHJqT0ZyQmVxbnd2SkdKNkFLcjV3VHBsdl9VRllTU1kzbTZZTDJDeVVpT25wS0tCRVhwNG9CQS1aT0ltTGZnVG1pcnVFV0VaZERRbjBnTnYzYUV2V1BfTkdiZE9vX0Z1OElza013OVF2bmVDd2pDYWF6UFA4VHJzLTZXakdMaXcyRG9kM2NEMHpQZ2xXREJfSjBMRzBWVkRXR1hlMVVZM1o?oc=5",
    "d": "2026-11-23",
    "first_seen": "2026-11-24",
+   "q": "peace talks OR trade talks OR ceasefire "
+  },
+  {
+   "title": "EC to hold talks with political parties ahead of UP elections - Bangladesh Sangbad Sangstha (BSS)",
+   "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBLa2JYRkJtOVFCeEI5Q2NUQVZnRi1WdGdKejltWGZFQW9aYTBLenRNblNkT25EVnZkb04wMUE3OGsxaWZzUjY3dFpIUQ?oc=5",
+   "d": "2026-11-23",
+   "first_seen": "2026-11-26",
    "q": "peace talks OR trade talks OR ceasefire "
   },
   {
@@ -2633,174 +2801,6 @@
    "d": "2026-11-18",
    "first_seen": "2026-11-20",
    "q": "川普 將於 演說 OR 出席 OR 會晤 OR 訪問"
-  },
-  {
-   "title": "川普、習近平、普丁明會晤全球核武九成掌握3人手歐洲憂烏克蘭被出賣| 國際 - Newtalk新聞",
-   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1QaV93dlBqWlVaNTBHRVNjMllaMHZXdFRQXzBaeG1XZE9pMnpTVmRRbHNTelVjZDZUOGlsVUVxM0V4U0hrY01oZlhINU92bU5DT3VoSGMtdlBLUUU?oc=5",
-   "d": "2026-11-18",
-   "first_seen": "2026-11-20",
-   "q": "川普 將於 演說 OR 出席 OR 會晤 OR 訪問"
-  },
-  {
-   "title": "國際財經：加拿大總理卡尼透露將於APEC會晤川普，稱與美貿易談判取得部分進展 - 富聯網",
-   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNdFhMVnNwUlF6dHlndWE0ejMyMlJpdnp1Y0ZLVHJJbVQtSWVCdE9saGkybWZXVkFPM2tJdl9fa3JtYjNwY0JUUTB3RDdlNjVsdXRuY3NYN04wSTMtZ2U3dmhVdV9WTDhNakgwM3NKTHZ3MTVlNENRdmpEcmx2bHI5WEQ3Y1JZNWRE?oc=5",
-   "d": "2026-11-18",
-   "first_seen": "2026-11-20",
-   "q": "川普 將於 演說 OR 出席 OR 會晤 OR 訪問"
-  },
-  {
-   "title": "國際財經：加拿大總理卡尼透露將於APEC會晤川普，稱與美貿易談判取得部分進展 - 富聯網",
-   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNYnRZc0VEZEZkZ0p5RWs1UTRwWmRpTGtsQzU4TTRRd3d3THhTYV95dXdJX0lJbl9nVG03MlFzeXJRNVRCejZFNmthNEVCY2lGeTVqVnFGTVRRX1QyWlRZN0R1NUJsTkwwVEpLbGZuLXY4S1ZtUUNKR0wzblBQS3d6OTdFOWZTR0RK?oc=5",
-   "d": "2026-11-18",
-   "first_seen": "2026-11-20",
-   "q": "川普 將於 演說 OR 出席 OR 會晤 OR 訪問"
-  },
-  {
-   "title": "加拿大總理卡尼出席APEC峰會 透露將會晤川普 - 經濟日報",
-   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE00WkNOcTA1TkJTaG5WT1FOQi04U0RzUzlZUmNNNmhTX0d5MWUxa2dLMUNadGtEQmVMeEVTUUg1N2RZdFRMc0Zma2g0elFsMFMzOFN6RXV5LWFNcGJmSFlwdS1OU1FveFlXR1BfNGR4ODFxdGZIX2RJ0gFfQVVfeXFMUDBzS09PRWpHbko3bm1lek1wcHV2SjZGeWpwRHNjNG15aTBpR0FvQ3g0N1dmNUtueE43c0ZlQ1Fjck9RWFZQcmUzWjdUZ1lVVlUzaktzTmhaaDloWC1FdDQ?oc=5",
-   "d": "2026-11-18",
-   "first_seen": "2026-11-20",
-   "q": "川普 將於 演說 OR 出席 OR 會晤 OR 訪問"
-  },
-  {
-   "title": "加拿大總理卡尼出席APEC峰會 透露將會晤川普 - 信吉衛視+",
-   "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE96emtudUpuZjJRZGpOUEIwSW9sVjBTZGxjWHVLNmRrZ0FBNWF4aGRYTEFvWWZ5ZUR4cXZYX0JxdnMxNlhQSHZLZVRueVlOUVdK?oc=5",
-   "d": "2026-11-18",
-   "first_seen": "2026-11-20",
-   "q": "川普 將於 演說 OR 出席 OR 會晤 OR 訪問"
-  },
-  {
-   "title": "加拿大總理卡尼出席APEC峰會 透露將會晤川普 - UDN",
-   "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBVakZ3QzloakY0QXJJS0VYR0hRQkxtbDJKUzZJSENLRW5DbFJjT0lub3NvOEktZHJkdDdqZm5iY3UtTllpclNFM01uSlZVLTR5V01j?oc=5",
-   "d": "2026-11-18",
-   "first_seen": "2026-11-20",
-   "q": "川普 將於 演說 OR 出席 OR 會晤 OR 訪問"
-  },
-  {
-   "title": "創50年來首例！習近平親赴深圳接機川普 11/19美中俄三方會晤 - 中天新聞網",
-   "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5zX2prT2JZR18tWlBhSDF2WFpSMmNETlBwbThIYjF5NE14clRFbVM2YnFmX2pSaGtIaUdVQWNWYmhUNEp1ZXlDZFowLWpTZ296UzdV?oc=5",
-   "d": "2026-11-18",
-   "first_seen": "2026-11-20",
-   "q": "川普 將於 演說 OR 出席 OR 會晤 OR 訪問"
-  },
-  {
-   "title": "亞太經合會將登場 川普普丁透露或在中國會晤金正恩 - 民視財經網",
-   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5XSTVWdWpyb0ppZFNVcGRrb2lYRnlDYkZSaDBla0o5MW5GTzcyb1hfekFJQVFKMGlvUmpqVE5jRzdRN0hmbExOYnB1N01JM01NT2hzZUxacGI5dFVsUXQ0REJLMWN6QQ?oc=5",
-   "d": "2026-11-18",
-   "first_seen": "2026-11-20",
-   "q": "川普 將於 演說 OR 出席 OR 會晤 OR 訪問"
-  },
-  {
-   "title": "习近平在APEC峰会前单独与普京会晤，共处两个多小时 - RFI",
-   "link": "https://news.google.com/rss/articles/CBMi7AJBVV95cUxPYVE5MXIwZllJQ3YtMTlmYjRNeUYwdHJFZlFFMjNCYkkwcDBFZVhKWmQ4aWo1MmNyRVgxT2JvNFExSVRTZ05ERmR2WUFGcDd3aWR2TVJJU1BENDNKSUNHc3N2bzZBWkRvLTJYOGhYSHhqSHhsN3l5Y1NYckFCWFZ3Mzl2VWNrYW9iUDJoQWJORlpfRGVWMHNkV0NMNm93YWlMT3FubHhfR292dm5IU2JBeXBCTGR6VEhTeURTN0JtYzdlWTI1OXR3MFZuM0NmU2U1VlFUS2RIOUtlTVVuNk9URHF0SUJ5VHd0ZWNIb29oQWxiVUJPNlgtSldLaVdwREhJcS1EaF93eGoyZ19iRnAxanFBcF9QTWhORFo4VE0tMEY4aExqZWE2VHpQM3ZueWVrM2M3TlJjdXJQb240OFVOMmY0RVF0ODdabWRuMEY1WllHTHdwUzcwbTdSQ1RpVVBzMWN5cTI3T0UzTm5L?oc=5",
-   "d": "2026-11-18",
-   "first_seen": "2026-11-21",
-   "q": "特朗普 将于 发表演讲 OR 出席 OR 会晤"
-  },
-  {
-   "title": "【即時新聞】輝達(NVDA)財報報喜盤後轉強！川普與習近平齊聚APEC峰會，聚焦這3大關鍵 - CMoney投資網誌",
-   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQSEtzNFhpdE9lUlZrOXUwQkZlMjFHU2kzSWRQSk1FWjBTWHd4TUlHOHhQYVM5X1dtQ3FYcy1yQ2I3dklPMFB2VEFXZnVOSjMzSklYcmR5alpSWGxCVzFFcEg3SU5QcUY1eG9IaEVweVBFeVlBU2JiR09WdWd6WUx4VEx4T2xKclh4M056VnBObl8?oc=5",
-   "d": "2026-11-18",
-   "first_seen": "2026-11-21",
-   "q": "習近平 OR 普丁 OR 澤倫斯基 將於 會談 OR 峰會 OR 訪問"
-  },
-  {
-   "title": "Xi and Putin to meet ahead of historic Trump trilateral summit - AFP.com",
-   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPR3hpTTFwMW05aEROdzZZN3RUeVNHLXg2TTNGT2NhOVZtZzl6UHo3WUJiSGhCQWpvRDFXUFRxNDZqVHlaQ1Ztd0w3TEJpZVQ5UFlFSGhlWWxfd0JTSVBQZE9EbjBUcDJOM2Zsci15OTFrUUlrMGFQdkdtV0xrckJUTGxfNFFQdw?oc=5",
-   "d": "2026-11-18",
-   "first_seen": "2026-11-20",
-   "q": "Trump will travel OR visit OR meet OR at"
-  },
-  {
-   "title": "US judge orders Trump to give deposition in BBC lawsuit by Jan 22 - The Standard (HK)",
-   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPQW40RlNTT0s0QzVMVGlmbHNtU2hZb3YtT2R0cVZUQ1U5TUNBTy00R3RIQV96SHpsR2F6cWxheHVlanBIckJnWXVUbU5VZFBHbURZeTV0cTBlNjBTb2FnWTdlRmp2Q21ObUx1SjJVRUdzUEkyYm9oNHVwWUpZUnhzSnJKYTg2c3NKTFd6cGl5U1Y3cHRVUlktRjRwWUMyTk14NG53ZzdmUEQyS09lOHhEYlk5YkxZaWdx?oc=5",
-   "d": "2026-11-18",
-   "first_seen": "2026-11-20",
-   "q": "Trump to deliver speech OR address OR ke"
-  },
-  {
-   "title": "Trump, Xi, and Putin plan to meet this week in Shenzhen - Good Authority",
-   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMTJHcmdTbjdYY0dQZjJTMDBGbmZQUUNVQ3lfU3VtZWFkYzhyRXdIQllxeHZnSjhQbTlxWFhMb1dSTV9Ia2E0X2xFemxsZjlISENlc0VoSHc0SDIybVhVQXdDVDhLNzhYMFNENmRvcG05R3F4NDJvOEJnYTNvclAyRkhNN20zSncyYi1LYmhR?oc=5",
-   "d": "2026-11-18",
-   "first_seen": "2026-11-20",
-   "q": "Xi Jinping OR Putin OR Zelensky to meet "
-  },
-  {
-   "title": "Sen. Tim Scott: Jensen Huang and Sec. Howard Lutnick agreed to testify before banking committee - CNBC",
-   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOdk5BX0pPYURRQjRFZnZhQVhXSGk5ZGhqOWFEQnpjM3EyNFN4dnV4a0lKUXdESV8wN01Vd09pN0RRTkoxNWlfS0ZRNHA0a1gwTDgtN1VtVXdrbV8zVjBaMDhCQmdCb2JvVU1nSF9vMWgwekJMSWw3MVM2ZTR3djNQNnRCUEFuV1I4b0s4Ni1PN3U4VXJXMVRXMlhvZ3FoX1FLbVoxZ1RxTTdlcFRBV2g0ZVhLSTQ2NHVVWkNMMVVZTmtDV3VQdC00NFF3eThYSDVk?oc=5",
-   "d": "2026-11-18",
-   "first_seen": "2026-11-20",
-   "q": "Warsh OR Bessent OR Lutnick OR Greer to "
-  },
-  {
-   "title": "Sen. Tim Scott says Huang and Lutnick have agreed to testify before Senate - CNBC",
-   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPcU01dXJ3R3dwckExY0ZuX1dVblowMDRjYzNNOTVHTUNNc0FQRlZsYTVNaXdyX1Q3U0R3ZFkzTXdickhvODluUkNxUTlDQUV2alczV19BSXVkaGNpblQxSGVqX3J0VkZnSEpERWFmM3BFejd0V3BHa0RIcDA4UklCd0J6WkFNWnBjSGVndDFWX1hVZEhrcUQ5bkJrOVl4OUN5WllRZy1TTklmTE4zb01fcjhGNmxfZjg?oc=5",
-   "d": "2026-11-18",
-   "first_seen": "2026-11-20",
-   "q": "Warsh OR Bessent OR Lutnick OR Greer to "
-  },
-  {
-   "title": "Putin Will Continue Ukraine War Despite Plans to Meet Trump, Intelligence Says - The New York Times",
-   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQMnVuNkc1OXlhc1RYRmEwZTZIRDF6TmVMY2pTdnE4clplaDBDTmwzMkxFZVl1MmxRc2JBV0stQzFVR3gtMVl3TVhVOEh4TVF3aDR3aEZoT2NQQTZPazZPZEU3ZFU2MWFCVjFidXRIT2FFcHd2NFZzRTdyczNnY0M2Yg?oc=5",
-   "d": "2026-11-18",
-   "first_seen": "2026-11-21",
-   "q": "Trump will travel OR visit OR meet OR at"
-  },
-  {
-   "title": "Nvidia’s Jensen Huang agrees to testify before Senate, Chairman Tim Scott says - New York Post",
-   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNVUZCOTNvaEEyNGtPMVk0NldvaFVTNkVKREVCdVFoY1RXYTJkZUp4NjFZVGI4LWRzYVhoVEh3TUNUWnBCYnhyQmVyMkxWay1UeEE1Zk9jWTlHSlBhZ3VIV01XU1AtVDZjSGNyZExnRGxyYm01WEF2aFJMT0xKM2h1VVEzMElGbDY3V2E3WEpYTnpoS2d1Qmw0M3N2MnJrNUFmejlSQUxQVTM4Z2NyM1B5ektvTFNYQmM?oc=5",
-   "d": "2026-11-18",
-   "first_seen": "2026-11-21",
-   "q": "Warsh OR Bessent OR Lutnick OR Greer to "
-  },
-  {
-   "title": "Jensen Huang and Howard Lutnick agreed to testify before Senate Banking Committee - Quartz",
-   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE45QndGSWdhWkNIT1dQeTVIblZsNHhWMVA0dnlMdFNLcllBOURPT3dnRVlyNU9QTWJaYTdUcFk3Y09wTHhUSmM2cFVMaENoNTdRQm1GTk9MS2ZaS1g3NTM3dUZjUkp3TkF6TDRiZGV4enZialJqY0VEQzhNS2M?oc=5",
-   "d": "2026-11-18",
-   "first_seen": "2026-11-20",
-   "q": "Warsh OR Bessent OR Lutnick OR Greer to "
-  },
-  {
-   "title": "Jensen Huang agrees to testify in Senate, Politico reports (NVDA:NASDAQ) - Seeking Alpha",
-   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRzVRUHBYZUFkLVRIMGowTXRrbEpmU1J5WmRWdldnUUdidFpzRmpBVXc2dGx3R3gyelpKdzBlQUIxWTQ5dldGQWY5TldrUXg4UjRDWkJucGFkMUM0VG9kODVNaWtQNlhTWWxoc09QTFpTcXlDalZMMTNlOVR0TTFGenc4dFFtVEJzM2tYQVNsRG5QU2xheWtERC1iSQ?oc=5",
-   "d": "2026-11-18",
-   "first_seen": "2026-11-20",
-   "q": "Warsh OR Bessent OR Lutnick OR Greer to "
-  },
-  {
-   "title": "Jensen Huang agrees to testify before Senate, Politico reports - Investing.com",
-   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPdjluMVF4aXNHTUpaUXNiNjdiUTBoWE02SWRtemQ2X08zeklCY1RqUWcySnhSZWFGRWgzTEMtSWtxckJCSkRyc0RDaEl6OC0tampyMW5mbW5VT3ZINHU3U0Z6UmRGVmxmXzQ1amJQLXV1RjFIUDlQSFliWmVXZWR2Rzd4QV9GMGJVT290SzhVWlVvdU1hRzhSSDBpUkNXNl9MWTA0el95TS1rQ2ZnNmRISFVrSnZrVGU1dFE?oc=5",
-   "d": "2026-11-18",
-   "first_seen": "2026-11-21",
-   "q": "Warsh OR Bessent OR Lutnick OR Greer to "
-  },
-  {
-   "title": "Huang agrees to testify as Congress widens Nvidia chip inquiry - https://streamlinefeed.co.ke/",
-   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOR20zNjJKTlNHY3Y5OThIdFdFeHljLVF6Q0ZRcHdEcV9JS1Z0SjNyWmxjY0w3cEVkM3lHUFJ2MVJURE5nTXllbUVQVV8xYVVvNFlCSnFGVTVScXZCSTRWcVRFbndxVENKYmh3eG4xMTdLSFkxQ1EwU1BXb0Y2dFZYNjZXcFBlRVdKdXlPTHNLTjJEV1NOS3ZvRTNGN0E?oc=5",
-   "d": "2026-11-18",
-   "first_seen": "2026-11-20",
-   "q": "Warsh OR Bessent OR Lutnick OR Greer to "
-  },
-  {
-   "title": "Howard Lutnick to testify on Nvidia chip exports amid security concerns - Crypto Briefing",
-   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQRXNtWXppb2tyZy0wN2xOVnpIUkE0SWVJVDd5alJQUWNUNHByeE1Ca0xNR1dDb2dKMmJrUENHc2F4dWhlYTdqNzE2OVFScWI1SEFpUE9jc241YTdvX0ZCVDRkX24wYXNTMkRNd2prT21nejM0WUtPNXNoMU9rcDhoRVVtNVFUY3k4VE1uZk84dVMyakVwbnVnend6SlRfTExw?oc=5",
-   "d": "2026-11-18",
-   "first_seen": "2026-11-20",
-   "q": "Warsh OR Bessent OR Lutnick OR Greer to "
-  },
-  {
-   "title": "House and Senate Republicans call on Howard Lutnick, Jensen Huang to testify about Nvidia - ABC News - Breaking News, Latest News and Videos",
-   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNM3VHUlM1bnI2RGtLVnBDamZoMy1TMU1fa1J4SWJIZDR6R2VpaWFsQzMyZ09KY3NxQjQ5MDBFY1hZYXpleDNTSUk2TlByblRtT2NCSFg5V2kxMmNlcnVLMHZ4U0NUcWxLZ0F5b1VfMGFMZktkdXF4bE5OZWVobWJOVzFINHUwb0VlU0VBN3pWVmdkY19yLWdTVVhwbjVLRlJaOEl4WWVjNXnSAa4BQVVfeXFMT2JLQTl4dXl3dTJ4SktaVFZ4Skd0TlY0ZDNEVzJJR244ZXVNNDRiWEllNVdSNnJyMXpjYmptQlVwNlpQX1hVOGVYd1pHcDBGUWJaX3RPNHFRa0NHNDdFUzdyZUQ1R3JXcFNVajIyUjhlT2FuZTRyZlFmdXplcWNxa3BpdUhPRUN5eEVxdTNQZ3RlWjEtWU8zMFREYUkwZW1KaVlfT2w4UjZkTFZ4ei1B?oc=5",
-   "d": "2026-11-18",
-   "first_seen": "2026-11-20",
-   "q": "Warsh OR Bessent OR Lutnick OR Greer to "
-  },
-  {
-   "title": "APEC深圳峰會：習近平親赴機場迎接特朗普，46年來首次中國元首接機 - BBC",
-   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA2RWlQeS1FeFY0akdXRE5zNU93TTZXVGZtaE5hZXBsUGZfdEJ5VGtKQVdaQ0N1LVgwZFduWTc4Y2FjbGF1cVlnN29KNXRCQVhPcjFaQmFXU3lQanAteGJYc3ZNYklRZ2PSAWxBVV95cUxQMzVxMHBqOUNXbGZEVnU0SGpaWk9teEl3aGFQNDVWbkJndVI5U3RnaFhMMjZNajVBdHhDTDdQcmM2N3AxSGRsZjd5NEhiOHM5elkxRk9vU1I1VUhZVF8zcXhpQXJWclZweXlPaUI?oc=5",
-   "d": "2026-11-18",
-   "first_seen": "2026-11-20",
-   "q": "習近平 OR 普丁 OR 澤倫斯基 將於 會談 OR 峰會 OR 訪問"
   }
  ]
 }
